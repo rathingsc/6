@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="💬 核心句子课程" android:textColor="@color/text_primary" android:textSize="25sp" android:textStyle="bold"/>
+  <TextView android:id="@+id/text_cs_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+  <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="学习路线" android:textColor="@color/text_primary" android:textSize="16sp" android:textStyle="bold"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="先把最常用300句练到能主动回忆，再扩展到430句完整生活表达库。句子会进入独立FSRS。" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/button_cs_300" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="12dp" android:text="核心300句 · 开始主动回忆" android:textAllCaps="false"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/button_cs_430" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="扩展430句 · 开始主动回忆" android:textAllCaps="false"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/button_cs_due" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="复习到期句子" android:textAllCaps="false"/>
+   </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="今日示例" android:textColor="@color/text_primary" android:textSize="16sp" android:textStyle="bold"/>
+  <LinearLayout android:id="@+id/container_cs_examples" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+ </LinearLayout>
+</ScrollView>

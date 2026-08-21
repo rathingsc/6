@@ -1,0 +1,8 @@
+package com.italiano2774.nativeapp;
+import android.content.Context;import org.json.*;import java.io.*;import java.nio.charset.StandardCharsets;import java.util.*;
+public class WordFamilyRepository{
+ private static WordFamilyRepository instance;private final List<WordFamily> families=new ArrayList<>();private final Map<Integer,WordFamily> byWordId=new HashMap<>();
+ private WordFamilyRepository(Context c){try(BufferedReader br=new BufferedReader(new InputStreamReader(c.getAssets().open("word_families.json"),StandardCharsets.UTF_8))){StringBuilder sb=new StringBuilder();String line;while((line=br.readLine())!=null)sb.append(line);JSONArray arr=new JSONArray(sb.toString());for(int i=0;i<arr.length();i++){JSONObject o=arr.getJSONObject(i);WordFamily f=new WordFamily();f.id=o.optString("id");f.title=o.optString("title");f.kind=o.optString("kind");f.note=o.optString("note");JSONArray ms=o.optJSONArray("members");if(ms!=null)for(int j=0;j<ms.length();j++){JSONObject m=ms.getJSONObject(j);WordFamilyMember x=new WordFamilyMember();x.id=m.optInt("id");x.word=m.optString("word");x.chinese=m.optString("chinese");x.lemma=m.optString("lemma");x.formInfo=m.optString("formInfo");f.members.add(x);byWordId.putIfAbsent(x.id,f);}families.add(f);}}catch(Exception e){throw new RuntimeException("Failed to load word_families.json",e);}}
+ public static synchronized WordFamilyRepository get(Context c){if(instance==null)instance=new WordFamilyRepository(c.getApplicationContext());return instance;}
+ public List<WordFamily> all(){return families;}public WordFamily familyForWord(int id){return byWordId.get(id);}public WordFamily byId(String id){for(WordFamily f:families)if(f.id.equals(id))return f;return null;}
+}

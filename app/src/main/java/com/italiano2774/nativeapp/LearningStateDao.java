@@ -1,0 +1,38 @@
+package com.italiano2774.nativeapp;
+import androidx.room.*;import java.util.List;
+@Dao public interface LearningStateDao{
+ @Insert(onConflict=OnConflictStrategy.REPLACE) void upsertWord(WordProgressEntity item);
+ @Insert(onConflict=OnConflictStrategy.REPLACE) void upsertWords(List<WordProgressEntity> items);
+ @Query("SELECT * FROM word_progress WHERE wordId=:id LIMIT 1") WordProgressEntity word(int id);
+ @Query("SELECT COUNT(*) FROM word_progress") int wordCount();
+ @Query("SELECT * FROM word_progress WHERE dueEpochDay<=:day ORDER BY dueEpochDay ASC LIMIT :limit") List<WordProgressEntity> dueWords(long day,int limit);
+ @Insert(onConflict=OnConflictStrategy.REPLACE) void upsertDaily(DailyStatEntity item);
+ @Query("SELECT * FROM daily_stats ORDER BY date DESC LIMIT :limit") List<DailyStatEntity> recentDaily(int limit);
+ @Query("SELECT COUNT(*) FROM daily_stats") int dailyCount();
+ @Insert long insertError(ErrorRecordEntity item);
+ @Query("SELECT * FROM error_records ORDER BY createdAt DESC LIMIT :limit") List<ErrorRecordEntity> recentErrors(int limit);
+ @Query("SELECT COUNT(*) FROM error_records") int errorCount();
+ @Query("DELETE FROM error_records WHERE createdAt<:before") int deleteErrorsBefore(long before);
+ @Query("SELECT cause FROM error_records WHERE createdAt>=:since") List<String> recentCauses(long since);
+ @Insert(onConflict=OnConflictStrategy.REPLACE) void upsertSentence(SentenceProgressEntity item);
+ @Query("SELECT * FROM sentence_progress WHERE sentenceId=:id LIMIT 1") SentenceProgressEntity sentence(String id);
+ @Query("SELECT COUNT(*) FROM sentence_progress") int sentenceCount();
+ @Query("SELECT * FROM sentence_progress WHERE dueEpochDay<=:day ORDER BY dueEpochDay ASC, difficulty DESC LIMIT :limit") List<SentenceProgressEntity> dueSentences(long day,int limit);
+ @Query("SELECT * FROM sentence_progress WHERE source=:source AND dueEpochDay<=:day ORDER BY dueEpochDay ASC, difficulty DESC LIMIT :limit") List<SentenceProgressEntity> dueSentencesBySource(String source,long day,int limit);
+ @Query("SELECT * FROM sentence_progress ORDER BY updatedAt DESC LIMIT :limit") List<SentenceProgressEntity> recentSentences(int limit);
+ @Insert(onConflict=OnConflictStrategy.REPLACE) void upsertGrammar(GrammarProgressEntity item);
+ @Query("SELECT * FROM grammar_progress WHERE grammarId=:id LIMIT 1") GrammarProgressEntity grammar(String id);
+ @Query("SELECT COUNT(*) FROM grammar_progress") int grammarCount();
+ @Query("SELECT * FROM grammar_progress WHERE dueEpochDay<=:day ORDER BY dueEpochDay ASC, difficulty DESC") List<GrammarProgressEntity> dueGrammar(long day);
+ @Query("SELECT COUNT(*) FROM grammar_progress WHERE dueEpochDay<=:day") int dueGrammarCount(long day);
+ @Insert(onConflict=OnConflictStrategy.REPLACE) void upsertSkill(SkillProgressEntity item);
+ @Query("SELECT * FROM skill_progress WHERE skillId=:id LIMIT 1") SkillProgressEntity skill(String id);
+ @Query("SELECT COUNT(*) FROM skill_progress") int skillCount();
+ @Query("SELECT * FROM skill_progress ORDER BY updatedAt DESC") List<SkillProgressEntity> allSkills();
+ @Query("DELETE FROM word_progress") void clearWords();
+ @Query("DELETE FROM daily_stats") void clearDaily();
+ @Query("DELETE FROM error_records") void clearErrors();
+ @Query("DELETE FROM sentence_progress") void clearSentences();
+ @Query("DELETE FROM grammar_progress") void clearGrammar();
+ @Query("DELETE FROM skill_progress") void clearSkills();
+}

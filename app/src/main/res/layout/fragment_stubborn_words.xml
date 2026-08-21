@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🔥 顽固词训练" android:textColor="@color/text_primary" android:textSize="25sp" android:textStyle="bold" />
+  <TextView android:id="@+id/text_stubborn_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+  <TextView android:id="@+id/text_stubborn_reason" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:background="@drawable/bg_soft_panel" android:padding="11dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+  <TextView android:id="@+id/text_stubborn_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textColor="@color/blue" android:textSize="13sp" android:textStyle="bold" />
+  <TextView android:id="@+id/text_stubborn_word" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:gravity="center" android:minHeight="110dp" android:padding="16dp" android:textColor="@color/text_primary" android:textSize="27sp" android:textStyle="bold" />
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_stubborn_audio" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1" android:text="🔊 单词" android:textAllCaps="false" />
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_stubborn_reveal" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="7dp" android:layout_weight="1" android:text="显示答案" android:textAllCaps="false" />
+  </LinearLayout>
+  <TextView android:id="@+id/text_stubborn_answer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_soft_panel" android:padding="13dp" android:textColor="@color/text_primary" android:textSize="16sp" android:visibility="gone" />
+  <TextView android:id="@+id/text_stubborn_example" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:lineSpacingExtra="3dp" android:textColor="@color/text_secondary" android:textSize="13sp" android:visibility="gone" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_stubborn_example_audio" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="42dp" android:layout_gravity="end" android:text="🔊 例句" android:textAllCaps="false" />
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:orientation="horizontal">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_stubborn_0" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1" android:text="不会" android:textAllCaps="false" android:textSize="11sp" />
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_stubborn_1" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="5dp" android:layout_weight="1" android:text="模糊" android:textAllCaps="false" android:textSize="11sp" />
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_stubborn_2" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="5dp" android:layout_weight="1" android:text="会" android:textAllCaps="false" android:textSize="11sp" />
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_stubborn_3" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="5dp" android:layout_weight="1" android:text="很熟" android:textAllCaps="false" android:textSize="11sp" />
+  </LinearLayout>
+ </LinearLayout>
+</ScrollView>

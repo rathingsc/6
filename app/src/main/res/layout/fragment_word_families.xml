@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_family_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="42dp" android:text="← 练习" android:textAllCaps="false"/>
+   <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="单词词族" android:textColor="@color/text_primary" android:textSize="23sp" android:textStyle="bold"/>
+   <Space android:layout_width="68dp" android:layout_height="1dp"/>
+  </LinearLayout>
+  <TextView android:id="@+id/text_family_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+  <Spinner android:id="@+id/spinner_family" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="10dp" android:background="@drawable/bg_search" android:paddingHorizontal="12dp"/>
+  <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+    <TextView android:id="@+id/text_family_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="24sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/text_family_kind" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/blue" android:textSize="12sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/text_family_note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+    <TextView android:id="@+id/text_family_mastery" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/text_primary" android:textSize="13sp" android:textStyle="bold"/>
+    <LinearLayout android:id="@+id/container_family_members" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="vertical"/>
+   </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:orientation="horizontal">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_family_prev" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:text="← 上一组" android:textAllCaps="false"/>
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_family_next" android:layout_width="0dp" android:layout_height="48dp" android:layout_marginStart="8dp" android:layout_weight="1" android:text="下一组 →" android:textAllCaps="false"/>
+  </LinearLayout>
+ </LinearLayout>
+</ScrollView>

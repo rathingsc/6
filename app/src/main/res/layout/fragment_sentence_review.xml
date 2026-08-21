@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:orientation="vertical" android:padding="16dp">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_sentence_review_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="42dp" android:text="← 练习" android:textAllCaps="false"/>
+  <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="句子长期复习" android:textColor="@color/text_primary" android:textSize="23sp" android:textStyle="bold"/>
+  <Space android:layout_width="68dp" android:layout_height="1dp"/>
+ </LinearLayout>
+ <TextView android:id="@+id/text_sentence_review_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_soft_panel" android:padding="12dp" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+ <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="12dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="22dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="20dp">
+   <TextView android:id="@+id/text_sentence_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/blue" android:textSize="12sp" android:textStyle="bold"/>
+   <TextView android:id="@+id/text_sentence_it" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:gravity="center" android:textColor="@color/text_primary" android:textSize="25sp" android:textStyle="bold"/>
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_sentence_audio" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginTop="16dp" android:text="🔊 播放" android:textAllCaps="false"/>
+   <TextView android:id="@+id/text_sentence_zh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:gravity="center" android:textColor="@color/text_secondary" android:textSize="16sp" android:visibility="gone"/>
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_sentence_reveal" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="18dp" android:text="显示中文" android:textAllCaps="false"/>
+   <LinearLayout android:id="@+id/group_sentence_grade" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:orientation="horizontal" android:visibility="gone">
+    <com.google.android.material.button.MaterialButton android:id="@+id/button_sentence_again" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:text="不会 · 明天" android:textAllCaps="false"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/button_sentence_good" android:layout_width="0dp" android:layout_height="48dp" android:layout_marginStart="8dp" android:layout_weight="1" android:text="会了 · 延长" android:textAllCaps="false"/>
+   </LinearLayout>
+  </LinearLayout>
+ </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

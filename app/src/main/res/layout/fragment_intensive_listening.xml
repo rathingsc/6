@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🎧 逐句精听" android:textColor="@color/text_primary" android:textSize="25sp" android:textStyle="bold" />
+  <TextView android:id="@+id/text_il_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+  <TextView android:id="@+id/text_il_stage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_soft_panel" android:padding="11dp" android:textColor="@color/blue" android:textSize="13sp" android:textStyle="bold" />
+  <TextView android:id="@+id/text_il_source" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_il_play" android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1" android:text="🔊 正常" android:textAllCaps="false" />
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_il_slow" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="7dp" android:layout_weight="1" android:text="🐢 慢速" android:textAllCaps="false" />
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:orientation="horizontal">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_il_show_it" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:text="显示字幕" android:textAllCaps="false" />
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_il_show_zh" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="44dp" android:layout_marginStart="7dp" android:layout_weight="1" android:text="显示中文" android:textAllCaps="false" />
+  </LinearLayout>
+  <TextView android:id="@+id/text_il_italian" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_soft_panel" android:padding="14dp" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" android:visibility="gone" />
+  <TextView android:id="@+id/text_il_chinese" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:textColor="@color/text_secondary" android:textSize="13sp" android:visibility="gone" />
+  <EditText android:id="@+id/edit_il_answer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:background="@drawable/bg_search" android:hint="第5步：写下你听到的整句意大利语" android:minHeight="54dp" android:padding="12dp" android:textColor="@color/text_primary" android:textColorHint="@color/text_secondary" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_il_submit" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="检查听写" android:textAllCaps="false" />
+  <TextView android:id="@+id/text_il_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:lineSpacingExtra="3dp" android:textSize="12sp" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_il_shadow" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginTop="9dp" android:text="🗣 播放并跟读" android:textAllCaps="false" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_il_speak_check" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginTop="7dp" android:text="🎙 无字幕复述检查" android:textAllCaps="false" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_il_next" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="下一句" android:textAllCaps="false" android:visibility="gone" />
+ </LinearLayout>
+</ScrollView>

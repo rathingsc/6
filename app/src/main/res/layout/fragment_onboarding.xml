@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text="从第一课开始" android:textColor="@color/text_primary" android:textSize="30sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="不需要先研究学习方法。告诉我你每天有多少时间，课程会按顺序自动安排。" android:textColor="@color/text_secondary" android:textSize="15sp" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="你主要为什么学意大利语？" android:textColor="@color/text_primary" android:textStyle="bold" />
+                <Spinner android:id="@+id/spinner_onboarding_goal" android:layout_width="match_parent" android:layout_height="52dp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="每天准备学习多久？" android:textColor="@color/text_primary" android:textStyle="bold" />
+                <Spinner android:id="@+id/spinner_onboarding_minutes" android:layout_width="match_parent" android:layout_height="52dp" />
+                <TextView android:id="@+id/text_onboarding_auto_plan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="系统会自动决定每天的新词和复习量。" android:textColor="@color/text_secondary" android:textSize="13sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_onboarding_start" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="20dp" android:text="从 A0 第一课开始" android:textAllCaps="false" android:textSize="16sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_onboarding_test" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="8dp" android:text="我学过一些，先做水平测试" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_onboarding_skip" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:text="使用推荐设置：每天20分钟" android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

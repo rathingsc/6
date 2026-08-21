@@ -1,0 +1,794 @@
+[
+  {
+    "id": "a1_listen_01",
+    "level": "A1",
+    "title": "A1 精听 1",
+    "subtitle": "A1 生活听力 · 75词/分钟目标",
+    "wpm": 75,
+    "sentences": [
+      {
+        "id": "p0001",
+        "it": "Un caffè, per favore.",
+        "zh": "请来一杯咖啡。",
+        "category": "Bar 和餐厅",
+        "note": "最常用点单句"
+      },
+      {
+        "id": "p0011",
+        "it": "Dove posso trovare il latte?",
+        "zh": "我在哪里可以找到牛奶？",
+        "category": "超市购物",
+        "note": "找商品"
+      },
+      {
+        "id": "p0021",
+        "it": "Un biglietto per Milano, per favore.",
+        "zh": "请给我一张去米兰的票。",
+        "category": "公交和火车",
+        "note": "买票"
+      },
+      {
+        "id": "p0031",
+        "it": "Mi scusi, dov'è la stazione?",
+        "zh": "不好意思，火车站在哪里？",
+        "category": "问路和城市",
+        "note": "礼貌问路"
+      },
+      {
+        "id": "p0041",
+        "it": "Sto cercando un appartamento in affitto.",
+        "zh": "我正在找出租公寓。",
+        "category": "租房和住房",
+        "note": "找房"
+      }
+    ]
+  },
+  {
+    "id": "a1_listen_02",
+    "level": "A1",
+    "title": "A1 精听 2",
+    "subtitle": "A1 生活听力 · 75词/分钟目标",
+    "wpm": 75,
+    "sentences": [
+      {
+        "id": "p0051",
+        "it": "Vorrei chiedere un'informazione.",
+        "zh": "我想咨询一个信息。",
+        "category": "Comune 和 Questura",
+        "note": "办事窗口开场"
+      },
+      {
+        "id": "p0061",
+        "it": "Non mi sento bene.",
+        "zh": "我感觉不舒服。",
+        "category": "医院和药店",
+        "note": "就诊开场"
+      },
+      {
+        "id": "p0071",
+        "it": "Vorrei aprire un conto corrente.",
+        "zh": "我想开一个银行账户。",
+        "category": "银行和付款",
+        "note": "开户"
+      },
+      {
+        "id": "p0081",
+        "it": "Pronto, buongiorno.",
+        "zh": "喂，您好。",
+        "category": "电话和预约",
+        "note": "接打电话"
+      },
+      {
+        "id": "p0091",
+        "it": "Sto cercando lavoro.",
+        "zh": "我正在找工作。",
+        "category": "工作和面试",
+        "note": "找工作"
+      }
+    ]
+  },
+  {
+    "id": "a1_listen_03",
+    "level": "A1",
+    "title": "A1 精听 3",
+    "subtitle": "A1 生活听力 · 75词/分钟目标",
+    "wpm": 75,
+    "sentences": [
+      {
+        "id": "p0101",
+        "it": "Mi può aiutare, per favore?",
+        "zh": "您可以帮我一下吗？",
+        "category": "通用求助",
+        "note": ""
+      },
+      {
+        "id": "p0108",
+        "it": "Ho bisogno di un medico.",
+        "zh": "我需要医生。",
+        "category": "医疗急救",
+        "note": ""
+      },
+      {
+        "id": "p0116",
+        "it": "Ho bisogno della polizia.",
+        "zh": "我需要警察。",
+        "category": "警察与安全",
+        "note": ""
+      },
+      {
+        "id": "p0124",
+        "it": "Ho già presentato la domanda.",
+        "zh": "我已经提交申请了。",
+        "category": "Questura居留",
+        "note": ""
+      },
+      {
+        "id": "p0130",
+        "it": "Vorrei chiedere informazioni sulla residenza.",
+        "zh": "我想咨询居民登记。",
+        "category": "Comune市政府",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "a1_listen_04",
+    "level": "A1",
+    "title": "A1 精听 4",
+    "subtitle": "A1 生活听力 · 75词/分钟目标",
+    "wpm": 75,
+    "sentences": [
+      {
+        "id": "p0135",
+        "it": "Da quale binario parte il treno?",
+        "zh": "火车从几号站台出发？",
+        "category": "火车与交通",
+        "note": ""
+      },
+      {
+        "id": "p0141",
+        "it": "La stanza è ancora disponibile?",
+        "zh": "这个房间还在出租吗？",
+        "category": "租房住房",
+        "note": ""
+      },
+      {
+        "id": "p0147",
+        "it": "La mia carta non funziona.",
+        "zh": "我的银行卡不能用。",
+        "category": "银行付款",
+        "note": ""
+      },
+      {
+        "id": "p0151",
+        "it": "Vorrei ordinare, per favore.",
+        "zh": "我想点餐。",
+        "category": "餐厅与过敏",
+        "note": ""
+      },
+      {
+        "id": "p0157",
+        "it": "Buongiorno, chiamo per fissare un appuntamento.",
+        "zh": "您好，我打电话想预约。",
+        "category": "电话与预约",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "a1_listen_05",
+    "level": "A1",
+    "title": "A1 精听 5",
+    "subtitle": "A1 生活听力 · 75词/分钟目标",
+    "wpm": 75,
+    "sentences": [
+      {
+        "id": "p0165",
+        "it": "Va bene.",
+        "zh": "好的。",
+        "category": "基础交流",
+        "note": ""
+      },
+      {
+        "id": "p0002",
+        "it": "Vorrei un cappuccino e un cornetto.",
+        "zh": "我想要一杯卡布奇诺和一个羊角面包。",
+        "category": "Bar 和餐厅",
+        "note": "Vorrei 比 voglio 更礼貌"
+      },
+      {
+        "id": "p0012",
+        "it": "Quanto costa questo?",
+        "zh": "这个多少钱？",
+        "category": "超市购物",
+        "note": "询价"
+      },
+      {
+        "id": "p0022",
+        "it": "A che ora parte il treno?",
+        "zh": "火车几点出发？",
+        "category": "公交和火车",
+        "note": "时刻"
+      },
+      {
+        "id": "p0032",
+        "it": "Come posso arrivare in centro?",
+        "zh": "我怎么去市中心？",
+        "category": "问路和城市",
+        "note": "问路线"
+      }
+    ]
+  },
+  {
+    "id": "a1_listen_06",
+    "level": "A1",
+    "title": "A1 精听 6",
+    "subtitle": "A1 生活听力 · 75词/分钟目标",
+    "wpm": 75,
+    "sentences": [
+      {
+        "id": "p0042",
+        "it": "Quanto costa l'affitto al mese?",
+        "zh": "每个月房租多少钱？",
+        "category": "租房和住房",
+        "note": "房租"
+      },
+      {
+        "id": "p0052",
+        "it": "Ho un appuntamento alle dieci.",
+        "zh": "我十点有预约。",
+        "category": "Comune 和 Questura",
+        "note": "报预约"
+      },
+      {
+        "id": "p0062",
+        "it": "Ho la febbre da ieri.",
+        "zh": "我从昨天开始发烧。",
+        "category": "医院和药店",
+        "note": "症状"
+      },
+      {
+        "id": "p0072",
+        "it": "Quali documenti servono?",
+        "zh": "需要哪些文件？",
+        "category": "银行和付款",
+        "note": "开户材料"
+      },
+      {
+        "id": "p0082",
+        "it": "Vorrei parlare con il signor Rossi.",
+        "zh": "我想和罗西先生通话。",
+        "category": "电话和预约",
+        "note": "找人"
+      }
+    ]
+  },
+  {
+    "id": "a2_listen_01",
+    "level": "A2",
+    "title": "A2 精听 1",
+    "subtitle": "A2 生活听力 · 100词/分钟目标",
+    "wpm": 100,
+    "sentences": [
+      {
+        "id": "p0125",
+        "it": "Vorrei sapere a che punto è la pratica.",
+        "zh": "我想知道手续办理到哪一步了。",
+        "category": "Questura居留",
+        "note": ""
+      },
+      {
+        "id": "p0181",
+        "it": "Aspetti un attimo.",
+        "zh": "请等一下。",
+        "category": "基础交流",
+        "note": ""
+      },
+      {
+        "id": "p0189",
+        "it": "Che ore sono?",
+        "zh": "几点了？",
+        "category": "时间与安排",
+        "note": ""
+      },
+      {
+        "id": "p0206",
+        "it": "Dov’è la fermata?",
+        "zh": "车站在哪里？",
+        "category": "出行交通",
+        "note": ""
+      },
+      {
+        "id": "p0214",
+        "it": "Vorrei un caffè, per favore.",
+        "zh": "我想要一杯咖啡。",
+        "category": "餐厅与咖啡",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "a2_listen_02",
+    "level": "A2",
+    "title": "A2 精听 2",
+    "subtitle": "A2 生活听力 · 100词/分钟目标",
+    "wpm": 100,
+    "sentences": [
+      {
+        "id": "p0225",
+        "it": "Quanto costa?",
+        "zh": "多少钱？",
+        "category": "购物",
+        "note": ""
+      },
+      {
+        "id": "p0238",
+        "it": "Cerco un appartamento in affitto.",
+        "zh": "我在找出租房。",
+        "category": "住房",
+        "note": ""
+      },
+      {
+        "id": "p0247",
+        "it": "Ho la febbre.",
+        "zh": "我发烧。",
+        "category": "医疗药店",
+        "note": ""
+      },
+      {
+        "id": "p0254",
+        "it": "Vorrei chiedere un’informazione.",
+        "zh": "我想咨询一件事。",
+        "category": "办事文件",
+        "note": ""
+      },
+      {
+        "id": "p0262",
+        "it": "Qual è l’orario di lavoro?",
+        "zh": "工作时间是什么？",
+        "category": "工作",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "a2_listen_03",
+    "level": "A2",
+    "title": "A2 精听 3",
+    "subtitle": "A2 生活听力 · 100词/分钟目标",
+    "wpm": 100,
+    "sentences": [
+      {
+        "id": "p0268",
+        "it": "Pronto?",
+        "zh": "喂？",
+        "category": "电话与消息",
+        "note": ""
+      },
+      {
+        "id": "v26_0296",
+        "it": "Che giorno?",
+        "zh": "哪一天？",
+        "category": "时间安排",
+        "note": "询问日期"
+      },
+      {
+        "id": "v26_0315",
+        "it": "Abbiamo una prenotazione.",
+        "zh": "我们有预订。",
+        "category": "餐厅",
+        "note": "餐厅"
+      },
+      {
+        "id": "v26_0325",
+        "it": "Qual è il prossimo treno?",
+        "zh": "下一班火车是哪一班？",
+        "category": "交通",
+        "note": "火车"
+      },
+      {
+        "id": "p0182",
+        "it": "Secondo me...",
+        "zh": "我觉得……",
+        "category": "基础交流",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "a2_listen_04",
+    "level": "A2",
+    "title": "A2 精听 4",
+    "subtitle": "A2 生活听力 · 100词/分钟目标",
+    "wpm": 100,
+    "sentences": [
+      {
+        "id": "p0190",
+        "it": "A che ora?",
+        "zh": "几点？",
+        "category": "时间与安排",
+        "note": ""
+      },
+      {
+        "id": "p0207",
+        "it": "Dove devo scendere?",
+        "zh": "我应该在哪里下车？",
+        "category": "出行交通",
+        "note": ""
+      },
+      {
+        "id": "p0215",
+        "it": "Un tavolo per due, per favore.",
+        "zh": "请给我们两个人的桌位。",
+        "category": "餐厅与咖啡",
+        "note": ""
+      },
+      {
+        "id": "p0226",
+        "it": "È troppo caro.",
+        "zh": "太贵了。",
+        "category": "购物",
+        "note": ""
+      },
+      {
+        "id": "p0239",
+        "it": "Quanto costa l’affitto al mese?",
+        "zh": "每月房租多少钱？",
+        "category": "住房",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "a2_listen_05",
+    "level": "A2",
+    "title": "A2 精听 5",
+    "subtitle": "A2 生活听力 · 100词/分钟目标",
+    "wpm": 100,
+    "sentences": [
+      {
+        "id": "p0248",
+        "it": "Mi fa male qui.",
+        "zh": "我这里疼。",
+        "category": "医疗药店",
+        "note": ""
+      },
+      {
+        "id": "p0255",
+        "it": "Serve l’originale?",
+        "zh": "需要原件吗？",
+        "category": "办事文件",
+        "note": ""
+      },
+      {
+        "id": "p0263",
+        "it": "Quanto dura il turno?",
+        "zh": "一个班次多长？",
+        "category": "工作",
+        "note": ""
+      },
+      {
+        "id": "p0269",
+        "it": "Sono Li.",
+        "zh": "我是李。",
+        "category": "电话与消息",
+        "note": ""
+      },
+      {
+        "id": "v26_0297",
+        "it": "Sono già arrivato.",
+        "zh": "我已经到了。",
+        "category": "时间安排",
+        "note": "男性"
+      }
+    ]
+  },
+  {
+    "id": "a2_listen_06",
+    "level": "A2",
+    "title": "A2 精听 6",
+    "subtitle": "A2 生活听力 · 100词/分钟目标",
+    "wpm": 100,
+    "sentences": [
+      {
+        "id": "v26_0316",
+        "it": "Che cosa consiglia?",
+        "zh": "您推荐什么？",
+        "category": "餐厅",
+        "note": "餐厅"
+      },
+      {
+        "id": "v26_0326",
+        "it": "A che ora parte?",
+        "zh": "几点出发？",
+        "category": "交通",
+        "note": "交通"
+      },
+      {
+        "id": "p0183",
+        "it": "Dipende.",
+        "zh": "要看情况。",
+        "category": "基础交流",
+        "note": ""
+      },
+      {
+        "id": "p0191",
+        "it": "A che ora apre?",
+        "zh": "几点开门？",
+        "category": "时间与安排",
+        "note": ""
+      },
+      {
+        "id": "p0208",
+        "it": "È la prossima fermata?",
+        "zh": "是下一站吗？",
+        "category": "出行交通",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "b1_listen_01",
+    "level": "B1",
+    "title": "B1 精听 1",
+    "subtitle": "B1 生活听力 · 125词/分钟目标",
+    "wpm": 125,
+    "sentences": [
+      {
+        "id": "v26_0341",
+        "it": "La luce non funziona.",
+        "zh": "灯不亮。",
+        "category": "住房",
+        "note": "维修"
+      },
+      {
+        "id": "v26_0344",
+        "it": "Ho mal di gola.",
+        "zh": "我喉咙痛。",
+        "category": "医疗",
+        "note": "医疗"
+      },
+      {
+        "id": "v26_0347",
+        "it": "Devo portare l’originale?",
+        "zh": "我需要带原件吗？",
+        "category": "办事",
+        "note": "材料"
+      },
+      {
+        "id": "v26_0353",
+        "it": "Posso iniziare subito.",
+        "zh": "我可以马上开始。",
+        "category": "工作",
+        "note": "面试"
+      },
+      {
+        "id": "v26_0360",
+        "it": "Posso parlare con...?",
+        "zh": "我可以和……通话吗？",
+        "category": "电话",
+        "note": "电话"
+      }
+    ]
+  },
+  {
+    "id": "b1_listen_02",
+    "level": "B1",
+    "title": "B1 精听 2",
+    "subtitle": "B1 生活听力 · 125词/分钟目标",
+    "wpm": 125,
+    "sentences": [
+      {
+        "id": "v26_0367",
+        "it": "Avere bisogno di...",
+        "zh": "需要……",
+        "category": "常用结构",
+        "note": "固定搭配"
+      },
+      {
+        "id": "v26_dlg_0387",
+        "it": "Buongiorno, cosa desidera?",
+        "zh": "早上好，您想要什么？",
+        "category": "情景对话",
+        "note": "Bar 和餐厅"
+      },
+      {
+        "id": "v26_0342",
+        "it": "C’è un problema con la caldaia.",
+        "zh": "锅炉有问题。",
+        "category": "住房",
+        "note": "维修"
+      },
+      {
+        "id": "v26_0345",
+        "it": "Da ieri.",
+        "zh": "从昨天开始。",
+        "category": "医疗",
+        "note": "医疗"
+      },
+      {
+        "id": "v26_0348",
+        "it": "Manca un documento?",
+        "zh": "缺少文件吗？",
+        "category": "办事",
+        "note": "材料"
+      }
+    ]
+  },
+  {
+    "id": "b1_listen_03",
+    "level": "B1",
+    "title": "B1 精听 3",
+    "subtitle": "B1 生活听力 · 125词/分钟目标",
+    "wpm": 125,
+    "sentences": [
+      {
+        "id": "v26_0354",
+        "it": "Sono disponibile nei fine settimana.",
+        "zh": "我周末有空。",
+        "category": "工作",
+        "note": "工作"
+      },
+      {
+        "id": "v26_0361",
+        "it": "Un attimo, glielo passo.",
+        "zh": "稍等，我让他/她接电话。",
+        "category": "电话",
+        "note": "电话"
+      },
+      {
+        "id": "v26_0368",
+        "it": "Avere voglia di...",
+        "zh": "想要；有……的兴致",
+        "category": "常用结构",
+        "note": "固定搭配"
+      },
+      {
+        "id": "v26_dlg_0388",
+        "it": "Certo. Altro?",
+        "zh": "好的。还要别的吗？",
+        "category": "情景对话",
+        "note": "Bar 和餐厅"
+      },
+      {
+        "id": "v26_0343",
+        "it": "Può mandare qualcuno a controllare?",
+        "zh": "可以派人来检查吗？",
+        "category": "住房",
+        "note": "维修"
+      }
+    ]
+  },
+  {
+    "id": "b1_listen_04",
+    "level": "B1",
+    "title": "B1 精听 4",
+    "subtitle": "B1 生活听力 · 125词/分钟目标",
+    "wpm": 125,
+    "sentences": [
+      {
+        "id": "v26_0346",
+        "it": "Sono allergica a questo farmaco.",
+        "zh": "我对这种药过敏。",
+        "category": "医疗",
+        "note": "女性"
+      },
+      {
+        "id": "v26_0349",
+        "it": "Quando sarà pronto?",
+        "zh": "什么时候能办好？",
+        "category": "办事",
+        "note": "进度"
+      },
+      {
+        "id": "v26_0355",
+        "it": "Quali sono gli orari?",
+        "zh": "工作时间是怎样的？",
+        "category": "工作",
+        "note": "工作"
+      },
+      {
+        "id": "v26_0362",
+        "it": "Può richiamare più tardi?",
+        "zh": "您可以晚点再打吗？",
+        "category": "电话",
+        "note": "电话"
+      },
+      {
+        "id": "v26_0369",
+        "it": "Avere paura di...",
+        "zh": "害怕……",
+        "category": "常用结构",
+        "note": "固定搭配"
+      }
+    ]
+  },
+  {
+    "id": "b1_listen_05",
+    "level": "B1",
+    "title": "B1 精听 5",
+    "subtitle": "B1 生活听力 · 125词/分钟目标",
+    "wpm": 125,
+    "sentences": [
+      {
+        "id": "v26_dlg_0389",
+        "it": "Altro?",
+        "zh": "还要别的吗？",
+        "category": "情景对话",
+        "note": "Bar 和餐厅"
+      },
+      {
+        "id": "v26_0350",
+        "it": "Posso ritirarlo io?",
+        "zh": "我可以自己领取吗？",
+        "category": "办事",
+        "note": "领取"
+      },
+      {
+        "id": "v26_0356",
+        "it": "Qual è lo stipendio?",
+        "zh": "工资是多少？",
+        "category": "工作",
+        "note": "工作"
+      },
+      {
+        "id": "v26_0363",
+        "it": "La linea è disturbata.",
+        "zh": "线路不清楚。",
+        "category": "电话",
+        "note": "电话"
+      },
+      {
+        "id": "v26_0370",
+        "it": "Essere d’accordo con...",
+        "zh": "同意……",
+        "category": "常用结构",
+        "note": "固定搭配"
+      }
+    ]
+  },
+  {
+    "id": "b1_listen_06",
+    "level": "B1",
+    "title": "B1 精听 6",
+    "subtitle": "B1 生活听力 · 125词/分钟目标",
+    "wpm": 125,
+    "sentences": [
+      {
+        "id": "v26_dlg_0390",
+        "it": "Sono quattro euro e cinquanta.",
+        "zh": "一共4.5欧元。",
+        "category": "情景对话",
+        "note": "Bar 和餐厅"
+      },
+      {
+        "id": "v26_0351",
+        "it": "Posso delegare qualcuno?",
+        "zh": "我可以委托别人吗？",
+        "category": "办事",
+        "note": "领取"
+      },
+      {
+        "id": "v26_0357",
+        "it": "Il contratto è a tempo pieno?",
+        "zh": "是全职合同吗？",
+        "category": "工作",
+        "note": "工作"
+      },
+      {
+        "id": "v26_0364",
+        "it": "Non la sento bene.",
+        "zh": "我听不清您说话。",
+        "category": "电话",
+        "note": "电话"
+      },
+      {
+        "id": "v26_0371",
+        "it": "Essere in ritardo.",
+        "zh": "迟到。",
+        "category": "常用结构",
+        "note": "固定搭配"
+      }
+    ]
+  }
+]

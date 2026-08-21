@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:paddingBottom="28dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="课程" android:textColor="@color/text_primary" android:textSize="28sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="从 A0 一路学到 B1。当前阶段会自动展开。" android:textColor="@color/text_secondary" android:textSize="13sp" />
+        <LinearLayout android:id="@+id/container_course_stages" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="14dp" />
+        <TextView android:id="@+id/text_course_map_section" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="A0 入门课程" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <LinearLayout android:id="@+id/container_course_units" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="8dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,30 @@
+package com.italiano2774.nativeapp;
+
+import android.content.res.ColorStateList;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.widget.Toast;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import com.google.android.material.card.MaterialCardView;
+import java.util.Arrays;
+import java.util.List;
+
+/** Course overview. Only one stage expands at a time so 98 units never feel like one giant tool list. */
+public class CourseMapFragment extends Fragment {
+    private ProgressStore progress;private CourseCurriculumRepository curriculum;private LinearLayout stages,units;private TextView section;private String selectedStage;
+    @Nullable @Override public View onCreateView(@NonNull LayoutInflater inflater,@Nullable ViewGroup container,@Nullable Bundle state){View v=inflater.inflate(R.layout.fragment_course_map,container,false);progress=new ProgressStore(requireContext());curriculum=CourseCurriculumRepository.get(requireContext());curriculum.migrateLegacyPositionIfNeeded(progress,WordRepository.get(requireContext()));stages=v.findViewById(R.id.container_course_stages);units=v.findViewById(R.id.container_course_units);section=v.findViewById(R.id.text_course_map_section);CourseUnit current=curriculum.current(progress);selectedStage=current==null?"A0":current.stage;render();return v;}
+    @Override public void onResume(){super.onResume();if(progress!=null)render();}
+    private void render(){renderStages();renderUnits();}
+    private void renderStages(){stages.removeAllViews();for(String s:Arrays.asList("A0","A1","A2","B1")){List<CourseUnit> list=stageUnits(s);int total=list.size(),done=0;for(CourseUnit u:list)if(curriculum.isComplete(u,progress))done++;boolean unlocked=!list.isEmpty()&&list.get(0).index<=progress.courseUnlockedUnitIndex();MaterialCardView card=new MaterialCardView(requireContext());card.setRadius(dp(18));card.setCardElevation(0);card.setStrokeWidth(dp(s.equals(selectedStage)?2:1));card.setStrokeColor(ContextCompat.getColor(requireContext(),s.equals(selectedStage)?R.color.blue:R.color.line));card.setCardBackgroundColor(ContextCompat.getColor(requireContext(),R.color.surface));LinearLayout box=new LinearLayout(requireContext());box.setOrientation(LinearLayout.VERTICAL);box.setPadding(dp(16),dp(13),dp(16),dp(13));card.addView(box);TextView t=new TextView(requireContext());t.setText(CourseCurriculumRepository.stageName(s)+(unlocked?"":"  🔒"));t.setTextSize(16);t.setTextColor(ContextCompat.getColor(requireContext(),R.color.text_primary));t.setTypeface(android.graphics.Typeface.DEFAULT,android.graphics.Typeface.BOLD);box.addView(t);TextView sub=new TextView(requireContext());sub.setText(done+" / "+total+" 单元完成");sub.setTextSize(12);sub.setTextColor(ContextCompat.getColor(requireContext(),R.color.text_secondary));box.addView(sub);ProgressBar bar=new ProgressBar(requireContext(),null,android.R.attr.progressBarStyleHorizontal);bar.setMax(100);bar.setProgress(total==0?0:(int)Math.round(done*100.0/total));bar.setProgressTintList(ColorStateList.valueOf(ContextCompat.getColor(requireContext(),R.color.green)));bar.setProgressBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(requireContext(),R.color.line)));LinearLayout.LayoutParams bp=new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,dp(7));bp.topMargin=dp(8);box.addView(bar,bp);card.setOnClickListener(x->{if(!unlocked){Toast.makeText(requireContext(),"先完成前面的阶段",Toast.LENGTH_SHORT).show();return;}selectedStage=s;render();});LinearLayout.LayoutParams cp=new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);cp.bottomMargin=dp(8);stages.addView(card,cp);}}
+    private void renderUnits(){units.removeAllViews();section.setText(CourseCurriculumRepository.stageName(selectedStage)+"课程");for(CourseUnit u:stageUnits(selectedStage)){boolean unlocked=curriculum.isUnlocked(u,progress);boolean done=curriculum.isComplete(u,progress);int lessons=curriculum.completedLessons(u,progress);MaterialCardView card=new MaterialCardView(requireContext());card.setRadius(dp(16));card.setCardElevation(0);card.setStrokeWidth(dp(1));card.setStrokeColor(ContextCompat.getColor(requireContext(),done?R.color.level4:(unlocked?R.color.blue:R.color.line)));card.setCardBackgroundColor(ContextCompat.getColor(requireContext(),R.color.surface));LinearLayout box=new LinearLayout(requireContext());box.setOrientation(LinearLayout.VERTICAL);box.setPadding(dp(15),dp(13),dp(15),dp(13));card.addView(box);TextView t=new TextView(requireContext());t.setText((done?"✓ ":(unlocked?"● ":"🔒 "))+"第"+u.stageUnit+"单元 · "+u.titleZh);t.setTextSize(15);t.setTextColor(ContextCompat.getColor(requireContext(),R.color.text_primary));t.setTypeface(android.graphics.Typeface.DEFAULT,android.graphics.Typeface.BOLD);box.addView(t);TextView s=new TextView(requireContext());s.setText(lessons+" / "+u.lessonCount+" 关 · "+u.wordIds.size()+"个核心词");s.setTextSize(12);s.setTextColor(ContextCompat.getColor(requireContext(),R.color.text_secondary));box.addView(s);card.setEnabled(unlocked);card.setAlpha(unlocked?1f:.58f);card.setOnClickListener(x->{if(unlocked)((MainActivity)requireActivity()).openCourseUnit(u.id);});LinearLayout.LayoutParams cp=new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);cp.bottomMargin=dp(7);units.addView(card,cp);}}
+    private List<CourseUnit> stageUnits(String stage){java.util.ArrayList<CourseUnit> out=new java.util.ArrayList<>();for(CourseUnit u:curriculum.all())if(stage.equals(u.stage))out.add(u);return out;}
+    private int dp(int v){return (int)(v*getResources().getDisplayMetrics().density+0.5f);}
+}

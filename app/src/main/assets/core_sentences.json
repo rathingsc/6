@@ -1,0 +1,3872 @@
+[
+  {
+    "id": "p0001",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Un caffè, per favore.",
+    "zh": "请来一杯咖啡。",
+    "note": "最常用点单句"
+  },
+  {
+    "id": "p0002",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Vorrei un cappuccino e un cornetto.",
+    "zh": "我想要一杯卡布奇诺和一个羊角面包。",
+    "note": "Vorrei 比 voglio 更礼貌"
+  },
+  {
+    "id": "p0003",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Possiamo avere il menù, per favore?",
+    "zh": "可以给我们菜单吗？",
+    "note": "餐厅"
+  },
+  {
+    "id": "p0004",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Che cosa mi consiglia?",
+    "zh": "您推荐什么？",
+    "note": "询问推荐"
+  },
+  {
+    "id": "p0005",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Per me la pasta al pomodoro.",
+    "zh": "我要番茄意面。",
+    "note": "自然点餐表达"
+  },
+  {
+    "id": "p0006",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Senza formaggio, per favore.",
+    "zh": "请不要放奶酪。",
+    "note": "说明饮食要求"
+  },
+  {
+    "id": "p0007",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Sono allergico alle noci.",
+    "zh": "我对坚果过敏。",
+    "note": "男性说法；女性可说 allergica"
+  },
+  {
+    "id": "p0008",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Ancora un po' d'acqua, per favore.",
+    "zh": "请再来一点水。",
+    "note": "加水"
+  },
+  {
+    "id": "p0009",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Il conto, per favore.",
+    "zh": "请买单。",
+    "note": "结账必会"
+  },
+  {
+    "id": "p0010",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Bar 和餐厅",
+    "it": "Posso pagare con la carta?",
+    "zh": "我可以刷卡吗？",
+    "note": "付款"
+  },
+  {
+    "id": "p0011",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Dove posso trovare il latte?",
+    "zh": "我在哪里可以找到牛奶？",
+    "note": "找商品"
+  },
+  {
+    "id": "p0012",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Quanto costa questo?",
+    "zh": "这个多少钱？",
+    "note": "询价"
+  },
+  {
+    "id": "p0013",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "C'è una confezione più piccola?",
+    "zh": "有更小包装的吗？",
+    "note": "选择规格"
+  },
+  {
+    "id": "p0014",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Questo è in offerta?",
+    "zh": "这个在打折吗？",
+    "note": "促销"
+  },
+  {
+    "id": "p0015",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Vorrei mezzo chilo di pomodori.",
+    "zh": "我想要半公斤西红柿。",
+    "note": "称重商品"
+  },
+  {
+    "id": "p0016",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Mi dà un sacchetto, per favore?",
+    "zh": "请给我一个袋子好吗？",
+    "note": "结账"
+  },
+  {
+    "id": "p0017",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Ho la carta fedeltà.",
+    "zh": "我有会员卡。",
+    "note": "会员卡"
+  },
+  {
+    "id": "p0018",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Pago con il bancomat.",
+    "zh": "我用银行卡付款。",
+    "note": "意大利常说 bancomat"
+  },
+  {
+    "id": "p0019",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Posso avere lo scontrino?",
+    "zh": "可以给我小票吗？",
+    "note": "索要小票"
+  },
+  {
+    "id": "p0020",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "超市购物",
+    "it": "Vorrei restituire questo prodotto.",
+    "zh": "我想退这个商品。",
+    "note": "退货"
+  },
+  {
+    "id": "p0021",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Un biglietto per Milano, per favore.",
+    "zh": "请给我一张去米兰的票。",
+    "note": "买票"
+  },
+  {
+    "id": "p0022",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "A che ora parte il treno?",
+    "zh": "火车几点出发？",
+    "note": "时刻"
+  },
+  {
+    "id": "p0023",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Da quale binario parte?",
+    "zh": "从哪个站台出发？",
+    "note": "站台"
+  },
+  {
+    "id": "p0024",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Questo treno ferma a Chivasso?",
+    "zh": "这趟火车停靠基瓦索吗？",
+    "note": "确认停站"
+  },
+  {
+    "id": "p0025",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Devo cambiare treno?",
+    "zh": "我需要换乘火车吗？",
+    "note": "换乘"
+  },
+  {
+    "id": "p0026",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Dov'è la fermata dell'autobus?",
+    "zh": "公交车站在哪里？",
+    "note": "找站点"
+  },
+  {
+    "id": "p0027",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Quale autobus devo prendere?",
+    "zh": "我应该坐哪一辆公交车？",
+    "note": "问路线"
+  },
+  {
+    "id": "p0028",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Questo autobus va in centro?",
+    "zh": "这辆公交车去市中心吗？",
+    "note": "确认方向"
+  },
+  {
+    "id": "p0029",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "Il treno è in ritardo?",
+    "zh": "火车晚点了吗？",
+    "note": "晚点"
+  },
+  {
+    "id": "p0030",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "公交和火车",
+    "it": "A che ora arriva?",
+    "zh": "几点到？",
+    "note": "到达时间"
+  },
+  {
+    "id": "p0031",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "Mi scusi, dov'è la stazione?",
+    "zh": "不好意思，火车站在哪里？",
+    "note": "礼貌问路"
+  },
+  {
+    "id": "p0032",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "Come posso arrivare in centro?",
+    "zh": "我怎么去市中心？",
+    "note": "问路线"
+  },
+  {
+    "id": "p0033",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "È lontano da qui?",
+    "zh": "离这里远吗？",
+    "note": "距离"
+  },
+  {
+    "id": "p0034",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "Si può andare a piedi?",
+    "zh": "可以走路去吗？",
+    "note": "步行"
+  },
+  {
+    "id": "p0035",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "Devo girare a destra o a sinistra?",
+    "zh": "我应该右转还是左转？",
+    "note": "方向"
+  },
+  {
+    "id": "p0036",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "Vada sempre dritto.",
+    "zh": "请一直直走。",
+    "note": "听懂指路"
+  },
+  {
+    "id": "p0037",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "È vicino alla banca.",
+    "zh": "在银行附近。",
+    "note": "位置"
+  },
+  {
+    "id": "p0038",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "È davanti alla farmacia.",
+    "zh": "在药店前面。",
+    "note": "位置"
+  },
+  {
+    "id": "p0039",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "È dietro la chiesa.",
+    "zh": "在教堂后面。",
+    "note": "位置"
+  },
+  {
+    "id": "p0040",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "问路和城市",
+    "it": "Può mostrarmelo sulla mappa?",
+    "zh": "您能在地图上给我指一下吗？",
+    "note": "看地图"
+  },
+  {
+    "id": "p0041",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Sto cercando un appartamento in affitto.",
+    "zh": "我正在找出租公寓。",
+    "note": "找房"
+  },
+  {
+    "id": "p0042",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Quanto costa l'affitto al mese?",
+    "zh": "每个月房租多少钱？",
+    "note": "房租"
+  },
+  {
+    "id": "p0043",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Le spese sono incluse?",
+    "zh": "杂费包含在内吗？",
+    "note": "管理费/公共费用"
+  },
+  {
+    "id": "p0044",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Quanto è la cauzione?",
+    "zh": "押金是多少？",
+    "note": "押金"
+  },
+  {
+    "id": "p0045",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Posso vedere l'appartamento?",
+    "zh": "我可以看一下公寓吗？",
+    "note": "预约看房"
+  },
+  {
+    "id": "p0046",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Il contratto è registrato?",
+    "zh": "合同登记过了吗？",
+    "note": "合同"
+  },
+  {
+    "id": "p0047",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Quanto dura il contratto?",
+    "zh": "合同期限多久？",
+    "note": "租期"
+  },
+  {
+    "id": "p0048",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "C'è il riscaldamento?",
+    "zh": "有暖气吗？",
+    "note": "设施"
+  },
+  {
+    "id": "p0049",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "C'è un problema con la caldaia.",
+    "zh": "锅炉出了问题。",
+    "note": "报修"
+  },
+  {
+    "id": "p0050",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房和住房",
+    "it": "Quando può venire il tecnico?",
+    "zh": "维修人员什么时候可以来？",
+    "note": "维修预约"
+  },
+  {
+    "id": "p0051",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Vorrei chiedere un'informazione.",
+    "zh": "我想咨询一个信息。",
+    "note": "办事窗口开场"
+  },
+  {
+    "id": "p0052",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Ho un appuntamento alle dieci.",
+    "zh": "我十点有预约。",
+    "note": "报预约"
+  },
+  {
+    "id": "p0053",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Quali documenti devo portare?",
+    "zh": "我需要带哪些文件？",
+    "note": "材料清单"
+  },
+  {
+    "id": "p0054",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Serve l'originale o basta una copia?",
+    "zh": "需要原件，还是复印件就可以？",
+    "note": "文件要求"
+  },
+  {
+    "id": "p0055",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Devo compilare questo modulo?",
+    "zh": "我需要填写这张表吗？",
+    "note": "表格"
+  },
+  {
+    "id": "p0056",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Dove devo firmare?",
+    "zh": "我应该在哪里签字？",
+    "note": "签名"
+  },
+  {
+    "id": "p0057",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Vorrei fare la residenza.",
+    "zh": "我想办理居住登记。",
+    "note": "Comune"
+  },
+  {
+    "id": "p0058",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Vorrei informazioni sul permesso di soggiorno.",
+    "zh": "我想了解居留许可的信息。",
+    "note": "Questura"
+  },
+  {
+    "id": "p0059",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Quando sarà pronto il documento?",
+    "zh": "文件什么时候可以办好？",
+    "note": "领取时间"
+  },
+  {
+    "id": "p0060",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune 和 Questura",
+    "it": "Posso ricevere una ricevuta?",
+    "zh": "我可以拿一份回执吗？",
+    "note": "回执"
+  },
+  {
+    "id": "p0061",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Non mi sento bene.",
+    "zh": "我感觉不舒服。",
+    "note": "就诊开场"
+  },
+  {
+    "id": "p0062",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Ho la febbre da ieri.",
+    "zh": "我从昨天开始发烧。",
+    "note": "症状"
+  },
+  {
+    "id": "p0063",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Ho mal di testa.",
+    "zh": "我头痛。",
+    "note": "症状"
+  },
+  {
+    "id": "p0064",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Mi fa male la schiena.",
+    "zh": "我的背疼。",
+    "note": "疼痛"
+  },
+  {
+    "id": "p0065",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Sono allergico alla penicillina.",
+    "zh": "我对青霉素过敏。",
+    "note": "男性说法；女性 allergica"
+  },
+  {
+    "id": "p0066",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Vorrei prenotare una visita.",
+    "zh": "我想预约一次看诊。",
+    "note": "预约"
+  },
+  {
+    "id": "p0067",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "È urgente.",
+    "zh": "这是紧急情况。",
+    "note": "紧急"
+  },
+  {
+    "id": "p0068",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Come devo prendere questo farmaco?",
+    "zh": "这个药应该怎么吃？",
+    "note": "用药"
+  },
+  {
+    "id": "p0069",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "Serve la ricetta?",
+    "zh": "需要处方吗？",
+    "note": "药店"
+  },
+  {
+    "id": "p0070",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医院和药店",
+    "it": "C'è una farmacia di turno qui vicino?",
+    "zh": "附近有值班药店吗？",
+    "note": "夜间/节假日药店"
+  },
+  {
+    "id": "p0071",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Vorrei aprire un conto corrente.",
+    "zh": "我想开一个银行账户。",
+    "note": "开户"
+  },
+  {
+    "id": "p0072",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Quali documenti servono?",
+    "zh": "需要哪些文件？",
+    "note": "开户材料"
+  },
+  {
+    "id": "p0073",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Quanto costa il conto?",
+    "zh": "这个账户的费用是多少？",
+    "note": "费用"
+  },
+  {
+    "id": "p0074",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Vorrei fare un bonifico.",
+    "zh": "我想做一笔银行转账。",
+    "note": "转账"
+  },
+  {
+    "id": "p0075",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Qual è l'IBAN?",
+    "zh": "IBAN是多少？",
+    "note": "转账信息"
+  },
+  {
+    "id": "p0076",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "La carta non funziona.",
+    "zh": "银行卡不能用。",
+    "note": "卡片问题"
+  },
+  {
+    "id": "p0077",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Ho dimenticato il PIN.",
+    "zh": "我忘记PIN码了。",
+    "note": "PIN"
+  },
+  {
+    "id": "p0078",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Posso prelevare qui?",
+    "zh": "我可以在这里取款吗？",
+    "note": "取现金"
+  },
+  {
+    "id": "p0079",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Vorrei pagare in contanti.",
+    "zh": "我想用现金付款。",
+    "note": "现金"
+  },
+  {
+    "id": "p0080",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行和付款",
+    "it": "Mi può dare una ricevuta?",
+    "zh": "您可以给我一张收据吗？",
+    "note": "凭证"
+  },
+  {
+    "id": "p0081",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Pronto, buongiorno.",
+    "zh": "喂，您好。",
+    "note": "接打电话"
+  },
+  {
+    "id": "p0082",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Vorrei parlare con il signor Rossi.",
+    "zh": "我想和罗西先生通话。",
+    "note": "找人"
+  },
+  {
+    "id": "p0083",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Chi parla?",
+    "zh": "请问您是哪位？",
+    "note": "询问来电人"
+  },
+  {
+    "id": "p0084",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Può parlare più lentamente?",
+    "zh": "您能说慢一点吗？",
+    "note": "听不清时"
+  },
+  {
+    "id": "p0085",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Può ripetere, per favore?",
+    "zh": "您能重复一遍吗？",
+    "note": "请求重复"
+  },
+  {
+    "id": "p0086",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Vorrei fissare un appuntamento.",
+    "zh": "我想约一个时间。",
+    "note": "预约"
+  },
+  {
+    "id": "p0087",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "È possibile venerdì mattina?",
+    "zh": "周五上午可以吗？",
+    "note": "约时间"
+  },
+  {
+    "id": "p0088",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Devo spostare l'appuntamento.",
+    "zh": "我需要改预约时间。",
+    "note": "改期"
+  },
+  {
+    "id": "p0089",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Vorrei annullare l'appuntamento.",
+    "zh": "我想取消预约。",
+    "note": "取消"
+  },
+  {
+    "id": "p0090",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话和预约",
+    "it": "Mi manda una conferma per messaggio?",
+    "zh": "您可以通过消息给我发确认吗？",
+    "note": "确认"
+  },
+  {
+    "id": "p0091",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Sto cercando lavoro.",
+    "zh": "我正在找工作。",
+    "note": "找工作"
+  },
+  {
+    "id": "p0092",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Vorrei candidarmi per questa posizione.",
+    "zh": "我想申请这个职位。",
+    "note": "应聘"
+  },
+  {
+    "id": "p0093",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Le mando il mio curriculum.",
+    "zh": "我把我的简历发给您。",
+    "note": "投简历"
+  },
+  {
+    "id": "p0094",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Ho esperienza in questo settore.",
+    "zh": "我在这个领域有经验。",
+    "note": "面试"
+  },
+  {
+    "id": "p0095",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Qual è l'orario di lavoro?",
+    "zh": "工作时间是什么？",
+    "note": "工时"
+  },
+  {
+    "id": "p0096",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Qual è lo stipendio previsto?",
+    "zh": "预计工资是多少？",
+    "note": "薪资"
+  },
+  {
+    "id": "p0097",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Quando posso iniziare?",
+    "zh": "我什么时候可以开始工作？",
+    "note": "入职"
+  },
+  {
+    "id": "p0098",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Non ho capito, può spiegarmelo di nuovo?",
+    "zh": "我没明白，您能再给我解释一次吗？",
+    "note": "工作沟通"
+  },
+  {
+    "id": "p0099",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "Ho finito questo lavoro.",
+    "zh": "这项工作我做完了。",
+    "note": "汇报"
+  },
+  {
+    "id": "p0100",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "工作和面试",
+    "it": "A che ora finiamo oggi?",
+    "zh": "我们今天几点下班？",
+    "note": "同事交流"
+  },
+  {
+    "id": "p0101",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "通用求助",
+    "it": "Mi può aiutare, per favore?",
+    "zh": "您可以帮我一下吗？",
+    "note": ""
+  },
+  {
+    "id": "p0102",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "通用求助",
+    "it": "Non ho capito. Può ripetere più lentamente?",
+    "zh": "我没听懂，您能说慢一点再说一遍吗？",
+    "note": ""
+  },
+  {
+    "id": "p0103",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "通用求助",
+    "it": "Può scriverlo, per favore?",
+    "zh": "您可以把它写下来吗？",
+    "note": ""
+  },
+  {
+    "id": "p0104",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "通用求助",
+    "it": "Parlo poco italiano.",
+    "zh": "我意大利语说得不多。",
+    "note": ""
+  },
+  {
+    "id": "p0105",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "通用求助",
+    "it": "Che cosa devo fare adesso?",
+    "zh": "我现在应该做什么？",
+    "note": ""
+  },
+  {
+    "id": "p0106",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "通用求助",
+    "it": "Dove devo andare?",
+    "zh": "我应该去哪里？",
+    "note": ""
+  },
+  {
+    "id": "p0107",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "通用求助",
+    "it": "Può indicarmelo sulla mappa?",
+    "zh": "您可以在地图上给我指出来吗？",
+    "note": ""
+  },
+  {
+    "id": "p0108",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Ho bisogno di un medico.",
+    "zh": "我需要医生。",
+    "note": ""
+  },
+  {
+    "id": "p0109",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Chiamate un'ambulanza, per favore.",
+    "zh": "请叫救护车。",
+    "note": ""
+  },
+  {
+    "id": "p0110",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Ho un forte dolore qui.",
+    "zh": "我这里很痛。",
+    "note": ""
+  },
+  {
+    "id": "p0111",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Ho difficoltà a respirare.",
+    "zh": "我呼吸困难。",
+    "note": ""
+  },
+  {
+    "id": "p0112",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Sono allergico a questo farmaco.",
+    "zh": "我对这种药过敏。",
+    "note": ""
+  },
+  {
+    "id": "p0113",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Prendo già questi medicinali.",
+    "zh": "我已经在服用这些药。",
+    "note": ""
+  },
+  {
+    "id": "p0114",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Da quanto tempo devo prendere questa medicina?",
+    "zh": "这个药要吃多久？",
+    "note": ""
+  },
+  {
+    "id": "p0115",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "医疗急救",
+    "it": "Dov'è il pronto soccorso più vicino?",
+    "zh": "最近的急诊在哪里？",
+    "note": ""
+  },
+  {
+    "id": "p0116",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Ho bisogno della polizia.",
+    "zh": "我需要警察。",
+    "note": ""
+  },
+  {
+    "id": "p0117",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Mi hanno rubato il portafoglio.",
+    "zh": "我的钱包被偷了。",
+    "note": ""
+  },
+  {
+    "id": "p0118",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Ho perso i documenti.",
+    "zh": "我的证件丢了。",
+    "note": ""
+  },
+  {
+    "id": "p0119",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Vorrei fare una denuncia.",
+    "zh": "我想报案。",
+    "note": ""
+  },
+  {
+    "id": "p0120",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Non mi sento al sicuro.",
+    "zh": "我觉得不安全。",
+    "note": ""
+  },
+  {
+    "id": "p0121",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Questa persona mi sta seguendo.",
+    "zh": "这个人在跟着我。",
+    "note": ""
+  },
+  {
+    "id": "p0122",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Dove si trova il commissariato più vicino?",
+    "zh": "最近的警察局在哪里？",
+    "note": ""
+  },
+  {
+    "id": "p0123",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "警察与安全",
+    "it": "Può chiamare qualcuno che parla cinese?",
+    "zh": "可以找一位会中文的人吗？",
+    "note": ""
+  },
+  {
+    "id": "p0124",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Questura居留",
+    "it": "Ho già presentato la domanda.",
+    "zh": "我已经提交申请了。",
+    "note": ""
+  },
+  {
+    "id": "p0125",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "Questura居留",
+    "it": "Vorrei sapere a che punto è la pratica.",
+    "zh": "我想知道手续办理到哪一步了。",
+    "note": ""
+  },
+  {
+    "id": "p0126",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Questura居留",
+    "it": "Devo prendere un appuntamento?",
+    "zh": "我需要预约吗？",
+    "note": ""
+  },
+  {
+    "id": "p0127",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Questura居留",
+    "it": "Quali documenti mancano?",
+    "zh": "还缺哪些文件？",
+    "note": ""
+  },
+  {
+    "id": "p0128",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Questura居留",
+    "it": "Quando devo tornare?",
+    "zh": "我什么时候需要再来？",
+    "note": ""
+  },
+  {
+    "id": "p0129",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Questura居留",
+    "it": "Può scrivermi il numero della pratica?",
+    "zh": "您能把案件编号写给我吗？",
+    "note": ""
+  },
+  {
+    "id": "p0130",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune市政府",
+    "it": "Vorrei chiedere informazioni sulla residenza.",
+    "zh": "我想咨询居民登记。",
+    "note": ""
+  },
+  {
+    "id": "p0131",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune市政府",
+    "it": "Dove devo prendere il numero?",
+    "zh": "我在哪里取号？",
+    "note": ""
+  },
+  {
+    "id": "p0132",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune市政府",
+    "it": "Posso inviare il documento via e-mail?",
+    "zh": "我可以通过电子邮件提交文件吗？",
+    "note": ""
+  },
+  {
+    "id": "p0133",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune市政府",
+    "it": "Mi manca una copia del contratto.",
+    "zh": "我缺一份合同复印件。",
+    "note": ""
+  },
+  {
+    "id": "p0134",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "Comune市政府",
+    "it": "Quando sarà pronta la certificazione?",
+    "zh": "证明什么时候能办好？",
+    "note": ""
+  },
+  {
+    "id": "p0135",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "火车与交通",
+    "it": "Da quale binario parte il treno?",
+    "zh": "火车从几号站台出发？",
+    "note": ""
+  },
+  {
+    "id": "p0136",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "火车与交通",
+    "it": "Questo treno va a Milano Centrale?",
+    "zh": "这班火车去米兰中央车站吗？",
+    "note": ""
+  },
+  {
+    "id": "p0137",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "火车与交通",
+    "it": "Il mio treno è stato cancellato.",
+    "zh": "我的火车被取消了。",
+    "note": ""
+  },
+  {
+    "id": "p0138",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "火车与交通",
+    "it": "Posso usare questo biglietto sul prossimo treno?",
+    "zh": "这张票可以坐下一班车吗？",
+    "note": ""
+  },
+  {
+    "id": "p0139",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "火车与交通",
+    "it": "Dove posso comprare il biglietto?",
+    "zh": "我在哪里可以买票？",
+    "note": ""
+  },
+  {
+    "id": "p0140",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "火车与交通",
+    "it": "Qual è l'ultima corsa di oggi?",
+    "zh": "今天最后一班车是几点？",
+    "note": ""
+  },
+  {
+    "id": "p0141",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房住房",
+    "it": "La stanza è ancora disponibile?",
+    "zh": "这个房间还在出租吗？",
+    "note": ""
+  },
+  {
+    "id": "p0142",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房住房",
+    "it": "Il contratto viene registrato?",
+    "zh": "合同会登记吗？",
+    "note": ""
+  },
+  {
+    "id": "p0143",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房住房",
+    "it": "È richiesta una cauzione?",
+    "zh": "需要押金吗？",
+    "note": ""
+  },
+  {
+    "id": "p0144",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房住房",
+    "it": "Posso fare la residenza qui?",
+    "zh": "我可以在这里登记居民地址吗？",
+    "note": ""
+  },
+  {
+    "id": "p0145",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房住房",
+    "it": "Quando posso vedere l'appartamento?",
+    "zh": "我什么时候可以看房？",
+    "note": ""
+  },
+  {
+    "id": "p0146",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "租房住房",
+    "it": "C'è un problema con il riscaldamento.",
+    "zh": "暖气有问题。",
+    "note": ""
+  },
+  {
+    "id": "p0147",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行付款",
+    "it": "La mia carta non funziona.",
+    "zh": "我的银行卡不能用。",
+    "note": ""
+  },
+  {
+    "id": "p0148",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行付款",
+    "it": "Questo pagamento è stato rifiutato.",
+    "zh": "这笔付款被拒绝了。",
+    "note": ""
+  },
+  {
+    "id": "p0149",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行付款",
+    "it": "Quanto costa la commissione?",
+    "zh": "手续费多少？",
+    "note": ""
+  },
+  {
+    "id": "p0150",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "银行付款",
+    "it": "Mi può stampare una ricevuta?",
+    "zh": "可以给我打印收据吗？",
+    "note": ""
+  },
+  {
+    "id": "p0151",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "餐厅与过敏",
+    "it": "Vorrei ordinare, per favore.",
+    "zh": "我想点餐。",
+    "note": ""
+  },
+  {
+    "id": "p0152",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "餐厅与过敏",
+    "it": "Sono allergico alle arachidi.",
+    "zh": "我对花生过敏。",
+    "note": ""
+  },
+  {
+    "id": "p0153",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "餐厅与过敏",
+    "it": "Questo piatto contiene latte o uova?",
+    "zh": "这道菜含牛奶或鸡蛋吗？",
+    "note": ""
+  },
+  {
+    "id": "p0154",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "餐厅与过敏",
+    "it": "Senza carne, per favore.",
+    "zh": "请不要放肉。",
+    "note": ""
+  },
+  {
+    "id": "p0155",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "餐厅与过敏",
+    "it": "Posso avere dell'acqua naturale?",
+    "zh": "可以给我一瓶常温无气水吗？",
+    "note": ""
+  },
+  {
+    "id": "p0156",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "餐厅与过敏",
+    "it": "Possiamo pagare separatamente?",
+    "zh": "我们可以分开付款吗？",
+    "note": ""
+  },
+  {
+    "id": "p0157",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Buongiorno, chiamo per fissare un appuntamento.",
+    "zh": "您好，我打电话想预约。",
+    "note": ""
+  },
+  {
+    "id": "p0158",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Qual è il primo orario disponibile?",
+    "zh": "最早什么时候有空？",
+    "note": ""
+  },
+  {
+    "id": "p0159",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Preferirei la mattina, se possibile.",
+    "zh": "如果可以，我更希望上午。",
+    "note": ""
+  },
+  {
+    "id": "p0160",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Può confermarmi la data e l'ora?",
+    "zh": "您可以确认一下日期和时间吗？",
+    "note": ""
+  },
+  {
+    "id": "p0161",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Vorrei spostare l'appuntamento.",
+    "zh": "我想改预约时间。",
+    "note": ""
+  },
+  {
+    "id": "p0162",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Devo annullare l'appuntamento.",
+    "zh": "我需要取消预约。",
+    "note": ""
+  },
+  {
+    "id": "p0163",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Può mandarmi la conferma via messaggio?",
+    "zh": "可以通过短信给我发送确认吗？",
+    "note": ""
+  },
+  {
+    "id": "p0164",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "电话与预约",
+    "it": "Mi può lasciare un numero da richiamare?",
+    "zh": "可以留一个回拨号码吗？",
+    "note": ""
+  },
+  {
+    "id": "p0165",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Va bene.",
+    "zh": "好的。",
+    "note": ""
+  },
+  {
+    "id": "p0166",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "D’accordo.",
+    "zh": "好，没问题。",
+    "note": ""
+  },
+  {
+    "id": "p0167",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non lo so.",
+    "zh": "我不知道。",
+    "note": ""
+  },
+  {
+    "id": "p0168",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non importa.",
+    "zh": "没关系。",
+    "note": ""
+  },
+  {
+    "id": "p0169",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Nessun problema.",
+    "zh": "没问题。",
+    "note": ""
+  },
+  {
+    "id": "p0170",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Per favore.",
+    "zh": "请。",
+    "note": ""
+  },
+  {
+    "id": "p0171",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Grazie mille.",
+    "zh": "非常感谢。",
+    "note": ""
+  },
+  {
+    "id": "p0172",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Prego, si figuri.",
+    "zh": "不客气。",
+    "note": ""
+  },
+  {
+    "id": "p0173",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Mi dispiace.",
+    "zh": "对不起。",
+    "note": ""
+  },
+  {
+    "id": "p0174",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Scusi il disturbo.",
+    "zh": "抱歉打扰了。",
+    "note": ""
+  },
+  {
+    "id": "p0175",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Può ripetere?",
+    "zh": "您能再说一遍吗？",
+    "note": ""
+  },
+  {
+    "id": "p0176",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non ho capito.",
+    "zh": "我没听懂。",
+    "note": ""
+  },
+  {
+    "id": "p0177",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Che cosa significa?",
+    "zh": "这是什么意思？",
+    "note": ""
+  },
+  {
+    "id": "p0178",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Come si dice in italiano?",
+    "zh": "用意大利语怎么说？",
+    "note": ""
+  },
+  {
+    "id": "p0179",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Come si scrive?",
+    "zh": "怎么拼写？",
+    "note": ""
+  },
+  {
+    "id": "p0180",
+    "level": "A1",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Un momento, per favore.",
+    "zh": "请稍等。",
+    "note": ""
+  },
+  {
+    "id": "p0181",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Aspetti un attimo.",
+    "zh": "请等一下。",
+    "note": ""
+  },
+  {
+    "id": "p0182",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Secondo me...",
+    "zh": "我觉得……",
+    "note": ""
+  },
+  {
+    "id": "p0183",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Dipende.",
+    "zh": "要看情况。",
+    "note": ""
+  },
+  {
+    "id": "p0184",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Per esempio...",
+    "zh": "比如……",
+    "note": ""
+  },
+  {
+    "id": "p0185",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "In generale...",
+    "zh": "一般来说……",
+    "note": ""
+  },
+  {
+    "id": "p0186",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "In questo caso...",
+    "zh": "这种情况下……",
+    "note": ""
+  },
+  {
+    "id": "p0187",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Hai ragione.",
+    "zh": "你说得对。",
+    "note": ""
+  },
+  {
+    "id": "p0188",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non sono sicuro.",
+    "zh": "我不太确定。",
+    "note": ""
+  },
+  {
+    "id": "p0189",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Che ore sono?",
+    "zh": "几点了？",
+    "note": ""
+  },
+  {
+    "id": "p0190",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "A che ora?",
+    "zh": "几点？",
+    "note": ""
+  },
+  {
+    "id": "p0191",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "A che ora apre?",
+    "zh": "几点开门？",
+    "note": ""
+  },
+  {
+    "id": "p0192",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "A che ora chiude?",
+    "zh": "几点关门？",
+    "note": ""
+  },
+  {
+    "id": "p0193",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Ci vediamo domani.",
+    "zh": "明天见。",
+    "note": ""
+  },
+  {
+    "id": "p0194",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Ci vediamo più tardi.",
+    "zh": "晚点见。",
+    "note": ""
+  },
+  {
+    "id": "p0195",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "A dopo.",
+    "zh": "一会儿见。",
+    "note": ""
+  },
+  {
+    "id": "p0196",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "A presto.",
+    "zh": "回头见。",
+    "note": ""
+  },
+  {
+    "id": "p0197",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Sono in ritardo.",
+    "zh": "我迟到了。",
+    "note": ""
+  },
+  {
+    "id": "p0198",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Arrivo tra dieci minuti.",
+    "zh": "我十分钟后到。",
+    "note": ""
+  },
+  {
+    "id": "p0199",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Ho un appuntamento.",
+    "zh": "我有预约。",
+    "note": ""
+  },
+  {
+    "id": "p0200",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Vorrei spostare l’appuntamento.",
+    "zh": "我想改预约时间。",
+    "note": ""
+  },
+  {
+    "id": "p0201",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Possiamo rimandare?",
+    "zh": "我们可以推迟吗？",
+    "note": ""
+  },
+  {
+    "id": "p0202",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Va bene domani mattina?",
+    "zh": "明天上午可以吗？",
+    "note": ""
+  },
+  {
+    "id": "p0203",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Sono libero nel pomeriggio.",
+    "zh": "我下午有空。",
+    "note": ""
+  },
+  {
+    "id": "p0204",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "Questa settimana non posso.",
+    "zh": "这周我不行。",
+    "note": ""
+  },
+  {
+    "id": "p0205",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间与安排",
+    "it": "La prossima settimana va bene.",
+    "zh": "下周可以。",
+    "note": ""
+  },
+  {
+    "id": "p0206",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "Dov’è la fermata?",
+    "zh": "车站在哪里？",
+    "note": ""
+  },
+  {
+    "id": "p0207",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "Dove devo scendere?",
+    "zh": "我应该在哪里下车？",
+    "note": ""
+  },
+  {
+    "id": "p0208",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "È la prossima fermata?",
+    "zh": "是下一站吗？",
+    "note": ""
+  },
+  {
+    "id": "p0209",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "Questo treno va a Milano?",
+    "zh": "这趟火车去米兰吗？",
+    "note": ""
+  },
+  {
+    "id": "p0210",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "Quanto dura il viaggio?",
+    "zh": "路程要多久？",
+    "note": ""
+  },
+  {
+    "id": "p0211",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "Solo andata.",
+    "zh": "单程。",
+    "note": ""
+  },
+  {
+    "id": "p0212",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "Andata e ritorno.",
+    "zh": "往返。",
+    "note": ""
+  },
+  {
+    "id": "p0213",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "出行交通",
+    "it": "Mi può indicare la strada?",
+    "zh": "您能给我指路吗？",
+    "note": ""
+  },
+  {
+    "id": "p0214",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Vorrei un caffè, per favore.",
+    "zh": "我想要一杯咖啡。",
+    "note": ""
+  },
+  {
+    "id": "p0215",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Un tavolo per due, per favore.",
+    "zh": "请给我们两个人的桌位。",
+    "note": ""
+  },
+  {
+    "id": "p0216",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Posso vedere il menù?",
+    "zh": "我可以看菜单吗？",
+    "note": ""
+  },
+  {
+    "id": "p0217",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Senza zucchero, per favore.",
+    "zh": "请不要糖。",
+    "note": ""
+  },
+  {
+    "id": "p0218",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Senza latte, per favore.",
+    "zh": "请不要牛奶。",
+    "note": ""
+  },
+  {
+    "id": "p0219",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "È vegetariano?",
+    "zh": "这是素食的吗？",
+    "note": ""
+  },
+  {
+    "id": "p0220",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Non mangio carne.",
+    "zh": "我不吃肉。",
+    "note": ""
+  },
+  {
+    "id": "p0221",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Vorrei ordinare.",
+    "zh": "我想点餐。",
+    "note": ""
+  },
+  {
+    "id": "p0222",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Per me questo.",
+    "zh": "我要这个。",
+    "note": ""
+  },
+  {
+    "id": "p0223",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Basta così, grazie.",
+    "zh": "这些就够了，谢谢。",
+    "note": ""
+  },
+  {
+    "id": "p0224",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "餐厅与咖啡",
+    "it": "Posso avere una ricevuta?",
+    "zh": "可以给我收据吗？",
+    "note": ""
+  },
+  {
+    "id": "p0225",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Quanto costa?",
+    "zh": "多少钱？",
+    "note": ""
+  },
+  {
+    "id": "p0226",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "È troppo caro.",
+    "zh": "太贵了。",
+    "note": ""
+  },
+  {
+    "id": "p0227",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Avete una taglia più grande?",
+    "zh": "有更大一码吗？",
+    "note": ""
+  },
+  {
+    "id": "p0228",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Avete una taglia più piccola?",
+    "zh": "有更小一码吗？",
+    "note": ""
+  },
+  {
+    "id": "p0229",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Posso provarlo?",
+    "zh": "我可以试一下吗？",
+    "note": ""
+  },
+  {
+    "id": "p0230",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Dove sono i camerini?",
+    "zh": "试衣间在哪里？",
+    "note": ""
+  },
+  {
+    "id": "p0231",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Lo prendo.",
+    "zh": "我买这个。",
+    "note": ""
+  },
+  {
+    "id": "p0232",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Ci penso.",
+    "zh": "我考虑一下。",
+    "note": ""
+  },
+  {
+    "id": "p0233",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Cerco questo prodotto.",
+    "zh": "我在找这个商品。",
+    "note": ""
+  },
+  {
+    "id": "p0234",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Dove posso trovarlo?",
+    "zh": "在哪里能找到？",
+    "note": ""
+  },
+  {
+    "id": "p0235",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "È in offerta?",
+    "zh": "这个在打折吗？",
+    "note": ""
+  },
+  {
+    "id": "p0236",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Posso restituirlo?",
+    "zh": "我可以退货吗？",
+    "note": ""
+  },
+  {
+    "id": "p0237",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "购物",
+    "it": "Ho perso lo scontrino.",
+    "zh": "我把小票丢了。",
+    "note": ""
+  },
+  {
+    "id": "p0238",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "Cerco un appartamento in affitto.",
+    "zh": "我在找出租房。",
+    "note": ""
+  },
+  {
+    "id": "p0239",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "Quanto costa l’affitto al mese?",
+    "zh": "每月房租多少钱？",
+    "note": ""
+  },
+  {
+    "id": "p0240",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "Posso vedere l’appartamento?",
+    "zh": "我可以看房吗？",
+    "note": ""
+  },
+  {
+    "id": "p0241",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "Quando è disponibile?",
+    "zh": "什么时候可以入住？",
+    "note": ""
+  },
+  {
+    "id": "p0242",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "C’è il riscaldamento?",
+    "zh": "有暖气吗？",
+    "note": ""
+  },
+  {
+    "id": "p0243",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "C’è internet?",
+    "zh": "有网络吗？",
+    "note": ""
+  },
+  {
+    "id": "p0244",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "La lavatrice non funziona.",
+    "zh": "洗衣机坏了。",
+    "note": ""
+  },
+  {
+    "id": "p0245",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "C’è una perdita d’acqua.",
+    "zh": "有漏水。",
+    "note": ""
+  },
+  {
+    "id": "p0246",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "住房",
+    "it": "Può venire a controllare?",
+    "zh": "您能来检查一下吗？",
+    "note": ""
+  },
+  {
+    "id": "p0247",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "医疗药店",
+    "it": "Ho la febbre.",
+    "zh": "我发烧。",
+    "note": ""
+  },
+  {
+    "id": "p0248",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "医疗药店",
+    "it": "Mi fa male qui.",
+    "zh": "我这里疼。",
+    "note": ""
+  },
+  {
+    "id": "p0249",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "医疗药店",
+    "it": "Da quanto tempo?",
+    "zh": "多久了？",
+    "note": ""
+  },
+  {
+    "id": "p0250",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "医疗药店",
+    "it": "Da due giorni.",
+    "zh": "两天了。",
+    "note": ""
+  },
+  {
+    "id": "p0251",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "医疗药店",
+    "it": "Quante volte al giorno?",
+    "zh": "一天几次？",
+    "note": ""
+  },
+  {
+    "id": "p0252",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "医疗药店",
+    "it": "Prima o dopo i pasti?",
+    "zh": "饭前还是饭后？",
+    "note": ""
+  },
+  {
+    "id": "p0253",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "医疗药店",
+    "it": "Sono allergico a questo medicinale.",
+    "zh": "我对这个药过敏。",
+    "note": ""
+  },
+  {
+    "id": "p0254",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Vorrei chiedere un’informazione.",
+    "zh": "我想咨询一件事。",
+    "note": ""
+  },
+  {
+    "id": "p0255",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Serve l’originale?",
+    "zh": "需要原件吗？",
+    "note": ""
+  },
+  {
+    "id": "p0256",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Basta una copia?",
+    "zh": "复印件就可以吗？",
+    "note": ""
+  },
+  {
+    "id": "p0257",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Dove posso prendere il modulo?",
+    "zh": "在哪里可以领取表格？",
+    "note": ""
+  },
+  {
+    "id": "p0258",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Quando posso ritirarlo?",
+    "zh": "什么时候可以领取？",
+    "note": ""
+  },
+  {
+    "id": "p0259",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Mi manca un documento.",
+    "zh": "我少一份文件。",
+    "note": ""
+  },
+  {
+    "id": "p0260",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Posso inviarlo per email?",
+    "zh": "可以通过电子邮件发送吗？",
+    "note": ""
+  },
+  {
+    "id": "p0261",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "办事文件",
+    "it": "Ho bisogno di una ricevuta.",
+    "zh": "我需要一张回执。",
+    "note": ""
+  },
+  {
+    "id": "p0262",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "工作",
+    "it": "Qual è l’orario di lavoro?",
+    "zh": "工作时间是什么？",
+    "note": ""
+  },
+  {
+    "id": "p0263",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "工作",
+    "it": "Quanto dura il turno?",
+    "zh": "一个班次多长？",
+    "note": ""
+  },
+  {
+    "id": "p0264",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "工作",
+    "it": "Ho bisogno di un giorno libero.",
+    "zh": "我需要请一天假。",
+    "note": ""
+  },
+  {
+    "id": "p0265",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "工作",
+    "it": "Oggi non posso venire.",
+    "zh": "我今天不能来。",
+    "note": ""
+  },
+  {
+    "id": "p0266",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "工作",
+    "it": "Arrivo con dieci minuti di ritardo.",
+    "zh": "我会迟到十分钟。",
+    "note": ""
+  },
+  {
+    "id": "p0267",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "工作",
+    "it": "Può spiegarmelo di nuovo?",
+    "zh": "您能再给我解释一遍吗？",
+    "note": ""
+  },
+  {
+    "id": "p0268",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Pronto?",
+    "zh": "喂？",
+    "note": ""
+  },
+  {
+    "id": "p0269",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Sono Li.",
+    "zh": "我是李。",
+    "note": ""
+  },
+  {
+    "id": "p0270",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "La chiamo per...",
+    "zh": "我打电话是为了……",
+    "note": ""
+  },
+  {
+    "id": "p0271",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Può richiamarmi più tardi?",
+    "zh": "您可以晚点再给我打电话吗？",
+    "note": ""
+  },
+  {
+    "id": "p0272",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "La linea non si sente bene.",
+    "zh": "电话听不清楚。",
+    "note": ""
+  },
+  {
+    "id": "p0273",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Mi manda un messaggio?",
+    "zh": "您可以给我发消息吗？",
+    "note": ""
+  },
+  {
+    "id": "p0274",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Le mando l’indirizzo.",
+    "zh": "我把地址发给您。",
+    "note": ""
+  },
+  {
+    "id": "p0275",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Le mando una foto.",
+    "zh": "我给您发一张照片。",
+    "note": ""
+  },
+  {
+    "id": "p0276",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Ho ricevuto il messaggio.",
+    "zh": "我收到消息了。",
+    "note": ""
+  },
+  {
+    "id": "p0277",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Non ho ricevuto niente.",
+    "zh": "我什么都没收到。",
+    "note": ""
+  },
+  {
+    "id": "p0278",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "电话与消息",
+    "it": "Mi può mandare una conferma?",
+    "zh": "您能给我发确认信息吗？",
+    "note": ""
+  },
+  {
+    "id": "v26_0279",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Come va?",
+    "zh": "最近怎么样？",
+    "note": "自然问候"
+  },
+  {
+    "id": "v26_0280",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Tutto bene?",
+    "zh": "都好吗？",
+    "note": "日常问候"
+  },
+  {
+    "id": "v26_0281",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non c’è problema.",
+    "zh": "没问题。",
+    "note": "安慰/回应"
+  },
+  {
+    "id": "v26_0282",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Va benissimo.",
+    "zh": "非常好；完全可以。",
+    "note": "确认"
+  },
+  {
+    "id": "v26_0283",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non sono d’accordo.",
+    "zh": "我不同意。",
+    "note": "表达不同意见"
+  },
+  {
+    "id": "v26_0284",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Dipende da...",
+    "zh": "取决于……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0285",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non ne sono sicuro.",
+    "zh": "我不太确定。",
+    "note": "男性说法"
+  },
+  {
+    "id": "v26_0286",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non ne sono sicura.",
+    "zh": "我不太确定。",
+    "note": "女性说法"
+  },
+  {
+    "id": "v26_0287",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Fammi sapere.",
+    "zh": "告诉我一声。",
+    "note": "熟人间"
+  },
+  {
+    "id": "v26_0288",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Mi faccia sapere.",
+    "zh": "请告诉我一声。",
+    "note": "礼貌"
+  },
+  {
+    "id": "v26_0289",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Ci penso io.",
+    "zh": "我来处理。",
+    "note": "承担任务"
+  },
+  {
+    "id": "v26_0290",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Vediamo.",
+    "zh": "我们看看。",
+    "note": "高频"
+  },
+  {
+    "id": "v26_0291",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Aspetta un attimo.",
+    "zh": "等一下。",
+    "note": "非正式"
+  },
+  {
+    "id": "v26_0292",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Può fare un esempio?",
+    "zh": "您能举个例子吗？",
+    "note": "学习交流"
+  },
+  {
+    "id": "v26_0293",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Può parlare più piano?",
+    "zh": "您能说慢一点吗？",
+    "note": "沟通"
+  },
+  {
+    "id": "v26_0294",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Ho capito.",
+    "zh": "我明白了。",
+    "note": "理解"
+  },
+  {
+    "id": "v26_0295",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "基础交流",
+    "it": "Non ho capito bene.",
+    "zh": "我没太听懂。",
+    "note": "理解"
+  },
+  {
+    "id": "v26_0296",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间安排",
+    "it": "Che giorno?",
+    "zh": "哪一天？",
+    "note": "询问日期"
+  },
+  {
+    "id": "v26_0297",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间安排",
+    "it": "Sono già arrivato.",
+    "zh": "我已经到了。",
+    "note": "男性"
+  },
+  {
+    "id": "v26_0298",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间安排",
+    "it": "Sono già arrivata.",
+    "zh": "我已经到了。",
+    "note": "女性"
+  },
+  {
+    "id": "v26_0299",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间安排",
+    "it": "Non posso oggi.",
+    "zh": "我今天不行。",
+    "note": "安排"
+  },
+  {
+    "id": "v26_0300",
+    "level": "A2",
+    "tier": "核心300",
+    "category": "时间安排",
+    "it": "Va bene domani?",
+    "zh": "明天可以吗？",
+    "note": "安排"
+  },
+  {
+    "id": "v26_0301",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "时间安排",
+    "it": "Possiamo spostare l’appuntamento?",
+    "zh": "我们可以改预约时间吗？",
+    "note": "预约"
+  },
+  {
+    "id": "v26_0302",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "时间安排",
+    "it": "Vorrei anticipare l’appuntamento.",
+    "zh": "我想把预约提前。",
+    "note": "预约"
+  },
+  {
+    "id": "v26_0303",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "时间安排",
+    "it": "Vorrei rimandare l’appuntamento.",
+    "zh": "我想把预约推迟。",
+    "note": "预约"
+  },
+  {
+    "id": "v26_0304",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "时间安排",
+    "it": "Sono libera nel pomeriggio.",
+    "zh": "我下午有空。",
+    "note": "女性"
+  },
+  {
+    "id": "v26_0305",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Sto solo guardando.",
+    "zh": "我只是看看。",
+    "note": "商店"
+  },
+  {
+    "id": "v26_0306",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Quanto viene?",
+    "zh": "一共多少钱？",
+    "note": "结账"
+  },
+  {
+    "id": "v26_0307",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "C’è uno sconto?",
+    "zh": "有折扣吗？",
+    "note": "价格"
+  },
+  {
+    "id": "v26_0308",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Posso provarla?",
+    "zh": "我可以试一下它吗？",
+    "note": "阴性物品"
+  },
+  {
+    "id": "v26_0309",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Non lo prendo.",
+    "zh": "我不要这个。",
+    "note": "购物"
+  },
+  {
+    "id": "v26_0310",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Mi serve una busta.",
+    "zh": "我需要一个袋子。",
+    "note": "超市"
+  },
+  {
+    "id": "v26_0311",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Non mi serve la busta.",
+    "zh": "我不需要袋子。",
+    "note": "超市"
+  },
+  {
+    "id": "v26_0312",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Dove sono le casse?",
+    "zh": "收银台在哪里？",
+    "note": "超市"
+  },
+  {
+    "id": "v26_0313",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Vorrei fare un reso.",
+    "zh": "我想退货。",
+    "note": "售后"
+  },
+  {
+    "id": "v26_0314",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "购物",
+    "it": "Vorrei cambiare questo articolo.",
+    "zh": "我想换这个商品。",
+    "note": "售后"
+  },
+  {
+    "id": "v26_0315",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Abbiamo una prenotazione.",
+    "zh": "我们有预订。",
+    "note": "餐厅"
+  },
+  {
+    "id": "v26_0316",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Che cosa consiglia?",
+    "zh": "您推荐什么？",
+    "note": "餐厅"
+  },
+  {
+    "id": "v26_0317",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Per me questo, grazie.",
+    "zh": "我要这个，谢谢。",
+    "note": "点餐"
+  },
+  {
+    "id": "v26_0318",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Senza sale, per favore.",
+    "zh": "请不要放盐。",
+    "note": "饮食要求"
+  },
+  {
+    "id": "v26_0319",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Senza glutine, per favore.",
+    "zh": "请做无麸质的。",
+    "note": "饮食要求"
+  },
+  {
+    "id": "v26_0320",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Sono vegetariano.",
+    "zh": "我是素食者。",
+    "note": "男性"
+  },
+  {
+    "id": "v26_0321",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Sono vegetariana.",
+    "zh": "我是素食者。",
+    "note": "女性"
+  },
+  {
+    "id": "v26_0322",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "È piccante?",
+    "zh": "辣吗？",
+    "note": "询问"
+  },
+  {
+    "id": "v26_0323",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "È incluso il servizio?",
+    "zh": "服务费包含了吗？",
+    "note": "结账"
+  },
+  {
+    "id": "v26_0324",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "餐厅",
+    "it": "Vorrei pagare.",
+    "zh": "我想结账。",
+    "note": "结账"
+  },
+  {
+    "id": "v26_0325",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "Qual è il prossimo treno?",
+    "zh": "下一班火车是哪一班？",
+    "note": "火车"
+  },
+  {
+    "id": "v26_0326",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "A che ora parte?",
+    "zh": "几点出发？",
+    "note": "交通"
+  },
+  {
+    "id": "v26_0327",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "È diretto?",
+    "zh": "是直达的吗？",
+    "note": "交通"
+  },
+  {
+    "id": "v26_0328",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "Vorrei un biglietto di andata.",
+    "zh": "我想买一张单程票。",
+    "note": "购票"
+  },
+  {
+    "id": "v26_0329",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "Vorrei un biglietto di andata e ritorno.",
+    "zh": "我想买一张往返票。",
+    "note": "购票"
+  },
+  {
+    "id": "v26_0330",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "Ho perso il treno.",
+    "zh": "我错过火车了。",
+    "note": "交通"
+  },
+  {
+    "id": "v26_0331",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "Il treno è in ritardo.",
+    "zh": "火车晚点了。",
+    "note": "交通"
+  },
+  {
+    "id": "v26_0332",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "交通",
+    "it": "Mi avvisa quando arriviamo?",
+    "zh": "到了能提醒我吗？",
+    "note": "交通"
+  },
+  {
+    "id": "v26_0333",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Sto cercando un appartamento.",
+    "zh": "我在找公寓。",
+    "note": "租房"
+  },
+  {
+    "id": "v26_0334",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Quanto costa l’affitto?",
+    "zh": "房租多少钱？",
+    "note": "租房"
+  },
+  {
+    "id": "v26_0335",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Quanto sono le spese condominiali?",
+    "zh": "物业费是多少？",
+    "note": "租房"
+  },
+  {
+    "id": "v26_0336",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "È richiesto un deposito?",
+    "zh": "需要押金吗？",
+    "note": "租房"
+  },
+  {
+    "id": "v26_0337",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Quando posso vedere la casa?",
+    "zh": "我什么时候可以看房？",
+    "note": "租房"
+  },
+  {
+    "id": "v26_0338",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Posso avere il contratto?",
+    "zh": "可以给我合同吗？",
+    "note": "租房"
+  },
+  {
+    "id": "v26_0339",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Il riscaldamento funziona?",
+    "zh": "暖气能用吗？",
+    "note": "住房"
+  },
+  {
+    "id": "v26_0340",
+    "level": "A2",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Non c’è acqua calda.",
+    "zh": "没有热水。",
+    "note": "维修"
+  },
+  {
+    "id": "v26_0341",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "La luce non funziona.",
+    "zh": "灯不亮。",
+    "note": "维修"
+  },
+  {
+    "id": "v26_0342",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "C’è un problema con la caldaia.",
+    "zh": "锅炉有问题。",
+    "note": "维修"
+  },
+  {
+    "id": "v26_0343",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "住房",
+    "it": "Può mandare qualcuno a controllare?",
+    "zh": "可以派人来检查吗？",
+    "note": "维修"
+  },
+  {
+    "id": "v26_0344",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "医疗",
+    "it": "Ho mal di gola.",
+    "zh": "我喉咙痛。",
+    "note": "医疗"
+  },
+  {
+    "id": "v26_0345",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "医疗",
+    "it": "Da ieri.",
+    "zh": "从昨天开始。",
+    "note": "医疗"
+  },
+  {
+    "id": "v26_0346",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "医疗",
+    "it": "Sono allergica a questo farmaco.",
+    "zh": "我对这种药过敏。",
+    "note": "女性"
+  },
+  {
+    "id": "v26_0347",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "办事",
+    "it": "Devo portare l’originale?",
+    "zh": "我需要带原件吗？",
+    "note": "材料"
+  },
+  {
+    "id": "v26_0348",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "办事",
+    "it": "Manca un documento?",
+    "zh": "缺少文件吗？",
+    "note": "材料"
+  },
+  {
+    "id": "v26_0349",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "办事",
+    "it": "Quando sarà pronto?",
+    "zh": "什么时候能办好？",
+    "note": "进度"
+  },
+  {
+    "id": "v26_0350",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "办事",
+    "it": "Posso ritirarlo io?",
+    "zh": "我可以自己领取吗？",
+    "note": "领取"
+  },
+  {
+    "id": "v26_0351",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "办事",
+    "it": "Posso delegare qualcuno?",
+    "zh": "我可以委托别人吗？",
+    "note": "领取"
+  },
+  {
+    "id": "v26_0352",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "办事",
+    "it": "Vorrei annullare l’appuntamento.",
+    "zh": "我想取消预约。",
+    "note": "预约"
+  },
+  {
+    "id": "v26_0353",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "工作",
+    "it": "Posso iniziare subito.",
+    "zh": "我可以马上开始。",
+    "note": "面试"
+  },
+  {
+    "id": "v26_0354",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "工作",
+    "it": "Sono disponibile nei fine settimana.",
+    "zh": "我周末有空。",
+    "note": "工作"
+  },
+  {
+    "id": "v26_0355",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "工作",
+    "it": "Quali sono gli orari?",
+    "zh": "工作时间是怎样的？",
+    "note": "工作"
+  },
+  {
+    "id": "v26_0356",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "工作",
+    "it": "Qual è lo stipendio?",
+    "zh": "工资是多少？",
+    "note": "工作"
+  },
+  {
+    "id": "v26_0357",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "工作",
+    "it": "Il contratto è a tempo pieno?",
+    "zh": "是全职合同吗？",
+    "note": "工作"
+  },
+  {
+    "id": "v26_0358",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "工作",
+    "it": "Il contratto è a tempo determinato?",
+    "zh": "是固定期限合同吗？",
+    "note": "工作"
+  },
+  {
+    "id": "v26_0359",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "工作",
+    "it": "Non posso venire oggi.",
+    "zh": "我今天不能来。",
+    "note": "工作"
+  },
+  {
+    "id": "v26_0360",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "电话",
+    "it": "Posso parlare con...?",
+    "zh": "我可以和……通话吗？",
+    "note": "电话"
+  },
+  {
+    "id": "v26_0361",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "电话",
+    "it": "Un attimo, glielo passo.",
+    "zh": "稍等，我让他/她接电话。",
+    "note": "电话"
+  },
+  {
+    "id": "v26_0362",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "电话",
+    "it": "Può richiamare più tardi?",
+    "zh": "您可以晚点再打吗？",
+    "note": "电话"
+  },
+  {
+    "id": "v26_0363",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "电话",
+    "it": "La linea è disturbata.",
+    "zh": "线路不清楚。",
+    "note": "电话"
+  },
+  {
+    "id": "v26_0364",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "电话",
+    "it": "Non la sento bene.",
+    "zh": "我听不清您说话。",
+    "note": "电话"
+  },
+  {
+    "id": "v26_0365",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "电话",
+    "it": "Le mando un messaggio.",
+    "zh": "我给您发消息。",
+    "note": "电话"
+  },
+  {
+    "id": "v26_0366",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "电话",
+    "it": "Mi può mandare l’indirizzo?",
+    "zh": "您能把地址发给我吗？",
+    "note": "电话"
+  },
+  {
+    "id": "v26_0367",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Avere bisogno di...",
+    "zh": "需要……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0368",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Avere voglia di...",
+    "zh": "想要；有……的兴致",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0369",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Avere paura di...",
+    "zh": "害怕……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0370",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Essere d’accordo con...",
+    "zh": "同意……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0371",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Essere in ritardo.",
+    "zh": "迟到。",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0372",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Essere pronto a...",
+    "zh": "准备好……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0373",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Riuscire a...",
+    "zh": "成功做到……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0374",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Provare a...",
+    "zh": "尝试……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0375",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Smettere di...",
+    "zh": "停止……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0376",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Cominciare a...",
+    "zh": "开始……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0377",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Continuare a...",
+    "zh": "继续……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0378",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Pensare di...",
+    "zh": "打算；认为……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0379",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Decidere di...",
+    "zh": "决定……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0380",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Cercare di...",
+    "zh": "努力尝试……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0381",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Dimenticarsi di...",
+    "zh": "忘记……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0382",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Ricordarsi di...",
+    "zh": "记得……",
+    "note": "固定搭配"
+  },
+  {
+    "id": "v26_0383",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "A che cosa serve?",
+    "zh": "这是做什么用的？",
+    "note": "常用结构"
+  },
+  {
+    "id": "v26_0384",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Non vedo l’ora.",
+    "zh": "我等不及了；很期待。",
+    "note": "固定表达"
+  },
+  {
+    "id": "v26_0385",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Ne vale la pena.",
+    "zh": "值得。",
+    "note": "固定表达"
+  },
+  {
+    "id": "v26_0386",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "常用结构",
+    "it": "Non ne vale la pena.",
+    "zh": "不值得。",
+    "note": "固定表达"
+  },
+  {
+    "id": "v26_dlg_0387",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Buongiorno, cosa desidera?",
+    "zh": "早上好，您想要什么？",
+    "note": "Bar 和餐厅"
+  },
+  {
+    "id": "v26_dlg_0388",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Certo. Altro?",
+    "zh": "好的。还要别的吗？",
+    "note": "Bar 和餐厅"
+  },
+  {
+    "id": "v26_dlg_0389",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Altro?",
+    "zh": "还要别的吗？",
+    "note": "Bar 和餐厅"
+  },
+  {
+    "id": "v26_dlg_0390",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Sono quattro euro e cinquanta.",
+    "zh": "一共4.5欧元。",
+    "note": "Bar 和餐厅"
+  },
+  {
+    "id": "v26_dlg_0391",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Sì, certo.",
+    "zh": "可以，当然。",
+    "note": "Bar 和餐厅"
+  },
+  {
+    "id": "v26_dlg_0392",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Posso aiutarla?",
+    "zh": "我可以帮您吗？",
+    "note": "超市购物"
+  },
+  {
+    "id": "v26_dlg_0393",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "È nel corridoio tre.",
+    "zh": "在3号通道。",
+    "note": "超市购物"
+  },
+  {
+    "id": "v26_dlg_0394",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Costa due euro e venti.",
+    "zh": "2.2欧元。",
+    "note": "超市购物"
+  },
+  {
+    "id": "v26_dlg_0395",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Vuole anche il sacchetto?",
+    "zh": "您还需要袋子吗？",
+    "note": "超市购物"
+  },
+  {
+    "id": "v26_dlg_0396",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Buongiorno, dove deve andare?",
+    "zh": "您好，您要去哪里？",
+    "note": "公交和火车"
+  },
+  {
+    "id": "v26_dlg_0397",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Può prendere il treno delle 8:10.",
+    "zh": "您可以坐8:10的火车。",
+    "note": "公交和火车"
+  },
+  {
+    "id": "v26_dlg_0398",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Parte dal binario quattro.",
+    "zh": "从4号站台出发。",
+    "note": "公交和火车"
+  },
+  {
+    "id": "v26_dlg_0399",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "No, è diretto.",
+    "zh": "不用，是直达车。",
+    "note": "公交和火车"
+  },
+  {
+    "id": "v26_dlg_0400",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Mi dica, dove deve andare?",
+    "zh": "请说，您要去哪里？",
+    "note": "问路和城市"
+  },
+  {
+    "id": "v26_dlg_0401",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Continui sempre dritto.",
+    "zh": "一直直走。",
+    "note": "问路和城市"
+  },
+  {
+    "id": "v26_dlg_0402",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "No, sono circa dieci minuti a piedi.",
+    "zh": "不远，步行大约10分钟。",
+    "note": "问路和城市"
+  },
+  {
+    "id": "v26_dlg_0403",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Sono circa dieci minuti a piedi.",
+    "zh": "步行大约10分钟。",
+    "note": "问路和城市"
+  },
+  {
+    "id": "v26_dlg_0404",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Di niente.",
+    "zh": "不客气。",
+    "note": "问路和城市"
+  },
+  {
+    "id": "v26_dlg_0405",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Buongiorno, è interessato all'appartamento?",
+    "zh": "您好，您对这套公寓感兴趣吗？",
+    "note": "租房和住房"
+  },
+  {
+    "id": "v26_dlg_0406",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Sono settecento euro al mese.",
+    "zh": "每月700欧元。",
+    "note": "租房和住房"
+  },
+  {
+    "id": "v26_dlg_0407",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "No, le bollette sono a parte.",
+    "zh": "不包括，账单另算。",
+    "note": "租房和住房"
+  },
+  {
+    "id": "v26_dlg_0408",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Le bollette sono a parte.",
+    "zh": "账单另算。",
+    "note": "租房和住房"
+  },
+  {
+    "id": "v26_dlg_0409",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Certo, glielo mando oggi.",
+    "zh": "当然，我今天发给您。",
+    "note": "租房和住房"
+  },
+  {
+    "id": "v26_dlg_0410",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Buongiorno, come posso aiutarla?",
+    "zh": "您好，我能怎么帮您？",
+    "note": "Comune 和 Questura"
+  },
+  {
+    "id": "v26_dlg_0411",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Ha già un appuntamento?",
+    "zh": "您已经预约了吗？",
+    "note": "Comune 和 Questura"
+  },
+  {
+    "id": "v26_dlg_0412",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Bene. Ha portato i documenti?",
+    "zh": "好的。您带文件了吗？",
+    "note": "Comune 和 Questura"
+  },
+  {
+    "id": "v26_dlg_0413",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Ha portato i documenti?",
+    "zh": "您带文件了吗？",
+    "note": "Comune 和 Questura"
+  },
+  {
+    "id": "v26_dlg_0414",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Serve anche l'originale.",
+    "zh": "还需要原件。",
+    "note": "Comune 和 Questura"
+  },
+  {
+    "id": "v26_dlg_0415",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Buongiorno, che problema ha?",
+    "zh": "您好，您有什么不舒服？",
+    "note": "医院和药店"
+  },
+  {
+    "id": "v26_dlg_0416",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Da quanti giorni?",
+    "zh": "有几天了？",
+    "note": "医院和药店"
+  },
+  {
+    "id": "v26_dlg_0417",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Ha anche la tosse?",
+    "zh": "您也咳嗽吗？",
+    "note": "医院和药店"
+  },
+  {
+    "id": "v26_dlg_0418",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Le consiglio di parlare con un medico.",
+    "zh": "建议您咨询医生。",
+    "note": "医院和药店"
+  },
+  {
+    "id": "v26_dlg_0419",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Buongiorno, cosa deve fare?",
+    "zh": "您好，您要办理什么？",
+    "note": "银行和付款"
+  },
+  {
+    "id": "v26_dlg_0420",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Ha con sé un documento?",
+    "zh": "您带证件了吗？",
+    "note": "银行和付款"
+  },
+  {
+    "id": "v26_dlg_0421",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Perfetto. Qual è l'importo?",
+    "zh": "好的。金额是多少？",
+    "note": "银行和付款"
+  },
+  {
+    "id": "v26_dlg_0422",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Qual è l'importo?",
+    "zh": "金额是多少？",
+    "note": "银行和付款"
+  },
+  {
+    "id": "v26_dlg_0423",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Va bene, procediamo.",
+    "zh": "好的，我们继续办理。",
+    "note": "银行和付款"
+  },
+  {
+    "id": "v26_dlg_0424",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Per quale giorno?",
+    "zh": "您想预约哪一天？",
+    "note": "电话和预约"
+  },
+  {
+    "id": "v26_dlg_0425",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Alle nove va bene?",
+    "zh": "九点可以吗？",
+    "note": "电话和预约"
+  },
+  {
+    "id": "v26_dlg_0426",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Perfetto, a martedì.",
+    "zh": "好的，周二见。",
+    "note": "电话和预约"
+  },
+  {
+    "id": "v26_dlg_0427",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Mi parli un po' di lei.",
+    "zh": "请简单介绍一下自己。",
+    "note": "工作和面试"
+  },
+  {
+    "id": "v26_dlg_0428",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Perché vuole lavorare con noi?",
+    "zh": "为什么想来我们这里工作？",
+    "note": "工作和面试"
+  },
+  {
+    "id": "v26_dlg_0429",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Quando sarebbe disponibile?",
+    "zh": "您什么时候可以开始？",
+    "note": "工作和面试"
+  },
+  {
+    "id": "v26_dlg_0430",
+    "level": "B1",
+    "tier": "扩展430",
+    "category": "情景对话",
+    "it": "Grazie, la contatteremo presto.",
+    "zh": "谢谢，我们会尽快联系您。",
+    "note": "工作和面试"
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🧭 介词专项" android:textColor="@color/text_primary" android:textSize="25sp" android:textStyle="bold" />
+  <TextView android:id="@+id/text_prep_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+  <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+    <TextView android:id="@+id/text_prep_sentence" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="21sp" android:textStyle="bold" />
+    <TextView android:id="@+id/text_prep_zh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:textColor="@color/text_secondary" android:textSize="13sp" />
+   </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+  <com.google.android.material.button.MaterialButton android:id="@+id/prep_answer_1" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="12dp" android:textAllCaps="false" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/prep_answer_2" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:textAllCaps="false" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/prep_answer_3" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:textAllCaps="false" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/prep_answer_4" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:textAllCaps="false" />
+  <TextView android:id="@+id/text_prep_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_soft_panel" android:padding="12dp" android:textSize="13sp" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_prep_next" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="9dp" android:text="下一题" android:textAllCaps="false" android:visibility="gone" />
+ </LinearLayout>
+</ScrollView>

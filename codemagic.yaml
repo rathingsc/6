@@ -1,0 +1,101 @@
+workflows:
+  android-debug:
+    name: 终学意语 v3.1.0 智能记忆版 APK
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      java: 17
+    scripts:
+      - name: Set Android SDK location
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+
+      - name: Create Gradle wrapper
+        script: |
+          rm -rf /tmp/zhongxue-wrapper
+          mkdir -p /tmp/zhongxue-wrapper
+          cd /tmp/zhongxue-wrapper
+          printf "rootProject.name='wrapper'\n" > settings.gradle
+          gradle wrapper --gradle-version 8.11.1 --distribution-type bin
+          cp gradlew gradlew.bat "$CM_BUILD_DIR/"
+          mkdir -p "$CM_BUILD_DIR/gradle/wrapper"
+          cp gradle/wrapper/gradle-wrapper.jar gradle/wrapper/gradle-wrapper.properties "$CM_BUILD_DIR/gradle/wrapper/"
+          cd "$CM_BUILD_DIR"
+          chmod +x gradlew
+          ./gradlew --version
+
+      - name: Preflight project checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/preflight.py
+
+      - name: Static regression checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/regression_check.py
+
+      - name: Guided course semantic checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/course_check.py
+
+      - name: Exercise quality checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/exercise_quality_check.py
+
+      - name: Strict release gate
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/release_gate.py
+
+      - name: Build native debug APK
+        script: |
+          cd "$CM_BUILD_DIR"
+          set +e
+          ./gradlew :app:assembleDebug --console=plain --warning-mode all > assemble-build.log 2>&1
+          STATUS=$?
+          if [ "$STATUS" -ne 0 ]; then
+            echo "===== REAL BUILD ERRORS ====="
+            grep -n -E "(^|[[:space:]])error:|^ERROR:|AAPT:|Android resource linking failed|cannot find symbol|method .* cannot be applied|Execution failed for task|What went wrong" assemble-build.log | head -120 || true
+            echo "===== CONTEXT AROUND FIRST REAL ERROR ====="
+            FIRST=$(grep -n -m1 -E "(^|[[:space:]])error:|^ERROR:|AAPT:|Android resource linking failed|cannot find symbol|method .* cannot be applied|Execution failed for task|What went wrong" assemble-build.log | cut -d: -f1)
+            if [ -n "$FIRST" ]; then
+              START=$((FIRST>15 ? FIRST-15 : 1))
+              END=$((FIRST+65))
+              sed -n "${START},${END}p" assemble-build.log
+            else
+              tail -220 assemble-build.log
+            fi
+            exit "$STATUS"
+          fi
+          tail -100 assemble-build.log
+
+      - name: Unit tests
+        script: |
+          cd "$CM_BUILD_DIR"
+          ./gradlew :app:testDebugUnitTest --console=plain
+
+      - name: Android lint report
+        script: |
+          cd "$CM_BUILD_DIR"
+          # APK build is the hard gate. Lint is collected afterward so ordinary
+          # lint findings do not prevent a usable debug APK from being produced.
+          set +e
+          ./gradlew :app:lintDebug --console=plain > lint-build.log 2>&1
+          STATUS=$?
+          if [ "$STATUS" -ne 0 ]; then
+            echo "===== LINT FINDINGS (NON-BLOCKING) ====="
+            grep -n -E "^.+:[0-9]+: (Error|Warning):|^ERROR:|AAPT:|Android resource linking failed" lint-build.log | head -160 || true
+            tail -80 lint-build.log
+          else
+            tail -80 lint-build.log
+          fi
+          exit 0
+    artifacts:
+      - app/build/outputs/apk/debug/app-debug.apk
+      - app/build/outputs/**/*.apk
+      - app/build/reports/lint-results-debug.html
+      - app/build/reports/tests/testDebugUnitTest/**
+      - assemble-build.log
+      - lint-build.log
