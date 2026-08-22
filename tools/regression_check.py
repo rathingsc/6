@@ -35,6 +35,8 @@ required=[
     'app/src/main/assets/course_curriculum.json',
     'tools/course_check.py',
     'tools/exercise_quality_check.py',
+    'tools/translation_quality_check.py',
+    'app/src/main/assets/translation_quality_v311.json',
 ]
 for rel in required:
     if not (ROOT/rel).exists(): err('missing '+rel)
@@ -91,7 +93,7 @@ checks={
  'font sizing':'font_scale_mode' in java and 'attachBaseContext' in java,
  'cross-session exposure dedup':'recentWordIds()' in java and 'markWordExposure(' in java,
  'state repair':'repairCorruptState(' in java,
- 'upgrade snapshot':'3.1.0-preupgrade' in java and 'ensureVersionBackupThen' in java,
+ 'upgrade snapshot':'3.1.3-preupgrade' in java and 'ensureVersionBackupThen' in java,
  'Room destructive fallback disabled':'fallbackToDestructiveMigration' not in java,
 }
 for name,ok in checks.items():
@@ -152,8 +154,13 @@ for p in (ROOT/'app/src/main/res/layout').glob('*.xml'):
                 if m and int(m.group(1))<48: err(f'{p.name}: ImageButton {attr} {v} < 48dp')
 
 build=text(ROOT/'app/build.gradle') if (ROOT/'app/build.gradle').exists() else ''
-if "versionName '3.1.0-native'" not in build: err('versionName is not 3.1.0-native')
-if 'versionCode 41' not in build: err('versionCode is not 41')
+if "versionName '3.1.3-native'" not in build: err('versionName is not 3.1.3-native')
+if 'def defaultVersionCode = 44' not in build or 'versionCode resolvedVersionCode' not in build: err('v3.1.3 versionCode update-chain config missing')
+if "applicationId 'com.italiano2774.nativeapp'" not in build: err('applicationId changed; direct Android update chain would break')
+if 'signingConfig signingConfigs.release' not in build or 'CM_KEYSTORE_PATH' not in build: err('permanent release signing config missing')
+cm=text(ROOT/'codemagic.yaml') if (ROOT/'codemagic.yaml').exists() else ''
+if 'v3.1.3' not in cm or 'android_signing:' not in cm or '- zhongxue_release' not in cm or ':app:assembleRelease' not in cm or 'app-release.apk' not in cm: err('v3.1.3 Codemagic signed-release update chain missing')
+if ':app:assembleDebug' in cm or 'app-debug.apk' in cm: err('official Codemagic workflow must not publish debug APK after v3.1.3')
 
 engine=text(ROOT/'app/src/main/java/com/italiano2774/nativeapp/CourseLessonEngine.java')
 main=text(ROOT/'app/src/main/java/com/italiano2774/nativeapp/MainActivity.java')
@@ -175,6 +182,16 @@ if 'newSmartMemoryInstance' not in smart_session or 'smartMemory' not in smart_s
 if 'smartMemoryPlan' not in smart_repo or 'SmartMemoryScheduler.nextInterval' not in smart_store: err('v3.1 smart-memory scheduling missing')
 if 'button_smart_memory' not in smart_layout or 'openSmartMemory' not in smart_home: err('v3.1 smart-memory home entry missing')
 if not (ROOT/'app/src/main/java/com/italiano2774/nativeapp/SmartMemoryScheduler.java').exists(): err('v3.1 SmartMemoryScheduler.java missing')
+course_translation_asset=ROOT/'app/src/main/assets/course_translation_quality_v312.json'
+if not course_translation_asset.exists(): err('v3.1.2 course translation ledger missing')
+else:
+    try:
+        _ct=json.load(open(course_translation_asset,encoding='utf-8'))
+        if _ct.get('version')!='3.1.2' or int(_ct.get('correctedCount',0))<136: err('v3.1.2 course translation ledger incomplete')
+        _compra=next((w for w in words if int(w.get('id',0))==882),None)
+        if not _compra or _compra.get('chinese')!='他/她/您买': err('v3.1.2 compra translation regression')
+    except Exception as e: err('v3.1.2 course translation check failed: '+str(e))
+
 
 if errors:
     for x in errors: print('ERROR:',x)

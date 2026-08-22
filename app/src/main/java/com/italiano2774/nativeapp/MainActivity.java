@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override protected void onCreate(Bundle s){
         super.onCreate(s);LocalErrorLog.install(this);setContentView(R.layout.activity_main);
-        progress=new ProgressStore(this);repo=WordRepository.get(this);studyTimeTracker=new StudyTimeTracker(this);ReminderScheduler.createChannel(this);LocalBackupManager.ensureVersionBackupThen(this,repo,progress,"3.1.0-preupgrade",()->LearningStateMigrator.migrateIfNeeded(this,repo,progress));if(progress.onboardingCompleted()||progress.hasLearningHistory())CourseCurriculumRepository.get(this).migrateLegacyPositionIfNeeded(progress,repo);new Thread(()->{try{progress.repairCorruptState(repo.all());}catch(Exception e){LocalErrorLog.write(this,"v3.0.1 data self-repair",e);}},"state-repair").start();
+        progress=new ProgressStore(this);repo=WordRepository.get(this);studyTimeTracker=new StudyTimeTracker(this);ReminderScheduler.createChannel(this);LocalBackupManager.ensureVersionBackupThen(this,repo,progress,"3.1.3-preupgrade",()->LearningStateMigrator.migrateIfNeeded(this,repo,progress));if(progress.onboardingCompleted()||progress.hasLearningHistory())CourseCurriculumRepository.get(this).migrateLegacyPositionIfNeeded(progress,repo);new Thread(()->{try{progress.repairCorruptState(repo.all());}catch(Exception e){LocalErrorLog.write(this,"v3.0.1 data self-repair",e);}},"state-repair").start();
 
         View root=findViewById(R.id.root_main);
         BottomNavigationView nav=findViewById(R.id.bottom_navigation);

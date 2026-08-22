@@ -1,17 +1,8 @@
-终学意语 v3.1.0 智能记忆版 GitHub 根目录上传说明
+终学意语 v3.1.3 固定签名覆盖升级版 GitHub 根目录上传说明
 
-本版属于大型课程重构。为避免过去出现“新旧源码混用”，不要使用旧的 v2.x 小补丁。
+推荐直接使用本次完整项目 ZIP 覆盖旧仓库，避免新旧源码混用。
 
-推荐方案 A（保留 GitHub 现有 2774 个 MP3）：
-1. 下载“v3.1.0 智能记忆版 强制源码同步包 保留2774音频”。
-2. 解压。
-3. 把解压后的 app/、tools/、build.gradle、settings.gradle、gradle.properties、codemagic.yaml、README 等直接覆盖 GitHub 仓库根目录。
-4. 保留现有 app/src/main/assets/audio/。同步包本身不包含 audio 文件夹。
-
-方案 B（最稳）：
-清空 GitHub 仓库内容后，解压并上传“v3.1.0 智能记忆版 GitHub根目录完整项目”的全部内容。
-
-GitHub 仓库根目录必须直接看到：
+上传后 GitHub 仓库根目录必须直接看到：
 app/
 tools/
 build.gradle
@@ -19,42 +10,68 @@ settings.gradle
 gradle.properties
 codemagic.yaml
 README_原生安卓版本.md
+覆盖升级与签名说明.txt
+.gitignore
+keystore.properties.example
+signing-certificate-sha256.txt
 
-不要多套一层 v3.1 文件夹，不要只把 ZIP 文件提交到 GitHub。
+不要多套一层 v3.1.3 文件夹，也不要只把 ZIP 文件本身提交到 GitHub。
 
-必须确认：
-app/build.gradle
-  versionCode 41
-  versionName '3.1.0-native'
+必须确认 app/build.gradle：
+- applicationId 仍为 com.italiano2774.nativeapp
+- defaultVersionCode = 44
+- versionName '3.1.3-native'
+- release 使用 signingConfigs.release
+- 支持 CM_KEYSTORE_PATH / CM_KEYSTORE_PASSWORD / CM_KEY_ALIAS / CM_KEY_PASSWORD
 
+固定签名：
+- codemagic.yaml 必须包含 android_signing
+- Keystore Reference 必须是 zhongxue_release
+- 正式构建任务必须是 :app:assembleRelease
+- 正式 APK 必须是 app/build/outputs/apk/release/app-release.apk
+- 每次构建会生成 signing-fingerprint.txt 和 update-version-code.txt
+
+安全：
+- zhongxue_release.jks 绝对不要上传 GitHub
+- 签名密码绝对不要写进仓库
+- .gitignore 必须包含 *.jks、*.keystore、keystore.properties
+
+词义质量文件继续保留：
+app/src/main/assets/translation_quality_v311.json
+app/src/main/assets/course_translation_quality_v312.json
+tools/translation_quality_check.py
+tools/course_translation_quality_check.py
+
+真实设备关键回归：
+fotografia -> 照片；摄影
+compra -> 他/她/您买
+chiama -> 他/她/您叫；打电话
+volo -> 航班；飞行
+
+智能记忆功能继续保留：
 app/src/main/java/com/italiano2774/nativeapp/SmartMemoryScheduler.java
-  必须存在，负责 1 / 3 / 7 / 15 / 30 / 60 天智能复习间隔
+首页必须包含 button_smart_memory 和 text_smart_memory_summary。
 
-app/src/main/res/layout/fragment_course_home.xml
-  必须包含 button_smart_memory 和 text_smart_memory_summary
+课程数据继续保持：
+98 个单元
+A0 8 / A1 24 / A2 30 / B1 36
+2774 个词条
+2774 个本地 MP3
 
-app/src/main/assets/course_curriculum.json
-  98 个单元
-  A0 8 / A1 24 / A2 30 / B1 36
-
-app/src/main/res/menu/menu_bottom.xml
-  只有 学习 / 课程 / 练习 / 我的 四个底部入口
-
-codemagic.yaml
-  工作流名称必须包含 v3.1
-  必须包含 Guided course semantic checks
-  必须包含 Strict release gate
-
-Codemagic 正常顺序应为：
+Codemagic 正常顺序：
 Set Android SDK location
 Create Gradle wrapper
 Preflight project checks
 Static regression checks
+Translation quality checks
 Guided course semantic checks
+Course translation quality checks
 Exercise quality checks
+Permanent signing configuration checks
 Strict release gate
-Build native debug APK
+Verify permanent signing identity
+Build signed release APK
 Unit tests
 Android lint report
 
-如果 Build native debug APK 出现在第 4 步左右，说明 codemagic.yaml 仍然是旧版本，不要继续用那个仓库状态构建。
+如果 Build native debug APK 仍然出现，或没有 zhongxue_release / assembleRelease，说明仓库仍混有旧版 codemagic.yaml，不要继续构建。

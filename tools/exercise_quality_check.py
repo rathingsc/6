@@ -42,6 +42,7 @@ expected={
  590:('读；阅读','Mi piace leggere la sera.','我喜欢晚上读书。'),
  600:('我在；我待着；我感觉','Sto cercando lavoro.','我正在找工作。'),
  601:('我喝；喝','A cena bevo acqua.','晚饭时我喝水。'),
+ 729:('照片；摄影','',''),
 }
 for wid,(zh,it,itzh) in expected.items():
     w=byid.get(wid)

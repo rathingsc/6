@@ -1,3 +1,51 @@
+# 终学意语 v3.1.3 固定签名覆盖升级版
+
+## v3.1.3 可持续覆盖安装
+- Android 包名继续固定为 `com.italiano2774.nativeapp`，以后版本禁止修改。
+- 正式安装包从 debug APK 切换为**固定签名的 release APK**；Codemagic 使用永久签名引用 `zhongxue_release`。
+- `app/build.gradle` 新增 release signingConfig：Codemagic 从 `CM_KEYSTORE_PATH / CM_KEYSTORE_PASSWORD / CM_KEY_ALIAS / CM_KEY_PASSWORD` 注入同一把签名密钥。
+- Codemagic 每次正式构建自动生成递增 `versionCode`，避免新 APK 因版本号不高于手机现有版本而无法覆盖。
+- 本地默认 versionCode 为 44，versionName 为 `3.1.3-native`。
+- Codemagic 正式产物改为 `app-release.apk`；以后不要把 `app-debug.apk` 当正式升级包。
+- 每次构建输出 `signing-fingerprint.txt`，并与仓库内公开的 `signing-certificate-sha256.txt` 自动比对；如果误用了另一把密钥，构建会直接失败。
+- 新增 `.gitignore`，强制忽略 `*.jks`、`*.keystore`、`keystore.properties`，防止永久签名密钥误传到公开 GitHub。
+- 新增 `keystore.properties.example`，仅供需要在本机进行同签名 release 构建时参考。
+- 新增 `tools/signing_config_check.py`，发布前验证固定包名、固定签名引用、release APK、自动 versionCode 与私钥防泄漏设置。
+- 首次从历史 debug 签名切换到 v3.1.3 时，如果 Android 报“签名/软件包冲突”，可能仍需卸载旧版一次；**从成功安装 v3.1.3 固定签名版开始，后续版本都可直接覆盖升级并保留学习数据。**
+
+---
+
+# 终学意语 v3.1.2 课程词义扫描修正版
+
+## v3.1.2 课程词义与词形消歧
+- 根据真实设备反馈修复 `compra` 被错误显示为“她；他；你”的问题；现在为“他/她/您买”。
+- 不只修单个词：对 98 个循序课程单元、2774 个课程词条进行课程侧扫描，重点检查中文里残留的半英文机器翻译、错位人称、将来时/条件式、动词词形与同形异义词。
+- 本轮新增 136 项课程中文修正；例如 `chiama`、`conosci`、`paghi`、`dà`、`ceneranno`、`mangiato`、`capisco`、`sprecare`、`sedere`、`svegliare`、`confondere`、`preoccupare`、`ricercare` 等。
+- 修复 29 项课程上下文词性/形态消歧，避免把 `porta=门`、`pesca=桃子`、`cena=晚餐`、`porto=港口`、`volo=航班`、`stampa=新闻界/媒体` 等同形词错误当成动词变位。
+- `word_families.json` 按稳定词条 ID 同步更新，避免词库页和课程页显示两个不同中文意思。
+- 新增 `course_translation_quality_v312.json` 作为本轮修正账本。
+- 新增 `tools/course_translation_quality_check.py`：构建前锁定 136 项词义修正和 29 项上下文消歧，并专门阻止 `compra -> 她；他；你` 以及半英文机器翻译回归。
+- 原 v3.1.1 的 131 项基础词义修正继续保留，`fotografia -> 照片；摄影` 仍有独立回归保护。
+- versionCode 43
+- versionName 3.1.2-native
+
+---
+
+# 终学意语 v3.1.1 词义校正版
+
+## v3.1.1 词义映射修复
+- 修复真实设备发现的 `fotografia` 被错误映射成“地图”的问题；现在为“照片；摄影”。
+- 已确认课程选择题的正确答案直接来自目标词条的 `chinese` 字段，问题根因是词库词义数据错配，并非选项打乱后索引错位。
+- 对 2774 个词条执行重复中文标签与英语释义的全量语义扫描，锁定并修复 131 个高置信度明显错配；例如 `buonanotte`、`premio`、`partita`、`sognare`、`povertà` 等。
+- 对有歧义、无法仅凭现有数据可靠判断的词条不做激进改写，避免“为了修错而制造新错”。
+- 新增 `translation_quality_v311.json`，记录本轮每一个“旧中文 -> 新中文”修正，便于后续继续人工审校。
+- 新增 `tools/translation_quality_check.py`：构建前锁定 131 个修正，并专门阻止 `fotografia -> 地图` 回归。
+- Codemagic 增加 `Translation quality checks`，词义检查不通过时不进入 APK 编译。
+- versionCode 42
+- versionName 3.1.1-native
+
+---
+
 # 终学意语 v3.1.0 智能记忆版
 
 ## v3.1.0 智能记忆新功能

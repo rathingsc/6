@@ -1,0 +1,137 @@
+终学意语 v3.1.1 词义修正清单
+
+说明：本轮对 2774 个词条做了重复中文标签与英语释义的全量扫描，只修改高置信度明显错配；有歧义的条目保留，避免误修。
+共锁定修正：131 条
+
+ID	意大利语	旧中文	新中文	课程主题
+0197	lasci	部分	你留下；你让	Plans
+0271	fatta	事实	做好的；完成的	Roommates
+0386	svuoto	出去；外面	我倒空；我清空	SwissTrip
+0564	senno	头	理智；判断力	Mystery
+0729	fotografia	地图	照片；摄影	Moving In
+0783	annoiato	熊	无聊的；厌烦的	Arts
+0872	giro	出去	一圈；周围；转	Fundraiser
+0936	e un quarto	十五	一刻；十五分钟	Directions
+0941	e mezzo	三十	半；三十分钟	Directions
+1085	annaffiare	洗	浇水	Chores
+1109	pezza	扫；打扫	布片；补丁	Detective
+1148	bagna	浴室；洗澡	弄湿；浸湿	Class
+1206	acceso	住；生活	开着的；点燃的	Office
+1211	azioni	离开；关闭	行动；股票	Admirer
+1218	danno	发送；派遣	他们给；损害	Admirer
+1237	in bocca al lupo	好的	祝你好运	Dates
+1242	guarderemo	钟表；手表	我们会看；我们会观看	Dates
+1253	fasce	戒指	时段；带	Dates
+1268	farò	事实	我会做	Concert
+1289	partiremo	部分	我们将出发	Traveling
+1292	partirà	部分	他/她将出发	Traveling
+1298	partirai	部分	你将出发	Traveling
+1343	tipico	奇怪的	典型的	Capri
+1363	pagato	离开；关闭	已支付；付过款的	Bragging
+1378	guido	拿；带；乘坐	我开车；我驾驶	Ghost
+1411	peggio	来	更糟；更坏	Fan Club
+1428	ci esercitiamo	我们	我们练习	Resolution
+1429	mi esercito	我	我练习	Resolution
+1451	caccia	能；可以	狩猎；打猎	Crush
+1472	pari	甚至	相等的；偶数的	Plus One
+1477	cacci	能够；可以	你赶走；你追赶	Plus One
+1516	maggiore	老的	更大的；年长的	Giveaway
+1520	di seconda mano	使用过	二手的	Giveaway
+1528	caccio	能够；可以	我赶走；我追赶	Doctor
+1544	fa male	它	疼；痛	Doctor
+1545	date	日期	你们给；给	Doctor
+1551	dormendo	去	正在睡觉	Invitation
+1554	cucinando	向上	正在做饭	Invitation
+1559	tracce	戒指	痕迹；轨迹	Invitation
+1560	chiamando	出去；外面	正在叫；正在打电话	Invitation
+1580	buonanotte	好的	晚安	Basics 2
+1591	legge	法律	他/她读；您读	Basics 2
+1592	leggi	法律	你读；阅读	Basics 2
+1636	pranzano	有	他们吃午饭	Food 2
+1701	cos'	工作	什么	Colors
+1721	tranne	那个	除了	Conjunct.
+1723	fino	甚至	直到；到	Conjunct.
+1751	quarto	看	第四；四分之一	Family 2
+1754	pochino	小的	一点点；很少	Family 2
+1762	specialità	运动	专长；特色	Occupation
+1764	capitano	来	队长；船长	Occupation
+1777	guardia	看	警卫；守卫	Occupation
+1802	breve	少；不太	短的；简短的	Adject. 1
+1815	popolare	向上	流行的；大众的	Adject. 1
+1837	ritornare	发送；派遣	返回；回来	Present 2
+1868	insomma	向上	总之；简而言之	Adverbs
+1887	ferroviario	火车	铁路的	Places
+1925	individuo	出去；外面	个人；个体	People 2
+1958	parecchio	好的；少数；几个	相当多；不少	Determin.
+1959	parecchi	好的；少数；几个	相当多；不少	Determin.
+1963	parecchie	好的；少数；几个	相当多；不少	Determin.
+1965	parecchia	好的	很多；相当多	Determin.
+1983	allenare	准备	训练；锻炼	Present 3
+1990	fumare	离开；关闭	吸烟；冒烟	Present 3
+2010	esprimere	沙发	表达	Pres. Per.
+2011	piovere	向下	下雨	Pres. Per.
+2056	positivo	好的	积极的；正面的	Adject. 2
+2065	ciò	事情；什么	这；那；此事	Pronouns
+2080	chiamiamoci	其他的	我们互相打电话	Imperative
+2082	dammi	我	给我	Imperative
+2083	dimmi	我	告诉我	Imperative
+2098	istituzione	向上	机构；制度	Education
+2138	campeggio	出去；外面	露营；露营地	Travel 2
+2152	cima	出去；外面	顶端；山顶	Directions 1
+2162	posizione	介绍；展示	位置；职位	Directions 1
+2190	spaventare	是	吓唬；使害怕	Feelings
+2195	sognare	是；长的	做梦；梦想	Feelings
+2196	sogno	是；长的	梦；梦想	Feelings
+2214	origine	根	起源；来源	Abs. Ob. 1
+2215	costruzione	工厂	建筑；建造	Abs. Ob. 1
+2243	struttura	是	结构；建筑物	Abs. Ob. 1
+2260	premio	保险	奖品；奖金	Sports
+2261	saltare	是；向上；来 向上	跳；跳过	Sports
+2264	partita	左边	比赛；场次	Sports
+2280	impegnato	向上	忙的；投入的	Adject. 3
+2288	eccellente	吻	优秀的；极好的	Adject. 3
+2300	costante	甚至	持续的；恒定的	Adject. 3
+2310	magari	我	也许；但愿	Adverbs 2
+2318	ben	好的	好；很好	Adverbs 2
+2324	oltretutto	那个	而且；此外	Adverbs 2
+2326	neanch'	甚至	也不；甚至不	Adverbs 2
+2337	talmente	那个；那些	如此；这么	Adverbs 2
+2358	appetito	一个；那个	食欲；胃口	Abs. Ob. 2
+2360	ritmo	尺寸；测量	节奏	Abs. Ob. 2
+2368	onore	信用	荣誉；名誉	Abs. Ob. 2
+2374	divisione	系列；电视剧	划分；分割；部门	Abs. Ob. 2
+2380	esecuzione	出去；外面	执行；实施	Abs. Ob. 2
+2401	maniera	习惯	方式；方法	Abs. Ob. 2
+2407	pensarci	它	想一想；考虑这件事	Infinit. 2
+2413	glielo	它	把它给他/她	Infinit. 2
+2414	immaginare	介绍；展示	想象	Infinit. 2
+2455	toccando	其他的	正在触碰	Gerund
+2458	correndo	去	正在跑	Gerund
+2459	piovendo	向下	正在下雨	Gerund
+2461	pagando	离开；关闭	正在付款	Gerund
+2469	suonando	玩；比赛	正在演奏；正在响	Gerund
+2470	perdendo	一个；那个	正在失去；正在错过	Gerund
+2476	seguendo	向上	正在跟随；按照	Gerund
+2478	finendo	离开；关闭	正在结束；正在完成	Gerund
+2483	usando	使用过	正在使用	Gerund
+2484	vivendo	去	正在生活；正在经历	Gerund
+2486	passando	乘客	正在经过；正在度过	Gerund
+2487	capendo	其他的	正在理解	Gerund
+2488	tenendo	出去；外面	正在拿着；正在保持	Gerund
+2494	lasciando	出发	正在离开；正在留下	Gerund
+2496	mettendo	向上	正在放；正在放置	Gerund
+2502	dando	向下	正在给；给予	Gerund
+2512	poeta	写	诗人	Arts 1
+2528	moda	方式	时尚；流行	Arts 1
+2534	disegno	是	图画；我画	Arts 1
+2538	eguaglianza	出去；外面	平等；相等	Abs. Ob. 3
+2546	liberazione	出口	解放；释放	Abs. Ob. 3
+2552	povertà	想要	贫困；贫穷	Abs. Ob. 3
+2559	concorrenza	比赛	竞争；竞争关系	Abs. Ob. 3
+2618	affare	展示	事情；生意；交易	Communic.
+2630	terreno	座位；地方	土地；地面；地形	Nature
+2656	atmosfera	方式	气氛；大气	Nature
+2685	industria	一个；那个	工业；产业	Business
+2702	spirito	方式	精神；灵魂	Spiritual
+2743	votare	一个；那个	投票	Politics
+2759	partito	出发	政党；党派	Politics

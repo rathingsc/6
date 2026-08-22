@@ -1,22 +1,73 @@
+import java.util.Properties
+
 plugins {
     id 'com.android.application'
 }
+
+// v3.1.3: keep a normal local fallback code, but allow Codemagic to inject a
+// monotonically increasing versionCode for every signed build.
+def defaultVersionCode = 44
+def resolvedVersionCode = project.hasProperty('versionCode')
+        ? project.property('versionCode').toString().toInteger()
+        : defaultVersionCode
+
+def localKeystoreProperties = new Properties()
+def localKeystoreFile = rootProject.file('keystore.properties')
+if (localKeystoreFile.exists()) {
+    localKeystoreFile.withInputStream { stream ->
+        localKeystoreProperties.load(stream)
+    }
+}
+
+def cmKeystorePath = System.getenv('CM_KEYSTORE_PATH')
+def cmKeystorePassword = System.getenv('CM_KEYSTORE_PASSWORD')
+def cmKeyAlias = System.getenv('CM_KEY_ALIAS')
+def cmKeyPassword = System.getenv('CM_KEY_PASSWORD')
+
+def hasCodemagicSigning = cmKeystorePath && cmKeystorePassword && cmKeyAlias && cmKeyPassword
+def hasLocalSigning = localKeystoreFile.exists()
+        && localKeystoreProperties['storeFile']
+        && localKeystoreProperties['storePassword']
+        && localKeystoreProperties['keyAlias']
+        && localKeystoreProperties['keyPassword']
 
 android {
     namespace 'com.italiano2774.nativeapp'
     compileSdk 35
 
     defaultConfig {
+        // Never change this applicationId. Android updates require the same package name.
         applicationId 'com.italiano2774.nativeapp'
         minSdk 26
         targetSdk 35
-        versionCode 41
-        versionName '3.1.0-native'
+        versionCode resolvedVersionCode
+        versionName '3.1.3-native'
+    }
+
+    signingConfigs {
+        release {
+            // Codemagic injects these variables from the permanent
+            // "zhongxue_release" signing identity configured in codemagic.yaml.
+            if (hasCodemagicSigning) {
+                storeFile file(cmKeystorePath)
+                storePassword cmKeystorePassword
+                keyAlias cmKeyAlias
+                keyPassword cmKeyPassword
+            } else if (hasLocalSigning) {
+                // Optional local release build. keystore.properties is intentionally
+                // ignored by Git and must point to the same permanent keystore.
+                storeFile rootProject.file(localKeystoreProperties['storeFile'])
+                storePassword localKeystoreProperties['storePassword']
+                keyAlias localKeystoreProperties['keyAlias']
+                keyPassword localKeystoreProperties['keyPassword']
+            }
+        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -24,6 +75,20 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// Make an unsigned/misconfigured release fail clearly instead of silently
+// producing an APK that cannot participate in the permanent update chain.
+gradle.taskGraph.whenReady { graph ->
+    def wantsRelease = graph.allTasks.any { task ->
+        task.name.toLowerCase().contains('release') &&
+                (task.name.toLowerCase().contains('assemble') || task.name.toLowerCase().contains('package'))
+    }
+    if (wantsRelease && !hasCodemagicSigning && !hasLocalSigning) {
+        throw new GradleException(
+                'Release signing is not configured. Use Codemagic signing identity "zhongxue_release" ' +
+                'or create a private keystore.properties pointing to the permanent keystore.')
     }
 }
 

@@ -89,16 +89,20 @@ def find_calls(clean,name):
         if depth==0: yield clean[pos:i-1]
 
 # 1. Root shape and build config
-for rel in ['app/build.gradle','build.gradle','settings.gradle','gradle.properties','codemagic.yaml','app/src/main/AndroidManifest.xml']:
+for rel in ['app/build.gradle','build.gradle','settings.gradle','gradle.properties','codemagic.yaml','app/src/main/AndroidManifest.xml','.gitignore','覆盖升级与签名说明.txt','tools/signing_config_check.py','signing-certificate-sha256.txt']:
     require(rel)
-checks['root files']=6
+checks['root files']=10
 if errors:
     for e in errors: print('ERROR:',e)
     sys.exit(1)
 app_gradle=read(APP/'build.gradle');root_gradle=read(ROOT/'build.gradle');cm=read(ROOT/'codemagic.yaml')
 for needle,msg in [
-    ("versionCode 41",'versionCode must be 41'),
-    ("versionName '3.1.0-native'",'versionName must be 3.1.0-native'),
+    ('def defaultVersionCode = 44','v3.1.3 local fallback versionCode must be 44'),
+    ('versionCode resolvedVersionCode','dynamic versionCode support missing'),
+    ("versionName '3.1.3-native'",'versionName must be 3.1.3-native'),
+    ("applicationId 'com.italiano2774.nativeapp'",'applicationId update identity changed'),
+    ('signingConfig signingConfigs.release','release signingConfig missing'),
+    ('CM_KEYSTORE_PATH','Codemagic release signing env wiring missing'),
     ('compileSdk 35','compileSdk must be 35'),('targetSdk 35','targetSdk must be 35'),('minSdk 26','minSdk must be 26'),
     ('JavaVersion.VERSION_17','Java source/target must be 17')]:
     if needle not in app_gradle: error(msg)
@@ -107,9 +111,20 @@ if '--gradle-version 8.11.1' not in cm: error('Codemagic must generate Gradle 8.
 if 'java: 17' not in cm: error('Codemagic JDK 17 declaration missing')
 if 'python3 tools/course_check.py' not in cm: error('Codemagic guided course semantic check step missing')
 if 'python3 tools/exercise_quality_check.py' not in cm: error('Codemagic exercise quality check step missing')
+if 'python3 tools/translation_quality_check.py' not in cm: error('Codemagic translation quality check step missing')
+if 'python3 tools/course_translation_quality_check.py' not in cm: error('Codemagic course translation quality check step missing')
 if 'python3 tools/release_gate.py' not in cm: error('Codemagic strict release gate step missing')
-if 'v3.1.0' not in cm: error('Codemagic workflow title must identify v3.1.0')
+if 'v3.1.3' not in cm: error('Codemagic workflow title must identify v3.1.3')
+if 'android_signing:' not in cm or '- zhongxue_release' not in cm: error('Codemagic permanent signing identity zhongxue_release missing')
+if ':app:assembleRelease' not in cm or 'app/build/outputs/apk/release/app-release.apk' not in cm: error('Codemagic must build/export signed release APK')
+if ':app:assembleDebug' in cm or 'app-debug.apk' in cm: error('Codemagic official workflow must not publish debug APK after v3.1.3')
+if 'python3 tools/signing_config_check.py' not in cm: error('Codemagic permanent signing config gate missing')
+if '-PversionCode="$UPDATE_VERSION_CODE"' not in cm: error('Codemagic monotonic versionCode injection missing')
 checks['build config']=1
+require('app/src/main/assets/translation_quality_v311.json')
+require('app/src/main/assets/course_translation_quality_v312.json')
+require('tools/translation_quality_check.py')
+require('tools/course_translation_quality_check.py')
 
 # 2. XML parse, resource inventory, duplicate IDs, risky attrs, touch targets
 inventory=collections.defaultdict(set); xml_files=list(RES.rglob('*.xml')); seen_resource_paths=set()
@@ -264,7 +279,7 @@ for p,s in java_text.items():
 checks['fragment layout/id']=1
 
 # 5. JSON + words/audio integrity
-required_assets=['words.json','word_quality_v22.json','word_quality_v25.json','word_quality_v26.json','word_families.json','frequent_phrases.json','preposition_exercises.json','writing_prompts.json','sentence_patterns.json','core_sentences.json','listening_courses.json','course_curriculum.json']
+required_assets=['words.json','word_quality_v22.json','word_quality_v25.json','word_quality_v26.json','word_families.json','frequent_phrases.json','preposition_exercises.json','writing_prompts.json','sentence_patterns.json','core_sentences.json','listening_courses.json','course_curriculum.json','translation_quality_v311.json','course_translation_quality_v312.json']
 parsed={}
 for name in required_assets:
     p=ASSETS/name
@@ -345,6 +360,14 @@ try:
     if not _next or _next.get('chinese')!='下一个；下一位' or _next.get('example')!='Qual è il prossimo treno?': error('il prossimo real-device regression not fixed')
     _sto=next((w for w in _words if int(w.get('id',0))==600),None)
     if not _sto or _sto.get('example')!='Sto cercando lavoro.': error('sto real-device regression not fixed')
+    _photo=next((w for w in _words if int(w.get('id',0))==729),None)
+    if not _photo or _photo.get('word')!='fotografia' or _photo.get('chinese')!='照片；摄影' or '地图' in _photo.get('chinese',''): error('v3.1.1 fotografia real-device translation regression not fixed')
+    _tq=json.load(open(ASSETS/'translation_quality_v311.json',encoding='utf-8'))
+    if _tq.get('version')!='3.1.1' or int(_tq.get('correctedCount',0))<131: error('v3.1.1 translation correction ledger is stale/incomplete')
+    _compra=next((w for w in _words if int(w.get('id',0))==882),None)
+    if not _compra or _compra.get('word')!='compra' or _compra.get('chinese')!='他/她/您买': error('v3.1.2 compra real-device translation regression not fixed')
+    _ctq=json.load(open(ASSETS/'course_translation_quality_v312.json',encoding='utf-8'))
+    if _ctq.get('version')!='3.1.2' or int(_ctq.get('correctedCount',0))<136 or int(_ctq.get('metadataFixCount',0))<29: error('v3.1.2 course translation ledger is stale/incomplete')
 except Exception as e: error(f'v3.0.4 words semantic check failed: {e}')
 
 # v3.0 user-facing/navigation source contract.
@@ -419,7 +442,7 @@ for idx,b in enumerate(blocks,1):
     Path(name).unlink(missing_ok=True)
     if r.returncode: error(f'codemagic script block {idx} shell syntax: {r.stderr.strip()}')
 checks['codemagic shell blocks']=len(blocks)
-order=[cm.find('python3 tools/preflight.py'),cm.find('python3 tools/regression_check.py'),cm.find('python3 tools/course_check.py'),cm.find('python3 tools/exercise_quality_check.py'),cm.find('python3 tools/release_gate.py'),cm.find(':app:assembleDebug'),cm.find(':app:testDebugUnitTest'),cm.find(':app:lintDebug')]
+order=[cm.find('python3 tools/preflight.py'),cm.find('python3 tools/regression_check.py'),cm.find('python3 tools/translation_quality_check.py'),cm.find('python3 tools/course_check.py'),cm.find('python3 tools/course_translation_quality_check.py'),cm.find('python3 tools/exercise_quality_check.py'),cm.find('python3 tools/signing_config_check.py'),cm.find('python3 tools/release_gate.py'),cm.find('Verify permanent signing identity'),cm.find(':app:assembleRelease'),cm.find(':app:testDebugUnitTest'),cm.find(':app:lintRelease')]
 if any(x<0 for x in order) or order!=sorted(order): error(f'Codemagic gate/build/test/lint order invalid: {order}')
 
 # 8. Local-only/no accidental WebView or generative-AI SDK markers.

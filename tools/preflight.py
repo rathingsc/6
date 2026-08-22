@@ -34,7 +34,7 @@ for p in (res/'values').glob('*.xml'):
     t=p.read_text(encoding='utf-8');colors.update(re.findall(r'<color\s+name="([^"]+)"',t));strings.update(re.findall(r'<string\s+name="([^"]+)"',t))
 # JSON assets
 assets=ROOT/'app/src/main/assets'
-required_assets=['words.json','word_quality_v22.json','word_quality_v25.json','word_quality_v26.json','word_families.json','frequent_phrases.json','preposition_exercises.json','writing_prompts.json','sentence_patterns.json','core_sentences.json','listening_courses.json','course_curriculum.json']
+required_assets=['words.json','word_quality_v22.json','word_quality_v25.json','word_quality_v26.json','word_families.json','frequent_phrases.json','preposition_exercises.json','writing_prompts.json','sentence_patterns.json','core_sentences.json','listening_courses.json','course_curriculum.json','translation_quality_v311.json']
 for name in required_assets:
     req(assets/name)
 for ap in assets.glob('*.json'):
@@ -108,11 +108,18 @@ req(ROOT/'app/src/main/assets/course_curriculum.json')
 req(ROOT/'tools/regression_check.py')
 req(ROOT/'tools/course_check.py')
 req(ROOT/'tools/exercise_quality_check.py')
+req(ROOT/'tools/translation_quality_check.py')
+req(ROOT/'tools/course_translation_quality_check.py')
+req(ROOT/'app/src/main/assets/course_translation_quality_v312.json')
 req(ROOT/'tools/release_gate.py')
+req(ROOT/'tools/signing_config_check.py')
+req(ROOT/'覆盖升级与签名说明.txt')
+req(ROOT/'signing-certificate-sha256.txt')
+req(ROOT/'.gitignore')
 # v3.0 repository synchronization checks. Run before Gradle so stale mixed-source uploads fail early.
 cm_text=(ROOT/'codemagic.yaml').read_text(encoding='utf-8')
-if 'v3.1.0' not in cm_text or 'python3 tools/exercise_quality_check.py' not in cm_text or 'python3 tools/release_gate.py' not in cm_text:
-    errors.append('codemagic.yaml is stale/incompletely uploaded: v3.1.0 exercise-quality + strict-release workflow is required')
+if 'v3.1.3' not in cm_text or 'python3 tools/translation_quality_check.py' not in cm_text or 'python3 tools/course_translation_quality_check.py' not in cm_text or 'python3 tools/exercise_quality_check.py' not in cm_text or 'python3 tools/signing_config_check.py' not in cm_text or 'python3 tools/release_gate.py' not in cm_text or 'android_signing:' not in cm_text or '- zhongxue_release' not in cm_text or ':app:assembleRelease' not in cm_text:
+    errors.append('codemagic.yaml is stale/incompletely uploaded: v3.1.3 permanent-signing release workflow is required')
 grammar_diag=(ROOT/'app/src/main/java/com/italiano2774/nativeapp/GrammarDiagnosisFragment.java')
 req(grammar_diag)
 if grammar_diag.exists():
@@ -122,8 +129,10 @@ if grammar_diag.exists():
     if 'setAllCaps(false)' not in gd:
         errors.append('GrammarDiagnosisFragment.java synchronization marker missing: expected setAllCaps(false)')
 build_text=(ROOT/'app/build.gradle').read_text(encoding='utf-8')
-if "versionName '3.1.0-native'" not in build_text: errors.append('v3.1.0 versionName missing or app/build.gradle was not fully overwritten')
-if 'versionCode 41' not in build_text: errors.append('v3.1.0 versionCode missing or app/build.gradle was not fully overwritten')
+if "versionName '3.1.3-native'" not in build_text: errors.append('v3.1.3 versionName missing or app/build.gradle was not fully overwritten')
+if 'def defaultVersionCode = 44' not in build_text or 'versionCode resolvedVersionCode' not in build_text: errors.append('v3.1.3 dynamic/fallback versionCode configuration missing')
+if "applicationId 'com.italiano2774.nativeapp'" not in build_text: errors.append('permanent update package id changed')
+if 'signingConfig signingConfigs.release' not in build_text or 'CM_KEYSTORE_PATH' not in build_text: errors.append('v3.1.3 permanent release signing config missing')
 if 'fallbackToDestructiveMigration' in (ROOT/'app/src/main/java/com/italiano2774/nativeapp/LearningDatabase.java').read_text(encoding='utf-8'): errors.append('v2.8 must not use destructive Room fallback')
 if 'DiffUtil' not in (ROOT/'app/src/main/java/com/italiano2774/nativeapp/WordAdapter.java').read_text(encoding='utf-8'): warnings.append('WordAdapter DiffUtil optimization missing')
 

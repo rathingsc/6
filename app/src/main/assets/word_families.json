@@ -17,14 +17,14 @@
         "word": "parlo",
         "chinese": "我说；我会说",
         "lemma": "parlare",
-        "formInfo": "parlare · 直陈式现在时 · io 第一人称单数"
+        "formInfo": "io parlo · 直陈式现在时第一人称单数"
       },
       {
         "id": 165,
         "word": "parli",
         "chinese": "你说；你会说",
         "lemma": "parlare",
-        "formInfo": "parlare · 直陈式现在时 · tu 第二人称单数"
+        "formInfo": "tu parli · 直陈式现在时第二人称单数"
       },
       {
         "id": 473,
@@ -108,21 +108,21 @@
       {
         "id": 963,
         "word": "conosco",
-        "chinese": "知道；我 知道",
+        "chinese": "我认识；我了解",
         "lemma": "conoscere",
         "formInfo": "conoscere · 直陈式现在时 · io 第一人称单数"
       },
       {
         "id": 958,
         "word": "conosci",
-        "chinese": "知道；见面；知道过",
+        "chinese": "你认识；你了解",
         "lemma": "conoscere",
         "formInfo": "conoscere · 直陈式现在时 · tu 第二人称单数"
       },
       {
         "id": 1115,
         "word": "conosce",
-        "chinese": "知道；提供；见面",
+        "chinese": "他/她/您认识；了解",
         "lemma": "conoscere",
         "formInfo": "conoscere · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -144,21 +144,21 @@
       {
         "id": 590,
         "word": "leggere",
-        "chinese": "读",
+        "chinese": "读；阅读",
         "lemma": "leggere",
         "formInfo": "动词原形（不定式）"
       },
       {
         "id": 1153,
         "word": "leggo",
-        "chinese": "我 读；读",
+        "chinese": "我读；我阅读",
         "lemma": "leggere",
         "formInfo": "leggere · 直陈式现在时 · io 第一人称单数"
       },
       {
         "id": 1591,
         "word": "legge",
-        "chinese": "法律",
+        "chinese": "他/她读；您读",
         "lemma": "leggere",
         "formInfo": "leggere · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -266,14 +266,14 @@
       {
         "id": 908,
         "word": "preferisco",
-        "chinese": "我；我 喜欢",
+        "chinese": "我更喜欢",
         "lemma": "preferire",
         "formInfo": "preferire · 直陈式现在时 · io"
       },
       {
         "id": 1057,
         "word": "preferisci",
-        "chinese": "你；你 喜欢",
+        "chinese": "你更喜欢",
         "lemma": "preferire",
         "formInfo": "preferire · 直陈式现在时 · tu"
       },
@@ -302,14 +302,14 @@
       {
         "id": 1585,
         "word": "scrivo",
-        "chinese": "写；我 写",
+        "chinese": "我写",
         "lemma": "scrivere",
         "formInfo": "scrivere · 直陈式现在时 · io 第一人称单数"
       },
       {
         "id": 1583,
         "word": "scrive",
-        "chinese": "写；他 她 写",
+        "chinese": "他/她/您写",
         "lemma": "scrivere",
         "formInfo": "scrivere · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -333,7 +333,7 @@
         "word": "studio",
         "chinese": "学习；书房；我学习",
         "lemma": "studiare",
-        "formInfo": "studiare · io 现在时“我学习”；同时 studio 也可作名词“书房/学习”"
+        "formInfo": "io studio · 直陈式现在时第一人称单数"
       },
       {
         "id": 496,
@@ -403,9 +403,9 @@
       {
         "id": 2617,
         "word": "invito",
-        "chinese": "邀请",
-        "lemma": "invitare",
-        "formInfo": "invitare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "邀请；请柬",
+        "lemma": "invito",
+        "formInfo": ""
       },
       {
         "id": 874,
@@ -461,7 +461,7 @@
       {
         "id": 1048,
         "word": "paghi",
-        "chinese": "支付；见面；她",
+        "chinese": "你付款；你支付",
         "lemma": "pagare",
         "formInfo": "pagare · 直陈式现在时 · tu 第二人称单数"
       },
@@ -548,9 +548,9 @@
       {
         "id": 2124,
         "word": "visita",
-        "chinese": "检查；就诊",
-        "lemma": "visitare",
-        "formInfo": "visitare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "chinese": "访问；参观；拜访",
+        "lemma": "visita",
+        "formInfo": ""
       },
       {
         "id": 1349,
@@ -577,7 +577,7 @@
       {
         "id": 882,
         "word": "compra",
-        "chinese": "她；他；你",
+        "chinese": "他/她/您买",
         "lemma": "comprare",
         "formInfo": "comprare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       }
@@ -599,7 +599,7 @@
       {
         "id": 2215,
         "word": "costruzione",
-        "chinese": "工厂",
+        "chinese": "建筑；建造",
         "lemma": "",
         "formInfo": ""
       }
@@ -681,8 +681,8 @@
         "id": 183,
         "word": "lavoro",
         "chinese": "工作",
-        "lemma": "lavorare",
-        "formInfo": "lavorare · io 现在时“我工作”；同时 lavoro 也可作名词“工作”"
+        "lemma": "lavoro",
+        "formInfo": ""
       },
       {
         "id": 497,
@@ -907,7 +907,7 @@
       {
         "id": 271,
         "word": "fatta",
-        "chinese": "事实",
+        "chinese": "做好的；完成的",
         "lemma": "fare",
         "formInfo": "fare · 过去分词/复合时态常见词形"
       },
@@ -973,14 +973,14 @@
         "word": "lavori",
         "chinese": "你工作；工作",
         "lemma": "lavorare",
-        "formInfo": "lavorare · 直陈式现在时 · tu 第二人称单数"
+        "formInfo": "tu lavori · 直陈式现在时第二人称单数"
       },
       {
         "id": 183,
         "word": "lavoro",
         "chinese": "工作",
-        "lemma": "lavorare",
-        "formInfo": "lavorare · io 现在时“我工作”；同时 lavoro 也可作名词“工作”"
+        "lemma": "lavoro",
+        "formInfo": ""
       },
       {
         "id": 454,
@@ -1042,14 +1042,14 @@
       {
         "id": 590,
         "word": "leggere",
-        "chinese": "读",
+        "chinese": "读；阅读",
         "lemma": "leggere",
         "formInfo": "动词原形（不定式）"
       },
       {
         "id": 1153,
         "word": "leggo",
-        "chinese": "我 读；读",
+        "chinese": "我读；我阅读",
         "lemma": "leggere",
         "formInfo": "leggere · 直陈式现在时 · io 第一人称单数"
       },
@@ -1070,14 +1070,14 @@
       {
         "id": 1591,
         "word": "legge",
-        "chinese": "法律",
+        "chinese": "他/她读；您读",
         "lemma": "leggere",
         "formInfo": "leggere · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
       {
         "id": 1592,
         "word": "leggi",
-        "chinese": "法律",
+        "chinese": "你读；阅读",
         "lemma": "leggere",
         "formInfo": "leggere · 直陈式现在时 · tu 第二人称单数"
       },
@@ -1250,14 +1250,14 @@
         "word": "abbiamo",
         "chinese": "有",
         "lemma": "avere",
-        "formInfo": "avere · 直陈式现在时 · noi"
+        "formInfo": "noi abbiamo · 直陈式现在时第一人称复数"
       },
       {
         "id": 293,
         "word": "avete",
         "chinese": "有",
         "lemma": "avere",
-        "formInfo": "avere · 直陈式现在时 · voi"
+        "formInfo": "voi avete · 直陈式现在时第二人称复数"
       },
       {
         "id": 695,
@@ -1284,21 +1284,21 @@
       {
         "id": 601,
         "word": "bevo",
-        "chinese": "我 喝；喝",
+        "chinese": "我喝；喝",
         "lemma": "bere",
         "formInfo": "bere · 直陈式现在时 · io"
       },
       {
         "id": 988,
         "word": "bevi",
-        "chinese": "喝；你 喝",
+        "chinese": "你喝",
         "lemma": "bere",
         "formInfo": "bere · 直陈式现在时 · tu"
       },
       {
         "id": 1015,
         "word": "bevete",
-        "chinese": "喝；你 喝",
+        "chinese": "你们喝",
         "lemma": "bere",
         "formInfo": "bere · 直陈式现在时 · voi"
       },
@@ -1312,14 +1312,14 @@
       {
         "id": 1044,
         "word": "beviamo",
-        "chinese": "我们 喝",
+        "chinese": "我们喝",
         "lemma": "bere",
         "formInfo": "bere · 直陈式现在时 · noi"
       },
       {
         "id": 1594,
         "word": "bevono",
-        "chinese": "喝；他们 喝",
+        "chinese": "他们/她们喝",
         "lemma": "bere",
         "formInfo": "bere · 直陈式现在时 · loro"
       }
@@ -1334,14 +1334,14 @@
       {
         "id": 958,
         "word": "conosci",
-        "chinese": "知道；见面；知道过",
+        "chinese": "你认识；你了解",
         "lemma": "conoscere",
         "formInfo": "conoscere · 直陈式现在时 · tu 第二人称单数"
       },
       {
         "id": 963,
         "word": "conosco",
-        "chinese": "知道；我 知道",
+        "chinese": "我认识；我了解",
         "lemma": "conoscere",
         "formInfo": "conoscere · 直陈式现在时 · io 第一人称单数"
       },
@@ -1369,7 +1369,7 @@
       {
         "id": 1115,
         "word": "conosce",
-        "chinese": "知道；提供；见面",
+        "chinese": "他/她/您认识；了解",
         "lemma": "conoscere",
         "formInfo": "conoscere · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -1450,7 +1450,7 @@
         "word": "devo",
         "chinese": "我必须；我得",
         "lemma": "dovere",
-        "formInfo": "dovere · 直陈式现在时 · io"
+        "formInfo": "io devo · 直陈式现在时第一人称单数"
       },
       {
         "id": 419,
@@ -1507,14 +1507,14 @@
         "word": "parli",
         "chinese": "你说；你会说",
         "lemma": "parlare",
-        "formInfo": "parlare · 直陈式现在时 · tu 第二人称单数"
+        "formInfo": "tu parli · 直陈式现在时第二人称单数"
       },
       {
         "id": 174,
         "word": "parlo",
         "chinese": "我说；我会说",
         "lemma": "parlare",
-        "formInfo": "parlare · 直陈式现在时 · io 第一人称单数"
+        "formInfo": "io parlo · 直陈式现在时第一人称单数"
       },
       {
         "id": 498,
@@ -1564,7 +1564,7 @@
         "word": "puoi",
         "chinese": "你能；你可以",
         "lemma": "potere",
-        "formInfo": "potere · 直陈式现在时 · tu"
+        "formInfo": "tu puoi · 直陈式现在时第二人称单数"
       },
       {
         "id": 412,
@@ -1626,7 +1626,7 @@
       {
         "id": 908,
         "word": "preferisco",
-        "chinese": "我；我 喜欢",
+        "chinese": "我更喜欢",
         "lemma": "preferire",
         "formInfo": "preferire · 直陈式现在时 · io"
       },
@@ -1640,7 +1640,7 @@
       {
         "id": 1057,
         "word": "preferisci",
-        "chinese": "你；你 喜欢",
+        "chinese": "你更喜欢",
         "lemma": "preferire",
         "formInfo": "preferire · 直陈式现在时 · tu"
       },
@@ -1654,7 +1654,7 @@
       {
         "id": 1081,
         "word": "preferiscono",
-        "chinese": "他们；他们 喜欢",
+        "chinese": "他们/她们更喜欢",
         "lemma": "preferire",
         "formInfo": "preferire · 直陈式现在时 · loro"
       },
@@ -1804,7 +1804,7 @@
       {
         "id": 1583,
         "word": "scrive",
-        "chinese": "写；他 她 写",
+        "chinese": "他/她/您写",
         "lemma": "scrivere",
         "formInfo": "scrivere · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -1818,14 +1818,14 @@
       {
         "id": 1585,
         "word": "scrivo",
-        "chinese": "写；我 写",
+        "chinese": "我写",
         "lemma": "scrivere",
         "formInfo": "scrivere · 直陈式现在时 · io 第一人称单数"
       },
       {
         "id": 1586,
         "word": "scrivi",
-        "chinese": "写；写 向下；写 其他的",
+        "chinese": "你写",
         "lemma": "scrivere",
         "formInfo": "scrivere · 直陈式现在时 · tu 第二人称单数"
       },
@@ -1861,35 +1861,35 @@
       {
         "id": 1212,
         "word": "esci",
-        "chinese": "你 离开",
+        "chinese": "你出去；你离开",
         "lemma": "uscire",
         "formInfo": "uscire · 直陈式现在时 · tu"
       },
       {
         "id": 1234,
         "word": "escono",
-        "chinese": "他们 去 出去；外面；他们 来 出去",
+        "chinese": "他们/她们出去；离开",
         "lemma": "uscire",
         "formInfo": "uscire · 直陈式现在时 · loro"
       },
       {
         "id": 1240,
         "word": "esce",
-        "chinese": "去 出去；外面；她 去 出去",
+        "chinese": "他/她/它出去；离开",
         "lemma": "uscire",
         "formInfo": "uscire · 直陈式现在时 · lui/lei/Lei"
       },
       {
         "id": 1251,
         "word": "esco",
-        "chinese": "我 离开；我 去 出去；外面",
+        "chinese": "我出去；我离开",
         "lemma": "uscire",
         "formInfo": "uscire · 直陈式现在时 · io"
       },
       {
         "id": 1255,
         "word": "uscite",
-        "chinese": "出口",
+        "chinese": "你们出去；你们离开",
         "lemma": "uscire",
         "formInfo": "uscire · 直陈式现在时 · voi"
       }
@@ -1906,14 +1906,14 @@
         "word": "voglio",
         "chinese": "我想要",
         "lemma": "volere",
-        "formInfo": "volere · 直陈式现在时 · io"
+        "formInfo": "io voglio · 直陈式现在时第一人称单数"
       },
       {
         "id": 194,
         "word": "vuoi",
         "chinese": "你想要",
         "lemma": "volere",
-        "formInfo": "volere · 直陈式现在时 · tu"
+        "formInfo": "tu vuoi · 直陈式现在时第二人称单数"
       },
       {
         "id": 384,
@@ -2068,30 +2068,30 @@
       {
         "id": 1218,
         "word": "danno",
-        "chinese": "发送；派遣",
+        "chinese": "他们给；损害",
         "lemma": "dare",
         "formInfo": "dare · 直陈式现在时 · loro"
       },
       {
         "id": 1226,
         "word": "dà",
-        "chinese": "她 gives；他 gives；它 gives",
+        "chinese": "他/她/它给；您给",
         "lemma": "dare",
         "formInfo": "dare · 直陈式现在时 · lui/lei/Lei"
       },
       {
         "id": 1545,
         "word": "date",
-        "chinese": "日期",
+        "chinese": "你们给；给",
         "lemma": "dare",
         "formInfo": "dare · 直陈式现在时 · voi"
       },
       {
         "id": 1716,
         "word": "dai",
-        "chinese": "支付；展示",
-        "lemma": "dare",
-        "formInfo": "dare · 直陈式现在时 · tu"
+        "chinese": "从……；由……（da+i）",
+        "lemma": "",
+        "formInfo": "da + i 的缩合形式（阳性复数）"
       }
     ]
   },
@@ -2111,7 +2111,7 @@
       {
         "id": 872,
         "word": "giro",
-        "chinese": "出去",
+        "chinese": "一圈；周围；转",
         "lemma": "girare",
         "formInfo": "girare · 直陈式现在时 · io 第一人称单数"
       },
@@ -2125,7 +2125,7 @@
       {
         "id": 940,
         "word": "gira",
-        "chinese": "转动；转向；它",
+        "chinese": "他/她/您转；转弯",
         "lemma": "girare",
         "formInfo": "girare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -2211,14 +2211,14 @@
       {
         "id": 1552,
         "word": "sta",
-        "chinese": "是；合适；他 是",
+        "chinese": "他/她/您待着；处于",
         "lemma": "stare",
         "formInfo": "stare · 直陈式现在时 · lui/lei/Lei"
       },
       {
         "id": 1570,
         "word": "stai",
-        "chinese": "你 是",
+        "chinese": "你待着；你处于",
         "lemma": "stare",
         "formInfo": "stare · 直陈式现在时 · tu"
       }
@@ -2284,13 +2284,13 @@
         "id": 1599,
         "word": "cena",
         "chinese": "晚餐",
-        "lemma": "cenare",
-        "formInfo": "cenare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "lemma": "cena",
+        "formInfo": ""
       },
       {
         "id": 1637,
         "word": "ceniamo",
-        "chinese": "有；吃；是",
+        "chinese": "我们吃晚饭",
         "lemma": "cenare",
         "formInfo": "cenare · 直陈式现在时 · noi 第一人称复数"
       }
@@ -2307,7 +2307,7 @@
         "word": "cerco",
         "chinese": "我在找；我寻找",
         "lemma": "cercare",
-        "formInfo": "cercare · 直陈式现在时 · io 第一人称单数"
+        "formInfo": "io cerco · 直陈式现在时第一人称单数"
       },
       {
         "id": 513,
@@ -2355,7 +2355,7 @@
       {
         "id": 882,
         "word": "compra",
-        "chinese": "她；他；你",
+        "chinese": "他/她/您买",
         "lemma": "comprare",
         "formInfo": "comprare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -2386,7 +2386,7 @@
         "word": "costano",
         "chinese": "花费；值",
         "lemma": "costare",
-        "formInfo": "costare · 直陈式现在时 · loro 第三人称复数"
+        "formInfo": "loro costano · 直陈式现在时第三人称复数"
       },
       {
         "id": 696,
@@ -2399,8 +2399,8 @@
         "id": 2688,
         "word": "costo",
         "chinese": "成本；价格",
-        "lemma": "costare",
-        "formInfo": "costare · 直陈式现在时 · io 第一人称单数"
+        "lemma": "costo",
+        "formInfo": ""
       }
     ]
   },
@@ -2413,14 +2413,14 @@
       {
         "id": 485,
         "word": "cucino",
-        "chinese": "我 厨师；做饭；做 我 厨师",
+        "chinese": "我做饭",
         "lemma": "cucinare",
         "formInfo": "cucinare · 直陈式现在时 · io 第一人称单数"
       },
       {
         "id": 490,
         "word": "cucini",
-        "chinese": "做饭；厨师；是 你",
+        "chinese": "你做饭",
         "lemma": "cucinare",
         "formInfo": "cucinare · 直陈式现在时 · tu 第二人称单数"
       },
@@ -2492,14 +2492,14 @@
       {
         "id": 487,
         "word": "lavo",
-        "chinese": "洗；我；我 洗",
+        "chinese": "我洗；我清洗",
         "lemma": "lavare",
         "formInfo": "lavare · 直陈式现在时 · io 第一人称单数"
       },
       {
         "id": 491,
         "word": "lavi",
-        "chinese": "洗；你 洗",
+        "chinese": "你洗；你清洗",
         "lemma": "lavare",
         "formInfo": "lavare · 直陈式现在时 · tu 第二人称单数"
       },
@@ -2559,7 +2559,7 @@
         "word": "studio",
         "chinese": "学习；书房；我学习",
         "lemma": "studiare",
-        "formInfo": "studiare · io 现在时“我学习”；同时 studio 也可作名词“书房/学习”"
+        "formInfo": "io studio · 直陈式现在时第一人称单数"
       },
       {
         "id": 368,
@@ -2595,14 +2595,14 @@
         "word": "vivi",
         "chinese": "你住；你生活",
         "lemma": "vivere",
-        "formInfo": "vivere · 直陈式现在时 · tu 第二人称单数"
+        "formInfo": "tu vivi · 直陈式现在时第二人称单数"
       },
       {
         "id": 186,
         "word": "vivo",
         "chinese": "活着的；我住；我生活",
         "lemma": "vivere",
-        "formInfo": "vivere · 直陈式现在时 · io 第一人称单数"
+        "formInfo": "io vivo · 直陈式现在时第一人称单数"
       },
       {
         "id": 451,
@@ -2730,9 +2730,9 @@
       {
         "id": 2531,
         "word": "ballo",
-        "chinese": "球；跳舞",
-        "lemma": "ballare",
-        "formInfo": "ballare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "舞蹈；舞会",
+        "lemma": "ballo",
+        "formInfo": ""
       }
     ]
   },
@@ -2818,8 +2818,8 @@
         "id": 2167,
         "word": "inizio",
         "chinese": "开始",
-        "lemma": "iniziare",
-        "formInfo": "iniziare · 直陈式现在时 · io 第一人称单数"
+        "lemma": "inizio",
+        "formInfo": ""
       }
     ]
   },
@@ -2868,14 +2868,14 @@
       {
         "id": 494,
         "word": "mangi",
-        "chinese": "你 吃；做 你 吃；吃",
+        "chinese": "你吃",
         "lemma": "mangiare",
         "formInfo": "mangiare · 直陈式现在时 · tu 第二人称单数"
       },
       {
         "id": 1341,
         "word": "mangiato",
-        "chinese": "有过；使用过 向上",
+        "chinese": "吃过；吃了",
         "lemma": "mangiare",
         "formInfo": "mangiare · 过去分词/复合时态常见词形"
       }
@@ -2890,7 +2890,7 @@
       {
         "id": 895,
         "word": "metti",
-        "chinese": "放；保持；地方",
+        "chinese": "你放；你穿上",
         "lemma": "mettere",
         "formInfo": "mettere · 直陈式现在时 · tu 第二人称单数"
       },
@@ -3013,7 +3013,7 @@
       {
         "id": 1048,
         "word": "paghi",
-        "chinese": "支付；见面；她",
+        "chinese": "你付款；你支付",
         "lemma": "pagare",
         "formInfo": "pagare · 直陈式现在时 · tu 第二人称单数"
       },
@@ -3036,8 +3036,8 @@
         "id": 802,
         "word": "parte",
         "chinese": "部分",
-        "lemma": "partire",
-        "formInfo": "partire · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "lemma": "parte",
+        "formInfo": ""
       },
       {
         "id": 833,
@@ -3072,15 +3072,15 @@
         "id": 1003,
         "word": "porta",
         "chinese": "门",
-        "lemma": "portare",
-        "formInfo": "portare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "lemma": "porta",
+        "formInfo": ""
       },
       {
         "id": 1885,
         "word": "porto",
         "chinese": "港口",
-        "lemma": "portare",
-        "formInfo": "portare · 直陈式现在时 · io 第一人称单数"
+        "lemma": "porto",
+        "formInfo": ""
       }
     ]
   },
@@ -3100,7 +3100,7 @@
       {
         "id": 1636,
         "word": "pranzano",
-        "chinese": "有",
+        "chinese": "他们吃午饭",
         "lemma": "pranzare",
         "formInfo": "pranzare · 直陈式现在时 · loro 第三人称复数"
       },
@@ -3108,8 +3108,8 @@
         "id": 1647,
         "word": "pranzo",
         "chinese": "午餐",
-        "lemma": "pranzare",
-        "formInfo": "pranzare · 直陈式现在时 · io 第一人称单数"
+        "lemma": "pranzo",
+        "formInfo": ""
       }
     ]
   },
@@ -3501,9 +3501,9 @@
       {
         "id": 2390,
         "word": "arrivo",
-        "chinese": "到达",
-        "lemma": "arrivare",
-        "formInfo": "arrivare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "到达；抵达",
+        "lemma": "arrivo",
+        "formInfo": ""
       }
     ]
   },
@@ -3524,8 +3524,8 @@
         "id": 2231,
         "word": "aspetto",
         "chinese": "方面；外观",
-        "lemma": "aspettare",
-        "formInfo": "aspettare · 直陈式现在时 · io 第一人称单数"
+        "lemma": "aspetto",
+        "formInfo": ""
       }
     ]
   },
@@ -3545,7 +3545,7 @@
       {
         "id": 2154,
         "word": "attraverso",
-        "chinese": "通过；去",
+        "chinese": "穿过；通过；横跨",
         "lemma": "attraversare",
         "formInfo": "attraversare · 直陈式现在时 · io 第一人称单数"
       }
@@ -3714,7 +3714,7 @@
       {
         "id": 1320,
         "word": "cade",
-        "chinese": "掉下；跌倒；来 向下",
+        "chinese": "他/她/它掉下；跌倒",
         "lemma": "cadere",
         "formInfo": "cadere · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       },
@@ -3744,8 +3744,8 @@
         "id": 2386,
         "word": "cambio",
         "chinese": "更换；兑换；变化",
-        "lemma": "cambiare",
-        "formInfo": "cambiare · 直陈式现在时 · io 第一人称单数"
+        "lemma": "cambio",
+        "formInfo": ""
       }
     ]
   },
@@ -3824,7 +3824,7 @@
       {
         "id": 1426,
         "word": "capisco",
-        "chinese": "明白；看见过；我 明白",
+        "chinese": "我明白；我理解",
         "lemma": "capire",
         "formInfo": "capire · 直陈式现在时 · io"
       },
@@ -4007,7 +4007,7 @@
       {
         "id": 881,
         "word": "chiama",
-        "chinese": "是；她；他",
+        "chinese": "他/她/您叫；打电话",
         "lemma": "chiamare",
         "formInfo": "chiamare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
       }
@@ -4205,7 +4205,7 @@
       {
         "id": 2534,
         "word": "disegno",
-        "chinese": "是",
+        "chinese": "图画；我画",
         "lemma": "disegnare",
         "formInfo": "disegnare · 直陈式现在时 · io 第一人称单数"
       }
@@ -4315,9 +4315,9 @@
       {
         "id": 1728,
         "word": "entro",
-        "chinese": "里面；有",
-        "lemma": "entrare",
-        "formInfo": "entrare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "在……以内；在……之前",
+        "lemma": "",
+        "formInfo": "介词/副词：在……以内；在……之前"
       }
     ]
   },
@@ -4462,16 +4462,16 @@
       {
         "id": 1990,
         "word": "fumare",
-        "chinese": "离开；关闭",
+        "chinese": "吸烟；冒烟",
         "lemma": "fumare",
         "formInfo": "动词原形（不定式）"
       },
       {
         "id": 2629,
         "word": "fumo",
-        "chinese": "烟",
-        "lemma": "fumare",
-        "formInfo": "fumare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "烟；烟雾",
+        "lemma": "fumo",
+        "formInfo": ""
       }
     ]
   },
@@ -4689,7 +4689,7 @@
       {
         "id": 1378,
         "word": "guido",
-        "chinese": "拿；带；乘坐",
+        "chinese": "我开车；我驾驶",
         "lemma": "guidare",
         "formInfo": "guidare · 直陈式现在时 · io 第一人称单数"
       }
@@ -4712,8 +4712,8 @@
         "id": 2684,
         "word": "incontro",
         "chinese": "见面；会议",
-        "lemma": "incontrare",
-        "formInfo": "incontrare · 直陈式现在时 · io 第一人称单数"
+        "lemma": "incontro",
+        "formInfo": ""
       }
     ]
   },
@@ -4821,9 +4821,9 @@
       {
         "id": 2617,
         "word": "invito",
-        "chinese": "邀请",
-        "lemma": "invitare",
-        "formInfo": "invitare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "邀请；请柬",
+        "lemma": "invito",
+        "formInfo": ""
       }
     ]
   },
@@ -4880,7 +4880,7 @@
       {
         "id": 197,
         "word": "lasci",
-        "chinese": "部分",
+        "chinese": "你留下；你让",
         "lemma": "lasciare",
         "formInfo": "lasciare · 直陈式现在时 · tu 第二人称单数"
       },
@@ -5064,8 +5064,8 @@
         "id": 2700,
         "word": "mente",
         "chinese": "头脑；思维",
-        "lemma": "mentire",
-        "formInfo": "mentire · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "lemma": "mente",
+        "formInfo": ""
       }
     ]
   },
@@ -5452,14 +5452,14 @@
       {
         "id": 1965,
         "word": "parecchia",
-        "chinese": "好的",
+        "chinese": "很多；相当多",
         "lemma": "",
         "formInfo": ""
       },
       {
         "id": 1963,
         "word": "parecchie",
-        "chinese": "好的；少数；几个",
+        "chinese": "相当多；不少",
         "lemma": "parecchia",
         "formInfo": "parecchia · 阴性复数"
       }
@@ -5474,14 +5474,14 @@
       {
         "id": 2759,
         "word": "partito",
-        "chinese": "出发",
+        "chinese": "政党；党派",
         "lemma": "",
         "formInfo": ""
       },
       {
         "id": 2264,
         "word": "partita",
-        "chinese": "左边",
+        "chinese": "比赛；场次",
         "lemma": "partito",
         "formInfo": "partito · 阴性单数"
       }
@@ -5519,8 +5519,8 @@
         "id": 1038,
         "word": "pesca",
         "chinese": "桃子",
-        "lemma": "pescare",
-        "formInfo": "pescare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "lemma": "pesca",
+        "formInfo": ""
       },
       {
         "id": 1992,
@@ -5584,7 +5584,7 @@
       {
         "id": 492,
         "word": "piangi",
-        "chinese": "哭；你；你 哭",
+        "chinese": "你哭",
         "lemma": "piangere",
         "formInfo": "piangere · 直陈式现在时 · tu 第二人称单数"
       },
@@ -5635,7 +5635,7 @@
       {
         "id": 2011,
         "word": "piovere",
-        "chinese": "向下",
+        "chinese": "下雨",
         "lemma": "piovere",
         "formInfo": "动词原形（不定式）"
       }
@@ -5723,9 +5723,9 @@
       {
         "id": 2087,
         "word": "prova",
-        "chinese": "活动；知道；感觉",
-        "lemma": "provare",
-        "formInfo": "provare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "chinese": "测试；考试；试验",
+        "lemma": "prova",
+        "formInfo": ""
       }
     ]
   },
@@ -5893,13 +5893,13 @@
         "id": 2571,
         "word": "ricerca",
         "chinese": "搜索；研究",
-        "lemma": "ricercare",
-        "formInfo": "ricercare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "lemma": "ricerca",
+        "formInfo": ""
       },
       {
         "id": 2580,
         "word": "ricercare",
-        "chinese": "某人；找到；看",
+        "chinese": "研究；寻找；搜寻",
         "lemma": "ricercare",
         "formInfo": "动词原形（不定式）"
       }
@@ -5936,16 +5936,16 @@
       {
         "id": 1837,
         "word": "ritornare",
-        "chinese": "发送；派遣",
+        "chinese": "返回；回来",
         "lemma": "ritornare",
         "formInfo": "动词原形（不定式）"
       },
       {
         "id": 2393,
         "word": "ritorno",
-        "chinese": "返程",
-        "lemma": "ritornare",
-        "formInfo": "ritornare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "返回；返程",
+        "lemma": "ritorno",
+        "formInfo": ""
       }
     ]
   },
@@ -6112,16 +6112,16 @@
       {
         "id": 2195,
         "word": "sognare",
-        "chinese": "是；长的",
+        "chinese": "做梦；梦想",
         "lemma": "sognare",
         "formInfo": "动词原形（不定式）"
       },
       {
         "id": 2196,
         "word": "sogno",
-        "chinese": "是；长的",
-        "lemma": "sognare",
-        "formInfo": "sognare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "梦；梦想",
+        "lemma": "sogno",
+        "formInfo": ""
       }
     ]
   },
@@ -6134,9 +6134,9 @@
       {
         "id": 2600,
         "word": "stampa",
-        "chinese": "一个；那个；那个 汽车",
-        "lemma": "stampare",
-        "formInfo": "stampare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "chinese": "印刷；新闻界；媒体",
+        "lemma": "stampa",
+        "formInfo": ""
       },
       {
         "id": 2605,
@@ -6267,8 +6267,8 @@
         "id": 124,
         "word": "suono",
         "chinese": "声音",
-        "lemma": "suonare",
-        "formInfo": "suonare · io 现在时“我演奏”；同时 suono 也可作名词“声音”"
+        "lemma": "suono",
+        "formInfo": ""
       },
       {
         "id": 215,
@@ -6493,9 +6493,9 @@
       {
         "id": 2124,
         "word": "visita",
-        "chinese": "检查；就诊",
-        "lemma": "visitare",
-        "formInfo": "visitare · 直陈式现在时 · lui/lei/Lei 第三人称单数"
+        "chinese": "访问；参观；拜访",
+        "lemma": "visita",
+        "formInfo": ""
       }
     ]
   },
@@ -6515,9 +6515,9 @@
       {
         "id": 2131,
         "word": "volo",
-        "chinese": "掉下；跌倒；离开",
-        "lemma": "volare",
-        "formInfo": "volare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "航班；飞行",
+        "lemma": "volo",
+        "formInfo": ""
       }
     ]
   },
@@ -6552,14 +6552,14 @@
       {
         "id": 2102,
         "word": "voto",
-        "chinese": "分数；投票",
-        "lemma": "votare",
-        "formInfo": "votare · 直陈式现在时 · io 第一人称单数"
+        "chinese": "分数；成绩",
+        "lemma": "voto",
+        "formInfo": ""
       },
       {
         "id": 2743,
         "word": "votare",
-        "chinese": "一个；那个",
+        "chinese": "投票",
         "lemma": "votare",
         "formInfo": "动词原形（不定式）"
       }

@@ -1,0 +1,48 @@
+终学意语 v3.1.3 固定签名覆盖升级说明
+
+目标
+----
+从 v3.1.3 开始，让 Codemagic 生成的正式 APK 始终使用同一把永久签名密钥。
+以后 v3.1.4、v3.2、v4.0 等版本只要继续使用这把密钥，就可以直接在手机上“更新/覆盖安装”，不需要卸载 App，学习进度和智能记忆数据会保留。
+
+一、只需要在 Codemagic 做一次的设置
+--------------------------------
+1. 下载我另外提供的“终学意语_永久签名密钥_请勿上传GitHub.zip”。
+2. 解压后找到 zhongxue_release.jks 和“签名信息_请私密保存.txt”。
+3. 打开 Codemagic Team settings。
+4. 进入 codemagic.yaml settings -> Code signing identities -> Android keystores。
+5. 上传 zhongxue_release.jks。
+6. Keystore password、Key alias、Key password 按私密签名信息文件填写。
+7. Keystore Reference 必须填写：zhongxue_release
+8. 保存。
+
+二、以后怎么打包
+----------------
+项目已经在 codemagic.yaml 中固定引用：zhongxue_release
+并改成构建：app-release.apk（正式签名 Release APK）
+不要再把 app-debug.apk 当正式安装包使用。
+
+每次 Codemagic 构建还会自动生成一个更大的 Android versionCode，避免“版本比已安装版本低”导致无法覆盖。
+
+三、第一次切换的特殊情况
+------------------------
+你手机里当前安装的 v3.1.2 或更早 APK，过去是 debug 构建，签名不一定与这次新建的永久签名相同。
+因此第一次安装 v3.1.3 固定签名版时：
+- 如果手机直接显示“更新”，直接更新即可；
+- 如果提示“软件包与现有软件包冲突/签名不一致”，这一次仍需先卸载旧 APK 再安装 v3.1.3。
+
+只要 v3.1.3 安装成功，以后不要再换签名密钥；后续版本即可一直直接覆盖升级。
+
+四、绝对不要做的事
+------------------
+1. 不要修改 applicationId：com.italiano2774.nativeapp
+2. 不要丢失 zhongxue_release.jks。
+3. 不要重新生成另一把密钥来打正式 APK。
+4. 不要把 zhongxue_release.jks、密码或 keystore.properties 上传到公开 GitHub。
+5. 不要把 debug APK 和 release APK 混着当正式版本安装。
+
+五、如何确认以后一直用了同一把签名
+----------------------------------
+Codemagic 每次构建会生成 signing-fingerprint.txt。
+所有正式版本的 SHA256 证书指纹必须始终相同。项目还会把实际指纹与 signing-certificate-sha256.txt 自动比对，错误密钥会让 Codemagic 直接失败。
+如果以后指纹突然变化，停止安装，先检查 Codemagic 签名配置。
