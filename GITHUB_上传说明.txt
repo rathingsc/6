@@ -1,4 +1,4 @@
-终学意语 v3.1.3 固定签名覆盖升级版 GitHub 根目录上传说明
+终学意语 v3.1.4 固定签名覆盖升级版 GitHub 根目录上传说明
 
 推荐直接使用本次完整项目 ZIP 覆盖旧仓库，避免新旧源码混用。
 
@@ -15,12 +15,12 @@ README_原生安卓版本.md
 keystore.properties.example
 signing-certificate-sha256.txt
 
-不要多套一层 v3.1.3 文件夹，也不要只把 ZIP 文件本身提交到 GitHub。
+不要多套一层 v3.1.4 文件夹，也不要只把 ZIP 文件本身提交到 GitHub。
 
 必须确认 app/build.gradle：
 - applicationId 仍为 com.italiano2774.nativeapp
-- defaultVersionCode = 44
-- versionName '3.1.3-native'
+- defaultVersionCode = 45
+- versionName '3.1.4-native'
 - release 使用 signingConfigs.release
 - 支持 CM_KEYSTORE_PATH / CM_KEYSTORE_PASSWORD / CM_KEY_ALIAS / CM_KEY_PASSWORD
 
@@ -75,3 +75,9 @@ Unit tests
 Android lint report
 
 如果 Build native debug APK 仍然出现，或没有 zhongxue_release / assembleRelease，说明仓库仍混有旧版 codemagic.yaml，不要继续构建。
+
+【v3.1.4 构建修正】
+某些通过网页/文件管理器上传 GitHub 的方式可能漏掉隐藏文件 .gitignore。
+从 v3.1.4 起，Codemagic 不会仅因为 .gitignore 缺失而停止构建；
+但项目仍会直接扫描并禁止 *.jks、*.keystore、keystore.properties 等私密签名文件进入仓库。
+建议仍将本项目自带的 .gitignore 一并提交。

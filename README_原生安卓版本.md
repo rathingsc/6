@@ -1,17 +1,25 @@
-# 终学意语 v3.1.3 固定签名覆盖升级版
+# 终学意语 v3.1.4 固定签名覆盖升级版
 
-## v3.1.3 可持续覆盖安装
+## v3.1.4 构建修正
+
+- 修复 Codemagic 因 GitHub checkout 缺少隐藏文件 `.gitignore` 而在 Preflight 阶段直接失败的问题。
+- `.gitignore` 仍随项目提供，但缺失时仅警告，不再阻断构建。
+- 私密签名文件仍由独立检查直接扫描；发现 `.jks`、`.keystore` 或 `keystore.properties` 仍会阻断发布。
+- 默认 `versionCode` 提升为 45，`versionName` 为 `3.1.4-native`，继续保持固定签名覆盖升级链。
+
+
+## v3.1.4 可持续覆盖安装
 - Android 包名继续固定为 `com.italiano2774.nativeapp`，以后版本禁止修改。
 - 正式安装包从 debug APK 切换为**固定签名的 release APK**；Codemagic 使用永久签名引用 `zhongxue_release`。
 - `app/build.gradle` 新增 release signingConfig：Codemagic 从 `CM_KEYSTORE_PATH / CM_KEYSTORE_PASSWORD / CM_KEY_ALIAS / CM_KEY_PASSWORD` 注入同一把签名密钥。
 - Codemagic 每次正式构建自动生成递增 `versionCode`，避免新 APK 因版本号不高于手机现有版本而无法覆盖。
-- 本地默认 versionCode 为 44，versionName 为 `3.1.3-native`。
+- 本地默认 versionCode 为 45，versionName 为 `3.1.4-native`。
 - Codemagic 正式产物改为 `app-release.apk`；以后不要把 `app-debug.apk` 当正式升级包。
 - 每次构建输出 `signing-fingerprint.txt`，并与仓库内公开的 `signing-certificate-sha256.txt` 自动比对；如果误用了另一把密钥，构建会直接失败。
 - 新增 `.gitignore`，强制忽略 `*.jks`、`*.keystore`、`keystore.properties`，防止永久签名密钥误传到公开 GitHub。
 - 新增 `keystore.properties.example`，仅供需要在本机进行同签名 release 构建时参考。
 - 新增 `tools/signing_config_check.py`，发布前验证固定包名、固定签名引用、release APK、自动 versionCode 与私钥防泄漏设置。
-- 首次从历史 debug 签名切换到 v3.1.3 时，如果 Android 报“签名/软件包冲突”，可能仍需卸载旧版一次；**从成功安装 v3.1.3 固定签名版开始，后续版本都可直接覆盖升级并保留学习数据。**
+- 首次从历史 debug 签名切换到 v3.1.4 时，如果 Android 报“签名/软件包冲突”，可能仍需卸载旧版一次；**从成功安装 v3.1.4 固定签名版开始，后续版本都可直接覆盖升级并保留学习数据。**
 
 ---
 

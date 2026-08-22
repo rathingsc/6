@@ -89,17 +89,18 @@ def find_calls(clean,name):
         if depth==0: yield clean[pos:i-1]
 
 # 1. Root shape and build config
-for rel in ['app/build.gradle','build.gradle','settings.gradle','gradle.properties','codemagic.yaml','app/src/main/AndroidManifest.xml','.gitignore','覆盖升级与签名说明.txt','tools/signing_config_check.py','signing-certificate-sha256.txt']:
+for rel in ['app/build.gradle','build.gradle','settings.gradle','gradle.properties','codemagic.yaml','app/src/main/AndroidManifest.xml','覆盖升级与签名说明.txt','tools/signing_config_check.py','signing-certificate-sha256.txt']:
     require(rel)
-checks['root files']=10
+checks['root files']=9
+if not (ROOT/'.gitignore').exists(): warn('.gitignore missing from checkout; continuing because secret signing files are checked directly')
 if errors:
     for e in errors: print('ERROR:',e)
     sys.exit(1)
 app_gradle=read(APP/'build.gradle');root_gradle=read(ROOT/'build.gradle');cm=read(ROOT/'codemagic.yaml')
 for needle,msg in [
-    ('def defaultVersionCode = 44','v3.1.3 local fallback versionCode must be 44'),
+    ('def defaultVersionCode = 45','v3.1.4 local fallback versionCode must be 45'),
     ('versionCode resolvedVersionCode','dynamic versionCode support missing'),
-    ("versionName '3.1.3-native'",'versionName must be 3.1.3-native'),
+    ("versionName '3.1.4-native'",'versionName must be 3.1.4-native'),
     ("applicationId 'com.italiano2774.nativeapp'",'applicationId update identity changed'),
     ('signingConfig signingConfigs.release','release signingConfig missing'),
     ('CM_KEYSTORE_PATH','Codemagic release signing env wiring missing'),
@@ -114,10 +115,10 @@ if 'python3 tools/exercise_quality_check.py' not in cm: error('Codemagic exercis
 if 'python3 tools/translation_quality_check.py' not in cm: error('Codemagic translation quality check step missing')
 if 'python3 tools/course_translation_quality_check.py' not in cm: error('Codemagic course translation quality check step missing')
 if 'python3 tools/release_gate.py' not in cm: error('Codemagic strict release gate step missing')
-if 'v3.1.3' not in cm: error('Codemagic workflow title must identify v3.1.3')
+if 'v3.1.4' not in cm: error('Codemagic workflow title must identify v3.1.4')
 if 'android_signing:' not in cm or '- zhongxue_release' not in cm: error('Codemagic permanent signing identity zhongxue_release missing')
 if ':app:assembleRelease' not in cm or 'app/build/outputs/apk/release/app-release.apk' not in cm: error('Codemagic must build/export signed release APK')
-if ':app:assembleDebug' in cm or 'app-debug.apk' in cm: error('Codemagic official workflow must not publish debug APK after v3.1.3')
+if ':app:assembleDebug' in cm or 'app-debug.apk' in cm: error('Codemagic official workflow must not publish debug APK after v3.1.4')
 if 'python3 tools/signing_config_check.py' not in cm: error('Codemagic permanent signing config gate missing')
 if '-PversionCode="$UPDATE_VERSION_CODE"' not in cm: error('Codemagic monotonic versionCode injection missing')
 checks['build config']=1

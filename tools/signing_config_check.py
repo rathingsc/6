@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""v3.1.3 permanent Android signing/update-chain configuration gate."""
+"""v3.1.4 permanent Android signing/update-chain configuration gate."""
 from pathlib import Path
 import re, sys
 
 ROOT=Path(__file__).resolve().parents[1]
 errors=[]
+warnings=[]
 
 def err(msg): errors.append(msg)
+def warn(msg): warnings.append(msg)
 def text(rel):
     p=ROOT/rel
     if not p.exists():
@@ -16,7 +18,9 @@ def text(rel):
 
 build=text('app/build.gradle')
 cm=text('codemagic.yaml')
-gitignore=text('.gitignore')
+gitignore_path=ROOT/'.gitignore'
+gitignore=gitignore_path.read_text(encoding='utf-8', errors='replace') if gitignore_path.exists() else ''
+if not gitignore_path.exists(): warn('.gitignore missing from checkout; continuing because private signing files are scanned directly')
 fingerprint=text('signing-certificate-sha256.txt').strip()
 
 # Public certificate fingerprint is safe to commit and prevents accidentally
@@ -27,8 +31,8 @@ if fingerprint and fingerprint not in cm and 'signing-certificate-sha256.txt' no
 # Identity and version chain.
 for needle,msg in [
     ("applicationId 'com.italiano2774.nativeapp'", 'applicationId must remain com.italiano2774.nativeapp'),
-    ('def defaultVersionCode = 44', 'v3.1.3 local fallback versionCode must be 44'),
-    ("versionName '3.1.3-native'", 'versionName must be 3.1.3-native'),
+    ('def defaultVersionCode = 45', 'v3.1.4 local fallback versionCode must be 45'),
+    ("versionName '3.1.4-native'", 'versionName must be 3.1.4-native'),
     ('versionCode resolvedVersionCode', 'Gradle versionCode override support missing'),
 ]:
     if needle not in build: err(msg)
@@ -57,11 +61,12 @@ for needle,msg in [
     if needle not in cm: err(msg)
 
 if ':app:assembleDebug' in cm or 'app-debug.apk' in cm:
-    err('official Codemagic workflow still builds/exports debug APK; v3.1.3 must use signed release APK')
+    err('official Codemagic workflow still builds/exports debug APK; v3.1.4 must use signed release APK')
 
 # Repository hygiene: private keys must never be inside the GitHub project.
-for needle in ['*.jks','*.keystore','keystore.properties']:
-    if needle not in gitignore: err(f'.gitignore missing private signing rule: {needle}')
+if gitignore_path.exists():
+    for needle in ['*.jks','*.keystore','keystore.properties']:
+        if needle not in gitignore: warn(f'.gitignore missing recommended private signing rule: {needle}')
 
 secret_files=[]
 for pattern in ('*.jks','*.keystore','keystore.properties'):
@@ -79,6 +84,7 @@ for rel in ['app/build.gradle','codemagic.yaml','GITHUB_上传说明.txt','覆�
     s=text(rel)
     if credential_re.search(s): err(f'possible literal signing password committed in {rel}')
 
+for w in warnings: print('WARNING:', w)
 if errors:
     for e in errors: print('ERROR:', e)
     sys.exit(1)

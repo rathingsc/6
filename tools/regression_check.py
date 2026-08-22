@@ -154,13 +154,13 @@ for p in (ROOT/'app/src/main/res/layout').glob('*.xml'):
                 if m and int(m.group(1))<48: err(f'{p.name}: ImageButton {attr} {v} < 48dp')
 
 build=text(ROOT/'app/build.gradle') if (ROOT/'app/build.gradle').exists() else ''
-if "versionName '3.1.3-native'" not in build: err('versionName is not 3.1.3-native')
-if 'def defaultVersionCode = 44' not in build or 'versionCode resolvedVersionCode' not in build: err('v3.1.3 versionCode update-chain config missing')
+if "versionName '3.1.4-native'" not in build: err('versionName is not 3.1.4-native')
+if 'def defaultVersionCode = 45' not in build or 'versionCode resolvedVersionCode' not in build: err('v3.1.4 versionCode update-chain config missing')
 if "applicationId 'com.italiano2774.nativeapp'" not in build: err('applicationId changed; direct Android update chain would break')
 if 'signingConfig signingConfigs.release' not in build or 'CM_KEYSTORE_PATH' not in build: err('permanent release signing config missing')
 cm=text(ROOT/'codemagic.yaml') if (ROOT/'codemagic.yaml').exists() else ''
-if 'v3.1.3' not in cm or 'android_signing:' not in cm or '- zhongxue_release' not in cm or ':app:assembleRelease' not in cm or 'app-release.apk' not in cm: err('v3.1.3 Codemagic signed-release update chain missing')
-if ':app:assembleDebug' in cm or 'app-debug.apk' in cm: err('official Codemagic workflow must not publish debug APK after v3.1.3')
+if 'v3.1.4' not in cm or 'android_signing:' not in cm or '- zhongxue_release' not in cm or ':app:assembleRelease' not in cm or 'app-release.apk' not in cm: err('v3.1.4 Codemagic signed-release update chain missing')
+if ':app:assembleDebug' in cm or 'app-debug.apk' in cm: err('official Codemagic workflow must not publish debug APK after v3.1.4')
 
 engine=text(ROOT/'app/src/main/java/com/italiano2774/nativeapp/CourseLessonEngine.java')
 main=text(ROOT/'app/src/main/java/com/italiano2774/nativeapp/MainActivity.java')
