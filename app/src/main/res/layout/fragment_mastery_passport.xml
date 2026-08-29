@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:paddingBottom="28dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🎯 学习能力护照" android:textColor="@color/text_primary" android:textSize="27sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="把“学了多少”拆成六项真实能力。这里是App内部学习诊断，不是官方CEFR考试或证书结论。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+                <TextView android:id="@+id/text_passport_stage" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A1 基础 · 内部综合掌握 0分" android:textColor="@color/blue" android:textSize="19sp" android:textStyle="bold" />
+                <TextView android:id="@+id/text_passport_overview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:lineSpacingExtra="3dp" android:textColor="@color/text_primary" android:textSize="14sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="六项能力" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="分数综合已学质量和实际练习证据；练得太少时不会因为几道题全对就显示虚高。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_soft_panel" android:orientation="vertical" android:padding="14dp">
+            <TextView android:id="@+id/text_passport_meaning" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="14sp" android:textStyle="bold" />
+            <ProgressBar android:id="@+id/progress_passport_meaning" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="7dp" android:max="100" android:progress="0" android:progressTint="@color/blue" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:background="@drawable/bg_soft_panel" android:orientation="vertical" android:padding="14dp">
+            <TextView android:id="@+id/text_passport_listening" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="14sp" android:textStyle="bold" />
+            <ProgressBar android:id="@+id/progress_passport_listening" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="7dp" android:max="100" android:progress="0" android:progressTint="@color/blue" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:background="@drawable/bg_soft_panel" android:orientation="vertical" android:padding="14dp">
+            <TextView android:id="@+id/text_passport_spelling" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="14sp" android:textStyle="bold" />
+            <ProgressBar android:id="@+id/progress_passport_spelling" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="7dp" android:max="100" android:progress="0" android:progressTint="@color/blue" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:background="@drawable/bg_soft_panel" android:orientation="vertical" android:padding="14dp">
+            <TextView android:id="@+id/text_passport_speaking" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="14sp" android:textStyle="bold" />
+            <ProgressBar android:id="@+id/progress_passport_speaking" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="7dp" android:max="100" android:progress="0" android:progressTint="@color/green" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:background="@drawable/bg_soft_panel" android:orientation="vertical" android:padding="14dp">
+            <TextView android:id="@+id/text_passport_grammar" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="14sp" android:textStyle="bold" />
+            <ProgressBar android:id="@+id/progress_passport_grammar" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="7dp" android:max="100" android:progress="0" android:progressTint="@color/amber" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:background="@drawable/bg_soft_panel" android:orientation="vertical" android:padding="14dp">
+            <TextView android:id="@+id/text_passport_real" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="14sp" android:textStyle="bold" />
+            <ProgressBar android:id="@+id/progress_passport_real" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="7dp" android:max="100" android:progress="0" android:progressTint="@color/green" />
+        </LinearLayout>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="阶段闯关" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="每一关同时看课程完成、阶段自测和六项能力，避免“只刷完课程就算会了”。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+        <TextView android:id="@+id/text_passport_a1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_soft_panel" android:lineSpacingExtra="3dp" android:padding="14dp" android:textColor="@color/text_primary" android:textSize="13sp" />
+        <TextView android:id="@+id/text_passport_a2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:background="@drawable/bg_soft_panel" android:lineSpacingExtra="3dp" android:padding="14dp" android:textColor="@color/text_primary" android:textSize="13sp" />
+        <TextView android:id="@+id/text_passport_b1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:background="@drawable/bg_soft_panel" android:lineSpacingExtra="3dp" android:padding="14dp" android:textColor="@color/text_primary" android:textSize="13sp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="未来3天突破处方" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="不平均练六项，只盯离下一关最远的一项；每日智能计划会自动把今天这一步排进去。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+        <TextView android:id="@+id/text_passport_prescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_soft_panel" android:lineSpacingExtra="4dp" android:padding="14dp" android:textColor="@color/text_primary" android:textSize="13sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_passport_prescription" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="开始今日突破" android:textAllCaps="false" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="现在最值得做什么" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:id="@+id/text_passport_recommendation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@color/surface_success" android:lineSpacingExtra="4dp" android:padding="14dp" android:textColor="@color/text_primary" android:textSize="14sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_passport_action" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="10dp" android:text="继续当前课程" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_passport_exam" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🧪 打开 A1 / A2 / B1 阶段自测" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_passport_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="5dp" android:text="返回我的" android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,2492 @@
+{
+  "version": "3.3.3",
+  "description": "Second reviewed high-frequency example expansion. Word IDs 1-1500 now all have Italian-Chinese example pairs; v3.3.2 examples are preserved.",
+  "allWordRows": 2774,
+  "previousExamplePairs": 1305,
+  "newExamplePairs": 413,
+  "newlyAppliedThisRun": 0,
+  "totalExamplePairs": 1718,
+  "wordsWithoutExample": 1056,
+  "first1500Coverage": 1500,
+  "first1500Target": 1500,
+  "additions": [
+    {
+      "id": 1001,
+      "word": "panca",
+      "example": "Ci sediamo sulla panca davanti alla casa.",
+      "exampleZh": "我们坐在房子前的长凳上。"
+    },
+    {
+      "id": 1003,
+      "word": "porta",
+      "example": "Chiudi la porta, per favore.",
+      "exampleZh": "请把门关上。"
+    },
+    {
+      "id": 1006,
+      "word": "quadra",
+      "example": "Adesso il conto quadra.",
+      "exampleZh": "现在账目对得上了。"
+    },
+    {
+      "id": 1007,
+      "word": "si svegliano",
+      "example": "I bambini si svegliano alle sette.",
+      "exampleZh": "孩子们七点醒来。"
+    },
+    {
+      "id": 1008,
+      "word": "asciugamano",
+      "example": "Prendo un asciugamano pulito.",
+      "exampleZh": "我拿一条干净的毛巾。"
+    },
+    {
+      "id": 1009,
+      "word": "pulito",
+      "example": "Il tavolo è pulito.",
+      "exampleZh": "桌子是干净的。"
+    },
+    {
+      "id": 1010,
+      "word": "cereali",
+      "example": "A colazione mangio cereali con il latte.",
+      "exampleZh": "早餐我吃牛奶麦片。"
+    },
+    {
+      "id": 1011,
+      "word": "ci svegliamo",
+      "example": "Durante la settimana ci svegliamo presto.",
+      "exampleZh": "工作日我们醒得很早。"
+    },
+    {
+      "id": 1012,
+      "word": "freddo",
+      "example": "Oggi fa molto freddo.",
+      "exampleZh": "今天很冷。"
+    },
+    {
+      "id": 1013,
+      "word": "piglia",
+      "example": "Lui piglia l'autobus ogni mattina.",
+      "exampleZh": "他每天早上坐公交车。"
+    },
+    {
+      "id": 1015,
+      "word": "bevete",
+      "example": "Bevete abbastanza acqua durante il giorno?",
+      "exampleZh": "你们白天喝足够的水吗？"
+    },
+    {
+      "id": 1016,
+      "word": "vi svegliate",
+      "example": "A che ora vi svegliate la domenica?",
+      "exampleZh": "你们星期天几点醒来？"
+    },
+    {
+      "id": 1017,
+      "word": "tipo",
+      "example": "Che tipo di musica ti piace?",
+      "exampleZh": "你喜欢哪种类型的音乐？"
+    },
+    {
+      "id": 1018,
+      "word": "potresti",
+      "example": "Potresti aiutarmi un momento?",
+      "exampleZh": "你能帮我一下吗？"
+    },
+    {
+      "id": 1020,
+      "word": "calo",
+      "example": "C'è stato un calo dei prezzi.",
+      "exampleZh": "价格有所下降。"
+    },
+    {
+      "id": 1021,
+      "word": "animale domestico",
+      "example": "Hai un animale domestico a casa?",
+      "exampleZh": "你家里有宠物吗？"
+    },
+    {
+      "id": 1022,
+      "word": "partire",
+      "example": "Dobbiamo partire alle sei.",
+      "exampleZh": "我们必须六点出发。"
+    },
+    {
+      "id": 1023,
+      "word": "beve",
+      "example": "Lei beve un tè dopo pranzo.",
+      "exampleZh": "她午饭后喝一杯茶。"
+    },
+    {
+      "id": 1024,
+      "word": "dieta",
+      "example": "Cerco di seguire una dieta equilibrata.",
+      "exampleZh": "我尽量保持均衡饮食。"
+    },
+    {
+      "id": 1025,
+      "word": "a dieta",
+      "example": "Sono a dieta da una settimana.",
+      "exampleZh": "我已经节食一周了。"
+    },
+    {
+      "id": 1026,
+      "word": "all'anno",
+      "example": "Vado dal dentista due volte all'anno.",
+      "exampleZh": "我每年去看两次牙医。"
+    },
+    {
+      "id": 1027,
+      "word": "dell'",
+      "example": "Il colore dell'auto è blu.",
+      "exampleZh": "这辆汽车的颜色是蓝色的。"
+    },
+    {
+      "id": 1028,
+      "word": "banana",
+      "example": "Mangio una banana prima di allenarmi.",
+      "exampleZh": "我锻炼前吃一根香蕉。"
+    },
+    {
+      "id": 1029,
+      "word": "cucchiaio",
+      "example": "Mi serve un cucchiaio per la minestra.",
+      "exampleZh": "我喝汤需要一把勺子。"
+    },
+    {
+      "id": 1030,
+      "word": "cucchiai",
+      "example": "Aggiungi due cucchiai di zucchero.",
+      "exampleZh": "加两勺糖。"
+    },
+    {
+      "id": 1031,
+      "word": "potrebbe",
+      "example": "Potrebbe ripetere più lentamente, per favore?",
+      "exampleZh": "您可以说慢一点再重复一遍吗？"
+    },
+    {
+      "id": 1032,
+      "word": "pistacchio",
+      "example": "Mi piace il gelato al pistacchio.",
+      "exampleZh": "我喜欢开心果味冰淇淋。"
+    },
+    {
+      "id": 1033,
+      "word": "limone",
+      "example": "Metto un po' di limone nel tè.",
+      "exampleZh": "我在茶里放一点柠檬。"
+    },
+    {
+      "id": 1034,
+      "word": "potremmo",
+      "example": "Potremmo andare al cinema stasera.",
+      "exampleZh": "我们今晚可以去电影院。"
+    },
+    {
+      "id": 1036,
+      "word": "gusto",
+      "example": "Questo gelato ha un gusto molto delicato.",
+      "exampleZh": "这个冰淇淋的味道很清淡。"
+    },
+    {
+      "id": 1037,
+      "word": "fragola",
+      "example": "Mangio una fragola dopo l'altra.",
+      "exampleZh": "我一颗接一颗地吃草莓。"
+    },
+    {
+      "id": 1038,
+      "word": "pesca",
+      "example": "Questa pesca è dolce e succosa.",
+      "exampleZh": "这个桃子又甜又多汁。"
+    },
+    {
+      "id": 1039,
+      "word": "dello",
+      "example": "Il prezzo dello zaino è troppo alto.",
+      "exampleZh": "这个背包的价格太高了。"
+    },
+    {
+      "id": 1041,
+      "word": "limonata",
+      "example": "Vorrei una limonata fresca.",
+      "exampleZh": "我想要一杯冰凉的柠檬水。"
+    },
+    {
+      "id": 1042,
+      "word": "potrei",
+      "example": "Potrei avere il conto, per favore?",
+      "exampleZh": "可以给我账单吗？"
+    },
+    {
+      "id": 1043,
+      "word": "panna",
+      "example": "Vorrei una cioccolata calda con panna.",
+      "exampleZh": "我想要一杯加奶油的热巧克力。"
+    },
+    {
+      "id": 1044,
+      "word": "beviamo",
+      "example": "A cena beviamo solo acqua.",
+      "exampleZh": "晚饭时我们只喝水。"
+    },
+    {
+      "id": 1045,
+      "word": "calmo",
+      "example": "Resta calmo e ascoltami.",
+      "exampleZh": "保持冷静，听我说。"
+    },
+    {
+      "id": 1046,
+      "word": "vorreste",
+      "example": "Vorreste ordinare adesso?",
+      "exampleZh": "你们现在想点餐吗？"
+    },
+    {
+      "id": 1047,
+      "word": "gelateria",
+      "example": "C'è una buona gelateria vicino alla piazza.",
+      "exampleZh": "广场附近有一家不错的冰淇淋店。"
+    },
+    {
+      "id": 1048,
+      "word": "paghi",
+      "example": "Paghi in contanti o con la carta?",
+      "exampleZh": "你用现金还是刷卡？"
+    },
+    {
+      "id": 1049,
+      "word": "preferisce",
+      "example": "Lei preferisce il tè al caffè.",
+      "exampleZh": "她比咖啡更喜欢茶。"
+    },
+    {
+      "id": 1050,
+      "word": "paghiamo",
+      "example": "Paghiamo il conto insieme.",
+      "exampleZh": "我们一起付账。"
+    },
+    {
+      "id": 1051,
+      "word": "grigio",
+      "example": "Ho comprato un cappotto grigio.",
+      "exampleZh": "我买了一件灰色外套。"
+    },
+    {
+      "id": 1052,
+      "word": "viola",
+      "example": "Indossa una maglia viola.",
+      "exampleZh": "她穿着一件紫色上衣。"
+    },
+    {
+      "id": 1054,
+      "word": "colore",
+      "example": "Qual è il tuo colore preferito?",
+      "exampleZh": "你最喜欢什么颜色？"
+    },
+    {
+      "id": 1055,
+      "word": "camerino",
+      "example": "Il camerino è in fondo a destra.",
+      "exampleZh": "试衣间在尽头右边。"
+    },
+    {
+      "id": 1056,
+      "word": "peggiore",
+      "example": "Questo risultato è peggiore del precedente.",
+      "exampleZh": "这个结果比上一个更差。"
+    },
+    {
+      "id": 1057,
+      "word": "preferisci",
+      "example": "Preferisci il tè o il caffè?",
+      "exampleZh": "你更喜欢茶还是咖啡？"
+    },
+    {
+      "id": 1060,
+      "word": "migliore",
+      "example": "Questa soluzione è migliore.",
+      "exampleZh": "这个解决办法更好。"
+    },
+    {
+      "id": 1062,
+      "word": "occhiali",
+      "example": "Porto gli occhiali da quando ero bambino.",
+      "exampleZh": "我从小时候起就戴眼镜。"
+    },
+    {
+      "id": 1063,
+      "word": "degli",
+      "example": "Ho comprato degli occhiali nuovi.",
+      "exampleZh": "我买了一副新眼镜。"
+    },
+    {
+      "id": 1064,
+      "word": "potrebbero",
+      "example": "Potrebbero arrivare in ritardo.",
+      "exampleZh": "他们可能会迟到。"
+    },
+    {
+      "id": 1065,
+      "word": "marrone",
+      "example": "La borsa è marrone.",
+      "exampleZh": "这个包是棕色的。"
+    },
+    {
+      "id": 1067,
+      "word": "potreste",
+      "example": "Potreste chiudere la finestra?",
+      "exampleZh": "你们可以把窗户关上吗？"
+    },
+    {
+      "id": 1068,
+      "word": "manchi",
+      "example": "Mi manchi molto quando sei lontano.",
+      "exampleZh": "你不在身边时我很想你。"
+    },
+    {
+      "id": 1069,
+      "word": "dei",
+      "example": "Vorrei dei pomodori maturi.",
+      "exampleZh": "我想要一些熟透的西红柿。"
+    },
+    {
+      "id": 1070,
+      "word": "bianchi",
+      "example": "I muri della cucina sono bianchi.",
+      "exampleZh": "厨房的墙是白色的。"
+    },
+    {
+      "id": 1073,
+      "word": "forchetta",
+      "example": "Mi dai una forchetta, per favore?",
+      "exampleZh": "请给我一把叉子好吗？"
+    },
+    {
+      "id": 1074,
+      "word": "sporchi",
+      "example": "I piatti sono ancora sporchi.",
+      "exampleZh": "盘子还很脏。"
+    },
+    {
+      "id": 1075,
+      "word": "pavimento",
+      "example": "Il pavimento della cucina è bagnato.",
+      "exampleZh": "厨房的地板是湿的。"
+    },
+    {
+      "id": 1076,
+      "word": "sappiamo",
+      "example": "Sappiamo già la risposta.",
+      "exampleZh": "我们已经知道答案了。"
+    },
+    {
+      "id": 1079,
+      "word": "detersivo",
+      "example": "Devo comprare il detersivo per i piatti.",
+      "exampleZh": "我得买洗碗清洁剂。"
+    },
+    {
+      "id": 1080,
+      "word": "preferiamo",
+      "example": "Preferiamo mangiare a casa.",
+      "exampleZh": "我们更喜欢在家吃饭。"
+    },
+    {
+      "id": 1081,
+      "word": "preferiscono",
+      "example": "I bambini preferiscono il gelato al cioccolato.",
+      "exampleZh": "孩子们更喜欢巧克力冰淇淋。"
+    },
+    {
+      "id": 1083,
+      "word": "coltello",
+      "example": "Taglio il pane con un coltello.",
+      "exampleZh": "我用刀切面包。"
+    },
+    {
+      "id": 1084,
+      "word": "pianta",
+      "example": "Ho una pianta sul balcone.",
+      "exampleZh": "我阳台上有一盆植物。"
+    },
+    {
+      "id": 1085,
+      "word": "annaffiare",
+      "example": "Devo annaffiare le piante ogni sera.",
+      "exampleZh": "我每天晚上都要给植物浇水。"
+    },
+    {
+      "id": 1086,
+      "word": "casco",
+      "example": "Metto sempre il casco quando vado in moto.",
+      "exampleZh": "我骑摩托车时总是戴头盔。"
+    },
+    {
+      "id": 1087,
+      "word": "scale",
+      "example": "Salgo le scale invece di prendere l'ascensore.",
+      "exampleZh": "我走楼梯，不坐电梯。"
+    },
+    {
+      "id": 1088,
+      "word": "sapete",
+      "example": "Sapete dove si trova la stazione?",
+      "exampleZh": "你们知道火车站在哪里吗？"
+    },
+    {
+      "id": 1089,
+      "word": "bambina",
+      "example": "La bambina gioca in giardino.",
+      "exampleZh": "那个女孩在花园里玩。"
+    },
+    {
+      "id": 1090,
+      "word": "scopa",
+      "example": "La scopa è dietro la porta.",
+      "exampleZh": "扫帚在门后面。"
+    },
+    {
+      "id": 1091,
+      "word": "pulire",
+      "example": "Devo pulire la cucina dopo cena.",
+      "exampleZh": "晚饭后我得打扫厨房。"
+    },
+    {
+      "id": 1092,
+      "word": "valle",
+      "example": "Il paese si trova in una valle verde.",
+      "exampleZh": "这个村庄位于一个绿色山谷中。"
+    },
+    {
+      "id": 1093,
+      "word": "nipoti",
+      "example": "I miei nipoti vengono a trovarmi domenica.",
+      "exampleZh": "我的孙辈或侄子侄女星期天来看我。"
+    },
+    {
+      "id": 1094,
+      "word": "bambino",
+      "example": "Il bambino dorme già.",
+      "exampleZh": "那个男孩已经睡着了。"
+    },
+    {
+      "id": 1096,
+      "word": "brillo",
+      "example": "Dopo due bicchieri di vino sono un po' brillo.",
+      "exampleZh": "喝了两杯葡萄酒后我有点微醺。"
+    },
+    {
+      "id": 1097,
+      "word": "venite",
+      "example": "Venite a cena da noi sabato?",
+      "exampleZh": "你们星期六来我们家吃晚饭吗？"
+    },
+    {
+      "id": 1098,
+      "word": "marcio",
+      "example": "Questo pomodoro è marcio.",
+      "exampleZh": "这个西红柿烂了。"
+    },
+    {
+      "id": 1099,
+      "word": "conoscono",
+      "example": "Loro conoscono bene Roma.",
+      "exampleZh": "他们很熟悉罗马。"
+    },
+    {
+      "id": 1100,
+      "word": "qua",
+      "example": "Vieni qua un momento.",
+      "exampleZh": "到这边来一下。"
+    },
+    {
+      "id": 1101,
+      "word": "arancione",
+      "example": "La mia bicicletta è arancione.",
+      "exampleZh": "我的自行车是橙色的。"
+    },
+    {
+      "id": 1102,
+      "word": "bocca",
+      "example": "Apri la bocca, per favore.",
+      "exampleZh": "请张开嘴。"
+    },
+    {
+      "id": 1103,
+      "word": "conosciamo",
+      "example": "Conosciamo già questa famiglia.",
+      "exampleZh": "我们已经认识这个家庭了。"
+    },
+    {
+      "id": 1104,
+      "word": "naso",
+      "example": "Mi fa male il naso.",
+      "exampleZh": "我的鼻子疼。"
+    },
+    {
+      "id": 1105,
+      "word": "azzurro",
+      "example": "Oggi il cielo è azzurro.",
+      "exampleZh": "今天天空是蓝色的。"
+    },
+    {
+      "id": 1106,
+      "word": "lunghi",
+      "example": "Ha i capelli lunghi e neri.",
+      "exampleZh": "他有一头又长又黑的头发。"
+    },
+    {
+      "id": 1108,
+      "word": "conoscete",
+      "example": "Conoscete questo ristorante?",
+      "exampleZh": "你们知道这家餐厅吗？"
+    },
+    {
+      "id": 1109,
+      "word": "pezza",
+      "example": "Ho messo una pezza sul buco dei pantaloni.",
+      "exampleZh": "我在裤子的破洞上打了一个补丁。"
+    },
+    {
+      "id": 1110,
+      "word": "capelli",
+      "example": "I suoi capelli sono molto corti.",
+      "exampleZh": "他的头发很短。"
+    },
+    {
+      "id": 1111,
+      "word": "magro",
+      "example": "È alto e piuttosto magro.",
+      "exampleZh": "他个子高而且比较瘦。"
+    },
+    {
+      "id": 1112,
+      "word": "si è persa",
+      "example": "Maria si è persa nel centro della città.",
+      "exampleZh": "玛丽亚在市中心迷路了。"
+    },
+    {
+      "id": 1113,
+      "word": "pochi",
+      "example": "Ho pochi amici in questa città.",
+      "exampleZh": "我在这座城市朋友很少。"
+    },
+    {
+      "id": 1114,
+      "word": "nasce",
+      "example": "Da questa idea nasce un nuovo progetto.",
+      "exampleZh": "一个新项目由这个想法产生。"
+    },
+    {
+      "id": 1115,
+      "word": "conosce",
+      "example": "Lei conosce bene il quartiere.",
+      "exampleZh": "她很熟悉这个街区。"
+    },
+    {
+      "id": 1116,
+      "word": "basso",
+      "example": "Questo tavolo è troppo basso.",
+      "exampleZh": "这张桌子太矮了。"
+    },
+    {
+      "id": 1117,
+      "word": "occhio",
+      "example": "Occhio alle macchine quando attraversi!",
+      "exampleZh": "过马路时小心车辆！"
+    },
+    {
+      "id": 1118,
+      "word": "uomini",
+      "example": "Ci sono due uomini davanti al negozio.",
+      "exampleZh": "商店前面有两个男人。"
+    },
+    {
+      "id": 1120,
+      "word": "poliziotto",
+      "example": "Il poliziotto controlla i documenti.",
+      "exampleZh": "警察检查证件。"
+    },
+    {
+      "id": 1122,
+      "word": "causi",
+      "example": "Se causi un incidente, devi fermarti.",
+      "exampleZh": "如果你造成事故，就必须停车。"
+    },
+    {
+      "id": 1127,
+      "word": "verrei",
+      "example": "Verrei volentieri, ma devo lavorare.",
+      "exampleZh": "我很愿意来，但我得工作。"
+    },
+    {
+      "id": 1129,
+      "word": "stanno bene",
+      "example": "I miei genitori stanno bene.",
+      "exampleZh": "我的父母身体很好。"
+    },
+    {
+      "id": 1131,
+      "word": "là",
+      "example": "Il bagno è là, vicino alle scale.",
+      "exampleZh": "洗手间在那里，靠近楼梯。"
+    },
+    {
+      "id": 1134,
+      "word": "questione",
+      "example": "È una questione importante.",
+      "exampleZh": "这是一个重要问题。"
+    },
+    {
+      "id": 1136,
+      "word": "lagno",
+      "example": "Il suo continuo lagno stanca tutti.",
+      "exampleZh": "他不停的抱怨让大家都很疲惫。"
+    },
+    {
+      "id": 1137,
+      "word": "colla",
+      "example": "Uso la colla per riparare il libro.",
+      "exampleZh": "我用胶水修这本书。"
+    },
+    {
+      "id": 1138,
+      "word": "simpatiche",
+      "example": "Le tue amiche sono molto simpatiche.",
+      "exampleZh": "你的朋友们很讨人喜欢。"
+    },
+    {
+      "id": 1139,
+      "word": "tassa",
+      "example": "Devo pagare questa tassa entro venerdì.",
+      "exampleZh": "我必须在星期五前缴这笔税。"
+    },
+    {
+      "id": 1140,
+      "word": "esame",
+      "example": "Domani ho un esame di italiano.",
+      "exampleZh": "我明天有一场意大利语考试。"
+    },
+    {
+      "id": 1141,
+      "word": "studentessa",
+      "example": "Marta è una studentessa universitaria.",
+      "exampleZh": "玛尔塔是一名大学女学生。"
+    },
+    {
+      "id": 1142,
+      "word": "canadese",
+      "example": "Il mio vicino è canadese.",
+      "exampleZh": "我的邻居是加拿大人。"
+    },
+    {
+      "id": 1143,
+      "word": "studente",
+      "example": "Marco è uno studente di medicina.",
+      "exampleZh": "马尔科是一名医学生。"
+    },
+    {
+      "id": 1144,
+      "word": "nastro",
+      "example": "Chiudo il pacco con il nastro adesivo.",
+      "exampleZh": "我用胶带封包裹。"
+    },
+    {
+      "id": 1146,
+      "word": "fiume",
+      "example": "Il fiume attraversa la città.",
+      "exampleZh": "这条河穿过这座城市。"
+    },
+    {
+      "id": 1147,
+      "word": "geografia",
+      "example": "A scuola studiamo geografia.",
+      "exampleZh": "我们在学校学习地理。"
+    },
+    {
+      "id": 1148,
+      "word": "bagna",
+      "example": "La pioggia bagna le strade.",
+      "exampleZh": "雨水打湿了街道。"
+    },
+    {
+      "id": 1149,
+      "word": "getto",
+      "example": "Il getto d'acqua è molto forte.",
+      "exampleZh": "这股水流很强。"
+    },
+    {
+      "id": 1150,
+      "word": "cartina",
+      "example": "Guardo la cartina per trovare la strada.",
+      "exampleZh": "我看地图找路。"
+    },
+    {
+      "id": 1151,
+      "word": "montagna",
+      "example": "In inverno andiamo spesso in montagna.",
+      "exampleZh": "冬天我们经常去山区。"
+    },
+    {
+      "id": 1152,
+      "word": "isola",
+      "example": "La Sicilia è un'isola italiana.",
+      "exampleZh": "西西里是意大利的一座岛。"
+    },
+    {
+      "id": 1153,
+      "word": "leggo",
+      "example": "Ogni sera leggo qualche pagina.",
+      "exampleZh": "我每天晚上读几页书。"
+    },
+    {
+      "id": 1154,
+      "word": "professor",
+      "example": "Il professor Rossi insegna storia.",
+      "exampleZh": "罗西教授教历史。"
+    },
+    {
+      "id": 1155,
+      "word": "latino",
+      "example": "A scuola mio figlio studia latino.",
+      "exampleZh": "我儿子在学校学习拉丁语。"
+    },
+    {
+      "id": 1156,
+      "word": "auto",
+      "example": "La mia auto è parcheggiata fuori.",
+      "exampleZh": "我的汽车停在外面。"
+    },
+    {
+      "id": 1158,
+      "word": "aula",
+      "example": "Gli studenti entrano in aula alle nove.",
+      "exampleZh": "学生们九点进入教室。"
+    },
+    {
+      "id": 1159,
+      "word": "bravo",
+      "example": "Sei molto bravo a cucinare.",
+      "exampleZh": "你很擅长做饭。"
+    },
+    {
+      "id": 1160,
+      "word": "agli",
+      "example": "Ho parlato agli studenti dopo la lezione.",
+      "exampleZh": "课后我和学生们谈了话。"
+    },
+    {
+      "id": 1161,
+      "word": "conoscere",
+      "example": "Vorrei conoscere meglio i miei nuovi colleghi.",
+      "exampleZh": "我想更好地认识我的新同事。"
+    },
+    {
+      "id": 1162,
+      "word": "meglio",
+      "example": "Oggi mi sento molto meglio.",
+      "exampleZh": "我今天感觉好多了。"
+    },
+    {
+      "id": 1165,
+      "word": "imparare",
+      "example": "Voglio imparare a parlare italiano.",
+      "exampleZh": "我想学会说意大利语。"
+    },
+    {
+      "id": 1166,
+      "word": "coccodrillo",
+      "example": "Il coccodrillo vive vicino al fiume.",
+      "exampleZh": "鳄鱼生活在河边。"
+    },
+    {
+      "id": 1167,
+      "word": "uscita",
+      "example": "L'uscita è alla fine del corridoio.",
+      "exampleZh": "出口在走廊尽头。"
+    },
+    {
+      "id": 1168,
+      "word": "elefante",
+      "example": "L'elefante è un animale molto grande.",
+      "exampleZh": "大象是一种很大的动物。"
+    },
+    {
+      "id": 1169,
+      "word": "questioni",
+      "example": "Dobbiamo discutere alcune questioni importanti.",
+      "exampleZh": "我们必须讨论一些重要问题。"
+    },
+    {
+      "id": 1170,
+      "word": "quelle",
+      "example": "Quelle scarpe sono troppo piccole.",
+      "exampleZh": "那些鞋太小了。"
+    },
+    {
+      "id": 1171,
+      "word": "pigre",
+      "example": "Le mie gatte sono pigre la mattina.",
+      "exampleZh": "我的猫早上很懒。"
+    },
+    {
+      "id": 1172,
+      "word": "tigre",
+      "example": "La tigre corre molto veloce.",
+      "exampleZh": "老虎跑得很快。"
+    },
+    {
+      "id": 1173,
+      "word": "serpente",
+      "example": "Ho visto un serpente vicino al sentiero.",
+      "exampleZh": "我在小路附近看到了一条蛇。"
+    },
+    {
+      "id": 1175,
+      "word": "pericoloso",
+      "example": "È pericoloso attraversare con il rosso.",
+      "exampleZh": "红灯时过马路很危险。"
+    },
+    {
+      "id": 1176,
+      "word": "addio",
+      "example": "Ha detto addio ai suoi amici prima di partire.",
+      "exampleZh": "出发前他向朋友们告别。"
+    },
+    {
+      "id": 1177,
+      "word": "quegli",
+      "example": "Quegli studenti vengono dalla Spagna.",
+      "exampleZh": "那些学生来自西班牙。"
+    },
+    {
+      "id": 1178,
+      "word": "orso",
+      "example": "L'orso vive nei boschi.",
+      "exampleZh": "熊生活在森林里。"
+    },
+    {
+      "id": 1179,
+      "word": "pinguino",
+      "example": "Il pinguino non può volare.",
+      "exampleZh": "企鹅不会飞。"
+    },
+    {
+      "id": 1180,
+      "word": "quei",
+      "example": "Quei libri sono miei.",
+      "exampleZh": "那些书是我的。"
+    },
+    {
+      "id": 1181,
+      "word": "leone",
+      "example": "Il leone dorme sotto un albero.",
+      "exampleZh": "狮子在树下睡觉。"
+    },
+    {
+      "id": 1182,
+      "word": "scimmia",
+      "example": "La scimmia mangia una banana.",
+      "exampleZh": "猴子在吃一根香蕉。"
+    },
+    {
+      "id": 1183,
+      "word": "toccare",
+      "example": "Non toccare la pentola: è calda.",
+      "exampleZh": "别碰锅，锅很烫。"
+    },
+    {
+      "id": 1184,
+      "word": "zoo",
+      "example": "Domenica portiamo i bambini allo zoo.",
+      "exampleZh": "星期天我们带孩子们去动物园。"
+    },
+    {
+      "id": 1187,
+      "word": "venticinque",
+      "example": "Ho venticinque anni.",
+      "exampleZh": "我二十五岁。"
+    },
+    {
+      "id": 1188,
+      "word": "collega",
+      "example": "Il mio collega lavora da casa oggi.",
+      "exampleZh": "我的同事今天在家办公。"
+    },
+    {
+      "id": 1190,
+      "word": "maghi",
+      "example": "Nelle fiabe i maghi fanno magie.",
+      "exampleZh": "童话里的魔法师会施魔法。"
+    },
+    {
+      "id": 1192,
+      "word": "in pausa",
+      "example": "Sono in pausa fino alle tre.",
+      "exampleZh": "我休息到三点。"
+    },
+    {
+      "id": 1193,
+      "word": "nell'",
+      "example": "Il documento è nell'armadio.",
+      "exampleZh": "文件在柜子里。"
+    },
+    {
+      "id": 1194,
+      "word": "colleghi",
+      "example": "I miei colleghi arrivano alle otto.",
+      "exampleZh": "我的同事们八点到。"
+    },
+    {
+      "id": 1195,
+      "word": "biscotto",
+      "example": "Prendo un biscotto con il caffè.",
+      "exampleZh": "我喝咖啡时吃一块饼干。"
+    },
+    {
+      "id": 1196,
+      "word": "mango",
+      "example": "Il mango è maturo e dolce.",
+      "exampleZh": "这个芒果熟了，而且很甜。"
+    },
+    {
+      "id": 1197,
+      "word": "dalle",
+      "example": "Lavoro dalle nove alle cinque.",
+      "exampleZh": "我从九点工作到五点。"
+    },
+    {
+      "id": 1198,
+      "word": "dire",
+      "example": "Posso dire una cosa?",
+      "exampleZh": "我可以说件事吗？"
+    },
+    {
+      "id": 1199,
+      "word": "presentazione",
+      "example": "Domani faccio una presentazione al lavoro.",
+      "exampleZh": "我明天在工作中做一个演示。"
+    },
+    {
+      "id": 1200,
+      "word": "schermo",
+      "example": "Guarda lo schermo e segui le istruzioni.",
+      "exampleZh": "看屏幕并按照说明操作。"
+    },
+    {
+      "id": 1201,
+      "word": "lungo",
+      "example": "È stato un viaggio lungo.",
+      "exampleZh": "这是一段很长的旅程。"
+    },
+    {
+      "id": 1203,
+      "word": "cliente",
+      "example": "Il cliente aspetta alla cassa.",
+      "exampleZh": "顾客在收银台等候。"
+    },
+    {
+      "id": 1204,
+      "word": "capo",
+      "example": "Il mio capo è in riunione.",
+      "exampleZh": "我的老板正在开会。"
+    },
+    {
+      "id": 1205,
+      "word": "preparare",
+      "example": "Devo preparare la cena.",
+      "exampleZh": "我得准备晚饭。"
+    },
+    {
+      "id": 1206,
+      "word": "acceso",
+      "example": "Il televisore è ancora acceso.",
+      "exampleZh": "电视还开着。"
+    },
+    {
+      "id": 1209,
+      "word": "chiamata",
+      "example": "Ho ricevuto una chiamata dal medico.",
+      "exampleZh": "我接到了医生打来的电话。"
+    },
+    {
+      "id": 1210,
+      "word": "lento",
+      "example": "Il computer è molto lento oggi.",
+      "exampleZh": "今天电脑很慢。"
+    },
+    {
+      "id": 1211,
+      "word": "azioni",
+      "example": "Le sue azioni hanno conseguenze importanti.",
+      "exampleZh": "他的行为会带来重要后果。"
+    },
+    {
+      "id": 1212,
+      "word": "esci",
+      "example": "A che ora esci dal lavoro?",
+      "exampleZh": "你几点下班？"
+    },
+    {
+      "id": 1214,
+      "word": "emozionante",
+      "example": "La partita è stata davvero emozionante.",
+      "exampleZh": "这场比赛真的很激动人心。"
+    },
+    {
+      "id": 1215,
+      "word": "misterioso",
+      "example": "Ho sentito un rumore misterioso.",
+      "exampleZh": "我听到了一个神秘的声音。"
+    },
+    {
+      "id": 1216,
+      "word": "vi",
+      "example": "Vi aspetto davanti alla stazione.",
+      "exampleZh": "我在火车站前等你们。"
+    },
+    {
+      "id": 1218,
+      "word": "danno",
+      "example": "Il fumo può causare un danno ai polmoni.",
+      "exampleZh": "吸烟可能会对肺部造成损害。"
+    },
+    {
+      "id": 1219,
+      "word": "film",
+      "example": "Stasera guardiamo un film italiano.",
+      "exampleZh": "今晚我们看一部意大利电影。"
+    },
+    {
+      "id": 1221,
+      "word": "romantiche",
+      "example": "Mi piacciono le commedie romantiche.",
+      "exampleZh": "我喜欢浪漫喜剧。"
+    },
+    {
+      "id": 1222,
+      "word": "cala",
+      "example": "Di notte la temperatura cala rapidamente.",
+      "exampleZh": "夜里气温下降得很快。"
+    },
+    {
+      "id": 1224,
+      "word": "lettera",
+      "example": "Scrivo una lettera a mia nonna.",
+      "exampleZh": "我给奶奶写一封信。"
+    },
+    {
+      "id": 1225,
+      "word": "quelli",
+      "example": "Quelli sono i miei bagagli.",
+      "exampleZh": "那些是我的行李。"
+    },
+    {
+      "id": 1227,
+      "word": "ti",
+      "example": "Ti chiamo stasera dopo cena.",
+      "exampleZh": "我今晚晚饭后给你打电话。"
+    },
+    {
+      "id": 1228,
+      "word": "fortunato",
+      "example": "Sei fortunato ad avere amici così.",
+      "exampleZh": "你有这样的朋友很幸运。"
+    },
+    {
+      "id": 1230,
+      "word": "single",
+      "example": "È uscito il nuovo single della cantante.",
+      "exampleZh": "这位歌手的新单曲发行了。"
+    },
+    {
+      "id": 1231,
+      "word": "romantico",
+      "example": "È un ristorante molto romantico.",
+      "exampleZh": "这是一家很浪漫的餐厅。"
+    },
+    {
+      "id": 1233,
+      "word": "ceneranno",
+      "example": "Domani ceneranno con noi.",
+      "exampleZh": "他们明天会和我们一起吃晚饭。"
+    },
+    {
+      "id": 1234,
+      "word": "escono",
+      "example": "I ragazzi escono da scuola alle quattro.",
+      "exampleZh": "孩子们四点放学。"
+    },
+    {
+      "id": 1235,
+      "word": "tutti",
+      "example": "Tutti sono pronti per partire.",
+      "exampleZh": "大家都准备好出发了。"
+    },
+    {
+      "id": 1236,
+      "word": "guarderanno",
+      "example": "Stasera guarderanno la partita in TV.",
+      "exampleZh": "他们今晚会在电视上看比赛。"
+    },
+    {
+      "id": 1237,
+      "word": "in bocca al lupo",
+      "example": "In bocca al lupo per l'esame!",
+      "exampleZh": "祝你考试好运！"
+    },
+    {
+      "id": 1238,
+      "word": "scriverà",
+      "example": "Marta scriverà una mail domani.",
+      "exampleZh": "玛尔塔明天会写一封电子邮件。"
+    },
+    {
+      "id": 1239,
+      "word": "cucinerà",
+      "example": "Luca cucinerà la cena stasera.",
+      "exampleZh": "卢卡今晚会做晚饭。"
+    },
+    {
+      "id": 1240,
+      "word": "esce",
+      "example": "Il nuovo film esce venerdì.",
+      "exampleZh": "这部新电影星期五上映。"
+    },
+    {
+      "id": 1241,
+      "word": "nuvoloso",
+      "example": "Oggi il cielo è nuvoloso.",
+      "exampleZh": "今天天空多云。"
+    },
+    {
+      "id": 1242,
+      "word": "guarderemo",
+      "example": "Domani guarderemo un documentario.",
+      "exampleZh": "我们明天会看一部纪录片。"
+    },
+    {
+      "id": 1243,
+      "word": "guarderete",
+      "example": "Stasera guarderete il film insieme.",
+      "exampleZh": "你们今晚会一起看电影。"
+    },
+    {
+      "id": 1244,
+      "word": "cenerete",
+      "example": "A che ora cenerete domani?",
+      "exampleZh": "你们明天几点吃晚饭？"
+    },
+    {
+      "id": 1245,
+      "word": "baci",
+      "example": "Ti mando tanti baci.",
+      "exampleZh": "给你很多个吻。"
+    },
+    {
+      "id": 1246,
+      "word": "ceneremo",
+      "example": "Ceneremo fuori sabato sera.",
+      "exampleZh": "我们星期六晚上会在外面吃晚饭。"
+    },
+    {
+      "id": 1247,
+      "word": "c'è vento",
+      "example": "Oggi c'è vento e fa freddo.",
+      "exampleZh": "今天有风，而且很冷。"
+    },
+    {
+      "id": 1248,
+      "word": "cenerò",
+      "example": "Stasera cenerò a casa.",
+      "exampleZh": "我今晚会在家吃晚饭。"
+    },
+    {
+      "id": 1249,
+      "word": "conoscerò",
+      "example": "Domani conoscerò i miei nuovi colleghi.",
+      "exampleZh": "我明天会认识我的新同事。"
+    },
+    {
+      "id": 1250,
+      "word": "cantò",
+      "example": "Alla festa cantò una canzone italiana.",
+      "exampleZh": "在聚会上他唱了一首意大利歌曲。"
+    },
+    {
+      "id": 1251,
+      "word": "esco",
+      "example": "Esco dal lavoro alle sei.",
+      "exampleZh": "我六点下班离开。"
+    },
+    {
+      "id": 1252,
+      "word": "conoscerai",
+      "example": "Domani conoscerai i miei amici.",
+      "exampleZh": "你明天会认识我的朋友们。"
+    },
+    {
+      "id": 1253,
+      "word": "fasce",
+      "example": "Il negozio è aperto in diverse fasce orarie.",
+      "exampleZh": "这家店在不同时间段营业。"
+    },
+    {
+      "id": 1254,
+      "word": "all'",
+      "example": "Domani vado all'aeroporto presto.",
+      "exampleZh": "我明天很早去机场。"
+    },
+    {
+      "id": 1255,
+      "word": "uscite",
+      "example": "A che ora uscite dall'ufficio?",
+      "exampleZh": "你们几点离开办公室？"
+    },
+    {
+      "id": 1256,
+      "word": "cenerai",
+      "example": "Dove cenerai stasera?",
+      "exampleZh": "你今晚会在哪里吃晚饭？"
+    },
+    {
+      "id": 1257,
+      "word": "usciti",
+      "example": "Siamo usciti di casa molto presto.",
+      "exampleZh": "我们很早就离开家了。"
+    },
+    {
+      "id": 1259,
+      "word": "pubblico",
+      "example": "Il pubblico applaude alla fine dello spettacolo.",
+      "exampleZh": "演出结束时观众鼓掌。"
+    },
+    {
+      "id": 1261,
+      "word": "rilassarsi",
+      "example": "È importante rilassarsi dopo il lavoro.",
+      "exampleZh": "下班后放松很重要。"
+    },
+    {
+      "id": 1262,
+      "word": "prepararsi",
+      "example": "È ora di prepararsi per uscire.",
+      "exampleZh": "该准备出门了。"
+    },
+    {
+      "id": 1265,
+      "word": "emozionato",
+      "example": "Sono emozionato per il viaggio di domani.",
+      "exampleZh": "我对明天的旅行很兴奋。"
+    },
+    {
+      "id": 1266,
+      "word": "nervoso",
+      "example": "Prima dell'esame sono sempre nervoso.",
+      "exampleZh": "考试前我总是很紧张。"
+    },
+    {
+      "id": 1267,
+      "word": "spettacolo",
+      "example": "Lo spettacolo comincia alle nove.",
+      "exampleZh": "演出九点开始。"
+    },
+    {
+      "id": 1268,
+      "word": "farò",
+      "example": "Domani farò la spesa dopo il lavoro.",
+      "exampleZh": "我明天下班后会去买东西。"
+    },
+    {
+      "id": 1269,
+      "word": "prepararci",
+      "example": "Dobbiamo prepararci prima di partire.",
+      "exampleZh": "出发前我们必须做好准备。"
+    },
+    {
+      "id": 1270,
+      "word": "svegliarvi",
+      "example": "Domani dovete svegliarvi presto.",
+      "exampleZh": "你们明天必须早起。"
+    },
+    {
+      "id": 1272,
+      "word": "prepararvi",
+      "example": "Dovete prepararvi in dieci minuti.",
+      "exampleZh": "你们必须在十分钟内准备好。"
+    },
+    {
+      "id": 1273,
+      "word": "svegliarci",
+      "example": "Domani dobbiamo svegliarci alle cinque.",
+      "exampleZh": "我们明天必须五点醒来。"
+    },
+    {
+      "id": 1274,
+      "word": "prepararti",
+      "example": "Devi prepararti per l'esame.",
+      "exampleZh": "你必须为考试做准备。"
+    },
+    {
+      "id": 1275,
+      "word": "svegliarti",
+      "example": "Devi svegliarti prima delle sette.",
+      "exampleZh": "你必须七点前醒来。"
+    },
+    {
+      "id": 1276,
+      "word": "vengono",
+      "example": "I miei amici vengono a cena stasera.",
+      "exampleZh": "我的朋友们今晚来吃晚饭。"
+    },
+    {
+      "id": 1277,
+      "word": "pop",
+      "example": "Ascolto spesso musica pop.",
+      "exampleZh": "我经常听流行音乐。"
+    },
+    {
+      "id": 1278,
+      "word": "svegliarmi",
+      "example": "Domani devo svegliarmi molto presto.",
+      "exampleZh": "我明天必须很早起床。"
+    },
+    {
+      "id": 1279,
+      "word": "prepararmi",
+      "example": "Devo prepararmi per il colloquio.",
+      "exampleZh": "我必须为面试做准备。"
+    },
+    {
+      "id": 1280,
+      "word": "rock",
+      "example": "A mio fratello piace il rock.",
+      "exampleZh": "我哥哥喜欢摇滚乐。"
+    },
+    {
+      "id": 1282,
+      "word": "muto",
+      "example": "Ho messo il microfono in muto.",
+      "exampleZh": "我把麦克风静音了。"
+    },
+    {
+      "id": 1283,
+      "word": "partiranno",
+      "example": "Loro partiranno domani mattina.",
+      "exampleZh": "他们明天早上会出发。"
+    },
+    {
+      "id": 1285,
+      "word": "dormiranno",
+      "example": "I bambini dormiranno nella stessa stanza.",
+      "exampleZh": "孩子们会睡在同一个房间。"
+    },
+    {
+      "id": 1287,
+      "word": "incredibile",
+      "example": "La vista dalla montagna è incredibile.",
+      "exampleZh": "从山上看到的景色令人难以置信。"
+    },
+    {
+      "id": 1288,
+      "word": "dormiremo",
+      "example": "Questa notte dormiremo in albergo.",
+      "exampleZh": "今晚我们会睡在酒店。"
+    },
+    {
+      "id": 1289,
+      "word": "partiremo",
+      "example": "Partiremo dopo colazione.",
+      "exampleZh": "我们早餐后出发。"
+    },
+    {
+      "id": 1290,
+      "word": "dormirete",
+      "example": "Dove dormirete durante il viaggio?",
+      "exampleZh": "你们旅行期间会住在哪里？"
+    },
+    {
+      "id": 1291,
+      "word": "partirete",
+      "example": "Partirete sabato o domenica?",
+      "exampleZh": "你们星期六还是星期天出发？"
+    },
+    {
+      "id": 1292,
+      "word": "partirà",
+      "example": "Il treno partirà alle otto.",
+      "exampleZh": "火车八点出发。"
+    },
+    {
+      "id": 1293,
+      "word": "dormirà",
+      "example": "Dopo il viaggio dormirà per molte ore.",
+      "exampleZh": "旅行后他会睡很多小时。"
+    },
+    {
+      "id": 1294,
+      "word": "completo",
+      "example": "Il modulo è completo e pronto da inviare.",
+      "exampleZh": "表格填写完整，可以提交了。"
+    },
+    {
+      "id": 1295,
+      "word": "prezzo",
+      "example": "Qual è il prezzo di questa giacca?",
+      "exampleZh": "这件夹克多少钱？"
+    },
+    {
+      "id": 1296,
+      "word": "sicuramente",
+      "example": "Verrò sicuramente alla riunione.",
+      "exampleZh": "我肯定会来参加会议。"
+    },
+    {
+      "id": 1297,
+      "word": "leggende",
+      "example": "Mia nonna conosce molte leggende locali.",
+      "exampleZh": "我奶奶知道很多当地传说。"
+    },
+    {
+      "id": 1298,
+      "word": "partirai",
+      "example": "A che ora partirai domani?",
+      "exampleZh": "你明天几点出发？"
+    },
+    {
+      "id": 1299,
+      "word": "dormirai",
+      "example": "Stanotte dormirai meglio.",
+      "exampleZh": "你今晚会睡得更好。"
+    },
+    {
+      "id": 1300,
+      "word": "agenzia di viaggi",
+      "example": "Abbiamo prenotato il viaggio in un'agenzia di viaggi.",
+      "exampleZh": "我们在旅行社预订了旅行。"
+    },
+    {
+      "id": 1301,
+      "word": "valigia",
+      "example": "La mia valigia è troppo pesante.",
+      "exampleZh": "我的行李箱太重了。"
+    },
+    {
+      "id": 1302,
+      "word": "dormirò",
+      "example": "Stanotte dormirò a casa di un amico.",
+      "exampleZh": "我今晚会睡在一个朋友家。"
+    },
+    {
+      "id": 1303,
+      "word": "affari",
+      "example": "È a Milano per affari.",
+      "exampleZh": "他在米兰出差办事。"
+    },
+    {
+      "id": 1304,
+      "word": "partirò",
+      "example": "Partirò venerdì mattina.",
+      "exampleZh": "我星期五早上出发。"
+    },
+    {
+      "id": 1305,
+      "word": "probabilmente",
+      "example": "Probabilmente arriveremo tardi.",
+      "exampleZh": "我们大概会晚到。"
+    },
+    {
+      "id": 1308,
+      "word": "trama",
+      "example": "La trama del film è molto interessante.",
+      "exampleZh": "这部电影的情节很有趣。"
+    },
+    {
+      "id": 1309,
+      "word": "stupendo",
+      "example": "Abbiamo passato uno stupendo fine settimana al mare.",
+      "exampleZh": "我们在海边度过了一个极好的周末。"
+    },
+    {
+      "id": 1310,
+      "word": "essere d'accordo",
+      "example": "È difficile essere d'accordo su tutto.",
+      "exampleZh": "要在所有事情上都意见一致很难。"
+    },
+    {
+      "id": 1311,
+      "word": "entrambi",
+      "example": "Entrambi i miei figli studiano italiano.",
+      "exampleZh": "我的两个孩子都学习意大利语。"
+    },
+    {
+      "id": 1312,
+      "word": "pezzi",
+      "example": "Taglia la torta in otto pezzi.",
+      "exampleZh": "把蛋糕切成八块。"
+    },
+    {
+      "id": 1313,
+      "word": "tutti i giorni",
+      "example": "Cammino almeno mezz'ora tutti i giorni.",
+      "exampleZh": "我每天至少步行半小时。"
+    },
+    {
+      "id": 1314,
+      "word": "giocattolo",
+      "example": "Il bambino dorme con il suo giocattolo preferito.",
+      "exampleZh": "这个孩子抱着他最喜欢的玩具睡觉。"
+    },
+    {
+      "id": 1315,
+      "word": "criceto",
+      "example": "Il criceto dorme nella sua gabbia.",
+      "exampleZh": "仓鼠睡在它的笼子里。"
+    },
+    {
+      "id": 1316,
+      "word": "fiasco",
+      "example": "La festa è stata un vero fiasco.",
+      "exampleZh": "这次聚会彻底失败了。"
+    },
+    {
+      "id": 1317,
+      "word": "tenda",
+      "example": "Montiamo la tenda vicino al lago.",
+      "exampleZh": "我们在湖边搭帐篷。"
+    },
+    {
+      "id": 1318,
+      "word": "pulisco",
+      "example": "Ogni sabato pulisco tutta la casa.",
+      "exampleZh": "我每周六打扫整个房子。"
+    },
+    {
+      "id": 1319,
+      "word": "litigare",
+      "example": "Non voglio litigare per una cosa così piccola.",
+      "exampleZh": "我不想为这么小的事情吵架。"
+    },
+    {
+      "id": 1320,
+      "word": "cade",
+      "example": "Il bicchiere cade dal tavolo.",
+      "exampleZh": "杯子从桌上掉下来。"
+    },
+    {
+      "id": 1321,
+      "word": "disordinato",
+      "example": "Il suo ufficio è sempre disordinato.",
+      "exampleZh": "他的办公室总是很乱。"
+    },
+    {
+      "id": 1322,
+      "word": "scuro",
+      "example": "Preferisco un colore scuro.",
+      "exampleZh": "我更喜欢深色。"
+    },
+    {
+      "id": 1323,
+      "word": "camera da letto",
+      "example": "La camera da letto è al primo piano.",
+      "exampleZh": "卧室在一楼。"
+    },
+    {
+      "id": 1324,
+      "word": "comodo",
+      "example": "Questo divano è molto comodo.",
+      "exampleZh": "这个沙发很舒服。"
+    },
+    {
+      "id": 1325,
+      "word": "tappeto",
+      "example": "C'è un tappeto sotto il tavolo.",
+      "exampleZh": "桌子下面有一块地毯。"
+    },
+    {
+      "id": 1327,
+      "word": "gemello",
+      "example": "Luca ha un fratello gemello.",
+      "exampleZh": "卢卡有一个双胞胎兄弟。"
+    },
+    {
+      "id": 1328,
+      "word": "pigro",
+      "example": "Il mio gatto è pigro e dorme tutto il giorno.",
+      "exampleZh": "我的猫很懒，整天睡觉。"
+    },
+    {
+      "id": 1329,
+      "word": "diverso",
+      "example": "Questo modello è diverso dal precedente.",
+      "exampleZh": "这个型号和上一个不同。"
+    },
+    {
+      "id": 1330,
+      "word": "ordinato",
+      "example": "Il tavolo è pulito e ordinato.",
+      "exampleZh": "桌子干净又整齐。"
+    },
+    {
+      "id": 1331,
+      "word": "discoteca",
+      "example": "Sabato sera andiamo in discoteca.",
+      "exampleZh": "星期六晚上我们去夜店。"
+    },
+    {
+      "id": 1332,
+      "word": "cantato",
+      "example": "Ho cantato una canzone italiana.",
+      "exampleZh": "我唱了一首意大利歌曲。"
+    },
+    {
+      "id": 1333,
+      "word": "ballato",
+      "example": "Abbiamo ballato fino a mezzanotte.",
+      "exampleZh": "我们一直跳舞到午夜。"
+    },
+    {
+      "id": 1334,
+      "word": "turisti",
+      "example": "In estate arrivano molti turisti.",
+      "exampleZh": "夏天会来很多游客。"
+    },
+    {
+      "id": 1336,
+      "word": "parlato",
+      "example": "Abbiamo parlato del problema per un'ora.",
+      "exampleZh": "我们谈了一个小时这个问题。"
+    },
+    {
+      "id": 1337,
+      "word": "abbina",
+      "example": "Abbina ogni parola alla sua immagine.",
+      "exampleZh": "把每个单词和对应图片配对。"
+    },
+    {
+      "id": 1338,
+      "word": "frutti di mare",
+      "example": "Al ristorante abbiamo ordinato frutti di mare.",
+      "exampleZh": "我们在餐厅点了海鲜。"
+    },
+    {
+      "id": 1339,
+      "word": "delizioso",
+      "example": "Questo piatto è davvero delizioso.",
+      "exampleZh": "这道菜真的很美味。"
+    },
+    {
+      "id": 1340,
+      "word": "provato",
+      "example": "Ho provato questo piatto per la prima volta.",
+      "exampleZh": "我第一次尝了这道菜。"
+    },
+    {
+      "id": 1341,
+      "word": "mangiato",
+      "example": "Ho mangiato una pizza a pranzo.",
+      "exampleZh": "我午饭吃了一张披萨。"
+    },
+    {
+      "id": 1342,
+      "word": "mare",
+      "example": "D'estate andiamo spesso al mare.",
+      "exampleZh": "夏天我们经常去海边。"
+    },
+    {
+      "id": 1343,
+      "word": "tipico",
+      "example": "È un piatto tipico della Sicilia.",
+      "exampleZh": "这是西西里的一道典型菜肴。"
+    },
+    {
+      "id": 1345,
+      "word": "nuotato",
+      "example": "Ho nuotato per mezz'ora.",
+      "exampleZh": "我游了半小时泳。"
+    },
+    {
+      "id": 1347,
+      "word": "duemila",
+      "example": "Il paese ha circa duemila abitanti.",
+      "exampleZh": "这个镇大约有两千名居民。"
+    },
+    {
+      "id": 1348,
+      "word": "passeggiato",
+      "example": "Abbiamo passeggiato lungo il fiume.",
+      "exampleZh": "我们沿着河边散了步。"
+    },
+    {
+      "id": 1349,
+      "word": "visitato",
+      "example": "Ho visitato Firenze l'anno scorso.",
+      "exampleZh": "我去年参观了佛罗伦萨。"
+    },
+    {
+      "id": 1350,
+      "word": "viaggiato",
+      "example": "Ho viaggiato molto per lavoro.",
+      "exampleZh": "我因为工作去过很多地方。"
+    },
+    {
+      "id": 1351,
+      "word": "di chi",
+      "example": "Di chi è questa borsa?",
+      "exampleZh": "这个包是谁的？"
+    },
+    {
+      "id": 1352,
+      "word": "contento",
+      "example": "Sono contento del risultato.",
+      "exampleZh": "我对这个结果很满意。"
+    },
+    {
+      "id": 1353,
+      "word": "scatola",
+      "example": "La scatola è piena di libri.",
+      "exampleZh": "盒子里装满了书。"
+    },
+    {
+      "id": 1354,
+      "word": "dicono",
+      "example": "Dicono che domani pioverà.",
+      "exampleZh": "他们说明天会下雨。"
+    },
+    {
+      "id": 1355,
+      "word": "veramente",
+      "example": "È veramente una bella città.",
+      "exampleZh": "这真是一座美丽的城市。"
+    },
+    {
+      "id": 1356,
+      "word": "chiamato",
+      "example": "Ho chiamato mia madre ieri sera.",
+      "exampleZh": "我昨晚给妈妈打了电话。"
+    },
+    {
+      "id": 1358,
+      "word": "bugia",
+      "example": "Non dire una bugia.",
+      "exampleZh": "不要说谎。"
+    },
+    {
+      "id": 1359,
+      "word": "scacco",
+      "example": "Il re è sotto scacco.",
+      "exampleZh": "国王现在被将军了。"
+    },
+    {
+      "id": 1360,
+      "word": "sciato",
+      "example": "Ho sciato tutto il giorno.",
+      "exampleZh": "我滑了一整天雪。"
+    },
+    {
+      "id": 1361,
+      "word": "cucinato",
+      "example": "Ieri ho cucinato la pasta per tutti.",
+      "exampleZh": "昨天我给大家做了意面。"
+    },
+    {
+      "id": 1362,
+      "word": "impresa",
+      "example": "Lavora per una piccola impresa familiare.",
+      "exampleZh": "他在一家小型家族企业工作。"
+    },
+    {
+      "id": 1363,
+      "word": "pagato",
+      "example": "Ho già pagato il conto.",
+      "exampleZh": "我已经付过账了。"
+    },
+    {
+      "id": 1364,
+      "word": "maga",
+      "example": "Nella storia la maga aiuta il principe.",
+      "exampleZh": "故事里的女魔法师帮助王子。"
+    },
+    {
+      "id": 1365,
+      "word": "moto",
+      "example": "Vado al lavoro in moto.",
+      "exampleZh": "我骑摩托车上班。"
+    },
+    {
+      "id": 1366,
+      "word": "comprato",
+      "example": "Ho comprato queste scarpe ieri.",
+      "exampleZh": "我昨天买了这双鞋。"
+    },
+    {
+      "id": 1367,
+      "word": "proprietario",
+      "example": "Il proprietario dell'appartamento vive al piano di sopra.",
+      "exampleZh": "这套公寓的房东住在楼上。"
+    },
+    {
+      "id": 1368,
+      "word": "lavorato",
+      "example": "Ho lavorato fino a tardi ieri sera.",
+      "exampleZh": "我昨晚工作到很晚。"
+    },
+    {
+      "id": 1369,
+      "word": "influencer",
+      "example": "Lei è un'influencer molto conosciuta.",
+      "exampleZh": "她是一位很有名的网红。"
+    },
+    {
+      "id": 1370,
+      "word": "pranzato",
+      "example": "Abbiamo pranzato insieme al ristorante.",
+      "exampleZh": "我们一起在餐厅吃了午饭。"
+    },
+    {
+      "id": 1371,
+      "word": "attrice",
+      "example": "Quell'attrice ha vinto un premio.",
+      "exampleZh": "那位女演员获了奖。"
+    },
+    {
+      "id": 1372,
+      "word": "fatto",
+      "example": "Ho fatto tutto il possibile.",
+      "exampleZh": "我已经尽了最大努力。"
+    },
+    {
+      "id": 1374,
+      "word": "attore",
+      "example": "È un attore italiano molto famoso.",
+      "exampleZh": "他是一位很有名的意大利男演员。"
+    },
+    {
+      "id": 1375,
+      "word": "scorso",
+      "example": "L'anno scorso siamo stati a Roma.",
+      "exampleZh": "去年我们去了罗马。"
+    },
+    {
+      "id": 1376,
+      "word": "strega",
+      "example": "La strega viveva in una casa nel bosco.",
+      "exampleZh": "女巫住在森林里的一座房子里。"
+    },
+    {
+      "id": 1377,
+      "word": "cercato",
+      "example": "Ho cercato le chiavi dappertutto.",
+      "exampleZh": "我到处找过钥匙。"
+    },
+    {
+      "id": 1378,
+      "word": "guido",
+      "example": "Guido con prudenza quando piove.",
+      "exampleZh": "下雨时我谨慎开车。"
+    },
+    {
+      "id": 1380,
+      "word": "seguito",
+      "example": "Ho seguito le istruzioni passo dopo passo.",
+      "exampleZh": "我一步一步按照说明做了。"
+    },
+    {
+      "id": 1381,
+      "word": "preso",
+      "example": "Ho preso l'autobus delle otto.",
+      "exampleZh": "我坐了八点的公交车。"
+    },
+    {
+      "id": 1382,
+      "word": "capre",
+      "example": "Le capre mangiano l'erba sulla collina.",
+      "exampleZh": "山羊在山坡上吃草。"
+    },
+    {
+      "id": 1384,
+      "word": "all'improvviso",
+      "example": "All'improvviso è iniziato a piovere.",
+      "exampleZh": "突然开始下雨了。"
+    },
+    {
+      "id": 1385,
+      "word": "ovvio",
+      "example": "È ovvio che abbiamo bisogno di più tempo.",
+      "exampleZh": "显然我们需要更多时间。"
+    },
+    {
+      "id": 1386,
+      "word": "candela",
+      "example": "Accendo una candela sul tavolo.",
+      "exampleZh": "我在桌上点一支蜡烛。"
+    },
+    {
+      "id": 1387,
+      "word": "pianoforte",
+      "example": "Mia figlia studia pianoforte.",
+      "exampleZh": "我女儿学钢琴。"
+    },
+    {
+      "id": 1388,
+      "word": "sentito",
+      "example": "Ho sentito un rumore fuori dalla finestra.",
+      "exampleZh": "我听见窗外有声音。"
+    },
+    {
+      "id": 1389,
+      "word": "lampada",
+      "example": "La lampada sul comodino è accesa.",
+      "exampleZh": "床头柜上的灯亮着。"
+    },
+    {
+      "id": 1392,
+      "word": "trovato",
+      "example": "Ho trovato le chiavi sotto il divano.",
+      "exampleZh": "我在沙发下面找到了钥匙。"
+    },
+    {
+      "id": 1394,
+      "word": "trovai",
+      "example": "Alla fine trovai la strada giusta.",
+      "exampleZh": "最后我找到了正确的路。"
+    },
+    {
+      "id": 1395,
+      "word": "dormito",
+      "example": "Ho dormito otto ore.",
+      "exampleZh": "我睡了八个小时。"
+    },
+    {
+      "id": 1396,
+      "word": "elettricità",
+      "example": "Senza elettricità il frigorifero non funziona.",
+      "exampleZh": "没有电冰箱就无法工作。"
+    },
+    {
+      "id": 1397,
+      "word": "villa",
+      "example": "Vivono in una villa vicino al lago.",
+      "exampleZh": "他们住在湖边的一栋别墅里。"
+    },
+    {
+      "id": 1398,
+      "word": "fuoco",
+      "example": "Non avvicinarti al fuoco.",
+      "exampleZh": "不要靠近火。"
+    },
+    {
+      "id": 1399,
+      "word": "fantasmi",
+      "example": "Da bambino avevo paura dei fantasmi.",
+      "exampleZh": "我小时候害怕鬼。"
+    },
+    {
+      "id": 1400,
+      "word": "ascoltare",
+      "example": "Mi piace ascoltare la musica mentre cucino.",
+      "exampleZh": "我喜欢做饭时听音乐。"
+    },
+    {
+      "id": 1401,
+      "word": "ci sediamo",
+      "example": "A cena ci sediamo tutti allo stesso tavolo.",
+      "exampleZh": "晚饭时我们大家坐在同一张桌子旁。"
+    },
+    {
+      "id": 1402,
+      "word": "gratis",
+      "example": "L'ingresso al museo è gratis oggi.",
+      "exampleZh": "今天博物馆免费入场。"
+    },
+    {
+      "id": 1403,
+      "word": "conosceremo",
+      "example": "Domani conosceremo il nuovo direttore.",
+      "exampleZh": "我们明天会认识新主管。"
+    },
+    {
+      "id": 1404,
+      "word": "andremo",
+      "example": "Domenica andremo al lago.",
+      "exampleZh": "我们星期天会去湖边。"
+    },
+    {
+      "id": 1406,
+      "word": "sorpresa",
+      "example": "Ho una sorpresa per te.",
+      "exampleZh": "我有一个惊喜给你。"
+    },
+    {
+      "id": 1408,
+      "word": "girato",
+      "example": "Hanno girato il film a Roma.",
+      "exampleZh": "他们在罗马拍摄了这部电影。"
+    },
+    {
+      "id": 1409,
+      "word": "Giappone",
+      "example": "Vorrei visitare il Giappone un giorno.",
+      "exampleZh": "我希望有一天去日本。"
+    },
+    {
+      "id": 1410,
+      "word": "recitare",
+      "example": "A scuola dobbiamo recitare una poesia.",
+      "exampleZh": "我们在学校要朗诵一首诗。"
+    },
+    {
+      "id": 1411,
+      "word": "peggio",
+      "example": "Oggi mi sento peggio di ieri.",
+      "exampleZh": "我今天感觉比昨天更糟。"
+    },
+    {
+      "id": 1412,
+      "word": "video",
+      "example": "Ti mando il video per messaggio.",
+      "exampleZh": "我通过消息把视频发给你。"
+    },
+    {
+      "id": 1413,
+      "word": "giapponese",
+      "example": "Sto imparando il giapponese.",
+      "exampleZh": "我正在学习日语。"
+    },
+    {
+      "id": 1414,
+      "word": "antipatico",
+      "example": "Quel cameriere è stato molto antipatico.",
+      "exampleZh": "那个服务员很不友好。"
+    },
+    {
+      "id": 1415,
+      "word": "il meno",
+      "example": "Questo modello è il meno costoso.",
+      "exampleZh": "这个型号是最便宜的。"
+    },
+    {
+      "id": 1416,
+      "word": "maglie",
+      "example": "Ho comprato due maglie di cotone.",
+      "exampleZh": "我买了两件棉质上衣。"
+    },
+    {
+      "id": 1417,
+      "word": "ed",
+      "example": "Luca ed Elena arrivano domani.",
+      "exampleZh": "卢卡和埃莱娜明天到。"
+    },
+    {
+      "id": 1418,
+      "word": "ballerino",
+      "example": "Mio fratello è un ballerino professionista.",
+      "exampleZh": "我哥哥是一名职业舞者。"
+    },
+    {
+      "id": 1419,
+      "word": "gentile",
+      "example": "Il medico è stato molto gentile con me.",
+      "exampleZh": "医生对我非常亲切。"
+    },
+    {
+      "id": 1420,
+      "word": "fan",
+      "example": "Sono un fan di questa squadra.",
+      "exampleZh": "我是这支球队的粉丝。"
+    },
+    {
+      "id": 1421,
+      "word": "cola",
+      "example": "L'acqua cola dal tetto quando piove.",
+      "exampleZh": "下雨时水从屋顶往下滴。"
+    },
+    {
+      "id": 1422,
+      "word": "coreano",
+      "example": "Mio figlio studia il coreano online.",
+      "exampleZh": "我儿子在网上学习韩语。"
+    },
+    {
+      "id": 1423,
+      "word": "castro",
+      "example": "Il castro romano sorgeva su una collina.",
+      "exampleZh": "这座罗马要塞建在一座山丘上。"
+    },
+    {
+      "id": 1424,
+      "word": "musicista",
+      "example": "Mia sorella è una musicista.",
+      "exampleZh": "我妹妹是一名音乐家。"
+    },
+    {
+      "id": 1425,
+      "word": "problemi",
+      "example": "Abbiamo alcuni problemi da risolvere.",
+      "exampleZh": "我们有一些问题需要解决。"
+    },
+    {
+      "id": 1426,
+      "word": "capisco",
+      "example": "Adesso capisco cosa vuoi dire.",
+      "exampleZh": "现在我明白你的意思了。"
+    },
+    {
+      "id": 1427,
+      "word": "tutte le",
+      "example": "Ho lavato tutte le finestre.",
+      "exampleZh": "我把所有窗户都洗了。"
+    },
+    {
+      "id": 1428,
+      "word": "ci esercitiamo",
+      "example": "Ogni sera ci esercitiamo a parlare italiano.",
+      "exampleZh": "我们每天晚上练习说意大利语。"
+    },
+    {
+      "id": 1429,
+      "word": "mi esercito",
+      "example": "Mi esercito con l'italiano ogni giorno.",
+      "exampleZh": "我每天练习意大利语。"
+    },
+    {
+      "id": 1430,
+      "word": "russo",
+      "example": "Il mio vicino è russo.",
+      "exampleZh": "我的邻居是俄罗斯人。"
+    },
+    {
+      "id": 1431,
+      "word": "studieremo",
+      "example": "Domani studieremo il passato prossimo.",
+      "exampleZh": "我们明天会学习近过去时。"
+    },
+    {
+      "id": 1432,
+      "word": "studierò",
+      "example": "Stasera studierò per l'esame.",
+      "exampleZh": "我今晚会为考试学习。"
+    },
+    {
+      "id": 1434,
+      "word": "tutti i",
+      "example": "Tutti i bambini sono già a letto.",
+      "exampleZh": "所有孩子都已经上床了。"
+    },
+    {
+      "id": 1435,
+      "word": "arabo",
+      "example": "Vorrei imparare un po' di arabo.",
+      "exampleZh": "我想学一点阿拉伯语。"
+    },
+    {
+      "id": 1436,
+      "word": "pancia",
+      "example": "Mi fa male la pancia.",
+      "exampleZh": "我肚子疼。"
+    },
+    {
+      "id": 1439,
+      "word": "distrutto",
+      "example": "Dopo il lavoro sono completamente distrutto.",
+      "exampleZh": "下班后我累坏了。"
+    },
+    {
+      "id": 1441,
+      "word": "violino",
+      "example": "Mia figlia suona il violino.",
+      "exampleZh": "我女儿拉小提琴。"
+    },
+    {
+      "id": 1442,
+      "word": "strumento",
+      "example": "Il pianoforte è uno strumento musicale.",
+      "exampleZh": "钢琴是一种乐器。"
+    },
+    {
+      "id": 1445,
+      "word": "abbiate",
+      "example": "Abbiate pazienza ancora un momento.",
+      "exampleZh": "请你们再耐心等一下。"
+    },
+    {
+      "id": 1446,
+      "word": "dizionario",
+      "example": "Cerco questa parola nel dizionario.",
+      "exampleZh": "我在词典里查这个词。"
+    },
+    {
+      "id": 1447,
+      "word": "chitarra",
+      "example": "Luca suona la chitarra ogni sera.",
+      "exampleZh": "卢卡每天晚上弹吉他。"
+    },
+    {
+      "id": 1449,
+      "word": "sushi",
+      "example": "Mi piace mangiare sushi.",
+      "exampleZh": "我喜欢吃寿司。"
+    },
+    {
+      "id": 1451,
+      "word": "caccia",
+      "example": "La caccia è vietata in questa zona.",
+      "exampleZh": "这个区域禁止狩猎。"
+    },
+    {
+      "id": 1452,
+      "word": "cosse",
+      "example": "La nonna cosse il pane nel forno.",
+      "exampleZh": "奶奶在烤炉里烤了面包。"
+    },
+    {
+      "id": 1454,
+      "word": "informale",
+      "example": "La riunione di oggi è informale.",
+      "exampleZh": "今天的会议是非正式的。"
+    },
+    {
+      "id": 1455,
+      "word": "bracciale",
+      "example": "Indossa un bracciale d'argento.",
+      "exampleZh": "她戴着一个银手镯。"
+    },
+    {
+      "id": 1457,
+      "word": "lavandino",
+      "example": "Il lavandino del bagno è molto piccolo.",
+      "exampleZh": "浴室的洗手池很小。"
+    },
+    {
+      "id": 1458,
+      "word": "tovaglia",
+      "example": "Mettiamo una tovaglia pulita sul tavolo.",
+      "exampleZh": "我们在桌上铺一块干净桌布。"
+    },
+    {
+      "id": 1459,
+      "word": "scopare",
+      "example": "Devo scopare il pavimento della cucina.",
+      "exampleZh": "我得扫厨房的地板。"
+    },
+    {
+      "id": 1460,
+      "word": "profumo",
+      "example": "Mi piace il profumo di questo fiore.",
+      "exampleZh": "我喜欢这朵花的香味。"
+    },
+    {
+      "id": 1461,
+      "word": "credo di no",
+      "example": "Credo di no, ma posso controllare.",
+      "exampleZh": "我想不是，不过我可以确认一下。"
+    },
+    {
+      "id": 1462,
+      "word": "biblioteca",
+      "example": "Studio spesso in biblioteca.",
+      "exampleZh": "我经常在图书馆学习。"
+    },
+    {
+      "id": 1463,
+      "word": "invitare",
+      "example": "Vorrei invitare alcuni amici a cena.",
+      "exampleZh": "我想邀请几个朋友来吃晚饭。"
+    },
+    {
+      "id": 1464,
+      "word": "fidanzato",
+      "example": "Il mio fidanzato lavora a Torino.",
+      "exampleZh": "我的男朋友在都灵工作。"
+    },
+    {
+      "id": 1466,
+      "word": "cotto",
+      "example": "Il pollo è ben cotto.",
+      "exampleZh": "鸡肉已经熟透了。"
+    },
+    {
+      "id": 1467,
+      "word": "bel",
+      "example": "È davvero un bel posto.",
+      "exampleZh": "这真是个漂亮的地方。"
+    },
+    {
+      "id": 1468,
+      "word": "qualcosa di",
+      "example": "Vorrei qualcosa di caldo da bere.",
+      "exampleZh": "我想喝点热的东西。"
+    },
+    {
+      "id": 1470,
+      "word": "dopodomani",
+      "example": "Dopodomani parto per Milano.",
+      "exampleZh": "我后天去米兰。"
+    },
+    {
+      "id": 1471,
+      "word": "senza di",
+      "example": "Non posso farlo senza di te.",
+      "exampleZh": "没有你我做不到这件事。"
+    },
+    {
+      "id": 1472,
+      "word": "pari",
+      "example": "Otto è un numero pari.",
+      "exampleZh": "八是一个偶数。"
+    },
+    {
+      "id": 1473,
+      "word": "impossibile",
+      "example": "È impossibile finire tutto in dieci minuti.",
+      "exampleZh": "十分钟内完成所有事情是不可能的。"
+    },
+    {
+      "id": 1474,
+      "word": "parco giochi",
+      "example": "I bambini giocano al parco giochi.",
+      "exampleZh": "孩子们在游乐场玩。"
+    },
+    {
+      "id": 1475,
+      "word": "andrete",
+      "example": "Quando andrete in vacanza?",
+      "exampleZh": "你们什么时候去度假？"
+    },
+    {
+      "id": 1476,
+      "word": "andranno",
+      "example": "Loro andranno a Roma il mese prossimo.",
+      "exampleZh": "他们下个月会去罗马。"
+    },
+    {
+      "id": 1477,
+      "word": "cacci",
+      "example": "Perché cacci il gatto dalla cucina?",
+      "exampleZh": "你为什么把猫赶出厨房？"
+    },
+    {
+      "id": 1478,
+      "word": "proteggere",
+      "example": "Dobbiamo proteggere i bambini dal freddo.",
+      "exampleZh": "我们必须保护孩子们免受寒冷。"
+    },
+    {
+      "id": 1479,
+      "word": "serio",
+      "example": "È un problema serio.",
+      "exampleZh": "这是一个严重的问题。"
+    },
+    {
+      "id": 1480,
+      "word": "cucciolo",
+      "example": "Il cucciolo dorme vicino alla madre.",
+      "exampleZh": "幼崽睡在妈妈旁边。"
+    },
+    {
+      "id": 1482,
+      "word": "andrà",
+      "example": "Domani andrà dal medico.",
+      "exampleZh": "他明天会去看医生。"
+    },
+    {
+      "id": 1483,
+      "word": "fabbrica",
+      "example": "Mio padre lavora in fabbrica.",
+      "exampleZh": "我父亲在工厂工作。"
+    },
+    {
+      "id": 1484,
+      "word": "dovunque",
+      "example": "Ti ho cercato dovunque.",
+      "exampleZh": "我到处找过你。"
+    },
+    {
+      "id": 1485,
+      "word": "adulto",
+      "example": "Ogni adulto deve mostrare un documento.",
+      "exampleZh": "每位成年人都必须出示证件。"
+    },
+    {
+      "id": 1487,
+      "word": "fascia",
+      "example": "Lavoro nella fascia oraria del mattino.",
+      "exampleZh": "我在早班时间段工作。"
+    },
+    {
+      "id": 1488,
+      "word": "andrai",
+      "example": "Dove andrai dopo il lavoro?",
+      "exampleZh": "你下班后会去哪里？"
+    },
+    {
+      "id": 1489,
+      "word": "pacchi",
+      "example": "Il corriere ha lasciato due pacchi davanti alla porta.",
+      "exampleZh": "快递员在门前放了两个包裹。"
+    },
+    {
+      "id": 1490,
+      "word": "panificio",
+      "example": "Compro il pane in questo panificio.",
+      "exampleZh": "我在这家面包店买面包。"
+    },
+    {
+      "id": 1492,
+      "word": "tacchino",
+      "example": "A Natale prepariamo il tacchino al forno.",
+      "exampleZh": "圣诞节我们烤火鸡。"
+    },
+    {
+      "id": 1493,
+      "word": "minore",
+      "example": "Mio fratello minore ha sedici anni.",
+      "exampleZh": "我弟弟十六岁。"
+    },
+    {
+      "id": 1494,
+      "word": "verdura",
+      "example": "Cerco di mangiare più verdura.",
+      "exampleZh": "我尽量多吃蔬菜。"
+    },
+    {
+      "id": 1495,
+      "word": "andrò",
+      "example": "Domani andrò in centro.",
+      "exampleZh": "我明天会去市中心。"
+    },
+    {
+      "id": 1496,
+      "word": "stamattina",
+      "example": "Stamattina ho preso il treno delle sette.",
+      "exampleZh": "今天早上我坐了七点的火车。"
+    },
+    {
+      "id": 1497,
+      "word": "ladro",
+      "example": "Il ladro è scappato dalla finestra.",
+      "exampleZh": "小偷从窗户逃走了。"
+    },
+    {
+      "id": 1498,
+      "word": "fare la spesa",
+      "example": "Devo fare la spesa prima di cena.",
+      "exampleZh": "晚饭前我得去采购食品。"
+    },
+    {
+      "id": 1499,
+      "word": "supermercato",
+      "example": "Il supermercato chiude alle nove.",
+      "exampleZh": "超市九点关门。"
+    },
+    {
+      "id": 1500,
+      "word": "giochi",
+      "example": "I bambini hanno molti giochi nella loro stanza.",
+      "exampleZh": "孩子们的房间里有很多玩具。"
+    }
+  ]
+}

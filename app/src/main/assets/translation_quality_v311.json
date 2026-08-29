@@ -1,0 +1,1055 @@
+{
+  "version": "3.1.1",
+  "purpose": "High-confidence learner-facing Chinese meaning corrections found by full duplicate-label and semantic mapping audit.",
+  "correctedCount": 131,
+  "corrections": [
+    {
+      "id": 197,
+      "word": "lasci",
+      "oldChinese": "部分",
+      "newChinese": "你离开/留下；你让/允许",
+      "english": "leave | (you) leave (behind) | (you) let go of | (you) drop | let | (will you) leave",
+      "level": "Plans"
+    },
+    {
+      "id": 271,
+      "word": "fatta",
+      "oldChinese": "事实",
+      "newChinese": "做好的；完成的",
+      "english": "have | function / act / serve as | get a fix | go round | act as | make | study | play | make out with | form | last | jack around | do | do drugs | run around | get oneself | shoot up | spend | make oneself | get stoned | made",
+      "level": "Roommates"
+    },
+    {
+      "id": 386,
+      "word": "svuoto",
+      "oldChinese": "出去；外面",
+      "newChinese": "我倒空；我清空",
+      "english": "(I) empty | (I) scoop out | (I) deprive | (I) drain | clear",
+      "level": "SwissTrip"
+    },
+    {
+      "id": 564,
+      "word": "senno",
+      "oldChinese": "头",
+      "newChinese": "理智；判断力；明智",
+      "english": "mind",
+      "level": "Mystery"
+    },
+    {
+      "id": 729,
+      "word": "fotografia",
+      "oldChinese": "地图",
+      "newChinese": "照片；摄影",
+      "english": "picture | photograph | photography | photo",
+      "level": "Moving In"
+    },
+    {
+      "id": 783,
+      "word": "annoiato",
+      "oldChinese": "熊",
+      "newChinese": "无聊的；厌烦的",
+      "english": "bored | got/gotten bored",
+      "level": "Arts"
+    },
+    {
+      "id": 872,
+      "word": "giro",
+      "oldChinese": "出去",
+      "newChinese": "圈/一圈；转弯/轮次/行程；我转/绕",
+      "english": "walks | run | (I) stir | (I) go around | around | (I) turn over | runs | turns | break | (I) shoot | (I) turn (over) | walk | round | turn",
+      "level": "Fundraiser"
+    },
+    {
+      "id": 936,
+      "word": "e un quarto",
+      "oldChinese": "十五",
+      "newChinese": "……点一刻；15分钟",
+      "english": "fifteen | a quarter past | quarter past",
+      "level": "Directions"
+    },
+    {
+      "id": 941,
+      "word": "e mezzo",
+      "oldChinese": "三十",
+      "newChinese": "……点半；30分钟",
+      "english": "thirty",
+      "level": "Directions"
+    },
+    {
+      "id": 1109,
+      "word": "pezza",
+      "oldChinese": "扫；打扫",
+      "newChinese": "布片；补丁",
+      "english": "sweep",
+      "level": "Detective"
+    },
+    {
+      "id": 1148,
+      "word": "bagna",
+      "oldChinese": "浴室；洗澡",
+      "newChinese": "他/她/您弄湿/浸湿",
+      "english": "wet",
+      "level": "Class"
+    },
+    {
+      "id": 1206,
+      "word": "acceso",
+      "oldChinese": "住；生活",
+      "newChinese": "开着/开启的；点燃/亮着的；鲜明/激烈的",
+      "english": "strong | live | stronger | started | strongest",
+      "level": "Office"
+    },
+    {
+      "id": 1211,
+      "word": "azioni",
+      "oldChinese": "离开；关闭",
+      "newChinese": "行动/行为（复数）；股票/股份",
+      "english": "(you) drive | (you) operate | (you) throw | (you) push | stock | actions | (you) treadle | (you) set off | (you) activate | drive",
+      "level": "Admirer"
+    },
+    {
+      "id": 1218,
+      "word": "danno",
+      "oldChinese": "发送；派遣",
+      "newChinese": "损害/损失；他们给",
+      "english": "return | hold | damage | they give | sit | present | give",
+      "level": "Admirer"
+    },
+    {
+      "id": 1237,
+      "word": "in bocca al lupo",
+      "oldChinese": "好的",
+      "newChinese": "祝你好运",
+      "english": "break a leg | good luck",
+      "level": "Dates"
+    },
+    {
+      "id": 1242,
+      "word": "guarderemo",
+      "oldChinese": "钟表；手表",
+      "newChinese": "我们会看；我们会观看",
+      "english": "watch | we will watch | we'll watch | we will take a look at | we will mind | we will look | we will look on | we will look up | we will look to | we will take care | we will look at | watched | we will take care of",
+      "level": "Dates"
+    },
+    {
+      "id": 1253,
+      "word": "fasce",
+      "oldChinese": "戒指",
+      "newChinese": "带/绷带（复数）；时段/区间",
+      "english": "bands",
+      "level": "Dates"
+    },
+    {
+      "id": 1268,
+      "word": "farò",
+      "oldChinese": "事实",
+      "newChinese": "我将做/制作；我会做",
+      "english": "made | left | make | (I) will have | mind | (I) will make out with | leave | (I) will act as | keep | (I) will study | (I) will get a fix | (I) will last | (I) will make | (I) will play | (I) will form | (I) will do | dance",
+      "level": "Concert"
+    },
+    {
+      "id": 1289,
+      "word": "partiremo",
+      "oldChinese": "部分",
+      "newChinese": "我们将出发",
+      "english": "leave | depart | get off | we'll leave",
+      "level": "Traveling"
+    },
+    {
+      "id": 1292,
+      "word": "partirà",
+      "oldChinese": "部分",
+      "newChinese": "他/她将出发",
+      "english": "leave | will leave | depart | get off | you'll leave",
+      "level": "Traveling"
+    },
+    {
+      "id": 1298,
+      "word": "partirai",
+      "oldChinese": "部分",
+      "newChinese": "你将出发",
+      "english": "leave | you will leave | depart | get off | you'll leave",
+      "level": "Traveling"
+    },
+    {
+      "id": 1343,
+      "word": "tipico",
+      "oldChinese": "奇怪的",
+      "newChinese": "典型的",
+      "english": "peculiar | typical",
+      "level": "Capri"
+    },
+    {
+      "id": 1363,
+      "word": "pagato",
+      "oldChinese": "离开；关闭",
+      "newChinese": "已支付/付过钱的；有薪的",
+      "english": "paid off | settled | paid | paid for | met",
+      "level": "Bragging"
+    },
+    {
+      "id": 1378,
+      "word": "guido",
+      "oldChinese": "拿；带；乘坐",
+      "newChinese": "我驾驶/开车；我引导",
+      "english": "(I) drive | (I) guide | (I) take | drive",
+      "level": "Ghost"
+    },
+    {
+      "id": 1411,
+      "word": "peggio",
+      "oldChinese": "来",
+      "newChinese": "更糟；更坏；更差地",
+      "english": "at (the) worst | worst | worse | if the worst were to happen | when push comes to shove",
+      "level": "Fan Club"
+    },
+    {
+      "id": 1428,
+      "word": "ci esercitiamo",
+      "oldChinese": "我们",
+      "newChinese": "我们练习",
+      "english": "we practice | practice",
+      "level": "Resolution"
+    },
+    {
+      "id": 1429,
+      "word": "mi esercito",
+      "oldChinese": "我",
+      "newChinese": "我练习",
+      "english": "I practice | exercise | practice",
+      "level": "Resolution"
+    },
+    {
+      "id": 1451,
+      "word": "caccia",
+      "oldChinese": "能；可以",
+      "newChinese": "狩猎/打猎；他/她/您赶走/追捕",
+      "english": "course | pots | can | pot",
+      "level": "Crush"
+    },
+    {
+      "id": 1472,
+      "word": "pari",
+      "oldChinese": "甚至",
+      "newChinese": "相等的；偶数的；平局；同等的人",
+      "english": "even",
+      "level": "Plus One"
+    },
+    {
+      "id": 1477,
+      "word": "cacci",
+      "oldChinese": "能够；可以",
+      "newChinese": "你赶走；你追赶/追捕",
+      "english": "can | course",
+      "level": "Plus One"
+    },
+    {
+      "id": 1520,
+      "word": "di seconda mano",
+      "oldChinese": "使用过",
+      "newChinese": "二手的",
+      "english": "used | second-hand",
+      "level": "Giveaway"
+    },
+    {
+      "id": 1528,
+      "word": "caccio",
+      "oldChinese": "能够；可以",
+      "newChinese": "我赶走；我追赶",
+      "english": "can | course",
+      "level": "Doctor"
+    },
+    {
+      "id": 1544,
+      "word": "fa male",
+      "oldChinese": "它",
+      "newChinese": "疼；痛",
+      "english": "it hurts | smarter | hurts | hurt",
+      "level": "Doctor"
+    },
+    {
+      "id": 1545,
+      "word": "date",
+      "oldChinese": "日期",
+      "newChinese": "你们给；给",
+      "english": "sit | dates | present | give | you give",
+      "level": "Doctor"
+    },
+    {
+      "id": 1551,
+      "word": "dormendo",
+      "oldChinese": "去",
+      "newChinese": "正在睡觉",
+      "english": "being asleep | going to bed | sleeping",
+      "level": "Invitation"
+    },
+    {
+      "id": 1554,
+      "word": "cucinando",
+      "oldChinese": "向上",
+      "newChinese": "正在做饭",
+      "english": "cooking up | cooking | fixing",
+      "level": "Invitation"
+    },
+    {
+      "id": 1559,
+      "word": "tracce",
+      "oldChinese": "戒指",
+      "newChinese": "痕迹；轨迹；线索（复数）",
+      "english": "bands",
+      "level": "Invitation"
+    },
+    {
+      "id": 1560,
+      "word": "chiamando",
+      "oldChinese": "出去；外面",
+      "newChinese": "正在叫/称呼；正在打电话/呼叫",
+      "english": "invoking | getting | phoning | terming | calling on | naming | declaring | having in | summoning | bringing in | being called | ordering | crying out | ringing | calling out | beckoning | calling",
+      "level": "Invitation"
+    },
+    {
+      "id": 1580,
+      "word": "buonanotte",
+      "oldChinese": "好的",
+      "newChinese": "晚安",
+      "english": "goodnight | good night",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1591,
+      "word": "legge",
+      "oldChinese": "法律",
+      "newChinese": "他/她/您读；法律（lègge，重音不同）",
+      "english": "he reads | she reads | it reads | law | you read",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1592,
+      "word": "leggi",
+      "oldChinese": "法律",
+      "newChinese": "你读；阅读",
+      "english": "read | (you) read | (you) interpret | (you) see into",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1636,
+      "word": "pranzano",
+      "oldChinese": "有",
+      "newChinese": "他们/她们吃午饭",
+      "english": "(they) lunch | (they) have lunch",
+      "level": "Food 2"
+    },
+    {
+      "id": 1701,
+      "word": "cos'",
+      "oldChinese": "工作",
+      "newChinese": "什么；事情/东西（cosa的省音）",
+      "english": "thing | what | work | matter",
+      "level": "Colors"
+    },
+    {
+      "id": 1721,
+      "word": "tranne",
+      "oldChinese": "那个",
+      "newChinese": "除了",
+      "english": "except | but | except that | bar | besides",
+      "level": "Conjunct."
+    },
+    {
+      "id": 1723,
+      "word": "fino",
+      "oldChinese": "甚至",
+      "newChinese": "直到/到……为止；甚至",
+      "english": "as far as | even | fine | fine-grained | till",
+      "level": "Conjunct."
+    },
+    {
+      "id": 1751,
+      "word": "quarto",
+      "oldChinese": "看",
+      "newChinese": "第四；四分之一；一刻钟",
+      "english": "quarter | watch | quarto | fourth",
+      "level": "Family 2"
+    },
+    {
+      "id": 1754,
+      "word": "pochino",
+      "oldChinese": "小的",
+      "newChinese": "一点点；很少",
+      "english": "a little bit | very little",
+      "level": "Family 2"
+    },
+    {
+      "id": 1762,
+      "word": "specialità",
+      "oldChinese": "运动",
+      "newChinese": "专长；特色/招牌菜；专业",
+      "english": "specialty | speciality | sport",
+      "level": "Occupation"
+    },
+    {
+      "id": 1764,
+      "word": "capitano",
+      "oldChinese": "来",
+      "newChinese": "队长；船长；上尉",
+      "english": "(they) arrive | (they) come | (I) captain",
+      "level": "Occupation"
+    },
+    {
+      "id": 1777,
+      "word": "guardia",
+      "oldChinese": "看",
+      "newChinese": "警卫/守卫；警察/卫兵；值班/守望",
+      "english": "high-water mark | flood mark | watch | constable | hilt | guards | guard | endpaper | flyleaf",
+      "level": "Occupation"
+    },
+    {
+      "id": 1802,
+      "word": "breve",
+      "oldChinese": "少；不太",
+      "newChinese": "短的；简短的",
+      "english": "little | quick | news flash | breve | brief | short | less",
+      "level": "Adject. 1"
+    },
+    {
+      "id": 1815,
+      "word": "popolare",
+      "oldChinese": "向上",
+      "newChinese": "流行/受欢迎的；大众的；民间的",
+      "english": "to spook | folk | people | to populate | popular | haunt | people's | to fill | people’s | to pack | to fill up with people | downmarket | working class | peoples | to haunt | to inhabit | pack | lower class | to people | inhabit | to become populated",
+      "level": "Adject. 1"
+    },
+    {
+      "id": 1837,
+      "word": "ritornare",
+      "oldChinese": "发送；派遣",
+      "newChinese": "返回；回来；恢复/再次成为",
+      "english": "return | (to) go back | (to) come back | (to) return | (to) to return | (to) get back | go | got | (to) to give back | (to) recur | come | gone | give back | (to) become again | came | returns | went | going",
+      "level": "Present 2"
+    },
+    {
+      "id": 1868,
+      "word": "insomma",
+      "oldChinese": "向上",
+      "newChinese": "总之；简而言之",
+      "english": "well | in short | in a word | to sum up",
+      "level": "Adverbs"
+    },
+    {
+      "id": 1887,
+      "word": "ferroviario",
+      "oldChinese": "火车",
+      "newChinese": "铁路的；铁路工作人员（名词）",
+      "english": "train | rail | railway | trains",
+      "level": "Places"
+    },
+    {
+      "id": 1925,
+      "word": "individuo",
+      "oldChinese": "出去；外面",
+      "newChinese": "个人；个体；人；我辨认",
+      "english": "people | (I) identify | individual | (I) pick out | peoples",
+      "level": "People 2"
+    },
+    {
+      "id": 1958,
+      "word": "parecchio",
+      "oldChinese": "好的；少数；几个",
+      "newChinese": "相当多；不少；相当/颇",
+      "english": "quite | quite a lot | quite a lot of | a good deal | a good deal of | a good few | many | quite a few",
+      "level": "Determin."
+    },
+    {
+      "id": 1959,
+      "word": "parecchi",
+      "oldChinese": "好的；少数；几个",
+      "newChinese": "相当多；不少（阳性复数）",
+      "english": "several | many | quite a lot of | a good deal | a good deal of | a good few | quite | quite a few | quite a lot",
+      "level": "Determin."
+    },
+    {
+      "id": 1963,
+      "word": "parecchie",
+      "oldChinese": "好的；少数；几个",
+      "newChinese": "很多；不少（阴性复数）",
+      "english": "many | quite | quite a few | a good deal | a good deal of | a good few | quite a lot | quite a lot of",
+      "level": "Determin."
+    },
+    {
+      "id": 1965,
+      "word": "parecchia",
+      "oldChinese": "好的",
+      "newChinese": "很多；相当多（阴性单数）",
+      "english": "many | quite a lot of | a good deal of | quite a lot",
+      "level": "Determin."
+    },
+    {
+      "id": 1983,
+      "word": "allenare",
+      "oldChinese": "准备",
+      "newChinese": "训练；锻炼；培训",
+      "english": "trains | train | coach",
+      "level": "Present 3"
+    },
+    {
+      "id": 1990,
+      "word": "fumare",
+      "oldChinese": "离开；关闭",
+      "newChinese": "吸烟；冒烟",
+      "english": "(to) fume | (to) steam | (to) give off fumes | (to) to fume | (to) smoke | smoking",
+      "level": "Present 3"
+    },
+    {
+      "id": 2010,
+      "word": "esprimere",
+      "oldChinese": "沙发",
+      "newChinese": "表达；表示；挤出/榨出",
+      "english": "said | state | couch | states | phrases | voices | says | voice",
+      "level": "Pres. Per."
+    },
+    {
+      "id": 2011,
+      "word": "piovere",
+      "oldChinese": "向下",
+      "newChinese": "下雨",
+      "english": "rained | (to) rain | (to) to shower | rains | (to) rain down | raining",
+      "level": "Pres. Per."
+    },
+    {
+      "id": 2056,
+      "word": "positivo",
+      "oldChinese": "好的",
+      "newChinese": "积极的；正面的",
+      "english": "matter-of-fact | good | positive | empirical | constructive | practical | favourable | plus | favorable",
+      "level": "Adject. 2"
+    },
+    {
+      "id": 2080,
+      "word": "chiamiamoci",
+      "oldChinese": "其他的",
+      "newChinese": "让我们互相打电话/称呼彼此",
+      "english": "(let us) call ourselves | (let us) call each other",
+      "level": "Imperative"
+    },
+    {
+      "id": 2082,
+      "word": "dammi",
+      "oldChinese": "我",
+      "newChinese": "给我",
+      "english": "give | give me | issue",
+      "level": "Imperative"
+    },
+    {
+      "id": 2083,
+      "word": "dimmi",
+      "oldChinese": "我",
+      "newChinese": "告诉我",
+      "english": "tell | tell me | say",
+      "level": "Imperative"
+    },
+    {
+      "id": 2098,
+      "word": "istituzione",
+      "oldChinese": "向上",
+      "newChinese": "机构；制度；建立/创立",
+      "english": "foundation | institution | authorities | setting up | institutes | establishment | institutions",
+      "level": "Education"
+    },
+    {
+      "id": 2138,
+      "word": "campeggio",
+      "oldChinese": "出去；外面",
+      "newChinese": "露营；露营地/营地",
+      "english": "camping | camping ground | (I) camp | campsite | (I) dominate | logwood | (I) stand out | campground",
+      "level": "Travel 2"
+    },
+    {
+      "id": 2152,
+      "word": "cima",
+      "oldChinese": "出去；外面",
+      "newChinese": "顶端；山顶/峰顶；最高点",
+      "english": "(he/she/it) tops | rope | ace | (you) top | (you) prune | (you) poll | (he/she/it) prunes | genius | summit | (he/she/it) pinches out | peak | treetop | hilltop | (he/she/it) polls | (you) pinch out | (you) clip | (he/she/it) clips",
+      "level": "Directions 1"
+    },
+    {
+      "id": 2162,
+      "word": "posizione",
+      "oldChinese": "介绍；展示",
+      "newChinese": "位置；姿势；职位/立场",
+      "english": "view | position | posture | line | attitude | status | location | (bank) balance | standing | place | placing | lies",
+      "level": "Directions 1"
+    },
+    {
+      "id": 2190,
+      "word": "spaventare",
+      "oldChinese": "是",
+      "newChinese": "吓唬；使害怕",
+      "english": "scare | (to) to scare | (to) to be scared | (to) be frightened | (to) frighten | be scared",
+      "level": "Feelings"
+    },
+    {
+      "id": 2214,
+      "word": "origine",
+      "oldChinese": "根",
+      "newChinese": "起源；来源；出身",
+      "english": "root | origin | paid",
+      "level": "Abs. Ob. 1"
+    },
+    {
+      "id": 2215,
+      "word": "costruzione",
+      "oldChinese": "工厂",
+      "newChinese": "建筑；建造",
+      "english": "manufacture | construction | laying | building | structures",
+      "level": "Abs. Ob. 1"
+    },
+    {
+      "id": 2243,
+      "word": "struttura",
+      "oldChinese": "是",
+      "newChinese": "结构；建筑物",
+      "english": "(you) structure | (he/she/it) structures | (he/she/it) is structured | structures | building",
+      "level": "Abs. Ob. 1"
+    },
+    {
+      "id": 2260,
+      "word": "premio",
+      "oldChinese": "保险",
+      "newChinese": "奖品；奖金",
+      "english": "premium | bonus | (I) give a prize | (I) reward | award | prize",
+      "level": "Sports"
+    },
+    {
+      "id": 2261,
+      "word": "saltare",
+      "oldChinese": "是；向上；来 向上",
+      "newChinese": "跳；跳过",
+      "english": "(to) come out | (to) pop (off) | breaks | (to) be cancelled | be canceled | broken | (to) turn up | (to) miss (out) | (to) to pop up | (to) to leap (over) | pop up | (to) skip | (to) to hop (over) | (to) to leave out | (to) be dismissed | leap (over) | hopes | broke | jumping | (to) blow | (to) jump (over) | (to) to toss | (to) chip (away) | missed | leave out | skipping | spring | (to) to miss | (to) to spring | (to) to come off | toss | hop (over) | be removed from power | (to) to be removed from power | (to) come up with | (to) come off | hop | (to) to pop (off) | break | (to) to be canceled | (to) come up | (to) sauté | (to) to clear | crop up | clear | (to) to crop up | skip",
+      "level": "Sports"
+    },
+    {
+      "id": 2264,
+      "word": "partita",
+      "oldChinese": "左边",
+      "newChinese": "比赛；场次",
+      "english": "left | match | game | consignment | lot | batch | did leave",
+      "level": "Sports"
+    },
+    {
+      "id": 2280,
+      "word": "impegnato",
+      "oldChinese": "向上",
+      "newChinese": "忙的；投入的",
+      "english": "reserved | pawned | engaged | bound | committed oneself | committed | tied up | involved oneself | devoted | busy | hocked | pledged | tied-up | pledged oneself | started | locked up | concentrated | booked | taken up | involved | applied oneself | devoted oneself",
+      "level": "Adject. 3"
+    },
+    {
+      "id": 2288,
+      "word": "eccellente",
+      "oldChinese": "吻",
+      "newChinese": "优秀的；极好的",
+      "english": "excellent | wonderful | healthy | first-rate | finished | capital",
+      "level": "Adject. 3"
+    },
+    {
+      "id": 2300,
+      "word": "costante",
+      "oldChinese": "甚至",
+      "newChinese": "恒定的；持续的；始终如一的；常数",
+      "english": "even | consistent | persistent | constant | uniform | uniforms",
+      "level": "Adject. 3"
+    },
+    {
+      "id": 2310,
+      "word": "magari",
+      "oldChinese": "我",
+      "newChinese": "也许；说不定；但愿/要是……就好了",
+      "english": "perhaps | I wish | maybe",
+      "level": "Adverbs 2"
+    },
+    {
+      "id": 2318,
+      "word": "ben",
+      "oldChinese": "好的",
+      "newChinese": "好好地；很好地；良好（bene的截短形式）",
+      "english": "well | good | affection | assets | belongings | better and better | carefully | comfortably | completely | correctly | fine | fondness | goods | possession | possessions | properly | property | right | sake | smartly | thoroughly | welfare",
+      "level": "Adverbs 2"
+    },
+    {
+      "id": 2324,
+      "word": "oltretutto",
+      "oldChinese": "那个",
+      "newChinese": "而且；此外",
+      "english": "besides | moreover | on top of that",
+      "level": "Adverbs 2"
+    },
+    {
+      "id": 2326,
+      "word": "neanch'",
+      "oldChinese": "甚至",
+      "newChinese": "也不；甚至不",
+      "english": "either | even | neither | nor",
+      "level": "Adverbs 2"
+    },
+    {
+      "id": 2337,
+      "word": "talmente",
+      "oldChinese": "那个；那些",
+      "newChinese": "如此；这么；到这种程度",
+      "english": "so | that | those",
+      "level": "Adverbs 2"
+    },
+    {
+      "id": 2358,
+      "word": "appetito",
+      "oldChinese": "一个；那个",
+      "newChinese": "食欲；胃口",
+      "english": "appetite | whetted/whet one’s appetite | longed for | coveted",
+      "level": "Abs. Ob. 2"
+    },
+    {
+      "id": 2360,
+      "word": "ritmo",
+      "oldChinese": "尺寸；测量",
+      "newChinese": "节奏",
+      "english": "beat | (I) mark (the rhythm) of | rhythm | (I) pattern | measures",
+      "level": "Abs. Ob. 2"
+    },
+    {
+      "id": 2368,
+      "word": "onore",
+      "oldChinese": "信用",
+      "newChinese": "荣誉；名誉；尊敬",
+      "english": "honour | honor | credit",
+      "level": "Abs. Ob. 2"
+    },
+    {
+      "id": 2374,
+      "word": "divisione",
+      "oldChinese": "系列；电视剧",
+      "newChinese": "划分；分割；除法；部门/师（军队）",
+      "english": "division | separation | fits | partition | fit | divide",
+      "level": "Abs. Ob. 2"
+    },
+    {
+      "id": 2380,
+      "word": "esecuzione",
+      "oldChinese": "出去；外面",
+      "newChinese": "执行；实施；演奏/表演；处决",
+      "english": "implementation | playing | execution | carrying out | exercise",
+      "level": "Abs. Ob. 2"
+    },
+    {
+      "id": 2401,
+      "word": "maniera",
+      "oldChinese": "习惯",
+      "newChinese": "方式；方法",
+      "english": "custom | manner | way | fashion",
+      "level": "Abs. Ob. 2"
+    },
+    {
+      "id": 2407,
+      "word": "pensarci",
+      "oldChinese": "它",
+      "newChinese": "想一想；考虑这件事",
+      "english": "(to) think (of it) | think about it",
+      "level": "Infinit. 2"
+    },
+    {
+      "id": 2413,
+      "word": "glielo",
+      "oldChinese": "它",
+      "newChinese": "把它给他/她/您；对他/她/您说它",
+      "english": "it to her | it to him | it",
+      "level": "Infinit. 2"
+    },
+    {
+      "id": 2414,
+      "word": "immaginare",
+      "oldChinese": "介绍；展示",
+      "newChinese": "想象",
+      "english": "view | (to) imagine | figure | imagine | picture | suppose | views | dreams",
+      "level": "Infinit. 2"
+    },
+    {
+      "id": 2455,
+      "word": "toccando",
+      "oldChinese": "其他的",
+      "newChinese": "正在触碰",
+      "english": "touching | touching each other | handling",
+      "level": "Gerund"
+    },
+    {
+      "id": 2458,
+      "word": "correndo",
+      "oldChinese": "去",
+      "newChinese": "正在跑",
+      "english": "running (in) | driving in | rushing | driving (too fast) | going around | running after | flowing | running in | riding | speeding (along) | racing | riding in",
+      "level": "Gerund"
+    },
+    {
+      "id": 2459,
+      "word": "piovendo",
+      "oldChinese": "向下",
+      "newChinese": "正在下雨",
+      "english": "raining | rain | rain down",
+      "level": "Gerund"
+    },
+    {
+      "id": 2461,
+      "word": "pagando",
+      "oldChinese": "离开；关闭",
+      "newChinese": "正在付款",
+      "english": "paying | paying for | paying off",
+      "level": "Gerund"
+    },
+    {
+      "id": 2469,
+      "word": "suonando",
+      "oldChinese": "玩；比赛",
+      "newChinese": "正在演奏；正在响",
+      "english": "playing | beating | going off | meaning | putting on | ringing | ringing out | sounding | sounding like | striking",
+      "level": "Gerund"
+    },
+    {
+      "id": 2470,
+      "word": "perdendo",
+      "oldChinese": "一个；那个",
+      "newChinese": "正在失去；正在错过",
+      "english": "losing | missing | losing one’s way | forfeiting",
+      "level": "Gerund"
+    },
+    {
+      "id": 2476,
+      "word": "seguendo",
+      "oldChinese": "向上",
+      "newChinese": "正在跟随；按照",
+      "english": "following up | watching | accompanying | following (up) | following",
+      "level": "Gerund"
+    },
+    {
+      "id": 2478,
+      "word": "finendo",
+      "oldChinese": "离开；关闭",
+      "newChinese": "正在结束；正在完成",
+      "english": "ending | finishing | finishing off | doing",
+      "level": "Gerund"
+    },
+    {
+      "id": 2483,
+      "word": "usando",
+      "oldChinese": "使用过",
+      "newChinese": "正在使用",
+      "english": "using | being in the habit of | being used to | exercising | running",
+      "level": "Gerund"
+    },
+    {
+      "id": 2484,
+      "word": "vivendo",
+      "oldChinese": "去",
+      "newChinese": "正在生活；正在经历",
+      "english": "living | living through | going through",
+      "level": "Gerund"
+    },
+    {
+      "id": 2486,
+      "word": "passando",
+      "oldChinese": "乘客",
+      "newChinese": "正在经过；正在度过",
+      "english": "passing | passing off | passing on | being over | being promoted | blowing itself out | blowing over | carrying | changing | checking | connecting | crossing | drawing | drawing on | dropping in | dropping round | dying | dying out | flowing | forgetting | forgiving | getting across | getting over | getting through | going (by) | going across | going by | going for | going on | going past | going through | handing | impersonating | living out | mashing (up) | moving | moving on | passing between | passing down | paying | popping in | posing | pureeing | putting on | putting through | rubbing | running | running through | showing | spending | spending itself | subsiding | wearing off | whizzing up",
+      "level": "Gerund"
+    },
+    {
+      "id": 2487,
+      "word": "capendo",
+      "oldChinese": "其他的",
+      "newChinese": "正在理解",
+      "english": "understanding | understanding each other | comprehending",
+      "level": "Gerund"
+    },
+    {
+      "id": 2488,
+      "word": "tenendo",
+      "oldChinese": "出去；外面",
+      "newChinese": "正在拿着；正在保持",
+      "english": "holding | keeping | holding on | holding back | holding out | keeping to",
+      "level": "Gerund"
+    },
+    {
+      "id": 2494,
+      "word": "lasciando",
+      "oldChinese": "出发",
+      "newChinese": "正在离开/留下；让/允许",
+      "english": "leaving | leaving (behind) | dropping | letting go of",
+      "level": "Gerund"
+    },
+    {
+      "id": 2496,
+      "word": "mettendo",
+      "oldChinese": "向上",
+      "newChinese": "正在放/放置；正在穿上/设置",
+      "english": "assuming | sinking | playing | putting up | ranking | putting (in) | inspiring | setting | imposing | putting on | putting forth | comparing | wearing | laying on | putting in | causing | turning | supposing | putting oneself | posting up | adding | placing | advertising | fitting | keeping",
+      "level": "Gerund"
+    },
+    {
+      "id": 2502,
+      "word": "dando",
+      "oldChinese": "向下",
+      "newChinese": "正在给/给予；正在产生/提供",
+      "english": "giving | giving oneself | bearing | bumping | devoting oneself | granting | hitting | issuing | laying down | paying | presenting | putting on | returning | setting | showing | yielding",
+      "level": "Gerund"
+    },
+    {
+      "id": 2512,
+      "word": "poeta",
+      "oldChinese": "写",
+      "newChinese": "诗人",
+      "english": "poet | (he/she/it) writes poetry | (you) write poetry | (day)dreamer",
+      "level": "Arts 1"
+    },
+    {
+      "id": 2528,
+      "word": "moda",
+      "oldChinese": "方式",
+      "newChinese": "时尚；流行",
+      "english": "fashion industry | vogue | fashions | trend | fashion",
+      "level": "Arts 1"
+    },
+    {
+      "id": 2534,
+      "word": "disegno",
+      "oldChinese": "是",
+      "newChinese": "图画；绘图/设计；我画/设计",
+      "english": "(I) draw | (I) plan | scheme | (I) style | (I) am drawing | picture | drawing | (I) outline | (I) design | pattern | drawings",
+      "level": "Arts 1"
+    },
+    {
+      "id": 2538,
+      "word": "eguaglianza",
+      "oldChinese": "出去；外面",
+      "newChinese": "平等；相等",
+      "english": "(to) level out | (to) equalize | (to) equal | equality",
+      "level": "Abs. Ob. 3"
+    },
+    {
+      "id": 2546,
+      "word": "liberazione",
+      "oldChinese": "出口",
+      "newChinese": "解放；释放；摆脱",
+      "english": "release | liberation | freeing",
+      "level": "Abs. Ob. 3"
+    },
+    {
+      "id": 2552,
+      "word": "povertà",
+      "oldChinese": "想要",
+      "newChinese": "贫困；贫穷",
+      "english": "poverty | want | lack | shortage",
+      "level": "Abs. Ob. 3"
+    },
+    {
+      "id": 2559,
+      "word": "concorrenza",
+      "oldChinese": "比赛",
+      "newChinese": "竞争；竞争者/竞争关系",
+      "english": "competition | concourse | gathering",
+      "level": "Abs. Ob. 3"
+    },
+    {
+      "id": 2618,
+      "word": "affare",
+      "oldChinese": "展示",
+      "newChinese": "事情；生意/交易；便宜货",
+      "english": "show | matter | business | whatsit | bargain | situation | affairs | thing | affair | deal | contraption | gadget | shows",
+      "level": "Communic."
+    },
+    {
+      "id": 2630,
+      "word": "terreno",
+      "oldChinese": "座位；地方",
+      "newChinese": "土地；地面；土壤；地形/领域",
+      "english": "site | earthly | earth | ground | field | terrain | land | soil",
+      "level": "Nature"
+    },
+    {
+      "id": 2656,
+      "word": "atmosfera",
+      "oldChinese": "方式",
+      "newChinese": "大气；气氛/氛围",
+      "english": "mood | feel(ing) | air | atmosphere | ambiance | atmospherics | felt | flavour | ambience | feel",
+      "level": "Nature"
+    },
+    {
+      "id": 2685,
+      "word": "industria",
+      "oldChinese": "一个；那个",
+      "newChinese": "工业；产业；行业",
+      "english": "industry | (he/she/it) does one’s best | (you) do one’s best",
+      "level": "Business"
+    },
+    {
+      "id": 2702,
+      "word": "spirito",
+      "oldChinese": "方式",
+      "newChinese": "精神；灵魂；精神状态；烈酒（复数常见）",
+      "english": "mood | spirit | wit | spirits",
+      "level": "Spiritual"
+    },
+    {
+      "id": 2743,
+      "word": "votare",
+      "oldChinese": "一个；那个",
+      "newChinese": "投票；表决；给……投票",
+      "english": "(to) devote | (to) to give one’s vote | (to) pass | (to) to dedicate | dedicate | (to) vote (through) | (to) devote oneself | give one’s vote",
+      "level": "Politics"
+    },
+    {
+      "id": 2759,
+      "word": "partito",
+      "oldChinese": "出发",
+      "newChinese": "政党；党派；已出发/离开的（partire过去分词）",
+      "english": "left | has left | slashed | option | match | smashed | party | crazy | gone | lost | solution | smitten | did leave",
+      "level": "Politics"
+    },
+    {
+      "id": 1085,
+      "word": "annaffiare",
+      "oldChinese": "洗",
+      "newChinese": "浇水",
+      "english": "to water | wash | water | watering",
+      "level": "Chores"
+    },
+    {
+      "id": 1516,
+      "word": "maggiore",
+      "oldChinese": "老的",
+      "newChinese": "较大的/更大的；年长的；主要的；成年人/长者（依语境）",
+      "english": "old | older | greater | oldest | bigger | big",
+      "level": "Giveaway"
+    },
+    {
+      "id": 2065,
+      "word": "ciò",
+      "oldChinese": "事情；什么",
+      "newChinese": "这/那；此事/此物",
+      "english": "what | that | this | it | those",
+      "level": "Pronouns"
+    },
+    {
+      "id": 2195,
+      "word": "sognare",
+      "oldChinese": "是；长的",
+      "newChinese": "做梦；梦想",
+      "english": "be kidding oneself | long for | (to) dream (of) | imagine | (to) to imagine | (to) think | (to) dream of | (to) to be kidding oneself | (to) to long for | dreams",
+      "level": "Feelings"
+    },
+    {
+      "id": 2196,
+      "word": "sogno",
+      "oldChinese": "是；长的",
+      "newChinese": "梦；梦想",
+      "english": "(I) dream (of) | (I) dream of | (I) think | (I) imagine | (I) long for | (I) am kidding oneself | (I) dream",
+      "level": "Feelings"
+    }
+  ]
+}

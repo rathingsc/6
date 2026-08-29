@@ -1,0 +1,172 @@
+终学意语 v3.1.2 课程词义修正清单
+
+中文词义修正：136 项
+词性/形态消歧：29 项
+
+0443  ha bisogno di：需要；你 需要  →  需要
+0481  mangia：吃；她 吃；他 吃  →  他/她/您吃
+0483  mangio：我 吃；吃  →  我吃
+0485  cucino：我 厨师；做饭；做 我 厨师  →  我做饭
+0487  lavo：洗；我；我 洗  →  我洗；我清洗
+0490  cucini：做饭；厨师；是 你  →  你做饭
+0491  lavi：洗；你 洗  →  你洗；你清洗
+0492  piangi：哭；你；你 哭  →  你哭
+0494  mangi：你 吃；做 你 吃；吃  →  你吃
+0510  mangiamo：我们 吃；吃  →  我们吃
+0669  mostri：展示；你；你 展示  →  你展示；你出示
+0724  abbiamo bisogno di：我们 需要；需要  →  我们需要
+0763  gli piacciono：他们 喜欢  →  他喜欢（复数事物）
+0764  gli piace：他们 喜欢  →  他喜欢（单数事物）
+0799  ci piace：我们 喜欢  →  我们喜欢（单数事物）
+0801  ci piacciono：我们 喜欢  →  我们喜欢（复数事物）
+0829  studiamo：学习；我们；我们 向上  →  我们学习
+0881  chiama：是；她；他  →  他/她/您叫；打电话
+0882  compra：她；他；你  →  他/她/您买
+0895  metti：放；保持；地方  →  你放；你穿上
+0908  preferisco：我；我 喜欢  →  我更喜欢
+0913  quell'：那个；那些；那些 那些  →  那个；那一个（元音前）
+0928  quel：那个；那个 一个  →  那个；那一个
+0940  gira：转动；转向；它  →  他/她/您转；转弯
+0948  sono le：它 是  →  现在是……点
+0958  conosci：知道；见面；知道过  →  你认识；你了解
+0963  conosco：知道；我 知道  →  我认识；我了解
+0980  mostra：展示；展示 是  →  展示；展览
+0988  bevi：喝；你 喝  →  你喝
+1015  bevete：喝；你 喝  →  你们喝
+1031  potrebbe：能；可以；会 是  →  他/她/您可以；可能会
+1036  gusto：我 enjoy；我 savour；我 try  →  味道；口味
+1042  potrei：能；可以；我 会 是  →  我可以；我可能会
+1044  beviamo：我们 喝  →  我们喝
+1048  paghi：支付；见面；她  →  你付款；你支付
+1057  preferisci：你；你 喜欢  →  你更喜欢
+1081  preferiscono：他们；他们 喜欢  →  他们/她们更喜欢
+1112  si è persa：是 迷路的  →  她迷路了
+1115  conosce：知道；提供；见面  →  他/她/您认识；了解
+1127  verrei：would 来  →  我会来；我愿意来
+1129  stanno bene：他们 是 well  →  他们/她们很好；身体不错
+1153  leggo：我 读；读  →  我读；我阅读
+1183  toccare：跑；感觉；见面  →  触摸；碰；涉及
+1194  colleghi：你；你 向上；你 得到  →  同事；同事们
+1212  esci：你 离开  →  你出去；你离开
+1226  dà：她 gives；他 gives；它 gives  →  他/她/它给；您给
+1227  ti：做；你；做 我  →  你；给你；你自己
+1233  ceneranno：will 有 dinner；they'll 有 dinner  →  他们/她们将吃晚饭
+1234  escono：他们 去 出去；外面；他们 来 出去  →  他们/她们出去；离开
+1236  guarderanno：他们 will 观看；they'll 观看；他们 will mind  →  他们/她们将看；将观看
+1238  scriverà：你 will 写；她 will 写；he'll 写  →  他/她/您将写
+1239  cucinerà：做饭；厨师  →  他/她/您将做饭
+1240  esce：去 出去；外面；她 去 出去  →  他/她/它出去；离开
+1243  guarderete：看；寻找  →  你们将看；将观看
+1244  cenerete：你 will 有 dinner；you'll 有 dinner  →  你们将吃晚饭
+1246  ceneremo：we'll 有 dinner  →  我们将吃晚饭
+1248  cenerò：i'll 有 dinner  →  我将吃晚饭
+1249  conoscerò：见面；知道；我 将 见面  →  我将认识；我将了解
+1251  esco：我 离开；我 去 出去；外面  →  我出去；我离开
+1252  conoscerai：见面；知道；你 将 见面  →  你将认识；你将了解
+1255  uscite：出口  →  你们出去；你们离开
+1256  cenerai：你 will 有 dinner  →  你将吃晚饭
+1257  usciti：出去；外面；来 出去  →  已经出去；已经离开
+1273  svegliarci：醒来 向上  →  我们醒来；叫醒我们
+1275  svegliarti：醒来 向上  →  你醒来；叫醒你
+1278  svegliarmi：醒来 向上  →  我醒来；叫醒我
+1283  partiranno：离开  →  他们/她们将出发
+1285  dormiranno：睡觉；他们 将；将 睡觉  →  他们/她们将睡觉
+1288  dormiremo：睡觉；我们 将 去；我们 将 是  →  我们将睡觉
+1290  dormirete：睡觉；你 睡觉；你 将 睡觉  →  你们将睡觉
+1293  dormirà：将；将 是；将 去  →  他/她/您将睡觉
+1299  dormirai：睡眠  →  你将睡觉
+1302  dormirò：睡觉；我 将；我 将 是  →  我将睡觉
+1304  partirò：离开  →  我将出发
+1307  basta：是；它 是  →  够了；足够
+1318  pulisco：洗；清洁；我 是  →  我清洁；我打扫
+1320  cade：掉下；跌倒；来 向下  →  他/她/它掉下；跌倒
+1341  mangiato：有过；使用过 向上  →  吃过；吃了
+1403  conosceremo：见面；知道；我们 将 见面  →  我们将认识；我们将了解
+1404  andremo：去；去了；将 去  →  我们将去
+1410  recitare：玩；演奏  →  表演；朗诵；背诵
+1426  capisco：明白；看见过；我 明白  →  我明白；我理解
+1431  studieremo：学习；我们 将 学习  →  我们将学习
+1432  studierò：学习；我 将 学习  →  我将学习
+1461  credo di no：我 做 not believe so  →  我想不是；我认为不是
+1475  andrete：去；将 去  →  你们将去
+1476  andranno：去；将 去；他们 将 去  →  他们/她们将去
+1482  andrà：去；合适；将  →  他/她/您将去
+1488  andrai：你 will 去 off；你 will 得到 away；你 will 来 down  →  你将去
+1495  andrò：我 will 来 down；我 will 去 on；我 will pass away  →  我将去
+1523  sprecare：迷路的  →  浪费
+1552  sta：是；合适；他 是  →  他/她/您待着；处于
+1557  venendo：来；来 向下；来 向上  →  正在来；正在到来
+1569  guardando：寻找；看；寻找 向上  →  正在看；正在观看
+1570  stai：你 是  →  你待着；你处于
+1574  andando：去；去 向上；去 向下  →  正在去；正在走
+1579  buonasera：好 傍晚  →  晚上好
+1583  scrive：写；他 她 写  →  他/她/您写
+1585  scrivo：写；我 写  →  我写
+1586  scrivi：写；写 向下；写 其他的  →  你写
+1594  bevono：喝；他们 喝  →  他们/她们喝
+1637  ceniamo：有；吃；是  →  我们吃晚饭
+1662  proprio：他们的；他的 她的；她  →  自己的；本人的
+1716  dai：支付；展示  →  从……；由……（da+i）
+1728  entro：里面；有  →  在……以内；在……之前
+1778  architetto：做饭；厨师 向上  →  建筑师
+1846  dimostrare：展示；转动；转向 出去  →  证明；展示；表明
+1853  indicare：展示；出去；外面  →  指出；指示；表示
+1855  unire：放  →  连接；联合；合并
+1991  bruciare：出去；外面；离开  →  燃烧；烧
+2003  sedere：能；可以；是  →  坐；坐下
+2004  giudicare：放  →  判断；评判
+2020  superiore：上面的；学习 高的  →  更高的；上级的；高级的
+2063  svegliare：醒来；向上；一个  →  叫醒；唤醒
+2087  prova：活动；知道；感觉  →  测试；考试；试验
+2102  voto：分数；投票  →  分数；成绩
+2124  visita：检查；就诊  →  访问；参观；拜访
+2131  volo：掉下；跌倒；离开  →  航班；飞行
+2154  attraverso：通过；去  →  穿过；通过；横跨
+2180  confondere：得到；向上  →  混淆；使困惑
+2191  preoccupare：担心；是；拿  →  使担心；担忧
+2254  pista：跑；滑雪 跑  →  跑道；赛道；滑雪道
+2321  dappertutto：在上方；结束 地方  →  到处；处处
+2344  praticamente：你 知道  →  实际上；几乎
+2367  bellezza：好的 看；看起来  →  美；美丽
+2390  arrivo：到达  →  到达；抵达
+2393  ritorno：返程  →  返回；返程
+2406  lasciarvi：离开 你；离开  →  离开你们；让你们
+2408  metterla：放；地方；放 向上  →  把它放；把它穿上
+2411  farlo：它；做；制造 它  →  做它；做这件事
+2510  volendo：需要；会 喜欢  →  想要；愿意
+2531  ballo：球；跳舞  →  舞蹈；舞会
+2580  ricercare：某人；找到；看  →  研究；寻找；搜寻
+2600  stampa：一个；那个；那个 汽车  →  印刷；新闻界；媒体
+2617  invito：邀请  →  邀请；请柬
+2629  fumo：烟  →  烟；烟雾
+
+词性/形态消歧：
+0124  suono：verb / suonare · io 现在时“我演奏”；同时 suono 也可作名词“声音”  →  noun / 
+0183  lavoro：verb / lavorare · io 现在时“我工作”；同时 lavoro 也可作名词“工作”  →  noun / 
+0802  parte：verb / partire · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+1003  porta：verb / portare · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+1036  gusto：other /   →  noun / 
+1038  pesca：verb / pescare · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+1599  cena：verb / cenare · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+1647  pranzo：verb / pranzare · 直陈式现在时 · io 第一人称单数  →  noun / 
+1716  dai：verb / dare · 直陈式现在时 · tu  →  other / da + i 的缩合形式（阳性复数）
+1728  entro：verb / entrare · 直陈式现在时 · io 第一人称单数  →  other / 介词/副词：在……以内；在……之前
+1885  porto：verb / portare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2087  prova：verb / provare · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+2102  voto：verb / votare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2124  visita：verb / visitare · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+2131  volo：verb / volare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2167  inizio：verb / iniziare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2196  sogno：verb / sognare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2231  aspetto：verb / aspettare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2386  cambio：verb / cambiare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2390  arrivo：verb / arrivare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2393  ritorno：verb / ritornare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2531  ballo：verb / ballare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2571  ricerca：verb / ricercare · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+2600  stampa：verb / stampare · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 
+2617  invito：verb / invitare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2629  fumo：verb / fumare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2684  incontro：verb / incontrare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2688  costo：verb / costare · 直陈式现在时 · io 第一人称单数  →  noun / 
+2700  mente：verb / mentire · 直陈式现在时 · lui/lei/Lei 第三人称单数  →  noun / 

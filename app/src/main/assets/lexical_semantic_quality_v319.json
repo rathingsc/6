@@ -1,0 +1,756 @@
+{
+  "version": "3.1.9",
+  "scannedWords": 2774,
+  "correctionCount": 123,
+  "method": "Full 2774-row learner-facing Italian/Chinese semantic review; high-confidence mismatches only. Ambiguous but defensible entries were left untouched.",
+  "corrections": [
+    {
+      "id": 52,
+      "word": "luna",
+      "chinese": "月亮",
+      "english": "moon"
+    },
+    {
+      "id": 124,
+      "word": "suono",
+      "chinese": "声音；我演奏/发出声音",
+      "english": "sound; I play; I make a sound"
+    },
+    {
+      "id": 164,
+      "word": "radio",
+      "chinese": "收音机；广播",
+      "english": "radio"
+    },
+    {
+      "id": 282,
+      "word": "scusate",
+      "chinese": "对不起；请原谅（对多人/各位）",
+      "english": "excuse me; sorry (plural/formal)"
+    },
+    {
+      "id": 363,
+      "word": "la prossima",
+      "chinese": "下一个（阴性）；下一次",
+      "english": "the next one; next time"
+    },
+    {
+      "id": 382,
+      "word": "lagna",
+      "chinese": "抱怨；牢骚；烦人的抱怨",
+      "english": "complaint; whining"
+    },
+    {
+      "id": 400,
+      "word": "portafoglio",
+      "chinese": "钱包",
+      "english": "wallet"
+    },
+    {
+      "id": 409,
+      "word": "festa",
+      "chinese": "节日；聚会",
+      "english": "party; celebration; festival"
+    },
+    {
+      "id": 445,
+      "word": "vorrebbe",
+      "chinese": "他/她/您想要；想……",
+      "english": "he/she/you(formal) would like; would want"
+    },
+    {
+      "id": 470,
+      "word": "al",
+      "chinese": "到……；在……；给……（a+il）",
+      "english": "to the; at the"
+    },
+    {
+      "id": 473,
+      "word": "parla",
+      "chinese": "他/她/您说；说话",
+      "english": "he/she/you(formal) speaks"
+    },
+    {
+      "id": 476,
+      "word": "usa",
+      "chinese": "他/她/您使用；使用",
+      "english": "he/she/you(formal) uses"
+    },
+    {
+      "id": 609,
+      "word": "nel",
+      "chinese": "在……里面；在……中（in+il）",
+      "english": "in the"
+    },
+    {
+      "id": 651,
+      "word": "della",
+      "chinese": "……的；从……；关于……（di+la）",
+      "english": "of the; from the; about the"
+    },
+    {
+      "id": 675,
+      "word": "storia",
+      "chinese": "故事；历史",
+      "english": "story; history"
+    },
+    {
+      "id": 699,
+      "word": "passa",
+      "chinese": "他/她/您经过；通过；递给；度过",
+      "english": "he/she/you(formal) passes; goes by; spends"
+    },
+    {
+      "id": 713,
+      "word": "vorremmo",
+      "chinese": "我们想要；我们想……",
+      "english": "we would like; we would want"
+    },
+    {
+      "id": 721,
+      "word": "vorrebbero",
+      "chinese": "他们/她们想要；他们/她们想……",
+      "english": "they would like; they would want"
+    },
+    {
+      "id": 727,
+      "word": "ebbi",
+      "chinese": "我有过；我曾有",
+      "english": "I had"
+    },
+    {
+      "id": 734,
+      "word": "le sue",
+      "chinese": "他的；她的；它的；您的（阴性复数）",
+      "english": "his; her; your(formal) (feminine plural)"
+    },
+    {
+      "id": 743,
+      "word": "cerca",
+      "chinese": "他/她/您寻找；搜索；找",
+      "english": "he/she/you(formal) looks for; searches"
+    },
+    {
+      "id": 747,
+      "word": "i suoi",
+      "chinese": "他的；她的；您的（阳性复数）",
+      "english": "his; her; your(formal) (masculine plural)"
+    },
+    {
+      "id": 760,
+      "word": "piaccio",
+      "chinese": "我讨人喜欢；别人喜欢我",
+      "english": "I am liked; I please"
+    },
+    {
+      "id": 778,
+      "word": "biondo",
+      "chinese": "金发的；浅色的",
+      "english": "blond; fair-haired; light-coloured"
+    },
+    {
+      "id": 839,
+      "word": "tedeschi",
+      "chinese": "德国人（复数）；德国的（阳性复数）",
+      "english": "Germans; German (masculine plural)"
+    },
+    {
+      "id": 850,
+      "word": "viaggio",
+      "chinese": "旅行；旅程；我旅行",
+      "english": "trip; journey; I travel"
+    },
+    {
+      "id": 874,
+      "word": "invitato",
+      "chinese": "被邀请的；受邀的",
+      "english": "invited"
+    },
+    {
+      "id": 888,
+      "word": "pulite",
+      "chinese": "干净的（阴性复数）；你们清洁/打扫",
+      "english": "clean (feminine plural); you clean"
+    },
+    {
+      "id": 894,
+      "word": "nello",
+      "chinese": "在……里面；在……中（in+lo）",
+      "english": "in the"
+    },
+    {
+      "id": 910,
+      "word": "marche",
+      "chinese": "品牌（复数）；马尔凯大区",
+      "english": "brands; Marche (region)"
+    },
+    {
+      "id": 953,
+      "word": "scarico",
+      "chinese": "卸下/卸载的；空载的；我卸载/下载",
+      "english": "unloaded; empty; I unload/download"
+    },
+    {
+      "id": 961,
+      "word": "dalla",
+      "chinese": "从……；由……（da+la）",
+      "english": "from the; by the"
+    },
+    {
+      "id": 1000,
+      "word": "agio",
+      "chinese": "舒适；自在；余裕/宽裕",
+      "english": "ease; comfort"
+    },
+    {
+      "id": 1014,
+      "word": "del",
+      "chinese": "……的；从……；关于……（di+il）",
+      "english": "of the; from the; about the"
+    },
+    {
+      "id": 1027,
+      "word": "dell'",
+      "chinese": "……的；从……；关于……（di+l’）",
+      "english": "of the; from the; about the"
+    },
+    {
+      "id": 1035,
+      "word": "alla",
+      "chinese": "到……；在……；给……（a+la）",
+      "english": "to the; at the"
+    },
+    {
+      "id": 1038,
+      "word": "pesca",
+      "chinese": "桃子；捕鱼/钓鱼",
+      "english": "peach; fishing"
+    },
+    {
+      "id": 1039,
+      "word": "dello",
+      "chinese": "……的；从……；关于……（di+lo）",
+      "english": "of the; from the; about the"
+    },
+    {
+      "id": 1046,
+      "word": "vorreste",
+      "chinese": "你们想要；你们想……",
+      "english": "you(plural) would like; would want"
+    },
+    {
+      "id": 1058,
+      "word": "delle",
+      "chinese": "……的/从……/关于……（di+le）；一些（阴性复数）",
+      "english": "of the; from the; about the"
+    },
+    {
+      "id": 1060,
+      "word": "migliore",
+      "chinese": "更好的；最好的",
+      "english": "better; best"
+    },
+    {
+      "id": 1063,
+      "word": "degli",
+      "chinese": "……的/从……/关于……（di+gli）；一些（特殊阳性复数）",
+      "english": "of the; some"
+    },
+    {
+      "id": 1069,
+      "word": "dei",
+      "chinese": "……的；一些（di+i）",
+      "english": "of the; some"
+    },
+    {
+      "id": 1072,
+      "word": "così",
+      "chinese": "如此；这样；这么",
+      "english": "so; thus; like this"
+    },
+    {
+      "id": 1096,
+      "word": "brillo",
+      "chinese": "微醺的；醉醺醺的；我闪耀",
+      "english": "tipsy; slightly drunk; I shine"
+    },
+    {
+      "id": 1100,
+      "word": "qua",
+      "chinese": "这里；这边",
+      "english": "here; this way"
+    },
+    {
+      "id": 1131,
+      "word": "là",
+      "chinese": "那里；那边",
+      "english": "there; over there"
+    },
+    {
+      "id": 1133,
+      "word": "ci",
+      "chinese": "我们（宾/间宾）；那里/到那里；对此/其中",
+      "english": "us; there; about it"
+    },
+    {
+      "id": 1136,
+      "word": "lagno",
+      "chinese": "抱怨；牢骚（较少用/古语）",
+      "english": "complaint; lament (rare/old)"
+    },
+    {
+      "id": 1162,
+      "word": "meglio",
+      "chinese": "更好；最好；较好地",
+      "english": "better; best"
+    },
+    {
+      "id": 1169,
+      "word": "questioni",
+      "chinese": "问题；议题（复数）",
+      "english": "questions; issues"
+    },
+    {
+      "id": 1177,
+      "word": "quegli",
+      "chinese": "那些（特殊阳性复数）",
+      "english": "those (masculine plural)"
+    },
+    {
+      "id": 1193,
+      "word": "nell'",
+      "chinese": "在……里面；在……中（in+l’）",
+      "english": "in the"
+    },
+    {
+      "id": 1197,
+      "word": "dalle",
+      "chinese": "从……；由……（da+le）",
+      "english": "from the; by the"
+    },
+    {
+      "id": 1215,
+      "word": "misterioso",
+      "chinese": "神秘的",
+      "english": "mysterious"
+    },
+    {
+      "id": 1216,
+      "word": "vi",
+      "chinese": "你们；给你们；在那里/去那里",
+      "english": "you(plural); to you(plural); there"
+    },
+    {
+      "id": 1262,
+      "word": "prepararsi",
+      "chinese": "做准备；准备好",
+      "english": "to get ready; to prepare oneself"
+    },
+    {
+      "id": 1267,
+      "word": "spettacolo",
+      "chinese": "演出；表演；景象",
+      "english": "show; performance; spectacle"
+    },
+    {
+      "id": 1284,
+      "word": "un po'",
+      "chinese": "一点；有点",
+      "english": "a little; a bit"
+    },
+    {
+      "id": 1370,
+      "word": "pranzato",
+      "chinese": "吃过午饭；吃了午饭",
+      "english": "had lunch"
+    },
+    {
+      "id": 1381,
+      "word": "preso",
+      "chinese": "拿了/取了；乘坐了；抓住/捕获了；服用了",
+      "english": "taken; got; caught"
+    },
+    {
+      "id": 1394,
+      "word": "trovai",
+      "chinese": "我找到了",
+      "english": "I found"
+    },
+    {
+      "id": 1421,
+      "word": "cola",
+      "chinese": "可乐；滴流/流下",
+      "english": "cola; it drips/flows"
+    },
+    {
+      "id": 1423,
+      "word": "castro",
+      "chinese": "城堡；要塞；设防聚落（历史用语）",
+      "english": "castle; fortress; fortified settlement (historical)"
+    },
+    {
+      "id": 1455,
+      "word": "bracciale",
+      "chinese": "手镯；臂环",
+      "english": "bracelet; armband"
+    },
+    {
+      "id": 1513,
+      "word": "lancia",
+      "chinese": "长矛；他/她/您投掷",
+      "english": "spear; he/she/you(formal) throws"
+    },
+    {
+      "id": 1563,
+      "word": "scrivendo",
+      "chinese": "正在写；正在书写",
+      "english": "writing"
+    },
+    {
+      "id": 1565,
+      "word": "preparando",
+      "chinese": "正在准备；准备中",
+      "english": "preparing; getting ready"
+    },
+    {
+      "id": 1568,
+      "word": "tutto il giorno",
+      "chinese": "一整天；整天",
+      "english": "all day"
+    },
+    {
+      "id": 1573,
+      "word": "studiando",
+      "chinese": "正在学习；学习中",
+      "english": "studying"
+    },
+    {
+      "id": 1707,
+      "word": "col",
+      "chinese": "和/用/带着……（con + il）",
+      "english": "with the; by the"
+    },
+    {
+      "id": 1712,
+      "word": "d'",
+      "chinese": "……的；从……（省音形式）",
+      "english": "of; from"
+    },
+    {
+      "id": 1714,
+      "word": "dallo",
+      "chinese": "从……；由……（da+lo）",
+      "english": "from the; by the"
+    },
+    {
+      "id": 1715,
+      "word": "dall'",
+      "chinese": "从……；由……（da+l’）",
+      "english": "from the; by the"
+    },
+    {
+      "id": 1719,
+      "word": "nei",
+      "chinese": "在……里/中（in + i）",
+      "english": "in the"
+    },
+    {
+      "id": 1720,
+      "word": "ad",
+      "chinese": "到；向；在（a在元音前的变体）",
+      "english": "to; at"
+    },
+    {
+      "id": 1727,
+      "word": "verso",
+      "chinese": "朝；向；大约；诗句",
+      "english": "toward(s); about; verse"
+    },
+    {
+      "id": 1729,
+      "word": "finché",
+      "chinese": "直到；只要；在……期间",
+      "english": "until; as long as; while"
+    },
+    {
+      "id": 1822,
+      "word": "buon",
+      "chinese": "好的（buono在名词前的形式）",
+      "english": "good"
+    },
+    {
+      "id": 1827,
+      "word": "durare",
+      "chinese": "持续；延续；耐用",
+      "english": "to last; to continue"
+    },
+    {
+      "id": 1859,
+      "word": "circa",
+      "chinese": "大约；约；关于",
+      "english": "about; approximately; around"
+    },
+    {
+      "id": 1865,
+      "word": "piuttosto",
+      "chinese": "相当；颇；宁可/倒不如；而不是",
+      "english": "rather; quite; instead"
+    },
+    {
+      "id": 1878,
+      "word": "oltre",
+      "chinese": "超过；越过；此外",
+      "english": "beyond; over; besides"
+    },
+    {
+      "id": 1880,
+      "word": "com'",
+      "chinese": "怎样；像……一样（come的省音形式）",
+      "english": "how"
+    },
+    {
+      "id": 1933,
+      "word": "ne",
+      "chinese": "其中；对此；一些；从那里",
+      "english": "of it/them; about it; some; from there"
+    },
+    {
+      "id": 1934,
+      "word": "si",
+      "chinese": "自己；相互；（反身/无人称用法）",
+      "english": "oneself; each other; impersonal/reflexive marker"
+    },
+    {
+      "id": 2018,
+      "word": "profondo",
+      "chinese": "深的；深刻的；低沉的",
+      "english": "deep; profound; low-pitched"
+    },
+    {
+      "id": 2025,
+      "word": "grave",
+      "chinese": "严重的；沉重的；低沉的",
+      "english": "serious; grave; heavy; low-pitched"
+    },
+    {
+      "id": 2034,
+      "word": "numeroso",
+      "chinese": "众多的；人数多的",
+      "english": "numerous; many"
+    },
+    {
+      "id": 2068,
+      "word": "cui",
+      "chinese": "谁/哪个（关系代词的宾/间宾）；其/其中",
+      "english": "whom; which; whose"
+    },
+    {
+      "id": 2081,
+      "word": "pensiamoci",
+      "chinese": "我们想想吧；让我们考虑一下",
+      "english": "let us think about it"
+    },
+    {
+      "id": 2084,
+      "word": "passiamola",
+      "chinese": "让我们把它传过去；让我们度过它",
+      "english": "let us pass it; let us spend it"
+    },
+    {
+      "id": 2150,
+      "word": "giù",
+      "chinese": "下；向下",
+      "english": "down"
+    },
+    {
+      "id": 2161,
+      "word": "avanti",
+      "chinese": "向前/前面；继续；请进",
+      "english": "forward; ahead; go on"
+    },
+    {
+      "id": 2279,
+      "word": "grasso",
+      "chinese": "胖的；肥的；脂肪",
+      "english": "fat; fatty"
+    },
+    {
+      "id": 2314,
+      "word": "chissà",
+      "chinese": "谁知道；也许",
+      "english": "who knows; perhaps"
+    },
+    {
+      "id": 2409,
+      "word": "passarti",
+      "chinese": "递给你；给你传递",
+      "english": "to pass/give to you"
+    },
+    {
+      "id": 2456,
+      "word": "cercando",
+      "chinese": "正在寻找；正在搜索",
+      "english": "looking for; searching"
+    },
+    {
+      "id": 2466,
+      "word": "costruendo",
+      "chinese": "正在建造；建设中",
+      "english": "building; constructing"
+    },
+    {
+      "id": 2472,
+      "word": "mangiando",
+      "chinese": "正在吃；吃着",
+      "english": "eating"
+    },
+    {
+      "id": 2473,
+      "word": "provando",
+      "chinese": "正在尝试；正在试用/体验",
+      "english": "trying; testing; experiencing"
+    },
+    {
+      "id": 2480,
+      "word": "aprendo",
+      "chinese": "正在打开",
+      "english": "opening"
+    },
+    {
+      "id": 2485,
+      "word": "diventando",
+      "chinese": "正在变成；正在成为",
+      "english": "becoming; getting"
+    },
+    {
+      "id": 2489,
+      "word": "sentendo",
+      "chinese": "正在听；正在感觉",
+      "english": "hearing; feeling"
+    },
+    {
+      "id": 2492,
+      "word": "prendendo",
+      "chinese": "正在拿；正在取；正在乘坐",
+      "english": "taking; getting"
+    },
+    {
+      "id": 2499,
+      "word": "sapendo",
+      "chinese": "知道；明白（副动词）",
+      "english": "knowing"
+    },
+    {
+      "id": 2505,
+      "word": "conoscendo",
+      "chinese": "正在认识；正在了解",
+      "english": "getting to know; knowing"
+    },
+    {
+      "id": 2518,
+      "word": "stile",
+      "chinese": "风格；样式",
+      "english": "style"
+    },
+    {
+      "id": 2532,
+      "word": "classico",
+      "chinese": "经典的；古典的；经典作品",
+      "english": "classic; classical"
+    },
+    {
+      "id": 2537,
+      "word": "complesso",
+      "chinese": "复杂的；综合体/建筑群；情结",
+      "english": "complex; complicated; complex/building complex"
+    },
+    {
+      "id": 2542,
+      "word": "immaginazione",
+      "chinese": "想象力；想象",
+      "english": "imagination"
+    },
+    {
+      "id": 2551,
+      "word": "guaio",
+      "chinese": "麻烦；困境；祸事",
+      "english": "trouble; problem; jam"
+    },
+    {
+      "id": 2563,
+      "word": "voler",
+      "chinese": "想要；愿意；需要（省略形式）",
+      "english": "to want; to wish; to need"
+    },
+    {
+      "id": 2593,
+      "word": "scoperta",
+      "chinese": "发现；发现物",
+      "english": "discovery; find"
+    },
+    {
+      "id": 2613,
+      "word": "nota",
+      "chinese": "笔记；注释；音符；分数/成绩",
+      "english": "note; annotation; musical note; grade"
+    },
+    {
+      "id": 2628,
+      "word": "soleggiato",
+      "chinese": "晴朗的；阳光充足的",
+      "english": "sunny; sunlit"
+    },
+    {
+      "id": 2661,
+      "word": "conferenza",
+      "chinese": "会议；讲座；报告/演讲",
+      "english": "conference; lecture; talk"
+    },
+    {
+      "id": 2662,
+      "word": "finanziamento",
+      "chinese": "融资；资金；资助",
+      "english": "financing; funding; financial backing"
+    },
+    {
+      "id": 2664,
+      "word": "proposta",
+      "chinese": "提议；建议；提案",
+      "english": "proposal; suggestion; proposition"
+    },
+    {
+      "id": 2703,
+      "word": "destino",
+      "chinese": "命运；宿命",
+      "english": "destiny; fate"
+    },
+    {
+      "id": 2713,
+      "word": "anima",
+      "chinese": "灵魂；心灵",
+      "english": "soul; spirit"
+    },
+    {
+      "id": 2727,
+      "word": "attacco",
+      "chinese": "攻击；袭击；进攻",
+      "english": "attack; assault"
+    },
+    {
+      "id": 2761,
+      "word": "governo",
+      "chinese": "政府；治理；我治理",
+      "english": "government; governing; I govern"
+    }
+  ],
+  "criticalRegressions": {
+    "castro": "城堡；要塞；设防聚落（历史用语）",
+    "bracciale": "手镯；臂环",
+    "lagna": "抱怨；牢骚；烦人的抱怨",
+    "destino": "命运；宿命",
+    "governo": "政府；治理；我治理",
+    "finanziamento": "融资；资金；资助",
+    "misterioso": "神秘的",
+    "stile": "风格；样式"
+  }
+}

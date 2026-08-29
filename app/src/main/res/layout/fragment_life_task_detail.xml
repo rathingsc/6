@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:paddingBottom="32dp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_life_detail_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="44dp" android:text="← 任务地图" android:textAllCaps="false" />
+        <TextView android:id="@+id/text_life_detail_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="☕ 咖啡店点单" android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold" />
+        <TextView android:id="@+id/text_life_detail_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="点单、询价、付款" android:textColor="@color/text_secondary" android:textSize="13sp" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <TextView android:id="@+id/text_life_detail_goal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="14dp" android:text="任务目标" android:textColor="@color/text_primary" android:textSize="14sp" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_life_core_phrases" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="12dp" android:text="📖 先看10个核心句" android:textAllCaps="false" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="三关递进" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+
+        <TextView android:id="@+id/text_life_stage_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/text_primary" android:textSize="14sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_life_stage_1" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:text="开始这一关" android:textAllCaps="false" />
+
+        <TextView android:id="@+id/text_life_stage_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:textColor="@color/text_primary" android:textSize="14sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_life_stage_2" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:text="先通过上一关" android:textAllCaps="false" />
+
+        <TextView android:id="@+id/text_life_stage_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:textColor="@color/text_primary" android:textSize="14sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_life_stage_3" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="7dp" android:text="先通过上一关" android:textAllCaps="false" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="说明：这是 App 内部真实生活能力训练，不是官方语言证书考试。高级关通过后代表你已经能在这一类固定场景中完成基础沟通，仍建议在现实生活中继续使用和复习。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

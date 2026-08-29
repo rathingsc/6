@@ -1,0 +1,33 @@
+终学意语 v5.0.0 简洁首页与新手渐进模式版 开发与自检报告
+
+一、版本标识
+- versionCode: 80
+- versionName: 5.0.0-native
+- applicationId: com.italiano2774.nativeapp
+- Room database: v6
+- 学习进度 JSON backup: v31
+- 固定 Codemagic signing reference: zhongxue_release
+
+二、本版核心改动
+1. 真正首页 CourseHomeFragment 改为“下一步优先”的简洁首页。
+2. 默认显示今日完成度、剩余时间、下一项与一个继续学习主按钮。
+3. 详细计划、时间预算、智能背词、十篇文章和课程路径折叠到“查看今日详情”。
+4. 设置页增加“首页使用简洁模式”开关。
+5. 新用户前7个活跃学习日使用自然语言引导。
+6. 额外练习按第2/3/4/5/7活跃学习日逐步开放；每日智能计划不受该入口限制。
+7. 已有明显学习历史的升级用户不会被强制视为第1天新手。
+8. Onboarding 默认启用简洁首页。
+9. v5.0 状态加入备份/恢复，backup schema 升级为31。
+10. 新增 beginner_home_quality_check.py，并纳入 Codemagic / Preflight / Regression / Strict Release Gate。
+
+三、发布检查
+- Java source literal check: PASS
+- Beginner home quality gate: PASS
+- Preflight: PASS
+- Regression: PASS
+- Strict Release Gate: PASS
+- 历史词义/例句/课程/文章/听说/会话/语法/每日计划/周测/Shadowing/错句/任务地图/四维遗忘模型门禁: PASS
+- Signing config check: PASS
+
+四、构建说明
+当前开发运行环境没有完整 Android SDK / Gradle Wrapper，因此本报告不声称本地已经编译生成 APK。GitHub 上传后由 Codemagic 创建 Gradle Wrapper、运行同一套门禁，并使用 zhongxue_release 固定签名生成 app-release.apk。

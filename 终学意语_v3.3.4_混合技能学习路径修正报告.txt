@@ -1,0 +1,41 @@
+终学意语 v3.3.4 混合技能学习路径修正报告
+
+问题根因
+- v3.3.3 单元路径前置节点按单词分块生成，虽然题目中偶尔混入听力/句子，但路径结构本质仍是词汇主导。
+- 用户看到和实际体验都会觉得“学习路径全是单词”。
+
+本版修正
+1. 5节点单元：词汇起步 → 听力训练 → 句子理解 → 主动表达 → 单元挑战。
+2. 6节点单元：词汇起步 → 听力训练 → 句子理解 → 语法微练 → 主动表达 → 单元挑战。
+3. 7节点单元：再加入综合运用。
+4. 8节点单元：再加入听力巩固 + 综合运用。
+5. 2774 个课程词仍按课程顺序覆盖，但被分散到不同技能节点；最大单节点引入 9 个词。
+6. 听力节点：播放音频 + 中文提示 + 选择意大利语。
+7. 句子节点：优先使用已审校例句做句义理解和句子填空。
+8. 语法节点：名词练冠词；动词练现在时变位；其他词回到句子语境。
+9. 主动表达节点：中文 + 拼写提示，要求主动写出意大利语。
+10. 挑战节点：词义、听力、主动回忆、句子、语法混合。
+11. 语法题答错会记录 ARTICLE_GENDER / WORD_FORM，不再错误拉低词义掌握度。
+12. 保留“直接选择中文意思时先给一遍翻译”的新手逻辑。
+13. 新增 course_path_mix_quality_check.py，Codemagic 自动防止路径再次退化为全词汇。
+
+版本
+- versionCode: 58
+- versionName: 3.3.4-native
+- applicationId: com.italiano2774.nativeapp
+- Android signing reference: zhongxue_release
+
+静态自检
+- Preflight: OK
+- Regression: OK
+- Course check: 98 units / 2774 words / max mixed chunk 9
+- Course path mix: OK
+- Teach-before-test: OK
+- Translation / lexical / retranslation checks: OK
+- 1718 current example pairs: OK
+- Smart mastery: OK
+- Signing config: OK
+- Strict release gate: OK
+
+说明
+当前运行环境没有完整 Android SDK，因此最终 app-release.apk 仍由 Codemagic assembleRelease 构建。

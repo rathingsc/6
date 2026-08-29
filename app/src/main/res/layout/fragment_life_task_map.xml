@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/bg" android:paddingTop="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingHorizontal="12dp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_life_map_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="44dp" android:text="← 练习" android:textAllCaps="false" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="真实生活任务地图" android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold" />
+        <Space android:layout_width="70dp" android:layout_height="1dp" />
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="18dp" android:paddingTop="2dp" android:text="12个意大利高频生活任务 × 3级。不是刷完就算会，必须达到本关分数线才解锁下一关。" android:textColor="@color/text_secondary" android:textSize="13sp" />
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16dp" android:layout_marginTop="12dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView android:id="@+id/text_life_map_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="14dp" android:text="已通过 0 / 36 关" android:textColor="@color/text_primary" android:textSize="14sp" android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_life_tasks" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false" android:paddingTop="8dp" android:paddingBottom="20dp" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+终学意语 v4.1.0 能力护照与阶段闯关版 开发与自检报告
+
+版本
+----
+versionCode: 71
+versionName: 4.1.0-native
+applicationId: com.italiano2774.nativeapp
+Codemagic keystore reference: zhongxue_release
+
+本版目标
+--------
+在 v4.0.0“每日5句主动开口”之后，继续解决“功能很多，但学习者不知道自己到底会了多少、离下一阶段还差什么”的问题。v4.1.0 不新增第二套学习内容，而是把现有四维单词掌握、课程进度、语法记录、真实场景练习、阅读/写作/会话、阶段自测汇总成一个可行动的学习能力护照。
+
+主要开发内容
+------------
+1. 新增“学习能力护照”，分开显示识义、听力、拼写、口语、语法、真实使用六项能力。
+2. 六项能力不是简单正确率：同时结合已学质量、路线覆盖量、真实练习次数和任务类型覆盖；证据太少时自动限制分数虚高。
+3. 新增 A1 / A2 / B1 内部阶段闯关。每一关同时检查：对应课程段完成、阶段自测至少70%、六项能力达到该阶段内部阈值。
+4. 明确用户可见免责声明：能力护照与阶段闯关仅为 App 内部学习诊断，不等于官方 CEFR 考试或证书结论。
+5. 自动寻找离下一关最远的短板，只推荐一个当前最值得做的动作，而不是一次列出很多任务。
+6. 推荐动作可以直达：课程主线、词义复习、听说、主动回忆、每日5句、微语法、真实场景会话或阶段自测。
+7. “我的”页面新增“能力护照与阶段闯关”入口。
+8. “今日学习闭环”新增“查看能力护照与下一关”入口。
+9. A1/A2/B1 阶段自测完成页新增“查看能力护照与下一步”，形成“测试 -> 找短板 -> 训练”的闭环。
+10. 修复旧的 memory_article_sentence_quality_check：备份版本要求从硬编码等于23改为不得低于23，兼容当前 version=24 和未来正常升级。
+11. 新增 mastery_passport_quality_check，并接入 Codemagic / Preflight / Regression / Strict Release Gate。
+
+内部阶段检查阈值
+----------------
+说明：以下仅用于当前 App 学习路线内部诊断，不是官方 CEFR 标准。
+A1：课程段100%、阶段自测>=70；识义50、听力40、拼写35、口语35、语法40、真实使用35。
+A2：课程段100%、阶段自测>=70；识义65、听力55、拼写50、口语50、语法55、真实使用50。
+B1：课程段100%、阶段自测>=70；识义75、听力68、拼写60、口语65、语法65、真实使用60。
+
+兼容性
+------
+- 包名未改变。
+- 永久签名 reference 未改变。
+- Room schema 没有新增破坏性迁移。
+- 能力护照只读取已有学习数据，不需要清空、重建或迁移旧进度。
+- 升级前本地备份标记更新为 4.1.0-preupgrade。
+- 可以继续从已使用 zhongxue_release 签名的正式版本覆盖升级。
+
+已通过的自动检查
+----------------
+- Java source literal check
+- XML parse / Android resource reference check
+- Preflight
+- Regression
+- Strict Release Gate
+- Mastery passport quality gate
+- Translation quality: 2774 words
+- Lexical semantic quality: 2774 words
+- Full lexicon alignment: 2774/2774
+- Full independent retranslation: 2774/2774
+- Word example quality / expansion: 1718 current example pairs
+- Guided course: 98 units / 2774 words
+- Course path mix
+- Course translation quality
+- Phrase/core sentence semantics: 430 pairs
+- English bridge
+- Memory aid / smart mastery / teach-before-test
+- Ten memory articles: 10 articles / 50 sections / 2000 target words
+- Memory article recurrence / 269 aligned sentence pairs
+- Listening & speaking bridge
+- Daily five-sentence speaking
+- Three-level scenario conversation: 10 scenarios / 50 turns
+- Micro grammar: 27 points / 81 exercises
+- Daily smart plan
+- Daily learning loop
+- Seven-day review forecast
+- Person semantics
+- Exercise quality
+- Permanent signing configuration
+
+隐私与签名检查
+--------------
+项目 ZIP 不包含 .jks、.keystore、keystore.properties、.p12、.pfx 等私密签名文件。
+正式 app-release.apk 继续由 Codemagic 使用已保存的 zhongxue_release 固定签名构建。
+
+本地构建说明
+------------
+当前开发容器没有配置 ANDROID_SDK_ROOT / Android SDK，因此没有在本地声称成功生成 APK。项目级静态检查、内容回归和发布门禁均已完成；正式 APK 仍按项目既有方式由 Codemagic 构建。

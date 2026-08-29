@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_weak_story_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="42dp" android:text="← 练习" android:textAllCaps="false" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="今日弱词微短文" android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold" />
+            <TextView android:layout_width="68dp" android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView android:id="@+id/text_weak_story_step" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/blue" android:textSize="14sp" android:textStyle="bold" />
+        <ProgressBar android:id="@+id/progress_weak_story" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="7dp" android:layout_marginTop="6dp" android:max="100" android:progress="10" />
+        <TextView android:id="@+id/text_weak_story_source" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_soft_panel" android:padding="12dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+        <TextView android:id="@+id/text_weak_story_targets" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_soft_panel" android:padding="12dp" android:lineSpacingExtra="3dp" android:textColor="@color/text_primary" android:textSize="13sp" />
+
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:id="@+id/text_weak_story_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5dp" android:textColor="@color/text_primary" android:textIsSelectable="true" android:textSize="18sp" />
+                <TextView android:id="@+id/text_weak_story_translation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_soft_panel" android:padding="12dp" android:lineSpacingExtra="3dp" android:textColor="@color/text_secondary" android:textSize="14sp" android:visibility="gone" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView android:id="@+id/text_weak_story_instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textColor="@color/text_secondary" android:textSize="13sp" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_weak_story_slow" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1" android:text="🐢 0.70×" android:textAllCaps="false" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_weak_story_normal" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="7dp" android:layout_weight="1" android:text="🔊 0.92×" android:textAllCaps="false" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_weak_story_translation" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="7dp" android:layout_weight="1" android:text="显示中文" android:textAllCaps="false" />
+        </LinearLayout>
+
+        <EditText android:id="@+id/edit_weak_story_answer" android:layout_width="match_parent" android:layout_height="130dp" android:layout_marginTop="10dp" android:background="@drawable/bg_search" android:gravity="top|start" android:hint="输入答案" android:inputType="textCapSentences|textMultiLine" android:padding="13dp" android:textColor="@color/text_primary" android:textColorHint="@color/text_secondary" android:textSize="16sp" android:visibility="gone" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_weak_story_mic" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🎙 说复述" android:textAllCaps="false" android:visibility="gone" />
+
+        <TextView android:id="@+id/text_weak_story_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/bg_soft_panel" android:padding="12dp" android:lineSpacingExtra="3dp" android:textColor="@color/text_primary" android:textSize="13sp" android:visibility="gone" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_weak_story_primary" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="12dp" android:text="继续" android:textAllCaps="false" android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_weak_story_next" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="8dp" android:text="下一步" android:textAllCaps="false" android:visibility="gone" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:gravity="center" android:text="全部内容来自本地已审校材料 · 不联网生成 · 不会把被动阅读直接当成掌握" android:textColor="@color/text_secondary" android:textSize="11sp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

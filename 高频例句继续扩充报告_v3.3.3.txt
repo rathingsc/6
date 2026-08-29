@@ -1,0 +1,54 @@
+终学意语 v3.3.3 高频例句继续扩充报告
+
+一、本轮结果
+- 词库总数：2774
+- v3.3.2 已有可靠例句：1305
+- v3.3.3 新增人工审校例句：413
+- 当前总例句：1718 / 2774
+- 当前仍无例句：1056
+- 高频覆盖：ID 1-1500 = 1500 / 1500
+- 可直接用于安全填空/上下文训练：1688 组（以 Exercise Quality 检查结果为准）
+
+二、分段覆盖
+- ID 1-1000: 1000/1000 有例句，缺 0
+- ID 1001-1250: 250/250 有例句，缺 0
+- ID 1251-1500: 250/250 有例句，缺 0
+- ID 1501-1750: 56/250 有例句，缺 194
+- ID 1751-2000: 62/250 有例句，缺 188
+- ID 2001-2250: 42/250 有例句，缺 208
+- ID 2251-2500: 19/250 有例句，缺 231
+- ID 2501-2774: 39/274 有例句，缺 235
+
+三、本轮编写标准
+- 不使用“Oggi ripasso la parola…”之类自我指涉模板。
+- 意大利语例句必须包含当前目标词形本身，避免只出现 lemma 而目标变位没有真正出现。
+- 中文直接翻译当前例句，不用泛化占位语。
+- 优先短句和实际生活场景；对动词变位、将来时、过去分词、固定短语分别按实际词形造句。
+- 保留 v3.2.2 的 84 组问题例句修正门禁，以及 v3.3.2 的 563 组历史新增例句。
+
+四、本轮部分新增示例
+- 1001 panca：Ci sediamo sulla panca davanti alla casa.  /  我们坐在房子前的长凳上。
+- 1006 quadra：Adesso il conto quadra.  /  现在账目对得上了。
+- 1022 partire：Dobbiamo partire alle sei.  /  我们必须六点出发。
+- 1047 gelateria：C'è una buona gelateria vicino alla piazza.  /  广场附近有一家不错的冰淇淋店。
+- 1085 annaffiare：Devo annaffiare le piante ogni sera.  /  我每天晚上都要给植物浇水。
+- 1120 poliziotto：Il poliziotto controlla i documenti.  /  警察检查证件。
+- 1161 conoscere：Vorrei conoscere meglio i miei nuovi colleghi.  /  我想更好地认识我的新同事。
+- 1183 toccare：Non toccare la pentola: è calda.  /  别碰锅，锅很烫。
+- 1250 cantò：Alla festa cantò una canzone italiana.  /  在聚会上他唱了一首意大利歌曲。
+- 1267 spettacolo：Lo spettacolo comincia alle nove.  /  演出九点开始。
+- 1308 trama：La trama del film è molto interessante.  /  这部电影的情节很有趣。
+- 1338 frutti di mare：Al ristorante abbiamo ordinato frutti di mare.  /  我们在餐厅点了海鲜。
+- 1400 ascoltare：Mi piace ascoltare la musica mentre cucino.  /  我喜欢做饭时听音乐。
+- 1423 castro：Il castro romano sorgeva su una collina.  /  这座罗马要塞建在一座山丘上。
+- 1459 scopare：Devo scopare il pavimento della cucina.  /  我得扫厨房的地板。
+- 1473 impossibile：È impossibile finire tutto in dieci minuti.  /  十分钟内完成所有事情是不可能的。
+- 1498 fare la spesa：Devo fare la spesa prima di cena.  /  晚饭前我得去采购食品。
+- 1500 giochi：I bambini hanno molti giochi nella loro stanza.  /  孩子们的房间里有很多玩具。
+
+五、发布信息
+- versionCode: 57
+- versionName: 3.3.3-native
+- applicationId: com.italiano2774.nativeapp
+- 固定签名引用: zhongxue_release
+- 下一阶段建议：继续补 ID 1501-2000，再将前 2000 高频词实现全例句覆盖。

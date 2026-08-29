@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="学习设置" android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="v5.0 · 平时只需要设置每天学习时间，其他由课程自动安排" android:textColor="@color/text_secondary" />
+
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="日常设置" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="每天学习时长" android:textStyle="bold" />
+                <Spinner android:id="@+id/spinner_session_minutes" android:layout_width="match_parent" android:layout_height="48dp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="主路径会据此控制每天的学习节奏，不会一次塞给你大量任务。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="中文近似读音" android:textStyle="bold" />
+                <Spinner android:id="@+id/spinner_pronunciation_mode" android:layout_width="match_parent" android:layout_height="48dp" />
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="发音速度" android:textStyle="bold" />
+                <Spinner android:id="@+id/spinner_audio_speed" android:layout_width="match_parent" android:layout_height="48dp" />
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="界面字号" android:textStyle="bold" />
+                <Spinner android:id="@+id/spinner_font_size" android:layout_width="match_parent" android:layout_height="48dp" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/switch_simple_home" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="首页使用简洁模式（推荐）" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="开启后首页只显示下一步和一个继续按钮；详细计划仍可随时展开。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/switch_reminder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="每天提醒我学习" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_reminder_time" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="7dp" android:textAllCaps="false" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_save_settings" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="14dp" android:text="保存设置" android:textAllCaps="false" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_settings_advanced" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="8dp" android:text="高级设置 ▾" android:textAllCaps="false" android:textColor="@color/blue" />
+        <LinearLayout android:id="@+id/container_settings_advanced" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:visibility="gone">
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="高级课程参数" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="这些项目主要给旧版专项练习和有经验的用户使用；不修改也不会影响 v5.0 主路径。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="学习目标" android:textStyle="bold" />
+                    <Spinner android:id="@+id/spinner_learning_goal" android:layout_width="match_parent" android:layout_height="48dp" />
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="入门水平测试" android:textStyle="bold" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/button_placement_settings" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="进行 / 重做水平测试" android:textAllCaps="false" />
+                    <TextView android:id="@+id/text_placement_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="FSRS 目标记忆保持率" android:textStyle="bold" />
+                    <Spinner android:id="@+id/spinner_retention" android:layout_width="match_parent" android:layout_height="48dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="90%推荐。这个参数只控制后台复习间隔。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="旧版词汇路线" android:textStyle="bold" />
+                    <Spinner android:id="@+id/spinner_vocab_route" android:layout_width="match_parent" android:layout_height="48dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="不影响 A0 → A1 → A2 → B1 主路径。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="智能背词每日新词数" android:textStyle="bold" />
+                    <Spinner android:id="@+id/spinner_per_day" android:layout_width="match_parent" android:layout_height="48dp" />
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="旧版课程开始日期" android:textStyle="bold" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/button_start_date" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:textAllCaps="false" />
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/switch_original_audio" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="联网时优先播放原始在线音频" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="进度与数据" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+                <TextView android:id="@+id/text_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:lineSpacingExtra="3dp" android:textColor="@color/text_secondary" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_export" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="12dp" android:text="导出进度 JSON" android:textAllCaps="false" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_import" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="导入进度 JSON" android:textAllCaps="false" />
+                <TextView android:id="@+id/text_local_backup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_local_backup" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="立即创建本地备份" android:textAllCaps="false" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_restore_local" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="恢复最近本地备份" android:textAllCaps="false" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_database_health" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="数据库健康与错误日志" android:textAllCaps="false" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_issue_reports" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="待检查内容" android:textAllCaps="false" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/button_reset" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="清空学习进度" android:textAllCaps="false" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="22dp" android:text="主课程会自动处理复习与难度。除非你明确知道自己要调整什么，否则保持默认设置即可。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

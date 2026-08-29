@@ -1,0 +1,70 @@
+终学意语 v4.4.0 个人错句本与错误证据回炉版
+开发与自检报告
+
+一、版本目标
+把真实写作、自由会话、听写等模块里的错误从“只做统计”升级为“必须重新做对一次才算修复”的长期学习证据，形成错误 -> 回炉 -> 修复 -> 句子FSRS再复习的闭环。
+
+二、核心改动
+1. 新增个人错句本 ErrorEvidenceRepairFragment。
+2. 每条待修复证据保存：来源模式、目标表达、用户原错误表达、错误原因/细节、修复次数、修复时间。
+3. 点“不会·显示正确表达”不算修复，证据继续留在队列。
+4. 用户重新输入达到匹配线后才标记修复，并将目标句写入 Sentence FSRS recall 维度。
+5. 同一次真实作答若同时触发多个错误原因，错因仍分别统计，但待修复队列按 mode + expected + actual 自动合并，只需真正修复一次。
+6. 真实写作失败保存参考正确表达，不再把题目ID当作 expected。
+7. 自由会话中未表达清楚或存在明显语法问题的句子会进入错句本。
+8. 每日智能计划读取待修复错句；达到阈值时自动调度，且继续遵守每日总时间预算。
+9. 练习中心、薄弱项中心、今日总结增加错句本入口及待修复数量。
+10. Room 数据库 v5 -> v6，新增 repairedAt、repairAttempts 及迁移 SQL。
+11. JSON 学习进度备份格式升级到 version 26，并恢复上述修复字段与待修复计数。
+
+三、版本与覆盖升级
+versionCode: 74
+versionName: 4.4.0-native
+applicationId: com.italiano2774.nativeapp
+固定签名引用: zhongxue_release
+覆盖升级链保持不变。
+
+四、主要新增/修改文件
+- ErrorEvidenceRepairFragment.java
+- fragment_error_evidence_repair.xml
+- ErrorRecordEntity.java
+- LearningStateDao.java
+- LearningDatabase.java
+- ProgressStore.java
+- WritingFragment.java
+- FreeConversationFragment.java
+- DailySmartPlanEngine.java
+- MainActivity.java
+- PracticeHubFragment.java
+- WeaknessCenterFragment.java
+- DailySummaryFragment.java
+- LocalBackupManager.java
+- tools/error_evidence_quality_check.py
+- tools/preflight.py
+- tools/regression_check.py
+- tools/release_gate.py
+- codemagic.yaml
+
+五、自检结果
+已通过：
+- Java source literal/syntax static check
+- v4.4 error evidence repair quality check
+- Daily Smart Plan quality check
+- Breakthrough Plan quality check
+- Preflight
+- Regression
+- Strict Release Gate
+- 2774词词义/语义/重译检查
+- 2774音频资产检查
+- 1718当前例句及前1500词例句覆盖检查
+- 98单元课程与课程路径检查
+- 430核心句检查
+- 10篇文章/2000目标词覆盖与复现检查
+- 269组文章逐句检查
+- 听说、每日5句、三档情景会话检查
+- 27个微语法点/81题检查
+- 七日预测、能力护照、三日递进检查
+- 固定签名配置检查
+
+六、构建说明
+本项目保持 GitHub 根目录完整结构并由 Codemagic 正式构建。若本地环境未安装完整 Android SDK/Gradle，则本次不声称本地已经生成 app-release.apk；以 Codemagic 使用永久固定签名 zhongxue_release 的正式 Release APK 为准。

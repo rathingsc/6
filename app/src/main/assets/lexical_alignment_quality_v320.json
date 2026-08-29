@@ -1,0 +1,2528 @@
+{
+  "version": "3.2.0",
+  "purpose": "Manual full-pass Italian-to-Chinese alignment audit of every learner-facing vocabulary row. Chinese glosses are aligned to the Italian surface form/course sense; conjugation/person, number/gender, participles, prepositions, possessives and common polysemy were reviewed explicitly.",
+  "scannedWords": 2774,
+  "reviewCoverage": "2774/2774",
+  "correctionCount": 184,
+  "metadataFixCount": 61,
+  "exampleFixCount": 1,
+  "familySyncEdits": 183,
+  "categoryCounts": {
+    "中文表达规范化": 1,
+    "介词词义修正": 9,
+    "分词词义修正": 12,
+    "副动词词义修正": 3,
+    "单复数修正": 1,
+    "变位与命令式精确化": 1,
+    "变位人称精确化": 84,
+    "同形词与分词补全": 1,
+    "同形词与变位补全": 7,
+    "常用多义补全": 13,
+    "性别与词义修正": 1,
+    "数性与词义修正": 8,
+    "明显词义与例句修正": 1,
+    "明显词义修正": 15,
+    "物主词修正": 15,
+    "罕见变位词义修正": 1,
+    "词性与变位修正": 1,
+    "词性与词义修正": 2,
+    "词性表达精确化": 1,
+    "语境与同形词修正": 1,
+    "限定词词义修正": 6
+  },
+  "notes": [
+    "一一对应指每条中文释义必须真实属于该意大利语词形/本课程语境，并不要求多义词只能保留一个中文词。",
+    "变位词尽量保留人称信息，例如 abbiamo=我们有，而不是只写“有”。",
+    "同形多义词只补充高频且会影响初学者理解的义项，避免把整本词典塞进卡片。",
+    "cosse 已核实为 cuocere 的古旧/文学远过去时第三人称单数，不再误标成形容词“烤过的”。"
+  ],
+  "corrections": [
+    {
+      "id": 278,
+      "word": "abbiamo",
+      "oldChinese": "有",
+      "newChinese": "我们有",
+      "category": "变位人称精确化",
+      "level": "Roommates"
+    },
+    {
+      "id": 293,
+      "word": "avete",
+      "oldChinese": "有",
+      "newChinese": "你们有",
+      "category": "变位人称精确化",
+      "level": "Roommates"
+    },
+    {
+      "id": 326,
+      "word": "sai",
+      "oldChinese": "知道；会",
+      "newChinese": "你知道；你会",
+      "category": "变位人称精确化",
+      "level": "New Friend"
+    },
+    {
+      "id": 328,
+      "word": "fai",
+      "oldChinese": "做；制作",
+      "newChinese": "你做；你制作",
+      "category": "变位人称精确化",
+      "level": "New Friend"
+    },
+    {
+      "id": 341,
+      "word": "siamo",
+      "oldChinese": "是；存在",
+      "newChinese": "我们是；我们在",
+      "category": "变位人称精确化",
+      "level": "Neighbors"
+    },
+    {
+      "id": 347,
+      "word": "siete",
+      "oldChinese": "是；存在",
+      "newChinese": "你们是；你们在",
+      "category": "变位人称精确化",
+      "level": "Neighbors"
+    },
+    {
+      "id": 365,
+      "word": "va",
+      "oldChinese": "去",
+      "newChinese": "他/她/您去；走；行（按语境）",
+      "category": "变位人称精确化",
+      "level": "SwissTrip"
+    },
+    {
+      "id": 374,
+      "word": "vai",
+      "oldChinese": "去",
+      "newChinese": "你去；你走",
+      "category": "变位人称精确化",
+      "level": "SwissTrip"
+    },
+    {
+      "id": 380,
+      "word": "vado",
+      "oldChinese": "去",
+      "newChinese": "我去；我走",
+      "category": "变位人称精确化",
+      "level": "SwissTrip"
+    },
+    {
+      "id": 412,
+      "word": "posso",
+      "oldChinese": "能够；可以",
+      "newChinese": "我能；我可以",
+      "category": "变位人称精确化",
+      "level": "Gifts"
+    },
+    {
+      "id": 413,
+      "word": "passo",
+      "oldChinese": "步骤；步伐",
+      "newChinese": "步子/脚步；步骤；山口；我经过/传递/度过",
+      "category": "同形词与变位补全",
+      "level": "Gifts"
+    },
+    {
+      "id": 419,
+      "word": "devi",
+      "oldChinese": "必须；应该",
+      "newChinese": "你必须；你应该",
+      "category": "变位人称精确化",
+      "level": "Shopping"
+    },
+    {
+      "id": 421,
+      "word": "molte",
+      "oldChinese": "很多；非常",
+      "newChinese": "许多；很多（阴性复数）",
+      "category": "数性与词义修正",
+      "level": "Shopping"
+    },
+    {
+      "id": 423,
+      "word": "giri",
+      "oldChinese": "转动；转向",
+      "newChinese": "你转/转弯/旋转；圈/转数（复数）",
+      "category": "变位人称精确化",
+      "level": "Shopping"
+    },
+    {
+      "id": 431,
+      "word": "queste",
+      "oldChinese": "这个",
+      "newChinese": "这些（阴性复数）",
+      "category": "数性与词义修正",
+      "level": "Shopping"
+    },
+    {
+      "id": 440,
+      "word": "molti",
+      "oldChinese": "很多；非常",
+      "newChinese": "许多；很多（阳性复数）",
+      "category": "数性与词义修正",
+      "level": "Shopping"
+    },
+    {
+      "id": 442,
+      "word": "guarda",
+      "oldChinese": "看；你看；注意",
+      "newChinese": "他/她/您看；看！；注意",
+      "category": "变位与命令式精确化",
+      "level": "Shopping"
+    },
+    {
+      "id": 448,
+      "word": "può",
+      "oldChinese": "能够；可以",
+      "newChinese": "他/她/您能；可以",
+      "category": "变位人称精确化",
+      "level": "Excuses"
+    },
+    {
+      "id": 451,
+      "word": "vive",
+      "oldChinese": "住；生活",
+      "newChinese": "他/她/您生活；居住",
+      "category": "变位人称精确化",
+      "level": "Excuses"
+    },
+    {
+      "id": 454,
+      "word": "lavora",
+      "oldChinese": "工作",
+      "newChinese": "他/她/您工作",
+      "category": "变位人称精确化",
+      "level": "Excuses"
+    },
+    {
+      "id": 478,
+      "word": "lava",
+      "oldChinese": "洗；他/她洗",
+      "newChinese": "他/她/您洗；清洗",
+      "category": "变位人称精确化",
+      "level": "Visiting"
+    },
+    {
+      "id": 501,
+      "word": "cuciniamo",
+      "oldChinese": "做饭",
+      "newChinese": "我们做饭",
+      "category": "变位人称精确化",
+      "level": "Holidays"
+    },
+    {
+      "id": 507,
+      "word": "lavoriamo",
+      "oldChinese": "工作",
+      "newChinese": "我们工作",
+      "category": "变位人称精确化",
+      "level": "Holidays"
+    },
+    {
+      "id": 515,
+      "word": "compriamo",
+      "oldChinese": "买",
+      "newChinese": "我们买",
+      "category": "变位人称精确化",
+      "level": "Holidays"
+    },
+    {
+      "id": 519,
+      "word": "andiamo",
+      "oldChinese": "去",
+      "newChinese": "我们去；我们走吧",
+      "category": "变位人称精确化",
+      "level": "Holidays"
+    },
+    {
+      "id": 523,
+      "word": "passiamo",
+      "oldChinese": "经过；度过",
+      "newChinese": "我们经过；我们度过；我们传递",
+      "category": "变位人称精确化",
+      "level": "Holidays"
+    },
+    {
+      "id": 531,
+      "word": "raso",
+      "oldChinese": "短的",
+      "newChinese": "剃光的；刮净的；齐平的；缎子（名词）",
+      "category": "明显词义修正",
+      "level": "Milan"
+    },
+    {
+      "id": 534,
+      "word": "prende",
+      "oldChinese": "拿；乘坐；取",
+      "newChinese": "他/她/您拿；取；乘坐",
+      "category": "变位人称精确化",
+      "level": "Milan"
+    },
+    {
+      "id": 538,
+      "word": "prendi",
+      "oldChinese": "拿；乘坐；取",
+      "newChinese": "你拿；你取；你乘坐",
+      "category": "变位人称精确化",
+      "level": "Milan"
+    },
+    {
+      "id": 554,
+      "word": "aiuto",
+      "oldChinese": "帮助",
+      "newChinese": "帮助；我帮助",
+      "category": "同形词与变位补全",
+      "level": "Mystery"
+    },
+    {
+      "id": 561,
+      "word": "sente",
+      "oldChinese": "听见；感觉到",
+      "newChinese": "他/她/您听见；感觉到",
+      "category": "变位人称精确化",
+      "level": "Mystery"
+    },
+    {
+      "id": 584,
+      "word": "vanno",
+      "oldChinese": "去",
+      "newChinese": "他们/她们去",
+      "category": "变位人称精确化",
+      "level": "Weather"
+    },
+    {
+      "id": 592,
+      "word": "balla",
+      "oldChinese": "跳舞",
+      "newChinese": "他/她/您跳舞",
+      "category": "变位人称精确化",
+      "level": "Weather"
+    },
+    {
+      "id": 606,
+      "word": "fate",
+      "oldChinese": "做；制作",
+      "newChinese": "你们做；你们制作",
+      "category": "变位人称精确化",
+      "level": "Weather"
+    },
+    {
+      "id": 659,
+      "word": "vogliono",
+      "oldChinese": "想要",
+      "newChinese": "他们/她们想要",
+      "category": "变位人称精确化",
+      "level": "Wedding"
+    },
+    {
+      "id": 664,
+      "word": "iniziano",
+      "oldChinese": "开始",
+      "newChinese": "他们/她们开始",
+      "category": "变位人称精确化",
+      "level": "University"
+    },
+    {
+      "id": 668,
+      "word": "passi",
+      "oldChinese": "步骤；步伐",
+      "newChinese": "步骤；脚步；你经过/度过",
+      "category": "同形词与变位补全",
+      "level": "University"
+    },
+    {
+      "id": 676,
+      "word": "le vostre",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的（阴性复数）",
+      "category": "物主词修正",
+      "level": "University"
+    },
+    {
+      "id": 681,
+      "word": "i vostri",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的（阳性复数）",
+      "category": "物主词修正",
+      "level": "University"
+    },
+    {
+      "id": 683,
+      "word": "odio",
+      "oldChinese": "恨",
+      "newChinese": "恨；仇恨；我恨",
+      "category": "同形词与变位补全",
+      "level": "University"
+    },
+    {
+      "id": 688,
+      "word": "la vostra",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的（阴性单数）",
+      "category": "物主词修正",
+      "level": "University"
+    },
+    {
+      "id": 690,
+      "word": "il vostro",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的（阳性单数）",
+      "category": "物主词修正",
+      "level": "University"
+    },
+    {
+      "id": 697,
+      "word": "possiamo",
+      "oldChinese": "能够；可以",
+      "newChinese": "我们能；我们可以",
+      "category": "变位人称精确化",
+      "level": "Pizzeria"
+    },
+    {
+      "id": 712,
+      "word": "gamma",
+      "oldChinese": "扫；打扫",
+      "newChinese": "范围；系列；伽马（希腊字母γ）",
+      "category": "明显词义修正",
+      "level": "Pizzeria"
+    },
+    {
+      "id": 733,
+      "word": "hanno bisogno di",
+      "oldChinese": "需要",
+      "newChinese": "他们/她们需要",
+      "category": "变位人称精确化",
+      "level": "Moving In"
+    },
+    {
+      "id": 735,
+      "word": "dobbiamo",
+      "oldChinese": "必须；应该",
+      "newChinese": "我们必须；我们应该",
+      "category": "变位人称精确化",
+      "level": "Moving In"
+    },
+    {
+      "id": 742,
+      "word": "cercano",
+      "oldChinese": "寻找",
+      "newChinese": "他们/她们寻找",
+      "category": "变位人称精确化",
+      "level": "Moving In"
+    },
+    {
+      "id": 746,
+      "word": "parlano",
+      "oldChinese": "说话；谈",
+      "newChinese": "他们/她们说；谈",
+      "category": "变位人称精确化",
+      "level": "Moving In"
+    },
+    {
+      "id": 775,
+      "word": "fa",
+      "oldChinese": "做；制作",
+      "newChinese": "他/她/它/您做；制作；……前（表示时间）",
+      "category": "同形词与变位补全",
+      "level": "Gossip"
+    },
+    {
+      "id": 779,
+      "word": "possono",
+      "oldChinese": "能够；可以",
+      "newChinese": "他们/她们能；可以",
+      "category": "变位人称精确化",
+      "level": "Arts"
+    },
+    {
+      "id": 790,
+      "word": "potete",
+      "oldChinese": "能够；可以",
+      "newChinese": "你们能；你们可以",
+      "category": "变位人称精确化",
+      "level": "Arts"
+    },
+    {
+      "id": 796,
+      "word": "volete",
+      "oldChinese": "想要",
+      "newChinese": "你们想要",
+      "category": "变位人称精确化",
+      "level": "Arts"
+    },
+    {
+      "id": 800,
+      "word": "vogliamo",
+      "oldChinese": "想要",
+      "newChinese": "我们想要",
+      "category": "变位人称精确化",
+      "level": "Arts"
+    },
+    {
+      "id": 805,
+      "word": "guardate",
+      "oldChinese": "看；观看",
+      "newChinese": "你们看；你们观看",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 808,
+      "word": "guardiamo",
+      "oldChinese": "看；观看",
+      "newChinese": "我们看；我们观看",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 810,
+      "word": "mangiate",
+      "oldChinese": "吃",
+      "newChinese": "你们吃",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 813,
+      "word": "mangiano",
+      "oldChinese": "吃",
+      "newChinese": "他们/她们吃",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 817,
+      "word": "parliamo",
+      "oldChinese": "说话；谈",
+      "newChinese": "我们说；我们谈",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 819,
+      "word": "parlate",
+      "oldChinese": "说话；谈",
+      "newChinese": "你们说；你们谈",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 821,
+      "word": "lavorano",
+      "oldChinese": "工作",
+      "newChinese": "他们/她们工作",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 824,
+      "word": "lavorate",
+      "oldChinese": "工作",
+      "newChinese": "你们工作",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 826,
+      "word": "studiate",
+      "oldChinese": "学习",
+      "newChinese": "你们学习",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 828,
+      "word": "dovete",
+      "oldChinese": "必须；应该",
+      "newChinese": "你们必须；你们应该",
+      "category": "变位人称精确化",
+      "level": "Customs"
+    },
+    {
+      "id": 830,
+      "word": "dormono",
+      "oldChinese": "睡觉",
+      "newChinese": "他们/她们睡觉",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 833,
+      "word": "partono",
+      "oldChinese": "出发",
+      "newChinese": "他们/她们出发",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 836,
+      "word": "preferite",
+      "oldChinese": "更喜欢",
+      "newChinese": "你们更喜欢",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 837,
+      "word": "dormite",
+      "oldChinese": "睡觉",
+      "newChinese": "你们睡觉",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 842,
+      "word": "vedono",
+      "oldChinese": "看见",
+      "newChinese": "他们/她们看见",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 843,
+      "word": "prendono",
+      "oldChinese": "拿；乘坐；取",
+      "newChinese": "他们/她们拿；取；乘坐",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 845,
+      "word": "francesi",
+      "oldChinese": "法语；法国的",
+      "newChinese": "法国人；法国的（复数）",
+      "category": "数性与词义修正",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 847,
+      "word": "prendete",
+      "oldChinese": "拿；乘坐；取",
+      "newChinese": "你们拿；取；乘坐",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 848,
+      "word": "vedete",
+      "oldChinese": "看见",
+      "newChinese": "你们看见",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 851,
+      "word": "prendiamo",
+      "oldChinese": "拿；乘坐；取",
+      "newChinese": "我们拿；取；乘坐",
+      "category": "变位人称精确化",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 853,
+      "word": "paesi",
+      "oldChinese": "国家们；城镇们",
+      "newChinese": "国家；城镇（复数）",
+      "category": "数性与词义修正",
+      "level": "Euro Trip"
+    },
+    {
+      "id": 858,
+      "word": "fanno",
+      "oldChinese": "做；制作",
+      "newChinese": "他们/她们做；制作",
+      "category": "变位人称精确化",
+      "level": "Fundraiser"
+    },
+    {
+      "id": 860,
+      "word": "sua",
+      "oldChinese": "他的；它的；你的",
+      "newChinese": "他的；她的；它的；您的（阴性单数）",
+      "category": "物主词修正",
+      "level": "Fundraiser"
+    },
+    {
+      "id": 870,
+      "word": "sa",
+      "oldChinese": "知道；会",
+      "newChinese": "他/她/您知道；会",
+      "category": "变位人称精确化",
+      "level": "Fundraiser"
+    },
+    {
+      "id": 877,
+      "word": "devono",
+      "oldChinese": "必须；应该",
+      "newChinese": "他们/她们必须；应该",
+      "category": "变位人称精确化",
+      "level": "Fundraiser"
+    },
+    {
+      "id": 878,
+      "word": "so",
+      "oldChinese": "知道；会",
+      "newChinese": "我知道；我会",
+      "category": "变位人称精确化",
+      "level": "Fundraiser"
+    },
+    {
+      "id": 891,
+      "word": "aprite",
+      "oldChinese": "打开",
+      "newChinese": "你们打开",
+      "category": "变位人称精确化",
+      "level": "Cooking"
+    },
+    {
+      "id": 899,
+      "word": "mettete",
+      "oldChinese": "放；穿；设置",
+      "newChinese": "你们放；穿上；设置",
+      "category": "变位人称精确化",
+      "level": "Cooking"
+    },
+    {
+      "id": 900,
+      "word": "nella",
+      "oldChinese": "里面",
+      "newChinese": "在……里；在……中（in + la）",
+      "category": "介词词义修正",
+      "level": "Cooking"
+    },
+    {
+      "id": 904,
+      "word": "comprate",
+      "oldChinese": "买",
+      "newChinese": "你们买",
+      "category": "变位人称精确化",
+      "level": "Cooking"
+    },
+    {
+      "id": 937,
+      "word": "girate",
+      "oldChinese": "转；转弯；拍摄",
+      "newChinese": "你们转；转弯；拍摄",
+      "category": "变位人称精确化",
+      "level": "Directions"
+    },
+    {
+      "id": 951,
+      "word": "scusi",
+      "oldChinese": "对不起；借口",
+      "newChinese": "对不起；劳驾；请问",
+      "category": "明显词义修正",
+      "level": "Directions"
+    },
+    {
+      "id": 955,
+      "word": "vengo",
+      "oldChinese": "来",
+      "newChinese": "我来",
+      "category": "变位人称精确化",
+      "level": "Heritage"
+    },
+    {
+      "id": 964,
+      "word": "vieni",
+      "oldChinese": "来",
+      "newChinese": "你来",
+      "category": "变位人称精确化",
+      "level": "Heritage"
+    },
+    {
+      "id": 966,
+      "word": "viene",
+      "oldChinese": "来",
+      "newChinese": "他/她/您来；到来",
+      "category": "变位人称精确化",
+      "level": "Heritage"
+    },
+    {
+      "id": 975,
+      "word": "vostra",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的（阴性单数）",
+      "category": "物主词修正",
+      "level": "Heritage"
+    },
+    {
+      "id": 976,
+      "word": "vostro",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的（阳性单数）",
+      "category": "物主词修正",
+      "level": "Heritage"
+    },
+    {
+      "id": 1076,
+      "word": "sappiamo",
+      "oldChinese": "知道；会",
+      "newChinese": "我们知道；我们会",
+      "category": "变位人称精确化",
+      "level": "Chores"
+    },
+    {
+      "id": 1080,
+      "word": "preferiamo",
+      "oldChinese": "更喜欢",
+      "newChinese": "我们更喜欢",
+      "category": "变位人称精确化",
+      "level": "Chores"
+    },
+    {
+      "id": 1088,
+      "word": "sapete",
+      "oldChinese": "知道；会",
+      "newChinese": "你们知道；你们会",
+      "category": "变位人称精确化",
+      "level": "Chores"
+    },
+    {
+      "id": 1097,
+      "word": "venite",
+      "oldChinese": "来",
+      "newChinese": "你们来",
+      "category": "变位人称精确化",
+      "level": "Detective"
+    },
+    {
+      "id": 1099,
+      "word": "conoscono",
+      "oldChinese": "认识；了解",
+      "newChinese": "他们/她们认识；了解",
+      "category": "变位人称精确化",
+      "level": "Detective"
+    },
+    {
+      "id": 1103,
+      "word": "conosciamo",
+      "oldChinese": "认识；了解",
+      "newChinese": "我们认识；了解",
+      "category": "变位人称精确化",
+      "level": "Detective"
+    },
+    {
+      "id": 1108,
+      "word": "conoscete",
+      "oldChinese": "认识；了解",
+      "newChinese": "你们认识；了解",
+      "category": "变位人称精确化",
+      "level": "Detective"
+    },
+    {
+      "id": 1113,
+      "word": "pochi",
+      "oldChinese": "少；不太",
+      "newChinese": "少数的；很少的（阳性复数）",
+      "category": "数性与词义修正",
+      "level": "Detective"
+    },
+    {
+      "id": 1170,
+      "word": "quelle",
+      "oldChinese": "那个",
+      "newChinese": "那些（阴性复数）",
+      "category": "数性与词义修正",
+      "level": "Zoo"
+    },
+    {
+      "id": 1202,
+      "word": "un po' di",
+      "oldChinese": "一些；小的",
+      "newChinese": "一点；一些",
+      "category": "明显词义修正",
+      "level": "Office"
+    },
+    {
+      "id": 1259,
+      "word": "pubblico",
+      "oldChinese": "公共的",
+      "newChinese": "公共的；公众；观众",
+      "category": "常用多义补全",
+      "level": "Concert"
+    },
+    {
+      "id": 1276,
+      "word": "vengono",
+      "oldChinese": "来",
+      "newChinese": "他们/她们来",
+      "category": "变位人称精确化",
+      "level": "Concert"
+    },
+    {
+      "id": 1332,
+      "word": "cantato",
+      "oldChinese": "唱歌",
+      "newChinese": "唱过；唱了；被唱的",
+      "category": "分词词义修正",
+      "level": "Capri"
+    },
+    {
+      "id": 1336,
+      "word": "parlato",
+      "oldChinese": "说话；谈",
+      "newChinese": "说过；谈过；口语的",
+      "category": "分词词义修正",
+      "level": "Capri"
+    },
+    {
+      "id": 1340,
+      "word": "provato",
+      "oldChinese": "尝试；试",
+      "newChinese": "尝试过；试过；体验过",
+      "category": "分词词义修正",
+      "level": "Capri"
+    },
+    {
+      "id": 1349,
+      "word": "visitato",
+      "oldChinese": "拜访；参观",
+      "newChinese": "参观过；拜访过；被参观的",
+      "category": "分词词义修正",
+      "level": "Capri"
+    },
+    {
+      "id": 1354,
+      "word": "dicono",
+      "oldChinese": "说",
+      "newChinese": "他们/她们说",
+      "category": "变位人称精确化",
+      "level": "Bragging"
+    },
+    {
+      "id": 1356,
+      "word": "chiamato",
+      "oldChinese": "叫；打电话",
+      "newChinese": "被叫作；被称为；打过电话",
+      "category": "分词词义修正",
+      "level": "Bragging"
+    },
+    {
+      "id": 1366,
+      "word": "comprato",
+      "oldChinese": "买",
+      "newChinese": "买了；买过；已购买的",
+      "category": "分词词义修正",
+      "level": "Bragging"
+    },
+    {
+      "id": 1372,
+      "word": "fatto",
+      "oldChinese": "事实",
+      "newChinese": "事实；做了；做过的/完成的",
+      "category": "同形词与分词补全",
+      "level": "Bragging"
+    },
+    {
+      "id": 1377,
+      "word": "cercato",
+      "oldChinese": "寻找",
+      "newChinese": "找过；寻找过；被寻找的",
+      "category": "分词词义修正",
+      "level": "Ghost"
+    },
+    {
+      "id": 1383,
+      "word": "capito",
+      "oldChinese": "理解",
+      "newChinese": "明白了；理解了",
+      "category": "分词词义修正",
+      "level": "Ghost"
+    },
+    {
+      "id": 1388,
+      "word": "sentito",
+      "oldChinese": "听见；感觉",
+      "newChinese": "听见/听说过；感觉/闻到/尝到过",
+      "category": "分词词义修正",
+      "level": "Ghost"
+    },
+    {
+      "id": 1392,
+      "word": "trovato",
+      "oldChinese": "找到",
+      "newChinese": "找到了；找到的",
+      "category": "分词词义修正",
+      "level": "Ghost"
+    },
+    {
+      "id": 1395,
+      "word": "dormito",
+      "oldChinese": "睡觉",
+      "newChinese": "睡过；睡了",
+      "category": "分词词义修正",
+      "level": "Ghost"
+    },
+    {
+      "id": 1408,
+      "word": "girato",
+      "oldChinese": "转；转弯；拍摄",
+      "newChinese": "转过；转弯过；拍摄过/拍摄的",
+      "category": "分词词义修正",
+      "level": "Fan Club"
+    },
+    {
+      "id": 1415,
+      "word": "il meno",
+      "oldChinese": "少；不太",
+      "newChinese": "最少；最小；最不",
+      "category": "明显词义修正",
+      "level": "Fan Club"
+    },
+    {
+      "id": 1452,
+      "word": "cosse",
+      "oldChinese": "烤过的",
+      "newChinese": "他/她烹煮了；烤了（古旧/文学用法）",
+      "category": "罕见变位词义修正",
+      "level": "Crush"
+    },
+    {
+      "id": 1493,
+      "word": "minore",
+      "oldChinese": "少；不太",
+      "newChinese": "较小的；较少的；年幼的；未成年人",
+      "category": "明显词义修正",
+      "level": "Plus One"
+    },
+    {
+      "id": 1500,
+      "word": "giochi",
+      "oldChinese": "玩；演奏",
+      "newChinese": "游戏/玩具（复数）；你玩；你比赛",
+      "category": "同形词与变位补全",
+      "level": "Giveaway"
+    },
+    {
+      "id": 1501,
+      "word": "gioco",
+      "oldChinese": "玩；比赛",
+      "newChinese": "游戏；比赛；我玩/比赛",
+      "category": "同形词与变位补全",
+      "level": "Giveaway"
+    },
+    {
+      "id": 1519,
+      "word": "getta",
+      "oldChinese": "扔；投掷",
+      "newChinese": "他/她/您扔；投掷",
+      "category": "变位人称精确化",
+      "level": "Giveaway"
+    },
+    {
+      "id": 1582,
+      "word": "scrivete",
+      "oldChinese": "写",
+      "newChinese": "你们写",
+      "category": "变位人称精确化",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1584,
+      "word": "scriviamo",
+      "oldChinese": "写",
+      "newChinese": "我们写",
+      "category": "变位人称精确化",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1587,
+      "word": "scrivono",
+      "oldChinese": "写",
+      "newChinese": "他们/她们写",
+      "category": "变位人称精确化",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1589,
+      "word": "leggono",
+      "oldChinese": "读",
+      "newChinese": "他们/她们读",
+      "category": "变位人称精确化",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1590,
+      "word": "leggiamo",
+      "oldChinese": "读",
+      "newChinese": "我们读",
+      "category": "变位人称精确化",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1593,
+      "word": "leggete",
+      "oldChinese": "读",
+      "newChinese": "你们读",
+      "category": "变位人称精确化",
+      "level": "Basics 2"
+    },
+    {
+      "id": 1604,
+      "word": "crema",
+      "oldChinese": "乳霜；药膏",
+      "newChinese": "奶油/忌廉；乳霜；药膏；蛋奶糊",
+      "category": "常用多义补全",
+      "level": "Food"
+    },
+    {
+      "id": 1609,
+      "word": "caramelle",
+      "oldChinese": "糖果们",
+      "newChinese": "糖果（复数）",
+      "category": "中文表达规范化",
+      "level": "Plurals"
+    },
+    {
+      "id": 1639,
+      "word": "pranza",
+      "oldChinese": "午餐",
+      "newChinese": "他/她/您吃午饭",
+      "category": "词性与变位修正",
+      "level": "Food 2"
+    },
+    {
+      "id": 1658,
+      "word": "vostri",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的；你们的东西（阳性复数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1659,
+      "word": "propri",
+      "oldChinese": "他的；它的；他们的",
+      "newChinese": "自己的；本人的（阳性复数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1660,
+      "word": "vostre",
+      "oldChinese": "你的；你的东西",
+      "newChinese": "你们的；你们的东西（阴性复数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1661,
+      "word": "propria",
+      "oldChinese": "他的；它的；他们的",
+      "newChinese": "自己的；本人的（阴性单数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1665,
+      "word": "suoi",
+      "oldChinese": "他的；它的；她的",
+      "newChinese": "他的；她的；它的；您的（阳性复数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1666,
+      "word": "sue",
+      "oldChinese": "他的；它的；你的",
+      "newChinese": "他的；她的；它的；您的（阴性复数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1668,
+      "word": "tue",
+      "oldChinese": "你的东西",
+      "newChinese": "你的；你的东西（阴性复数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1670,
+      "word": "tuoi",
+      "oldChinese": "你的东西；家人；人们",
+      "newChinese": "你的；你的东西/亲友（阳性复数）",
+      "category": "物主词修正",
+      "level": "Possession"
+    },
+    {
+      "id": 1706,
+      "word": "sull'",
+      "oldChinese": "关于；周围",
+      "newChinese": "在……上；关于……（su + 冠词）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1708,
+      "word": "sul",
+      "oldChinese": "关于；周围",
+      "newChinese": "在……上；关于……（su + il）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1709,
+      "word": "sulla",
+      "oldChinese": "关于；周围",
+      "newChinese": "在……上；关于……（su + la）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1710,
+      "word": "sulle",
+      "oldChinese": "关于；周围",
+      "newChinese": "在……上；关于……（su + le）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1711,
+      "word": "sui",
+      "oldChinese": "关于；周围",
+      "newChinese": "在……上；关于……（su + i）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1713,
+      "word": "sullo",
+      "oldChinese": "关于；周围",
+      "newChinese": "在……上；关于……（su + lo）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1717,
+      "word": "negli",
+      "oldChinese": "里面",
+      "newChinese": "在……里；在……中（in + gli）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1718,
+      "word": "nelle",
+      "oldChinese": "里面",
+      "newChinese": "在……里；在……中（in + le）",
+      "category": "介词词义修正",
+      "level": "Prep."
+    },
+    {
+      "id": 1725,
+      "word": "sia",
+      "oldChinese": "是；有",
+      "newChinese": "是（虚拟式）；无论……还是……",
+      "category": "明显词义修正",
+      "level": "Conjunct."
+    },
+    {
+      "id": 1743,
+      "word": "po'",
+      "oldChinese": "一些；小的",
+      "newChinese": "一点；一些",
+      "category": "明显词义修正",
+      "level": "Family 2"
+    },
+    {
+      "id": 1761,
+      "word": "genitore",
+      "oldChinese": "父母；家长",
+      "newChinese": "父亲或母亲；家长",
+      "category": "单复数修正",
+      "level": "Family 2"
+    },
+    {
+      "id": 1964,
+      "word": "certi",
+      "oldChinese": "确定的",
+      "newChinese": "某些；某几位；确定的（阳性复数）",
+      "category": "限定词词义修正",
+      "level": "Determin."
+    },
+    {
+      "id": 1969,
+      "word": "certa",
+      "oldChinese": "确定的",
+      "newChinese": "某个/某种；确定的（阴性）",
+      "category": "限定词词义修正",
+      "level": "Determin."
+    },
+    {
+      "id": 1971,
+      "word": "certe",
+      "oldChinese": "确定的",
+      "newChinese": "某些；一些；确定的（阴性复数）",
+      "category": "限定词词义修正",
+      "level": "Determin."
+    },
+    {
+      "id": 2069,
+      "word": "alcuna",
+      "oldChinese": "一些；任何人；没有人",
+      "newChinese": "一些；任何；没有任何（阴性单数，依语境）",
+      "category": "限定词词义修正",
+      "level": "Pronouns"
+    },
+    {
+      "id": 2070,
+      "word": "alcune",
+      "oldChinese": "一些；不；没有",
+      "newChinese": "一些；某些；没有任何（阴性复数，依语境）",
+      "category": "限定词词义修正",
+      "level": "Pronouns"
+    },
+    {
+      "id": 2071,
+      "word": "alcuno",
+      "oldChinese": "一些；任何人；没有人",
+      "newChinese": "一些；任何；没有任何（阳性单数，依语境）",
+      "category": "限定词词义修正",
+      "level": "Pronouns"
+    },
+    {
+      "id": 2075,
+      "word": "ognuna",
+      "oldChinese": "大家；每个人",
+      "newChinese": "每一个；每个人（阴性）",
+      "category": "性别与词义修正",
+      "level": "Pronouns"
+    },
+    {
+      "id": 2096,
+      "word": "pagella",
+      "oldChinese": "卡",
+      "newChinese": "成绩单",
+      "category": "明显词义修正",
+      "level": "Education"
+    },
+    {
+      "id": 2144,
+      "word": "America",
+      "oldChinese": "美国",
+      "newChinese": "美洲；美国（口语语境）",
+      "category": "常用多义补全",
+      "level": "Travel 2"
+    },
+    {
+      "id": 2153,
+      "word": "fronte",
+      "oldChinese": "额头",
+      "newChinese": "额头；前线；正面",
+      "category": "常用多义补全",
+      "level": "Directions 1"
+    },
+    {
+      "id": 2166,
+      "word": "mezzo",
+      "oldChinese": "一半的；中间的",
+      "newChinese": "一半；中间；方式/手段；交通工具",
+      "category": "常用多义补全",
+      "level": "Directions 1"
+    },
+    {
+      "id": 2168,
+      "word": "fine",
+      "oldChinese": "结束",
+      "newChinese": "结束/末尾；目的/目标；细的/精致的（形容词）",
+      "category": "明显词义与例句修正",
+      "level": "Directions 1"
+    },
+    {
+      "id": 2175,
+      "word": "bisogno",
+      "oldChinese": "需要",
+      "newChinese": "需要；需求/必要",
+      "category": "词性表达精确化",
+      "level": "Feelings"
+    },
+    {
+      "id": 2253,
+      "word": "passeggiata",
+      "oldChinese": "走路",
+      "newChinese": "散步；步行",
+      "category": "明显词义修正",
+      "level": "Sports"
+    },
+    {
+      "id": 2272,
+      "word": "diritto",
+      "oldChinese": "权利；法律；右边",
+      "newChinese": "权利；法律；直的/笔直地",
+      "category": "明显词义修正",
+      "level": "Adject. 3"
+    },
+    {
+      "id": 2276,
+      "word": "abituale",
+      "oldChinese": "常见的；共同的",
+      "newChinese": "通常的；惯常的；习惯性的",
+      "category": "明显词义修正",
+      "level": "Adject. 3"
+    },
+    {
+      "id": 2325,
+      "word": "nemmeno",
+      "oldChinese": "不",
+      "newChinese": "也不；甚至不",
+      "category": "明显词义修正",
+      "level": "Adverbs 2"
+    },
+    {
+      "id": 2346,
+      "word": "neppure",
+      "oldChinese": "不",
+      "newChinese": "也不；甚至不",
+      "category": "明显词义修正",
+      "level": "Adverbs 2"
+    },
+    {
+      "id": 2355,
+      "word": "influenza",
+      "oldChinese": "流感",
+      "newChinese": "流感；影响",
+      "category": "常用多义补全",
+      "level": "Abs. Ob. 2"
+    },
+    {
+      "id": 2419,
+      "word": "febbre",
+      "oldChinese": "发烧",
+      "newChinese": "发烧；发热；体温升高",
+      "category": "词性与词义修正",
+      "level": "Medical"
+    },
+    {
+      "id": 2430,
+      "word": "paziente",
+      "oldChinese": "有耐心的",
+      "newChinese": "病人；患者；有耐心的",
+      "category": "语境与同形词修正",
+      "level": "Medical"
+    },
+    {
+      "id": 2443,
+      "word": "dita",
+      "oldChinese": "手指",
+      "newChinese": "手指；脚趾（复数，按语境）",
+      "category": "数性与词义修正",
+      "level": "Medical"
+    },
+    {
+      "id": 2444,
+      "word": "dito",
+      "oldChinese": "手指",
+      "newChinese": "手指；脚趾",
+      "category": "常用多义补全",
+      "level": "Medical"
+    },
+    {
+      "id": 2474,
+      "word": "giocando",
+      "oldChinese": "玩；比赛",
+      "newChinese": "正在玩；正在比赛",
+      "category": "副动词词义修正",
+      "level": "Gerund"
+    },
+    {
+      "id": 2491,
+      "word": "entrando",
+      "oldChinese": "来；去",
+      "newChinese": "正在进入；正在进来",
+      "category": "副动词词义修正",
+      "level": "Gerund"
+    },
+    {
+      "id": 2495,
+      "word": "arrivando",
+      "oldChinese": "来",
+      "newChinese": "正在到达；正在抵达",
+      "category": "副动词词义修正",
+      "level": "Gerund"
+    },
+    {
+      "id": 2564,
+      "word": "dover",
+      "oldChinese": "必须；应该；有",
+      "newChinese": "必须；应该；不得不（动词省略形式）",
+      "category": "明显词义修正",
+      "level": "Science"
+    },
+    {
+      "id": 2575,
+      "word": "evoluzione",
+      "oldChinese": "发展",
+      "newChinese": "演变；进化；发展",
+      "category": "常用多义补全",
+      "level": "Science"
+    },
+    {
+      "id": 2597,
+      "word": "esperto",
+      "oldChinese": "有经验的；专家的",
+      "newChinese": "专家；有经验的；熟练的",
+      "category": "词性与词义修正",
+      "level": "Science"
+    },
+    {
+      "id": 2601,
+      "word": "comunicazione",
+      "oldChinese": "沟通",
+      "newChinese": "沟通；通信；通知",
+      "category": "常用多义补全",
+      "level": "Communic."
+    },
+    {
+      "id": 2626,
+      "word": "codice",
+      "oldChinese": "代码",
+      "newChinese": "代码；编码；法典/法规；密码/编号",
+      "category": "常用多义补全",
+      "level": "Communic."
+    },
+    {
+      "id": 2637,
+      "word": "campagna",
+      "oldChinese": "乡村",
+      "newChinese": "乡村/农村；活动/运动；战役/竞选",
+      "category": "常用多义补全",
+      "level": "Nature"
+    },
+    {
+      "id": 2677,
+      "word": "offerta",
+      "oldChinese": "优惠；提议",
+      "newChinese": "报价；优惠；提议；出价；供给",
+      "category": "常用多义补全",
+      "level": "Business"
+    },
+    {
+      "id": 2769,
+      "word": "dimostrazione",
+      "oldChinese": "展示",
+      "newChinese": "示范；展示；证明；游行/示威",
+      "category": "常用多义补全",
+      "level": "Politics"
+    }
+  ],
+  "metadataFixes": [
+    {
+      "id": 273,
+      "word": "letto",
+      "old": {
+        "lemma": "leggere",
+        "formInfo": "leggere · 过去分词/复合时态常见词形",
+        "partOfSpeech": "verb",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "noun",
+        "gender": "m",
+        "number": "singular",
+        "article": "il",
+        "plural": "letti"
+      }
+    },
+    {
+      "id": 421,
+      "word": "molte",
+      "old": {
+        "lemma": "molta",
+        "formInfo": "molta · 阴性复数",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "plural",
+        "article": "le",
+        "plural": "molte"
+      },
+      "new": {
+        "lemma": "molto",
+        "formInfo": "molto · 阴性复数",
+        "partOfSpeech": "other",
+        "article": "",
+        "plural": ""
+      }
+    },
+    {
+      "id": 431,
+      "word": "queste",
+      "old": {
+        "lemma": "questa",
+        "formInfo": "questa · 阴性复数",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "questo",
+        "formInfo": "questo · 阴性复数",
+        "gender": "f",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 440,
+      "word": "molti",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "molto",
+        "formInfo": "molto · 阳性复数",
+        "gender": "m",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 845,
+      "word": "francesi",
+      "old": {
+        "lemma": "francese",
+        "formInfo": "francese · 复数",
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "other",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 853,
+      "word": "paesi",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "noun",
+        "gender": "m",
+        "number": "plural",
+        "article": "i",
+        "plural": "paesi"
+      },
+      "new": {
+        "lemma": "paese",
+        "formInfo": "paese · 阳性复数"
+      }
+    },
+    {
+      "id": 1113,
+      "word": "pochi",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "poco",
+        "formInfo": "poco · 阳性复数",
+        "gender": "m",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 1170,
+      "word": "quelle",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "quello",
+        "formInfo": "quello · 阴性复数",
+        "gender": "f",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 1259,
+      "word": "pubblico",
+      "old": {
+        "partOfSpeech": "noun"
+      },
+      "new": {
+        "partOfSpeech": "other"
+      }
+    },
+    {
+      "id": 1332,
+      "word": "cantato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "cantare",
+        "formInfo": "cantare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1336,
+      "word": "parlato",
+      "old": {
+        "lemma": "parlare",
+        "formInfo": "parlare · 过去分词/复合时态常见词形",
+        "partOfSpeech": "verb"
+      },
+      "new": {
+        "formInfo": "parlare · 过去分词；也可作形容词/名词"
+      }
+    },
+    {
+      "id": 1340,
+      "word": "provato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "provare",
+        "formInfo": "provare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1349,
+      "word": "visitato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "visitare",
+        "formInfo": "visitare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1356,
+      "word": "chiamato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "chiamare",
+        "formInfo": "chiamare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1366,
+      "word": "comprato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "comprare",
+        "formInfo": "comprare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1372,
+      "word": "fatto",
+      "old": {
+        "lemma": "fare",
+        "formInfo": "fare · 过去分词/复合时态常见词形",
+        "partOfSpeech": "verb"
+      },
+      "new": {
+        "formInfo": "fare · 过去分词；也可作名词“事实”",
+        "partOfSpeech": "other"
+      }
+    },
+    {
+      "id": 1377,
+      "word": "cercato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "cercare",
+        "formInfo": "cercare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1383,
+      "word": "capito",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "capire",
+        "formInfo": "capire · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1388,
+      "word": "sentito",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "sentire",
+        "formInfo": "sentire · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1392,
+      "word": "trovato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "trovare",
+        "formInfo": "trovare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1395,
+      "word": "dormito",
+      "old": {
+        "lemma": "dormire",
+        "formInfo": "dormire · 过去分词/复合时态常见词形",
+        "partOfSpeech": "verb"
+      },
+      "new": {
+        "formInfo": "dormire · 过去分词"
+      }
+    },
+    {
+      "id": 1408,
+      "word": "girato",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "adjective"
+      },
+      "new": {
+        "lemma": "girare",
+        "formInfo": "girare · 过去分词",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1452,
+      "word": "cosse",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "cuocere",
+        "formInfo": "cuocere · 远过去时第三人称单数（古旧/文学用法）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 1500,
+      "word": "giochi",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "giocare",
+        "formInfo": "名词 gioco 的复数；也可为 giocare · 直陈式现在时 · tu"
+      }
+    },
+    {
+      "id": 1501,
+      "word": "gioco",
+      "old": {
+        "lemma": "giocare",
+        "formInfo": "giocare · 直陈式现在时 · io 第一人称单数",
+        "partOfSpeech": "verb"
+      },
+      "new": {
+        "formInfo": "名词“游戏”；也可为 giocare · 直陈式现在时 · io",
+        "partOfSpeech": "other"
+      }
+    },
+    {
+      "id": 1639,
+      "word": "pranza",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "pranze"
+      },
+      "new": {
+        "lemma": "pranzare",
+        "formInfo": "pranzare · 直陈式现在时 · lui/lei/Lei",
+        "partOfSpeech": "verb",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      }
+    },
+    {
+      "id": 1655,
+      "word": "arancia",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "l'",
+        "plural": "arance"
+      }
+    },
+    {
+      "id": 1706,
+      "word": "sull'",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "su",
+        "formInfo": "su + 定冠词的组合介词"
+      }
+    },
+    {
+      "id": 1708,
+      "word": "sul",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "su",
+        "formInfo": "su + il = sul"
+      }
+    },
+    {
+      "id": 1709,
+      "word": "sulla",
+      "old": {
+        "lemma": "sullo",
+        "formInfo": "sullo · 阴性单数",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "sulle"
+      },
+      "new": {
+        "lemma": "su",
+        "formInfo": "su + la = sulla",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      }
+    },
+    {
+      "id": 1710,
+      "word": "sulle",
+      "old": {
+        "lemma": "sulla",
+        "formInfo": "sulla · 阴性复数",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "plural",
+        "article": "le",
+        "plural": "sulle"
+      },
+      "new": {
+        "lemma": "su",
+        "formInfo": "su + le = sulle",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      }
+    },
+    {
+      "id": 1711,
+      "word": "sui",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "su",
+        "formInfo": "su + i = sui"
+      }
+    },
+    {
+      "id": 1713,
+      "word": "sullo",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "su",
+        "formInfo": "su + lo = sullo"
+      }
+    },
+    {
+      "id": 1717,
+      "word": "negli",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "in",
+        "formInfo": "in + gli = negli"
+      }
+    },
+    {
+      "id": 1718,
+      "word": "nelle",
+      "old": {
+        "lemma": "nella",
+        "formInfo": "nella · 阴性复数",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "plural",
+        "article": "le",
+        "plural": "nelle"
+      },
+      "new": {
+        "lemma": "in",
+        "formInfo": "in + le = nelle",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      }
+    },
+    {
+      "id": 1815,
+      "word": "popolare",
+      "old": {
+        "lemma": "popolare",
+        "formInfo": "动词原形（不定式）",
+        "partOfSpeech": "verb",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "adjective"
+      }
+    },
+    {
+      "id": 1964,
+      "word": "certi",
+      "old": {
+        "lemma": "certe",
+        "formInfo": "certe · 复数",
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": ""
+      },
+      "new": {
+        "lemma": "certo",
+        "formInfo": "certo · 阳性复数",
+        "partOfSpeech": "other",
+        "gender": "m",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 1969,
+      "word": "certa",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": ""
+      },
+      "new": {
+        "lemma": "certo",
+        "formInfo": "certo · 阴性单数",
+        "partOfSpeech": "other",
+        "gender": "f",
+        "number": "singular"
+      }
+    },
+    {
+      "id": 1971,
+      "word": "certe",
+      "old": {
+        "lemma": "certa",
+        "formInfo": "certa · 阴性复数",
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": ""
+      },
+      "new": {
+        "lemma": "certo",
+        "formInfo": "certo · 阴性复数",
+        "partOfSpeech": "other",
+        "gender": "f",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 2069,
+      "word": "alcuna",
+      "old": {
+        "lemma": "alcuno",
+        "formInfo": "alcuno · 阴性单数",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular"
+      },
+      "new": {
+        "partOfSpeech": "other"
+      }
+    },
+    {
+      "id": 2070,
+      "word": "alcune",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": ""
+      },
+      "new": {
+        "lemma": "alcuno",
+        "formInfo": "alcuno · 阴性复数",
+        "gender": "f",
+        "number": "plural"
+      }
+    },
+    {
+      "id": 2071,
+      "word": "alcuno",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": ""
+      },
+      "new": {
+        "lemma": "alcuno",
+        "formInfo": "alcuno · 阳性单数",
+        "gender": "m",
+        "number": "singular"
+      }
+    },
+    {
+      "id": 2075,
+      "word": "ognuna",
+      "old": {
+        "lemma": "ognuno",
+        "formInfo": "ognuno · 阴性单数",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular"
+      },
+      "new": {
+        "partOfSpeech": "other"
+      }
+    },
+    {
+      "id": 2113,
+      "word": "educazione",
+      "old": {
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "l'",
+        "plural": "educazioni"
+      }
+    },
+    {
+      "id": 2128,
+      "word": "vista",
+      "old": {
+        "lemma": "vedere",
+        "formInfo": "vedere · 过去分词常见词形；本词也可能作为名词独立使用",
+        "partOfSpeech": "verb",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "viste"
+      }
+    },
+    {
+      "id": 2168,
+      "word": "fine",
+      "old": {
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "fini"
+      }
+    },
+    {
+      "id": 2175,
+      "word": "bisogno",
+      "old": {
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "m",
+        "number": "singular",
+        "article": "il",
+        "plural": "bisogni"
+      }
+    },
+    {
+      "id": 2253,
+      "word": "passeggiata",
+      "old": {
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "passeggiate"
+      }
+    },
+    {
+      "id": 2419,
+      "word": "febbre",
+      "old": {
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "febbri"
+      }
+    },
+    {
+      "id": 2430,
+      "word": "paziente",
+      "old": {
+        "partOfSpeech": "adjective"
+      },
+      "new": {
+        "partOfSpeech": "other"
+      }
+    },
+    {
+      "id": 2443,
+      "word": "dita",
+      "old": {
+        "lemma": "dito",
+        "formInfo": "dito · 阴性单数",
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "dite"
+      },
+      "new": {
+        "formInfo": "dito · 复数；身体部位时常用阴性复数 le dita",
+        "number": "plural",
+        "article": "le",
+        "plural": "dita"
+      }
+    },
+    {
+      "id": 2444,
+      "word": "dito",
+      "old": {
+        "partOfSpeech": "other",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "m",
+        "number": "singular",
+        "article": "il",
+        "plural": "dita"
+      }
+    },
+    {
+      "id": 2474,
+      "word": "giocando",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "giocare",
+        "formInfo": "giocare · gerundio（副动词/进行形式）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2491,
+      "word": "entrando",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "entrare",
+        "formInfo": "entrare · gerundio（副动词/进行形式）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2495,
+      "word": "arrivando",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "arrivare",
+        "formInfo": "arrivare · gerundio（副动词/进行形式）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2506,
+      "word": "potendo",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "potere",
+        "formInfo": "potere · gerundio（副动词）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2507,
+      "word": "essendo",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "essere",
+        "formInfo": "essere · gerundio（副动词）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2508,
+      "word": "avendo",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "avere",
+        "formInfo": "avere · gerundio（副动词）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2510,
+      "word": "volendo",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "volere",
+        "formInfo": "volere · gerundio（副动词）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2564,
+      "word": "dover",
+      "old": {
+        "lemma": "",
+        "formInfo": "",
+        "partOfSpeech": "other"
+      },
+      "new": {
+        "lemma": "dovere",
+        "formInfo": "dovere 的截短/省略形式（常见于复合结构）",
+        "partOfSpeech": "verb"
+      }
+    },
+    {
+      "id": 2706,
+      "word": "memoria",
+      "old": {
+        "partOfSpeech": "adjective",
+        "gender": "",
+        "number": "",
+        "article": "",
+        "plural": ""
+      },
+      "new": {
+        "partOfSpeech": "noun",
+        "gender": "f",
+        "number": "singular",
+        "article": "la",
+        "plural": "memorie"
+      }
+    }
+  ],
+  "exampleFixes": [
+    {
+      "id": 2168,
+      "word": "fine",
+      "old": {
+        "example": "Vorrei controllare fine prima di confermare.",
+        "exampleZh": "确认前我想先核对一下结束。"
+      },
+      "new": {
+        "example": "Alla fine tutto è andato bene.",
+        "exampleZh": "最后一切都很顺利。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+终学意语 v5.0.1 课程跨单元重复修复版 开发与自检报告
+
+问题
+----
+实机反馈 prenotazione（预约；预订）几乎每个课程单元都会出现。
+
+定位
+----
+1. course_curriculum.json：98 个单元、2774 次分配、2774 个唯一 wordId，没有任何跨单元静态重复。
+2. prenotazione：id 716，只属于 A1-U19「披萨店」。
+3. 根因：CourseLessonEngine.addDueReview() 每节课从全局 reviewDue() 取最早到期词，并排除当前单元词，因此同一个未通过的旧词会反复插入无关单元。
+
+修复
+----
+- 删除固定课程 build/challenge 中的跨单元 addDueReview。
+- 保留同单元 addSeenReinforcement。
+- 保留 WordRepository.reviewDue()，供每日智能计划、到期复习、5分钟抢救等专门复习路线使用。
+- 新增 course_unit_isolation_quality_check.py，并接入 Codemagic / Preflight / Regression / Strict Release Gate。
+
+版本
+----
+versionCode 81
+versionName 5.0.1-native
+backup version 31
+Room v6
+applicationId com.italiano2774.nativeapp
+signing zhongxue_release

@@ -1,0 +1,121 @@
+终学意语 v3.3.8 逐句背文章与双速朗读版
+========================================
+
+版本
+----
+versionCode: 62
+versionName: 3.3.8-native
+applicationId: com.italiano2774.nativeapp
+固定签名引用: zhongxue_release
+
+本版核心开发
+------------
+1. 十篇通关新增“逐句背文章”模式。
+   - 10篇 / 50小节保持不变。
+   - memory_articles.json 新增 269 组中意逐句对齐句对。
+   - 每小节约 3-7 句。
+
+2. 每句话采用4轮主动记忆：
+   - 第1轮：双语理解
+   - 第2轮：听读，只看意大利语
+   - 第3轮：挖空回忆，优先挖本节目标词
+   - 第4轮：只看中文，主动说出整句意大利语
+
+3. 双速朗读：
+   - 正常朗读：1.00x TTS
+   - 慢速朗读：0.70x TTS
+   - 逐句模式和原有整节5步背诵都支持正常/慢速。
+
+4. 本句重点词：
+   - 自动从本节40个目标词中识别当前句实际出现的词。
+   - 显示意大利语 + 中文，最多6个，帮助把目标词与语境绑定。
+
+5. 真正背文章：
+   - 逐句完成后可继续“整节5步背诵”。
+   - 也可直接进入本节40个新词 + 旧词的四模式智能复习。
+   - 阅读/逐句完成只记录文章接触，不直接伪造四维掌握度。
+
+6. 进度保存：
+   - 新增 memory_article_sentence_done_*。
+   - 逐句完成状态加入学习进度 JSON 导出/导入。
+   - 备份版本升级为 21。
+   - 本篇小节卡会显示“逐句背诵 ✓”。
+
+7. 中意句界精校：
+   - 原50小节中有9处中文把两个意大利语句子合并成一句，本版重新拆开。
+   - 保持原意，并修正部分更准确的表达，例如 un'amica 使用“女性朋友”。
+
+8. 新增发布门禁：
+   - tools/memory_article_sentence_quality_check.py
+   - 检查50小节、269句对、四轮逐句模式、正常/慢速TTS、MainActivity导航、进度备份和布局。
+   - Codemagic 已加入该检查步骤。
+
+新增主要文件
+------------
+app/src/main/java/com/italiano2774/nativeapp/MemoryArticleSentence.java
+app/src/main/java/com/italiano2774/nativeapp/MemoryArticleSentenceStudyFragment.java
+app/src/main/res/layout/fragment_memory_article_sentence_study.xml
+tools/memory_article_sentence_quality_check.py
+
+主要修改文件
+------------
+app/src/main/assets/memory_articles.json
+app/src/main/java/com/italiano2774/nativeapp/MemoryArticleSection.java
+app/src/main/java/com/italiano2774/nativeapp/MemoryArticleRepository.java
+app/src/main/java/com/italiano2774/nativeapp/MemoryArticleDetailFragment.java
+app/src/main/java/com/italiano2774/nativeapp/MemoryArticleStudyFragment.java
+app/src/main/java/com/italiano2774/nativeapp/ProgressStore.java
+app/src/main/java/com/italiano2774/nativeapp/MainActivity.java
+app/src/main/java/com/italiano2774/nativeapp/CourseHomeFragment.java
+app/src/main/res/layout/fragment_memory_article_detail.xml
+app/src/main/res/layout/fragment_memory_article_study.xml
+app/build.gradle
+codemagic.yaml
+README_原生安卓版本.md
+GITHUB_上传说明.txt
+覆盖升级与签名说明.txt
+
+完整静态发布检查结果
+--------------------
+Preflight: PASS
+Java source literal check: PASS（161 Java文件）
+Regression: PASS
+Translation quality: PASS
+Lexical semantic quality: PASS
+2774词中意对齐: PASS
+2774词独立重译: PASS
+Word example quality: PASS（1718组现有可靠例句）
+High-frequency example expansion: PASS
+Course check: PASS（98单元）
+Mixed-skill course path: PASS
+Ten-article route: PASS（10篇/50小节/2000词）
+Spiral recurrence: PASS（588次旧词复现/196组复现句）
+Sentence-by-sentence article study: PASS（269句对）
+Course translation: PASS
+Phrase/core sentence semantics: PASS
+English bridge: PASS（195近似词/16假朋友）
+Memory aid: PASS（157构词助记/241词块）
+Smart mastery: PASS
+Teach-before-test: PASS
+Person/conjugation semantics: PASS
+Exercise quality: PASS
+Permanent signing config: PASS
+Strict release gate: PASS
+
+数据摘要
+--------
+2774 个词
+2774 个本地 MP3
+98 个 A0-A1-A2-B1 课程单元
+1718 组单词中意例句
+10 篇十篇通关文章
+50 个短小节
+2000 个十篇通关目标词（ID 1-2000，无重复完整覆盖）
+269 组逐句中意对齐句子
+588 次旧词螺旋复现位置
+196 组自然旧词复现例句
+
+说明
+----
+当前运行环境没有完整 Android SDK，因此没有在本地执行 assembleRelease。
+项目已保留 Codemagic 的固定 zhongxue_release 签名流程；上传 GitHub 后由 Codemagic 完成真正的 Release APK 编译、单元测试和 Android lint。

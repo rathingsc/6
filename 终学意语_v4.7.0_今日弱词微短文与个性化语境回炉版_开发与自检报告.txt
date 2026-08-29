@@ -1,0 +1,40 @@
+终学意语 v4.7.0 今日弱词微短文与个性化语境回炉版 开发与自检报告
+
+一、版本身份
+- versionCode: 77
+- versionName: 4.7.0-native
+- applicationId: com.italiano2774.nativeapp
+- Codemagic fixed signing reference: zhongxue_release
+- Progress JSON backup schema: 28
+- Room database: 6
+
+二、本版核心
+1. 从已学词中按错词、顽固词、到期/逾期、四维最低项、记忆保持率筛选薄弱候选。
+2. 优先从已审校十篇通关文章中选择与当前薄弱词重合最高且可理解度合适的小节。
+3. 当前弱词超出文章覆盖时，退回 2774 词库已有审校例句，不联网生成意大利语。
+4. 每次训练约 6-10 个重点词，四步流程：读懂 -> 隐藏正文听 -> 听后挖空 -> 只看中文复述。
+5. 挖空同时更新听力和拼写，但同一题仅推进一次单词自适应复习日程。
+6. 复述支持 it-IT 系统语音识别与文字兜底；最终结果写回重点词维度、Sentence FSRS 和 weak_story 真实使用证据。
+7. 真实使用三日突破第2天切换为弱词微短文；周测真实使用短板在弱词短文与自由会话间轮换。
+
+三、发布门禁
+- weak_word_story_quality_check.py 已加入 Codemagic。
+- Preflight / Regression / Strict Release Gate 已加入新文件、路由、版本与备份检查。
+- 历史门禁已同步到 v4.7.0 / backup v28，避免旧版本常量误报。
+
+四、构建说明
+当前本地运行环境若无 Android SDK / Gradle Wrapper，则不声称已经本地生成 APK。正式 app-release.apk 由 Codemagic 使用 zhongxue_release 固定签名生成。
+
+五、最终自检结果
+- Java source literal check: 180 Java files OK
+- Preflight: 2774 words / 2774 audio / 91 XML / 98 guided units / 239 word families / 27 grammar patterns / 430 phrases / 430 core sentences / 18 listening lessons / 90 listening sentences / 50 preposition drills / 18 writing prompts
+- Regression: OK
+- Strict Release Gate: 1281 resource refs / 21 JSON assets / 29 Room migration SQL checks / 43 Codemagic shell blocks / release gate OK
+- v4.7 weak-word story quality gate: OK
+- historical lexical/course/article/listening/speaking/conversation/grammar/passport/breakthrough/error-evidence/weekly-exam/Shadowing gates: OK
+- signing_config_check: OK
+
+六、隐私与构建环境
+- 项目内未发现 .jks / .keystore / keystore.properties / .p12 / .pfx / local.properties。
+- 已清理 __pycache__ / build / .gradle 等不应进入交付 ZIP 的缓存。
+- 当前本地环境无 gradlew，且 ANDROID_SDK_ROOT / ANDROID_HOME 为空，因此本地未生成 APK；正式 Release APK 继续由 Codemagic 构建。

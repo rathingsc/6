@@ -1,0 +1,318 @@
+workflows:
+  android-debug:
+    name: 终学意语 v5.0.1 课程跨单元重复修复版 固定签名覆盖升级版 APK
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      java: 17
+      # One-time Codemagic setup required:
+      # Team settings -> codemagic.yaml settings -> Code signing identities
+      # -> Android keystores -> upload the private zhongxue_release.jks
+      # and use the EXACT reference name below.
+      android_signing:
+        - zhongxue_release
+    scripts:
+      - name: Set Android SDK location
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+
+      - name: Create Gradle wrapper
+        script: |
+          rm -rf /tmp/zhongxue-wrapper
+          mkdir -p /tmp/zhongxue-wrapper
+          cd /tmp/zhongxue-wrapper
+          printf "rootProject.name='wrapper'\n" > settings.gradle
+          gradle wrapper --gradle-version 8.11.1 --distribution-type bin
+          cp gradlew gradlew.bat "$CM_BUILD_DIR/"
+          mkdir -p "$CM_BUILD_DIR/gradle/wrapper"
+          cp gradle/wrapper/gradle-wrapper.jar gradle/wrapper/gradle-wrapper.properties "$CM_BUILD_DIR/gradle/wrapper/"
+          cd "$CM_BUILD_DIR"
+          chmod +x gradlew
+          ./gradlew --version
+
+      - name: Preflight project checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/preflight.py
+
+      - name: Java source literal checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/java_source_syntax_check.py
+
+      - name: Static regression checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/regression_check.py
+
+      - name: Translation quality checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/translation_quality_check.py
+
+      - name: Full lexical semantic checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/lexical_semantic_quality_check.py
+
+      - name: Full 2774-word Italian-Chinese alignment checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/full_lexicon_alignment_check.py
+
+      - name: Full 2774-word independent retranslation checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/full_retranslation_quality_check.py
+
+      - name: Word example quality checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/word_example_quality_check.py
+
+      - name: High-frequency word example expansion checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/word_example_expansion_check.py
+
+      - name: Guided course semantic checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/course_check.py
+
+      - name: Mixed-skill course path checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/course_path_mix_quality_check.py
+
+      - name: Fixed course unit isolation checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/course_unit_isolation_quality_check.py
+
+      - name: 2000-word ten-article memory route checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/memory_articles_quality_check.py
+
+      - name: Ten-article spiral recurrence checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/memory_article_recurrence_quality_check.py
+
+      - name: Sentence-by-sentence article memorisation checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/memory_article_sentence_quality_check.py
+
+      - name: Course translation quality checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/course_translation_quality_check.py
+
+      - name: Phrase and core-sentence semantic checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/phrase_semantic_quality_check.py
+
+      - name: English cognate and false-friend checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/english_bridge_quality_check.py
+
+      - name: Active recall and memory-aid checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/memory_aid_quality_check.py
+
+      - name: Smart mastery four-mode checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/smart_mastery_quality_check.py
+
+      - name: Teach-before-test vocabulary checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/teach_before_test_quality_check.py
+
+      - name: Person and conjugation meaning checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/person_semantics_check.py
+
+      - name: Exercise quality checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/exercise_quality_check.py
+
+      - name: Micro grammar quality checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/micro_grammar_quality_check.py
+
+      - name: Daily smart plan quality checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/daily_smart_plan_quality_check.py
+
+      - name: Daily recovery and learning-loop checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/daily_learning_loop_quality_check.py
+
+      - name: Seven-day consolidation forecast checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/review_forecast_quality_check.py
+
+      - name: Listening and speaking bridge checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/listening_speaking_quality_check.py
+
+      - name: Daily five-sentence speaking checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/daily_speaking_quality_check.py
+
+      - name: Real-life scenario conversation checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/scenario_conversation_quality_check.py
+
+      - name: Mastery passport and stage checkpoint checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/mastery_passport_quality_check.py
+
+      - name: Three-day breakthrough prescription checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/breakthrough_plan_quality_check.py
+
+      - name: Personal error evidence repair checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/error_evidence_quality_check.py
+
+      - name: Weekly practical exam and diagnosis checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/weekly_exam_quality_check.py
+
+      - name: Shadowing three-pass training-room checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/shadowing_training_quality_check.py
+
+      - name: Personal weak-word micro-reading checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/weak_word_story_quality_check.py
+
+      - name: Real-life 36-stage task map checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/life_task_map_quality_check.py
+
+      - name: Four-track personal forgetting model checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/personal_forgetting_model_quality_check.py
+
+      - name: Beginner-first simple home and progressive unlock checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/beginner_home_quality_check.py
+
+      - name: Permanent signing configuration checks
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/signing_config_check.py
+
+      - name: Strict release gate
+        script: |
+          cd "$CM_BUILD_DIR"
+          python3 tools/release_gate.py
+
+      - name: Verify permanent signing identity
+        script: |
+          cd "$CM_BUILD_DIR"
+          test -n "$CM_KEYSTORE_PATH" || { echo "ERROR: CM_KEYSTORE_PATH missing. Upload/reference zhongxue_release in Codemagic."; exit 1; }
+          test -n "$CM_KEYSTORE_PASSWORD" || { echo "ERROR: CM_KEYSTORE_PASSWORD missing."; exit 1; }
+          test -n "$CM_KEY_ALIAS" || { echo "ERROR: CM_KEY_ALIAS missing."; exit 1; }
+          test -n "$CM_KEY_PASSWORD" || { echo "ERROR: CM_KEY_PASSWORD missing."; exit 1; }
+          keytool -list -v \
+            -keystore "$CM_KEYSTORE_PATH" \
+            -storepass "$CM_KEYSTORE_PASSWORD" \
+            -alias "$CM_KEY_ALIAS" > signing-fingerprint.txt
+          echo "===== SIGNING CERTIFICATE ====="
+          grep -E "Alias name:|SHA256:" signing-fingerprint.txt || true
+          EXPECTED_SHA256=$(tr -d '\r\n ' < signing-certificate-sha256.txt)
+          ACTUAL_SHA256=$(grep -m1 "SHA256:" signing-fingerprint.txt | sed 's/^[[:space:]]*SHA256:[[:space:]]*//' | tr -d '\r\n ')
+          if [ "$ACTUAL_SHA256" != "$EXPECTED_SHA256" ]; then
+            echo "ERROR: Wrong Android signing certificate. Expected $EXPECTED_SHA256 but got $ACTUAL_SHA256"
+            exit 1
+          fi
+          echo "Permanent signing fingerprint verified."
+
+      - name: Build signed release APK
+        script: |
+          cd "$CM_BUILD_DIR"
+          # Generate a monotonically increasing Android versionCode from UTC epoch.
+          # Offset keeps the value far below Android's maximum while every later
+          # Codemagic build remains newer than the previous one.
+          NOW=$(date -u +%s)
+          UPDATE_VERSION_CODE=$((NOW - 1700000000))
+          if [ "$UPDATE_VERSION_CODE" -lt 70 ]; then UPDATE_VERSION_CODE=70; fi
+          echo "$UPDATE_VERSION_CODE" | tee update-version-code.txt
+
+          set +e
+          ./gradlew :app:assembleRelease \
+            -PversionCode="$UPDATE_VERSION_CODE" \
+            --console=plain --warning-mode all > assemble-build.log 2>&1
+          STATUS=$?
+          if [ "$STATUS" -ne 0 ]; then
+            echo "===== REAL BUILD ERRORS ====="
+            grep -n -E "(^|[[:space:]])error:|^ERROR:|AAPT:|Android resource linking failed|cannot find symbol|method .* cannot be applied|Execution failed for task|What went wrong|Release signing is not configured" assemble-build.log | head -120 || true
+            echo "===== CONTEXT AROUND FIRST REAL ERROR ====="
+            FIRST=$(grep -n -m1 -E "(^|[[:space:]])error:|^ERROR:|AAPT:|Android resource linking failed|cannot find symbol|method .* cannot be applied|Execution failed for task|What went wrong|Release signing is not configured" assemble-build.log | cut -d: -f1)
+            if [ -n "$FIRST" ]; then
+              START=$((FIRST>15 ? FIRST-15 : 1))
+              END=$((FIRST+65))
+              sed -n "${START},${END}p" assemble-build.log
+            else
+              tail -220 assemble-build.log
+            fi
+            exit "$STATUS"
+          fi
+          tail -100 assemble-build.log
+
+      - name: Unit tests
+        script: |
+          cd "$CM_BUILD_DIR"
+          ./gradlew :app:testDebugUnitTest --console=plain
+
+      - name: Android lint report
+        script: |
+          cd "$CM_BUILD_DIR"
+          set +e
+          ./gradlew :app:lintRelease --console=plain > lint-build.log 2>&1
+          STATUS=$?
+          if [ "$STATUS" -ne 0 ]; then
+            echo "===== LINT FINDINGS (NON-BLOCKING) ====="
+            grep -n -E "^.+:[0-9]+: (Error|Warning):|^ERROR:|AAPT:|Android resource linking failed" lint-build.log | head -160 || true
+            tail -80 lint-build.log
+          else
+            tail -80 lint-build.log
+          fi
+          exit 0
+    artifacts:
+      - app/build/outputs/apk/release/app-release.apk
+      - app/build/outputs/**/*.apk
+      - app/build/reports/lint-results-release.html
+      - app/build/reports/tests/testDebugUnitTest/**
+      - assemble-build.log
+      - lint-build.log
+      - signing-fingerprint.txt
+      - update-version-code.txt

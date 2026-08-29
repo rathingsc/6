@@ -1,0 +1,36 @@
+终学意语 v5.0.1 课程跨单元重复修复版 GitHub 根目录上传说明
+
+请把本 ZIP 解压后的“全部内容”覆盖到 GitHub 仓库根目录，不要只上传 app 文件夹。
+
+v5.0.1 本次修复的关键文件必须保留：
+- app/src/main/java/com/italiano2774/nativeapp/CourseLessonEngine.java
+- tools/course_unit_isolation_quality_check.py
+- tools/preflight.py
+- tools/regression_check.py
+- tools/release_gate.py
+- codemagic.yaml
+- app/build.gradle
+- app/src/main/java/com/italiano2774/nativeapp/MainActivity.java
+- .gitignore
+- signing-certificate-sha256.txt
+
+本次根因修复：固定课程不再调用全局 reviewDue() 往无关单元插入到期词。全局复习仍由每日智能计划、到期复习和四维遗忘模型负责。
+
+同时必须保留 v5.0 简洁首页、v4.9 四维个人遗忘模型、v4.8 真实生活任务地图、v4.7 弱词微短文、v4.6 Shadowing、v4.5 周测诊断、v4.4 个人错句本和所有更早版本源码与资产。不要只上传本次修改文件。
+
+Codemagic 仍使用已经配置好的 Android keystore reference：
+zhongxue_release
+
+不要上传任何 .jks、.keystore、keystore.properties、.p12 或 .pfx 私密签名文件。
+
+正确版本标识：
+- versionCode 81（Codemagic 正式构建仍会自动注入更大的递增值）
+- versionName '5.0.1-native'
+- applicationId 'com.italiano2774.nativeapp'
+- 学习进度 JSON backup version 31
+- Room database version 6
+
+Codemagic 正式产物：
+app/build/outputs/apk/release/app-release.apk
+
+上传完成后，Codemagic 会先运行固定课程单元隔离检查，确保 98 个单元 / 2774 个词一一归属、CourseLessonEngine 不再跨单元注入到期词；随后继续运行全部历史门禁、Preflight、Regression 与 Strict Release Gate，最后使用固定签名生成 Release APK。

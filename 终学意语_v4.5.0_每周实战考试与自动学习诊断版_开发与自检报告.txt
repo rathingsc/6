@@ -1,0 +1,69 @@
+终学意语 v4.5.0 每周实战考试与自动学习诊断版
+开发与自检报告
+
+一、本次核心升级
+1. 新增 7 个活跃学习日触发的每周实战考试，不按自然周强迫考试。
+2. 每次 18 题，六项能力各 3 题：识义、听力、拼写、口语、语法、真实使用。
+3. 周测题源只使用 App 本地课程/审校资产；口语使用 Android it-IT SpeechRecognizer，无法使用时保留文字输入。
+4. 周测错词写回四维学习证据；错误句进入个人错句本与句子 FSRS。
+5. 周测完成后保存总分、六项成绩、能力护照周测前/周测后变化、最弱两项和下一周期基线。
+6. 下一周自动调度：低分时新词上限降到常规约 55% / 65% / 80%；成绩稳定时保持正常配额。
+7. 最弱两项按约 2:1 轮换进入每日计划，第一短板优先更多，第二短板也会实际训练。
+8. 周测日为特殊学习日：20 分钟档严格为约 5 分钟高风险词汇 + 15 分钟周测，不叠加完整课程。
+9. 日常 30 分钟以上仍保护“每日5句”，周测补弱/每日5句/三日处方按剩余预算插入并去重。
+10. 周报、练习中心、今日总结、每日智能计划均已接入周测入口或进度状态。
+11. 学习进度 JSON backup version 升级为 27，周测与下周调度数据支持备份/恢复。
+
+二、版本与覆盖升级
+versionCode: 75
+versionName: 4.5.0-native
+applicationId: com.italiano2774.nativeapp
+Codemagic signing reference: zhongxue_release
+Room database: v6（本版未新增 Room schema；沿用 v4.4 的安全迁移链）
+Progress backup JSON: version 27
+预升级本地备份标记: 4.5.0-preupgrade
+
+三、发布级检查结果
+- Java source literal/static check: 177 Java files OK
+- XML: 90 files OK
+- Android resource refs: 1251 OK
+- MP3: 2774 / 2774 OK
+- JSON assets: 21 OK
+- Guided units: 98 OK
+- Room migration SQL: 29 checks OK
+- Codemagic shell blocks: 41 OK
+- Preflight: OK
+- Regression: OK
+- Strict Release Gate: OK
+- Signing config check: OK
+- Weekly practical exam quality check: OK
+
+四、内容层历史回归
+- 2774 / 2774 中意词义：OK
+- 2774 / 2774 本地音频：OK
+- 1718 组现有审校例句：OK
+- 98 单元 A0→B1 课程：OK
+- 430 高频短语 / 430 核心句：OK
+- 10 篇文章 / 2000 唯一目标词：OK
+- 269 组逐句文章：OK
+- 听力与开口桥接：OK
+- 10 个真实生活情景 / 50 轮三档会话：OK
+- 27 个微语法点 / 81 题：OK
+- 每日5句主动开口：OK
+- 七日复习负载预测：OK
+- 六项能力护照：OK
+- 三日递进突破处方：OK
+- 个人错句本与错误证据回炉：OK
+- v4.5 每周实战考试与下一周自动诊断：OK
+
+五、本次额外修正
+1. 修正旧门禁仍要求 v4.4/v26 备份标记的问题，当前统一检查 v4.5 / backup v27。
+2. 修正每日5句旧门禁只认旧 addUnique 写法的问题，门禁现兼容严格预算去重插入。
+3. 20 分钟周测日从旧的约 21 分钟压回严格 20 分钟预算。
+4. 周测后不再只训练第一短板；第二短板按约 2:1 轮换获得真实每日任务。
+5. 今日总结加入周测进度、周测到期入口和下周自动调整说明。
+
+六、私密文件与本地构建环境
+私密/机器相关文件扫描：未发现 .jks、.keystore、私密 keystore.properties、.p12、.pfx、local.properties。
+当前容器没有本地 Gradle wrapper、ANDROID_HOME 或 ANDROID_SDK_ROOT，因此没有伪称已在本地生成 APK。
+Codemagic workflow 会在云端创建 Gradle 8.11.1 wrapper、使用 Android SDK、运行全部门禁，然后以 zhongxue_release 固定签名构建 app-release.apk。

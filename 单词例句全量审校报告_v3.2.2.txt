@@ -1,0 +1,520 @@
+终学意语 v3.2.2 单词例句全量审校报告
+================================================================
+
+词条总数: 2774
+现有例句对: 742
+无例句词条: 2032
+本轮例句修正: 84
+本轮词义补充: 1
+
+审核原则: 只保留自然、能真实体现目标词义的例句；对于原本没有例句的 2032 个词，本轮不使用批量模板自动生成。
+
+例句修正明细
+----------------------------------------------------------------
+[0090] un'
+  旧意: Vorrei un’acqua naturale.
+  旧中: 我想要一瓶常温矿泉水。
+  新意: Vorrei un’acqua naturale.
+  新中: 我想要一瓶无气水。
+
+[0168] sana
+  旧意: Cerco di mangiare in modo sano.
+  旧中: 我尽量吃得健康。
+  新意: Cerco di seguire una dieta sana.
+  新中: 我尽量保持健康饮食。
+
+[0522] rossi
+  旧意: Vorrei parlare con il signor Rossi.
+  旧中: 我想和罗西先生通话。
+  新意: I pomodori sono rossi.
+  新中: 西红柿是红色的。
+
+[0561] sente
+  旧意: La linea non si sente bene.
+  旧中: 电话听不清楚。
+  新意: Mi sente bene?
+  新中: 您听得清楚吗？
+
+[0603] acqua
+  旧意: Vorrei una bottiglia d’acqua naturale.
+  旧中: 我想要一瓶常温矿泉水。
+  新意: Vorrei una bottiglia d’acqua naturale.
+  新中: 我想要一瓶无气水。
+
+[0855] europeo
+  旧意: Questo documento è valido in molti paesi europei.
+  旧中: 这份文件在许多欧洲国家有效。
+  新意: È un paese europeo.
+  新中: 这是一个欧洲国家。
+
+[0948] sono le
+  旧意: Dove sono le casse?
+  旧中: 收银台在哪里？
+  新意: Sono le tre.
+  新中: 现在三点。
+
+[0950] scuse
+  旧意: Gli ho chiesto scusa per il ritardo.
+  旧中: 我为迟到向他道歉。
+  新意: Le porgo le mie scuse per il ritardo.
+  新中: 我为迟到向您道歉。
+
+[1391] corridoio
+  旧意: È nel corridoio tre.
+  旧中: 在3号通道。
+  新意: Il bagno è in fondo al corridoio.
+  新中: 洗手间在走廊尽头。
+
+[1448] li
+  旧意: Sono Li.
+  旧中: 我是李。
+  新意: Li ho già inviati.
+  新中: 我已经把它们发出去了。
+
+[2035] originale
+  旧意: Mi serve l'originale per questa pratica.
+  旧中: 办理这个手续我需要这个文件。
+  新意: Mi serve l'originale per questa pratica.
+  新中: 办理这个手续我需要原件。
+
+[2208] pratica
+  旧意: Può scrivermi il numero della pratica?
+  旧中: 您能把案件编号写给我吗？
+  新意: Può scrivermi il numero della pratica?
+  新中: 您能把手续编号写给我吗？
+
+[2616] informazione
+  旧意: Vorrei chiedere un'informazione.
+  旧中: 我想咨询一个信息。
+  新意: Vorrei chiedere un'informazione sugli orari.
+  新中: 我想咨询一下营业时间。
+
+[0508] agosto
+  旧意: Il corso inizia a agosto.
+  旧中: 课程在八月开始。
+  新意: Il corso inizia ad agosto.
+  新中: 课程在八月开始。
+
+[0876] aprile
+  旧意: Il corso inizia a aprile.
+  旧中: 课程在四月开始。
+  新意: Il corso inizia ad aprile.
+  新中: 课程在四月开始。
+
+[0145] zaino
+  旧意: Vorrei provare lo zaino.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo zaino.
+  新中: 我想试背一下这个背包。
+
+[0149] camicia
+  旧意: Vorrei provare la camicia.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa camicia.
+  新中: 我想试穿这件衬衫。
+
+[0150] giacca
+  旧意: Vorrei provare la giacca.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa giacca.
+  新中: 我想试穿这件夹克。
+
+[0155] maglione
+  旧意: Vorrei provare la maglione.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo maglione.
+  新中: 我想试穿这件毛衣。
+
+[0156] cappello
+  旧意: Vorrei provare il cappello.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo cappello.
+  新中: 我想试戴这顶帽子。
+
+[0252] gonna
+  旧意: Vorrei provare la gonna.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa gonna.
+  新中: 我想试穿这条裙子。
+
+[0394] borsa
+  旧意: Vorrei provare la borsa.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa borsa.
+  新中: 我想试背一下这个包。
+
+[0400] portafoglio
+  旧意: Vorrei provare il portafoglio.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei vedere questo portafoglio.
+  新中: 我想看看这个钱包。
+
+[0422] scarpa
+  旧意: Vorrei provare la scarpa.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Questa scarpa mi sta stretta.
+  新中: 这只鞋我穿着有点紧。
+
+[0429] maglietta
+  旧意: Vorrei provare la maglietta.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa maglietta.
+  新中: 我想试穿这件T恤。
+
+[0439] guanto
+  旧意: Vorrei provare il guanto.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Questo guanto è troppo stretto.
+  新中: 这只手套太紧了。
+
+[0588] cappotto
+  旧意: Vorrei provare il cappotto.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo cappotto.
+  新中: 我想试穿这件大衣。
+
+[0596] ombrello
+  旧意: Vorrei provare l'ombrello.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei comprare questo ombrello.
+  新中: 我想买这把雨伞。
+
+[0636] anello
+  旧意: Vorrei provare l'anello.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo anello.
+  新中: 我想试戴这个戒指。
+
+[0989] maglia
+  旧意: Vorrei provare la maglia.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa maglia.
+  新中: 我想试穿这件针织衫。
+
+[1053] mutande
+  旧意: Vorrei provare i mutande.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Cerco delle mutande di cotone.
+  新中: 我在找棉质内裤。
+
+[1061] cintura
+  旧意: Vorrei provare la cintura.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa cintura.
+  新中: 我想试一下这条腰带。
+
+[1066] sciarpa
+  旧意: Vorrei provare la sciarpa.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa sciarpa.
+  新中: 我想试戴这条围巾。
+
+[1071] calzino
+  旧意: Vorrei provare il calzino.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Questo calzino è troppo piccolo.
+  新中: 这只袜子太小了。
+
+[1223] collana
+  旧意: Vorrei provare la collana.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questa collana.
+  新中: 我想试戴这条项链。
+
+[1453] vestito
+  旧意: Vorrei provare il vestito.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo vestito.
+  新中: 我想试穿这件衣服。
+
+[1506] jeans
+  旧意: Vorrei provare i jeans.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questi jeans.
+  新中: 我想试穿这条牛仔裤。
+
+[1673] abito
+  旧意: Vorrei provare l'abito.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo abito.
+  新中: 我想试穿这套衣服。
+
+[1677] sandalo
+  旧意: Vorrei provare il sandalo.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Questo sandalo mi sta bene.
+  新中: 这只凉鞋我穿着很合脚。
+
+[1680] stivale
+  旧意: Vorrei provare lo stivale.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Vorrei provare questo stivale.
+  新中: 我想试穿这只靴子。
+
+[1681] pantalone
+  旧意: Vorrei provare il pantalone.
+  旧中: 我想试一下这件衣物或配饰。
+  新意: Questo pantalone è troppo lungo.
+  新中: 这条裤子太长了。
+
+[0362] settimana
+  旧意: Vorrei controllare settimana prima di confermare.
+  旧中: 确认前我想先核对一下星期。
+  新意: La prossima settimana ho un appuntamento.
+  新中: 下周我有一个预约。
+
+[0379] anno
+  旧意: Vorrei controllare anno prima di confermare.
+  旧中: 确认前我想先核对一下年。
+  新意: Vivo in Italia da un anno.
+  新中: 我在意大利住了一年。
+
+[0383] mese
+  旧意: Vorrei controllare mese prima di confermare.
+  旧中: 确认前我想先核对一下月。
+  新意: Il contratto dura un mese.
+  新中: 这份合同为期一个月。
+
+[0404] orologio
+  旧意: Vorrei controllare orologio prima di confermare.
+  旧中: 确认前我想先核对一下钟表。
+  新意: Il mio orologio è cinque minuti avanti.
+  新中: 我的手表快五分钟。
+
+[0409] festa
+  旧意: Vorrei controllare festa prima di confermare.
+  旧中: 确认前我想先核对一下节日。
+  新意: Sabato c'è una festa a casa di Marco.
+  新中: 周六马尔科家有一个聚会。
+
+[0410] compleanno
+  旧意: Vorrei controllare compleanno prima di confermare.
+  旧中: 确认前我想先核对一下生日。
+  新意: Domani è il mio compleanno.
+  新中: 明天是我的生日。
+
+[0484] giorno
+  旧意: Vorrei controllare giorno prima di confermare.
+  旧中: 确认前我想先核对一下天。
+  新意: Ho un appuntamento tra due giorni.
+  新中: 我两天后有一个预约。
+
+[0935] mezzogiorno
+  旧意: Vorrei controllare mezzogiorno prima di confermare.
+  旧中: 确认前我想先核对一下中午。
+  新意: Ci vediamo a mezzogiorno.
+  新中: 我们中午见。
+
+[0982] volta
+  旧意: Vorrei controllare volta prima di confermare.
+  旧中: 确认前我想先核对一下次。
+  新意: È la prima volta che vengo qui.
+  新中: 这是我第一次来这里。
+
+[1002] numero
+  旧意: Vorrei controllare numero prima di confermare.
+  旧中: 确认前我想先核对一下数字。
+  新意: Qual è il suo numero di telefono?
+  新中: 您的电话号码是多少？
+
+[1217] data
+  旧意: Vorrei controllare data prima di confermare.
+  旧中: 确认前我想先核对一下日期。
+  新意: Qual è la data dell'appuntamento?
+  新中: 预约日期是哪一天？
+
+[1733] tempo
+  旧意: Vorrei controllare tempo prima di confermare.
+  旧中: 确认前我想先核对一下时间。
+  新意: Non ho molto tempo.
+  新中: 我没有太多时间。
+
+[1734] calendario
+  旧意: Vorrei controllare calendario prima di confermare.
+  旧中: 确认前我想先核对一下日历。
+  新意: Segno l'appuntamento sul calendario.
+  新中: 我把预约记在日历上。
+
+[1735] ritardo
+  旧意: Vorrei controllare ritardo prima di confermare.
+  旧中: 确认前我想先核对一下迟到。
+  新意: Mi scusi per il ritardo.
+  新中: 对不起，我迟到了。
+
+[1736] decennio
+  旧意: Vorrei controllare decennio prima di confermare.
+  旧中: 确认前我想先核对一下十年。
+  新意: Ho vissuto qui per un decennio.
+  新中: 我在这里住了十年。
+
+[1737] secolo
+  旧意: Vorrei controllare secolo prima di confermare.
+  旧中: 确认前我想先核对一下世纪。
+  新意: Questo edificio risale al diciannovesimo secolo.
+  新中: 这座建筑可以追溯到十九世纪。
+
+[1738] minuto
+  旧意: Vorrei controllare minuto prima di confermare.
+  旧中: 确认前我想先核对一下分钟。
+  新意: Aspetta un minuto, per favore.
+  新中: 请等一分钟。
+
+[1739] periodo
+  旧意: Vorrei controllare periodo prima di confermare.
+  旧中: 确认前我想先核对一下时期。
+  新意: È stato un periodo difficile.
+  新中: 那是一段艰难的时期。
+
+[1741] momento
+  旧意: Vorrei controllare momento prima di confermare.
+  旧中: 确认前我想先核对一下时刻。
+  新意: Aspetti un momento, per favore.
+  新中: 请稍等片刻。
+
+[1742] mezzanotte
+  旧意: Vorrei controllare mezzanotte prima di confermare.
+  旧中: 确认前我想先核对一下午夜。
+  新意: Il treno arriva a mezzanotte.
+  新中: 火车午夜到达。
+
+[1744] paio
+  旧意: Vorrei controllare paio prima di confermare.
+  旧中: 确认前我想先核对一下一对。
+  新意: Vorrei un paio di scarpe nere.
+  新中: 我想要一双黑鞋。
+
+[1930] età
+  旧意: Vorrei controllare età prima di confermare.
+  旧中: 确认前我想先核对一下年龄。
+  新意: L'età non è un problema.
+  新中: 年龄不是问题。
+
+[1935] metà
+  旧意: Vorrei controllare metà prima di confermare.
+  旧中: 确认前我想先核对一下一半。
+  新意: Ho mangiato solo metà della pizza.
+  新中: 我只吃了一半披萨。
+
+[2019] futuro
+  旧意: Vorrei controllare futuro prima di confermare.
+  旧中: 确认前我想先核对一下未来。
+  新意: In futuro vorrei lavorare in Italia.
+  新中: 将来我想在意大利工作。
+
+[2122] vacanza
+  旧意: Vorrei controllare vacanza prima di confermare.
+  旧中: 确认前我想先核对一下假期。
+  新意: Ad agosto vado in vacanza.
+  新中: 我八月去度假。
+
+[2167] inizio
+  旧意: Vorrei controllare inizio prima di confermare.
+  旧中: 确认前我想先核对一下开始。
+  新意: All'inizio era difficile.
+  新中: 一开始很难。
+
+[2204] epoca
+  旧意: Vorrei controllare epoca prima di confermare.
+  旧中: 确认前我想先核对一下时代。
+  新意: Era un'altra epoca.
+  新中: 那是另一个时代。
+
+[2357] frequenza
+  旧意: Vorrei controllare frequenza prima di confermare.
+  旧中: 确认前我想先核对一下频率。
+  新意: Con quale frequenza prende questo farmaco?
+  新中: 您多久服一次这种药？
+
+[2397] durata
+  旧意: Vorrei controllare durata prima di confermare.
+  旧中: 确认前我想先核对一下持续时间。
+  新意: Qual è la durata del corso?
+  新中: 课程持续多长时间？
+
+[2639] stagione
+  旧意: Vorrei controllare stagione prima di confermare.
+  旧中: 确认前我想先核对一下季节。
+  新意: Qual è la tua stagione preferita?
+  新中: 你最喜欢哪个季节？
+
+[1654] fame
+  旧意: Vorrei parlare della fame con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: Ho molta fame.
+  新中: 我很饿。
+
+[2194] paura
+  旧意: Vorrei parlare della paura con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: Ho paura degli aghi.
+  新中: 我怕针。
+
+[2247] forza
+  旧意: Vorrei parlare della forza con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: Non ho abbastanza forza nelle braccia.
+  新中: 我的胳膊没有足够的力气。
+
+[2452] nascita
+  旧意: Vorrei parlare della nascita con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: Qual è la sua data di nascita?
+  新中: 您的出生日期是什么？
+
+[2544] sonno
+  旧意: Vorrei parlare del sonno con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: Ho sonno.
+  新中: 我困了。
+
+[2595] energia
+  旧意: Vorrei parlare dell'energia con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: Oggi non ho energia.
+  新中: 我今天没什么精神。
+
+[2686] assicurazione
+  旧意: Vorrei parlare dell'assicurazione con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: La mia assicurazione copre questa visita?
+  新中: 我的保险报销这次看诊吗？
+
+[2707] depressione
+  旧意: Vorrei parlare della depressione con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: La depressione può influire sulla vita quotidiana.
+  新中: 抑郁会影响日常生活。
+
+[2719] morte
+  旧意: Vorrei parlare della morte con un medico.
+  旧中: 我想和医生谈谈这个健康相关问题。
+  新意: La morte è un tema difficile da affrontare.
+  新中: 死亡是一个很难面对的话题。
+
+[0985] colazione
+  旧意: Durante la colazione cerco di mangiare con calma.
+  旧中: 吃这一餐时我尽量慢慢吃。
+  新意: Durante la colazione cerco di mangiare con calma.
+  新中: 早餐时我尽量慢慢吃。
+
+[1599] cena
+  旧意: Durante la cena cerco di mangiare con calma.
+  旧中: 吃这一餐时我尽量慢慢吃。
+  新意: Durante la cena cerco di mangiare con calma.
+  新中: 晚餐时我尽量慢慢吃。
+
+[1647] pranzo
+  旧意: Durante il pranzo cerco di mangiare con calma.
+  旧中: 吃这一餐时我尽量慢慢吃。
+  新意: Durante il pranzo cerco di mangiare con calma.
+  新中: 午餐时我尽量慢慢吃。
+
+[1940] milione
+  旧意: Ho scritto il numero milione sul modulo.
+  旧中: 我在表格上写了数字“百万”。
+  新意: Ho scritto un milione sul modulo.
+  新中: 我在表格上写了一百万。
+
+词义补充
+----------------------------------------------------------------
+[2696] consiglio: 建议；劝告；委员会/理事会 -> 建议；劝告；委员会/理事会；我建议/劝告

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:paddingBottom="28dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📖 2000词 · 十篇通关" android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="不是把200个新词硬塞进一大段。每篇拆成5个小节：先双语精读，再只看意文、听读、挖空和中文反推；每节40个目标词继续进入智能复习。" android:textColor="@color/text_secondary" android:textSize="13sp" android:lineSpacingExtra="3dp" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="15dp">
+                <TextView android:id="@+id/text_memory_route_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="已完成 0 / 50 小节" android:textColor="@color/text_primary" android:textSize="16sp" android:textStyle="bold" />
+                <ProgressBar android:id="@+id/progress_memory_route" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="10dp" android:max="100" android:progress="0" android:progressTint="@color/green" android:progressBackgroundTint="@color/line" />
+                <TextView android:id="@+id/text_memory_word_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="2000词掌握 0" android:textColor="@color/text_secondary" android:textSize="12sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <LinearLayout android:id="@+id/container_memory_articles" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="4dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

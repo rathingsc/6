@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_verb_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="42dp" android:text="← 练习" android:textAllCaps="false"/>
+   <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="动词中心" android:textColor="@color/text_primary" android:textSize="23sp" android:textStyle="bold"/>
+   <Space android:layout_width="68dp" android:layout_height="1dp"/>
+  </LinearLayout>
+  <TextView android:id="@+id/text_verb_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+  <Spinner android:id="@+id/spinner_verb" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="10dp" android:background="@drawable/bg_search" android:paddingHorizontal="12dp"/>
+  <Spinner android:id="@+id/spinner_tense" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="8dp" android:background="@drawable/bg_search" android:paddingHorizontal="12dp"/>
+  <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+    <TextView android:id="@+id/text_verb_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/text_verb_meaning" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:textColor="@color/text_secondary" android:textSize="14sp"/>
+    <TextView android:id="@+id/text_verb_tense" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textColor="@color/blue" android:textSize="14sp" android:textStyle="bold"/>
+    <LinearLayout android:id="@+id/container_verb_forms" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="vertical"/>
+    <TextView android:id="@+id/text_verb_note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_soft_panel" android:padding="10dp" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+   </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+  <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="15dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="变位快练" android:textColor="@color/text_primary" android:textSize="16sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/text_verb_quiz_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textColor="@color/text_primary" android:textSize="20sp" android:textStyle="bold"/>
+    <EditText android:id="@+id/edit_verb_answer" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="8dp" android:background="@drawable/bg_search" android:hint="输入正确变位" android:imeOptions="actionDone" android:paddingHorizontal="12dp" android:singleLine="true" android:textColor="@color/text_primary" android:textColorHint="@color/text_secondary"/>
+    <TextView android:id="@+id/text_verb_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:textSize="13sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+     <com.google.android.material.button.MaterialButton android:id="@+id/button_verb_check" android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1" android:text="检查" android:textAllCaps="false"/>
+     <com.google.android.material.button.MaterialButton android:id="@+id/button_verb_next" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="46dp" android:layout_marginStart="8dp" android:layout_weight="1" android:text="下一人称" android:textAllCaps="false"/>
+    </LinearLayout>
+   </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+ </LinearLayout>
+</ScrollView>

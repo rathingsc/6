@@ -1,0 +1,52 @@
+终学意语 v3.8.0 每日闭环与错题回炉版
+
+一、版本
+- versionCode: 68
+- versionName: 3.8.0-native
+- applicationId: com.italiano2774.nativeapp
+- permanent signing reference: zhongxue_release
+
+二、本版核心目标
+让“今天智能学习”形成真正闭环：不是只安排新任务，而是在错词、顽固词和复习压力上升时自动腾出时间补漏；完成当天计划后，直接看到今天的学习效果与明天的复习压力。
+
+三、新增/改进功能
+1. 每日智能计划加入错题回炉自适应任务。
+2. 触发条件：错词 >= 6、顽固词 >= 3，或复习压力 >= 1。
+3. 20分钟以上的路线会为错题回炉腾出真实时间，不采用无限叠加。
+4. 高复习压力或暂停新词时启用“复习保护模式”，减少新内容扩张。
+5. 错题回炉继续使用已有 WrongWordRepairFragment：主动回忆 -> 听音 -> 中文反推拼写 -> 例句确认。
+6. 首页显示错词/顽固词状态和自动补漏提示。
+7. 当日计划全部完成后，首页主按钮变为“查看今日总结 · 明日复习预告”。
+8. 今日总结新增：
+   - 智能计划完成度
+   - 今日真实学习分钟
+   - 今日学习卡 / 练习次数 / 正确率
+   - 当前到期与截至明天将到期
+   - 错词 / 顽固词 / 长期掌握
+   - 已学词四维掌握：识义 / 听力 / 拼写 / 口语
+   - 基于复习压力与最弱项的明日建议
+9. 今日总结有错词时直接显示“错题回炉”按钮。
+10. 新增 daily_learning_loop_quality_check.py，并纳入 Codemagic 与严格发布门禁。
+
+四、兼容性
+- 包名不变。
+- zhongxue_release 固定签名不变。
+- 学习数据结构没有破坏性迁移。
+- error_repair 继续复用既有统计键，因此旧进度可直接继承。
+
+五、自检
+发布前应执行：
+- Preflight
+- Java source literal check
+- Static regression
+- 所有词义/例句/课程/十篇通关质量检查
+- Listening + speaking
+- Scenario conversation
+- Micro grammar
+- Daily smart plan
+- Daily learning loop
+- Signing config
+- Strict release gate
+
+六、当前环境限制
+当前容器未配置完整 Android SDK/Gradle wrapper，不虚假声称本地 assembleRelease 已成功。正式 APK 继续交由 Codemagic 使用 zhongxue_release 固定签名构建。

@@ -1,0 +1,652 @@
+[
+  {
+    "id": "prep001",
+    "sentence": "Vado ___ Roma domani.",
+    "zh": "我明天去罗马。",
+    "answer": "a",
+    "options": [
+      "a",
+      "in",
+      "da",
+      "di"
+    ],
+    "explanation": "城市前通常用 a：andare a Roma。"
+  },
+  {
+    "id": "prep002",
+    "sentence": "Vivo ___ Italia.",
+    "zh": "我住在意大利。",
+    "answer": "in",
+    "options": [
+      "a",
+      "in",
+      "da",
+      "su"
+    ],
+    "explanation": "国家前通常用 in：vivere in Italia。"
+  },
+  {
+    "id": "prep003",
+    "sentence": "Vengo ___ Milano.",
+    "zh": "我来自米兰。",
+    "answer": "da",
+    "options": [
+      "da",
+      "di",
+      "a",
+      "in"
+    ],
+    "explanation": "表示从某地来常用 da：venire da Milano。"
+  },
+  {
+    "id": "prep004",
+    "sentence": "Sono ___ casa.",
+    "zh": "我在家。",
+    "answer": "a",
+    "options": [
+      "a",
+      "in",
+      "da",
+      "su"
+    ],
+    "explanation": "固定表达：essere a casa。"
+  },
+  {
+    "id": "prep005",
+    "sentence": "Vado ___ casa.",
+    "zh": "我回家。",
+    "answer": "a",
+    "options": [
+      "a",
+      "in",
+      "da",
+      "per"
+    ],
+    "explanation": "固定表达：andare a casa。"
+  },
+  {
+    "id": "prep006",
+    "sentence": "Sono ___ ufficio.",
+    "zh": "我在办公室。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "di",
+      "da"
+    ],
+    "explanation": "处在办公室内常说 in ufficio。"
+  },
+  {
+    "id": "prep007",
+    "sentence": "Vado ___ lavoro alle otto.",
+    "zh": "我八点去上班。",
+    "answer": "al",
+    "options": [
+      "al",
+      "nel",
+      "dal",
+      "sul"
+    ],
+    "explanation": "andare al lavoro：去上班。"
+  },
+  {
+    "id": "prep008",
+    "sentence": "Torno ___ lavoro alle sei.",
+    "zh": "我六点下班回来。",
+    "answer": "dal",
+    "options": [
+      "dal",
+      "al",
+      "nel",
+      "del"
+    ],
+    "explanation": "tornare dal lavoro：从工作地点回来。"
+  },
+  {
+    "id": "prep009",
+    "sentence": "Parlo ___ il medico.",
+    "zh": "我和医生说话。",
+    "answer": "con",
+    "options": [
+      "con",
+      "di",
+      "a",
+      "per"
+    ],
+    "explanation": "和某人交谈：parlare con qualcuno。"
+  },
+  {
+    "id": "prep010",
+    "sentence": "Parliamo ___ questo problema.",
+    "zh": "我们谈谈这个问题。",
+    "answer": "di",
+    "options": [
+      "di",
+      "da",
+      "a",
+      "per"
+    ],
+    "explanation": "谈论某事：parlare di qualcosa。"
+  },
+  {
+    "id": "prep011",
+    "sentence": "Questo regalo è ___ te.",
+    "zh": "这个礼物是给你的。",
+    "answer": "per",
+    "options": [
+      "per",
+      "da",
+      "di",
+      "con"
+    ],
+    "explanation": "表示对象/用途可用 per：per te。"
+  },
+  {
+    "id": "prep012",
+    "sentence": "Aspetto ___ mezz’ora.",
+    "zh": "我等了半个小时。",
+    "answer": "da",
+    "options": [
+      "da",
+      "per",
+      "in",
+      "a"
+    ],
+    "explanation": "表示从过去持续到现在的时间可用 da。"
+  },
+  {
+    "id": "prep013",
+    "sentence": "Parto ___ Milano alle sette.",
+    "zh": "我七点从米兰出发。",
+    "answer": "da",
+    "options": [
+      "da",
+      "a",
+      "in",
+      "di"
+    ],
+    "explanation": "从某地出发：partire da。"
+  },
+  {
+    "id": "prep014",
+    "sentence": "Parto ___ Roma alle sette.",
+    "zh": "我七点出发去罗马。",
+    "answer": "per",
+    "options": [
+      "per",
+      "da",
+      "a",
+      "di"
+    ],
+    "explanation": "表示目的地可说 partire per Roma。"
+  },
+  {
+    "id": "prep015",
+    "sentence": "Il libro è ___ tavolo.",
+    "zh": "书在桌子上。",
+    "answer": "sul",
+    "options": [
+      "sul",
+      "nel",
+      "al",
+      "dal"
+    ],
+    "explanation": "su + il = sul，表示在……上。"
+  },
+  {
+    "id": "prep016",
+    "sentence": "Metto il telefono ___ borsa.",
+    "zh": "我把手机放进包里。",
+    "answer": "nella",
+    "options": [
+      "nella",
+      "alla",
+      "della",
+      "sulla"
+    ],
+    "explanation": "in + la = nella，表示进入/位于……里面。"
+  },
+  {
+    "id": "prep017",
+    "sentence": "Il bagno è ___ destra.",
+    "zh": "洗手间在右边。",
+    "answer": "a",
+    "options": [
+      "a",
+      "in",
+      "su",
+      "da"
+    ],
+    "explanation": "固定表达：a destra / a sinistra。"
+  },
+  {
+    "id": "prep018",
+    "sentence": "Ci vediamo ___ due ore.",
+    "zh": "我们两小时后见。",
+    "answer": "tra",
+    "options": [
+      "tra",
+      "da",
+      "per",
+      "di"
+    ],
+    "explanation": "tra/fra + 时间：……之后。"
+  },
+  {
+    "id": "prep019",
+    "sentence": "Ho bisogno ___ aiuto.",
+    "zh": "我需要帮助。",
+    "answer": "di",
+    "options": [
+      "di",
+      "da",
+      "a",
+      "per"
+    ],
+    "explanation": "固定结构：avere bisogno di。"
+  },
+  {
+    "id": "prep020",
+    "sentence": "Dipende ___ tempo.",
+    "zh": "要看时间/天气。",
+    "answer": "dal",
+    "options": [
+      "dal",
+      "al",
+      "nel",
+      "sul"
+    ],
+    "explanation": "dipendere da；da + il = dal。"
+  },
+  {
+    "id": "prep021",
+    "sentence": "Penso spesso ___ mia famiglia.",
+    "zh": "我经常想我的家人。",
+    "answer": "alla",
+    "options": [
+      "alla",
+      "della",
+      "nella",
+      "dalla"
+    ],
+    "explanation": "pensare a；a + la = alla。"
+  },
+  {
+    "id": "prep022",
+    "sentence": "Vado ___ medico.",
+    "zh": "我去医生那里。",
+    "answer": "dal",
+    "options": [
+      "dal",
+      "al",
+      "nel",
+      "del"
+    ],
+    "explanation": "去某人/专业人士那里常用 da：dal medico。"
+  },
+  {
+    "id": "prep023",
+    "sentence": "Vado ___ supermercato.",
+    "zh": "我去超市。",
+    "answer": "al",
+    "options": [
+      "al",
+      "nel",
+      "dal",
+      "del"
+    ],
+    "explanation": "常见地点：andare al supermercato。"
+  },
+  {
+    "id": "prep024",
+    "sentence": "Sono ___ supermercato.",
+    "zh": "我在超市里。",
+    "answer": "al",
+    "options": [
+      "al",
+      "nel",
+      "dal",
+      "sul"
+    ],
+    "explanation": "口语常说 essere al supermercato。"
+  },
+  {
+    "id": "prep025",
+    "sentence": "Studio italiano ___ tre mesi.",
+    "zh": "我学意大利语三个月了。",
+    "answer": "da",
+    "options": [
+      "da",
+      "per",
+      "in",
+      "a"
+    ],
+    "explanation": "从过去持续到现在：da tre mesi。"
+  },
+  {
+    "id": "prep026",
+    "sentence": "Ho studiato ___ due ore.",
+    "zh": "我学习了两个小时。",
+    "answer": "per",
+    "options": [
+      "per",
+      "da",
+      "tra",
+      "in"
+    ],
+    "explanation": "已经结束的持续时长常用 per。"
+  },
+  {
+    "id": "prep027",
+    "sentence": "Finisco il lavoro ___ un’ora.",
+    "zh": "我一小时内完成工作。",
+    "answer": "in",
+    "options": [
+      "in",
+      "tra",
+      "da",
+      "per"
+    ],
+    "explanation": "表示完成某事所需时间可用 in。"
+  },
+  {
+    "id": "prep028",
+    "sentence": "Vado ___ piedi.",
+    "zh": "我走路去。",
+    "answer": "a",
+    "options": [
+      "a",
+      "in",
+      "con",
+      "da"
+    ],
+    "explanation": "固定表达：a piedi。"
+  },
+  {
+    "id": "prep029",
+    "sentence": "Vado ___ macchina.",
+    "zh": "我开车去。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "con",
+      "su"
+    ],
+    "explanation": "交通工具常用 in：in macchina。"
+  },
+  {
+    "id": "prep030",
+    "sentence": "Vado ___ autobus.",
+    "zh": "我坐公交去。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "con",
+      "per"
+    ],
+    "explanation": "交通工具常用 in autobus。"
+  },
+  {
+    "id": "prep031",
+    "sentence": "Salgo ___ autobus.",
+    "zh": "我上公交。",
+    "answer": "sull’",
+    "options": [
+      "sull’",
+      "nell’",
+      "all’",
+      "dall’"
+    ],
+    "explanation": "salire su；su + l’ = sull’。"
+  },
+  {
+    "id": "prep032",
+    "sentence": "Scendo ___ autobus.",
+    "zh": "我下公交。",
+    "answer": "dall’",
+    "options": [
+      "dall’",
+      "all’",
+      "nell’",
+      "sull’"
+    ],
+    "explanation": "scendere da；da + l’ = dall’。"
+  },
+  {
+    "id": "prep033",
+    "sentence": "Il documento è ___ cassetto.",
+    "zh": "文件在抽屉里。",
+    "answer": "nel",
+    "options": [
+      "nel",
+      "al",
+      "dal",
+      "sul"
+    ],
+    "explanation": "in + il = nel。"
+  },
+  {
+    "id": "prep034",
+    "sentence": "La farmacia è vicino ___ stazione.",
+    "zh": "药店在车站附近。",
+    "answer": "alla",
+    "options": [
+      "alla",
+      "della",
+      "nella",
+      "dalla"
+    ],
+    "explanation": "vicino a；a + la = alla。"
+  },
+  {
+    "id": "prep035",
+    "sentence": "Abito lontano ___ centro.",
+    "zh": "我住得离市中心远。",
+    "answer": "dal",
+    "options": [
+      "dal",
+      "al",
+      "nel",
+      "del"
+    ],
+    "explanation": "lontano da；da + il = dal。"
+  },
+  {
+    "id": "prep036",
+    "sentence": "La chiave è dentro ___ borsa.",
+    "zh": "钥匙在包里面。",
+    "answer": "la",
+    "options": [
+      "la",
+      "alla",
+      "della",
+      "nella"
+    ],
+    "explanation": "dentro 可直接接名词：dentro la borsa。"
+  },
+  {
+    "id": "prep037",
+    "sentence": "Esco ___ casa alle sette.",
+    "zh": "我七点从家里出门。",
+    "answer": "di",
+    "options": [
+      "di",
+      "da",
+      "a",
+      "in"
+    ],
+    "explanation": "固定表达：uscire di casa。"
+  },
+  {
+    "id": "prep038",
+    "sentence": "Entro ___ ufficio alle nove.",
+    "zh": "我九点进入办公室。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "da",
+      "di"
+    ],
+    "explanation": "entrare in un luogo：进入某地。"
+  },
+  {
+    "id": "prep039",
+    "sentence": "Chiedo informazioni ___ biglietti.",
+    "zh": "我询问关于票的信息。",
+    "answer": "sui",
+    "options": [
+      "sui",
+      "ai",
+      "dei",
+      "dai"
+    ],
+    "explanation": "su + i = sui，表示关于。"
+  },
+  {
+    "id": "prep040",
+    "sentence": "Grazie ___ aiuto.",
+    "zh": "谢谢你的帮助。",
+    "answer": "per l’",
+    "options": [
+      "per l’",
+      "dell’",
+      "all’",
+      "dall’"
+    ],
+    "explanation": "grazie per + 名词：per l’aiuto。"
+  },
+  {
+    "id": "prep041",
+    "sentence": "È un regalo ___ mia madre.",
+    "zh": "这是给我母亲的礼物。",
+    "answer": "per",
+    "options": [
+      "per",
+      "da",
+      "di",
+      "a"
+    ],
+    "explanation": "表示给谁的礼物常用 per。"
+  },
+  {
+    "id": "prep042",
+    "sentence": "Vado ___ banca.",
+    "zh": "我去银行。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "da",
+      "di"
+    ],
+    "explanation": "一些机构地点常用 in：in banca。"
+  },
+  {
+    "id": "prep043",
+    "sentence": "Sono ___ banca.",
+    "zh": "我在银行。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "da",
+      "su"
+    ],
+    "explanation": "固定搭配：in banca。"
+  },
+  {
+    "id": "prep044",
+    "sentence": "Vado ___ posta.",
+    "zh": "我去邮局。",
+    "answer": "alla",
+    "options": [
+      "alla",
+      "nella",
+      "dalla",
+      "della"
+    ],
+    "explanation": "常见表达：andare alla posta。"
+  },
+  {
+    "id": "prep045",
+    "sentence": "Sono ___ stazione.",
+    "zh": "我在车站。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "da",
+      "su"
+    ],
+    "explanation": "常见表达：essere in stazione。"
+  },
+  {
+    "id": "prep046",
+    "sentence": "Arrivo ___ stazione alle otto.",
+    "zh": "我八点到车站。",
+    "answer": "in",
+    "options": [
+      "in",
+      "a",
+      "da",
+      "di"
+    ],
+    "explanation": "常见表达：arrivare in stazione。"
+  },
+  {
+    "id": "prep047",
+    "sentence": "Arrivo ___ Milano alle otto.",
+    "zh": "我八点到米兰。",
+    "answer": "a",
+    "options": [
+      "a",
+      "in",
+      "da",
+      "di"
+    ],
+    "explanation": "城市前：arrivare a Milano。"
+  },
+  {
+    "id": "prep048",
+    "sentence": "Lavoro ___ lunedì ___ venerdì.",
+    "zh": "我从周一工作到周五。",
+    "answer": "da / a",
+    "options": [
+      "da / a",
+      "di / per",
+      "in / a",
+      "da / per"
+    ],
+    "explanation": "范围：da lunedì a venerdì。"
+  },
+  {
+    "id": "prep049",
+    "sentence": "Il negozio è aperto ___ nove ___ sei.",
+    "zh": "商店从九点开到六点。",
+    "answer": "dalle / alle",
+    "options": [
+      "dalle / alle",
+      "delle / alle",
+      "dalle / delle",
+      "alle / dalle"
+    ],
+    "explanation": "时间范围：dalle nove alle sei。"
+  },
+  {
+    "id": "prep050",
+    "sentence": "Questo documento è ___ Comune.",
+    "zh": "这份文件来自市政府。",
+    "answer": "del",
+    "options": [
+      "del",
+      "al",
+      "nel",
+      "dal"
+    ],
+    "explanation": "di + il = del，表示所属/来源语义。"
+  }
+]

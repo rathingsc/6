@@ -1,0 +1,41 @@
+终学意语 v3.5.1 情景会话三档难度版
+
+一、本版主要开发
+1. 真实情景会话新增三档难度：
+   - 初级：先听 → 看懂 → 三选一 → 开口。
+   - 中级：先听 → 看懂 → 取消选项 → 只看中文直接开口。
+   - 高级：只听，不显示字幕/中文，不给选项 → 自由回答。
+2. 中级/高级接入 FreeConversationEngine，本地进行场景语义理解，不再只比较与标准句逐字相似度。
+3. 高级提示分两级：先中文语义提示，再显示意大利语参考答案。
+4. 三档分别保存完成次数和最佳成绩；场景列表显示初/中/高最佳分。
+5. 自动给出难度建议：初级最佳>=80% 建议中级，中级最佳>=75% 建议高级；不强制锁定。
+6. v3.5.0 旧场景进度自动兼容为初级历史进度。
+7. 三档分别计算成绩，中/高级使用直接开口/自由回答成绩，并对提示使用做轻度扣分。
+8. 错误继续回流四维智能复习与 SentenceFsrsRepository。
+
+二、版本/覆盖升级
+- defaultVersionCode: 65
+- versionName: 3.5.1-native
+- applicationId: com.italiano2774.nativeapp
+- Codemagic signing reference: zhongxue_release
+- 继续输出 signed app-release.apk
+
+三、本地静态自检结果
+- 2774 words / 2774 audio: OK
+- 98 guided units: OK
+- 1718 word example pairs: OK
+- 10 real-life scenarios / 50 dialogue turns: OK
+- beginner/intermediate/advanced flow check: OK
+- FreeConversationEngine semantic response check: OK
+- Java source literal check: 162 files OK
+- XML parse/resource check: OK
+- Preflight: OK
+- Listening/speaking quality check: OK
+- Scenario conversation quality check: OK
+- Regression check: OK
+- Signing config check: OK
+- Strict release gate: OK
+- Full historical translation/example/course/memory quality checks: OK
+
+四、说明
+当前运行环境没有完整 Android SDK，因此没有在本地宣称 assembleRelease 已成功。项目已保留 Codemagic 的 Gradle 8.11.1 + JDK17 + zhongxue_release 正式签名构建流程，最终 APK 由 Codemagic 完成。

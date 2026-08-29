@@ -1,0 +1,50 @@
+终学意语 v3.6.0 微语法实战版
+开发与自检报告
+
+一、本版目标
+把原有“语法与句型”从偏工具型页面，升级为适合新手的微语法主线：
+一个规则 -> 一句真实例句 -> 3题马上用 -> 做错立即补20秒规则 -> 自动进入语法间隔复习。
+
+二、主要新增
+1. 新增 MicroGrammarFragment 与 fragment_micro_grammar.xml。
+2. 练习中心新增直接可见入口：🧩 微语法实战。
+3. 27个高频语法点按 A1 高频 / A2 实用 / B1 表达分组。
+4. 共81道短练习，每个语法点固定3题。
+5. 每个语法卡显示公式、真实例句、正确率、已练题数、间隔天数、到期状态。
+6. 顶部“今天先学”根据现有语法错误记录自动推荐最值得补的语法点；没有明显弱项时从 Vorrei 开始。
+7. SentencePatternFragment 新增 microMode：隐藏复杂句型选择器，标题改为“微语法 · 3题实战”，做完3题直接返回微语法列表。
+8. “今天学习”中的微语法节点改为直接打开指定语法点的3题实战。
+9. 原进阶“语法与句型”入口调整为“语法知识地图”，继续保留 A1/A2/B1 全局掌握情况。
+10. 做错题继续沿用原有20秒即时补课和 Grammar FSRS 间隔复习。
+11. 新增 tools/micro_grammar_quality_check.py，并接入 Codemagic、Preflight、Regression、Strict Release Gate。
+
+三、版本与覆盖升级
+- applicationId: com.italiano2774.nativeapp
+- defaultVersionCode: 66
+- versionName: 3.6.0-native
+- Codemagic signing reference: zhongxue_release
+- 固定签名链不变，可继续覆盖安装。
+
+四、全量静态检查结果
+- 2774 words: PASS
+- 2774 audio: PASS
+- 86 XML files: PASS
+- 163 Java files literal/syntax guard: PASS
+- 98 guided units: PASS
+- 239 word families: PASS
+- 27 grammar patterns / 81 exercises: PASS
+- 430 phrases / 430 core sentences: PASS
+- 1718 word example pairs: PASS
+- 10 memory articles / 50 sections / 2000 target words: PASS
+- 269 aligned article sentence pairs: PASS
+- Listening + speaking bridge: PASS
+- 10 scenarios / 50 dialogue turns / 3 difficulty levels: PASS
+- Micro grammar route and daily-path integration: PASS
+- Permanent signing configuration: PASS
+- Preflight: PASS
+- Regression: PASS
+- Strict Release Gate: PASS
+
+五、说明
+当前容器没有完整 Android SDK，因此这里没有声称完成真正的 :app:assembleRelease。
+最终 APK 编译继续由 Codemagic 执行；项目中的 Codemagic 流程会在 Gradle 前自动运行上述静态门禁。

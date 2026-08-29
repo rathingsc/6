@@ -1,0 +1,9 @@
+package com.italiano2774.nativeapp;
+import android.content.Context;import org.json.*;import java.io.*;import java.nio.charset.StandardCharsets;import java.util.*;
+public class PhraseRepository{
+ private static PhraseRepository instance;private final List<Phrase> all=new ArrayList<>();private final List<String> categories=new ArrayList<>();
+ private PhraseRepository(Context c){try{BufferedReader br=new BufferedReader(new InputStreamReader(c.getAssets().open("frequent_phrases.json"),StandardCharsets.UTF_8));StringBuilder sb=new StringBuilder();String line;while((line=br.readLine())!=null)sb.append(line);JSONArray a=new JSONArray(sb.toString());LinkedHashSet<String> cs=new LinkedHashSet<>();for(int i=0;i<a.length();i++){JSONObject o=a.getJSONObject(i);Phrase p=new Phrase();p.id=o.optString("id","p"+i);p.category=o.optString("category","日常");p.italian=o.optString("it");p.chinese=o.optString("zh");p.note=o.optString("note");if(!p.italian.isEmpty()){all.add(p);cs.add(p.category);}}categories.addAll(cs);}catch(Exception e){throw new RuntimeException("Failed to load frequent_phrases.json",e);}}
+ public static synchronized PhraseRepository get(Context c){if(instance==null)instance=new PhraseRepository(c.getApplicationContext());return instance;}
+ public List<Phrase> all(){return new ArrayList<>(all);}public List<String> categories(){return new ArrayList<>(categories);}
+ public List<Phrase> filter(String query,String category){String q=query==null?"":query.trim().toLowerCase(Locale.ROOT);List<Phrase> out=new ArrayList<>();for(Phrase p:all){if(category!=null&&!category.isEmpty()&&!"全部".equals(category)&&!p.category.equals(category))continue;if(q.isEmpty()||p.italian.toLowerCase(Locale.ROOT).contains(q)||p.chinese.contains(q)||p.note.toLowerCase(Locale.ROOT).contains(q))out.add(p);}return out;}
+}

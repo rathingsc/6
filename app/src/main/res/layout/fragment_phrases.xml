@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:orientation="vertical">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="💬 高频短语库" android:textColor="@color/text_primary" android:textSize="25sp" android:textStyle="bold" />
+  <TextView android:id="@+id/text_phrase_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+  <EditText android:id="@+id/edit_phrase_search" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginTop="10dp" android:background="@drawable/bg_search" android:hint="搜索意大利语或中文" android:paddingHorizontal="13dp" android:singleLine="true" android:textColor="@color/text_primary" android:textColorHint="@color/text_secondary" />
+  <Spinner android:id="@+id/spinner_phrase_category" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="8dp" android:background="@drawable/bg_search" android:paddingHorizontal="10dp" />
+ </LinearLayout>
+ <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_phrases" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false" android:paddingBottom="16dp" />
+</LinearLayout>

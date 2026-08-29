@@ -1,0 +1,13 @@
+package com.italiano2774.nativeapp;
+import android.content.Context;import java.util.*;import java.util.regex.*;
+/** Builds offline cloze questions from the learner's weak grammar points and weak course words. */
+public class SmartClozeEngine{
+ private final WordRepository words;private final SentencePatternRepository patterns;private final ProgressStore progress;private int counter=0;
+ public SmartClozeEngine(Context c,WordRepository w,ProgressStore p){words=w;progress=p;patterns=SentencePatternRepository.get(c);}
+ public ClozeItem next(){counter++;if(counter%3!=0){ClozeItem g=grammarItem();if(g!=null)return g;}ClozeItem v=wordItem();return v!=null?v:grammarItem();}
+ private ClozeItem grammarItem(){List<GrammarPoint> weak=GrammarDiagnostics.weakest(progress,5);String id=weak.isEmpty()?GrammarDiagnostics.recommended(progress).id:weak.get(counter%weak.size()).id;SentencePattern p=findPattern(id);if(p==null||p.exercises.isEmpty()){List<SentencePattern> all=patterns.all();p=all.get(counter%all.size());}PatternExercise e=p.exercises.get(counter%p.exercises.size());ClozeItem x=new ClozeItem();x.prompt=e.prompt;x.answer=e.answer;x.italian=e.it;x.chinese=e.zh;x.explanation=p.formula+" · "+p.explanation;x.source="语法弱项 · "+p.title;x.patternId=p.id;return x;}
+ private ClozeItem wordItem(){List<Word> pool=new ArrayList<>();for(Word w:words.all())if(progress.mastery(w.id)>0&&progress.mastery(w.id)<5&&ExampleQuality.isUsable(w))pool.add(w);if(pool.isEmpty())for(Word w:words.all())if(ExampleQuality.isUsable(w))pool.add(w);if(pool.isEmpty())return null;pool.sort((a,b)->{int da=progress.spellingLevel(a.id),db=progress.spellingLevel(b.id);if(da!=db)return Integer.compare(da,db);return Integer.compare(progress.wrongCount(b.id),progress.wrongCount(a.id));});Word w=pool.get(counter%Math.min(pool.size(),120));ClozeItem x=new ClozeItem();x.prompt=replaceFirstWord(w.example,w.word,"____");x.answer=w.word;x.italian=w.example;x.chinese=w.exampleZh;x.explanation="课程词："+w.word+" · "+w.chinese+(w.lemma==null||w.lemma.isEmpty()?"":" · 原形 "+w.lemma);x.source="弱词完形 · "+w.level;x.wordId=w.id;return x;}
+ private SentencePattern findPattern(String id){for(SentencePattern p:patterns.all())if(p.id.equals(id))return p;return null;}
+ private boolean containsWord(String text,String word){if(text==null||word==null||word.contains(" "))return false;return Pattern.compile("(?iu)(?<!\\p{L})"+Pattern.quote(word)+"(?!\\p{L})").matcher(text).find();}
+ private String replaceFirstWord(String text,String word,String repl){return Pattern.compile("(?iu)(?<!\\p{L})"+Pattern.quote(word)+"(?!\\p{L})").matcher(text).replaceFirst(repl);}
+}

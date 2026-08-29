@@ -1,0 +1,69 @@
+终学意语 v4.0.0 每日5句主动开口版 开发与自检报告
+
+版本
+----
+versionCode: 70
+versionName: 4.0.0-native
+applicationId: com.italiano2774.nativeapp
+Codemagic keystore reference: zhongxue_release
+
+本版目标
+--------
+把“认识单词/看得懂句子”继续推进到“只看中文也能主动说出意大利语”。不新增第二套内容库，直接复用已经审校的 430 条核心句，把主动开口纳入每天固定学习闭环。
+
+主要开发内容
+------------
+1. 新增每日5句主动开口引擎，按当前课程阶段选择 A1/A2/B1 句库。
+2. 每天稳定抽取5句，同一天可续学；完成后可加练下一批5句。
+3. 中文提示优先，意大利语答案默认隐藏；提示不直接代替作答。
+4. Android it-IT 语音识别；无可用识别服务时支持文字输入兜底。
+5. A1/A2/B1 内容匹配通过线分别为70/75/80。
+6. 每句完成后显示标准句，并提供正常与0.70倍慢速朗读。
+7. 错句写回句子 FSRS speaking 维度；命中单词同步写回口语维度。
+8. daily_speaking 统计、历史正确率和连续开口天数接入 ProgressStore；最近365天每日开口记录单独纳入进度备份/恢复。
+9. 练习中心、每日智能计划、每日总结均接入每日5句。
+10. 重新平衡10/20/30/45/60分钟计划，避免新增功能造成每日任务无限增长。
+11. 新增 daily_speaking_quality_check，并接入 Codemagic / Preflight / Regression / Strict Release Gate。
+
+兼容性
+------
+- 包名未改变。
+- 永久签名 reference 未改变。
+- Room 数据库没有使用破坏性迁移。
+- daily_speaking 采用现有辅助统计/备份机制，不需要清空旧学习进度。
+- 可以继续从已使用 zhongxue_release 签名的正式版本覆盖升级。
+
+已通过的自动检查
+----------------
+- Java source literal check
+- XML parse / Android resource reference check
+- Preflight
+- Regression
+- Strict Release Gate
+- Translation quality: 2774 words
+- Lexical semantic quality: 2774 words
+- Full lexicon alignment: 2774/2774
+- Full independent retranslation: 2774/2774
+- Word example quality / expansion: 1718 reviewed example pairs
+- Guided course: 98 units
+- Course path mix
+- Course translation quality
+- Phrase/core sentence semantics: 430 pairs
+- English bridge
+- Memory aid / smart mastery / teach-before-test
+- Ten memory articles: 10 articles / 50 sections / 2000 target words
+- Memory article recurrence / 269 sentence pairs
+- Listening & speaking bridge
+- Three-level scenario conversation: 10 scenarios / 50 turns
+- Micro grammar: 27 points / 81 exercises
+- Daily smart plan
+- Daily learning loop
+- Seven-day review forecast
+- Daily five-sentence speaking
+- Person semantics
+- Exercise quality
+- Permanent signing configuration
+
+本地构建说明
+------------
+当前开发环境不预设你的私密 keystore，也不把私钥打进项目 ZIP。正式 app-release.apk 继续由 Codemagic 使用已保存的 zhongxue_release 固定签名构建。

@@ -1,0 +1,56 @@
+终学意语 v3.5.0 真实生活情景会话版 开发与自检报告
+
+一、本版目标
+把 v3.4.0 的“听力与开口”能力接入真实生活场景，避免用户只会单词和孤立句子，不会完成一段真实小对话。
+
+二、主要新增
+1. 真实情景会话成为练习中心的直接入口，不再隐藏在进阶工具里。
+2. 10 个真实生活场景：Bar/餐厅、超市、公交/火车、问路、租房、Comune/Questura、医院/药店、银行、电话预约、工作面试。
+3. 每个场景由原来的 3 轮扩展为 5 轮，总计 50 轮。
+4. 每一轮固定流程：
+   ① 先听对方（先隐藏字幕）
+   ② 看意大利语 + 中文确认理解
+   ③ 三选一选择自然回应
+   ④ 看中文自己说意大利语
+   ⑤ 听对方下一句，继续会话
+5. 对方句子支持正常 1.00 倍 / 慢速 0.70 倍。
+6. 开口使用 Android SpeechRecognizer，语言 it-IT；文本相似度约 68% 以上判为通过，可重试、看提示或暂时跳过。
+7. 选择错误会记录句义薄弱；口语错误会记录口语薄弱。目标词会写入四维智能掌握度，完整句会写入 SentenceFsrsRepository，真正进入间隔复习。
+8. 每个场景保存完成次数与历史最佳分数；场景列表直接显示。
+9. 新场景进度、dialogue_speaking/dialogue_scenario 统计加入学习进度导出/导入，覆盖安装后可继续。
+10. 新增 tools/scenario_conversation_quality_check.py，并接入 Codemagic。
+
+三、内容规模
+- 2774 单词
+- 2774 本地单词音频
+- 98 个混合技能课程单元
+- 1718 组已审核单词例句
+- 10 篇 / 50 小节 / 2000 目标词十篇通关
+- 269 组十篇通关逐句中意句对
+- 10 个真实生活场景
+- 50 轮渐进真实对话
+
+四、版本与覆盖安装
+- applicationId: com.italiano2774.nativeapp
+- defaultVersionCode: 64
+- versionName: 3.5.0-native
+- 固定签名引用: zhongxue_release
+- 保持现有固定签名链，可继续覆盖安装。
+
+五、最终静态发布检查
+- Preflight: PASS
+- Java source literal check: PASS（162 Java files）
+- Regression: PASS
+- Translation / lexical semantic / full alignment / full retranslation: PASS
+- Word examples / example expansion: PASS
+- Course / mixed path: PASS
+- Memory articles / recurrence / sentence study: PASS
+- Course translation / phrase semantic / English bridge / memory aids: PASS
+- Smart mastery / teach-before-test / person semantics / exercise quality: PASS
+- Listening & speaking quality: PASS
+- Scenario conversation quality: PASS（10 scenarios / 50 turns）
+- Permanent signing config: PASS
+- Strict Release Gate: PASS
+
+六、说明
+当前执行环境没有完整 Android SDK，因此没有在本地声明 assembleRelease 已成功。正式 APK 仍由 Codemagic 使用 zhongxue_release 构建并签名。

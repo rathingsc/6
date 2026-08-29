@@ -1,0 +1,792 @@
+{
+  "version": "3.1.8",
+  "description": "High-confidence morphology and word-form memory hints. Recognition aid only; not a mechanical translation system.",
+  "count": 157,
+  "entries": [
+    {
+      "italian": "allenatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "ambasciatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "amministrazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "applicazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "artista",
+      "title": "词尾 -ista",
+      "note": "-ista 常指从事某职业、活动或具有某身份的人，可联想英语 -ist。"
+    },
+    {
+      "italian": "assicurazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "associazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "assolutamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "attività",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "autorità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "capacità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "celebrazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "certamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "chiaramente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "colazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "collezione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "completamente",
+      "title": "completo → completamente",
+      "note": "completo=完整的；completamente=完全地。"
+    },
+    {
+      "italian": "comunicazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "comunità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "conversazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "corruzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "costoso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "costruzione",
+      "title": "costruire → costruzione",
+      "note": "costruire=建造；costruzione=建造；建筑。"
+    },
+    {
+      "italian": "decisione",
+      "title": "decidere → decisione",
+      "note": "decidere=决定；decisione=决定。"
+    },
+    {
+      "italian": "definizione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "delizioso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "dentista",
+      "title": "词尾 -ista",
+      "note": "-ista 常指从事某职业、活动或具有某身份的人，可联想英语 -ist。"
+    },
+    {
+      "italian": "depressione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "descrizione",
+      "title": "descrivere → descrizione",
+      "note": "descrivere=描述；descrizione=描述。"
+    },
+    {
+      "italian": "destinazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "dignità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "dimostrazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "direttamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "direzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "discussione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "disgustoso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "disponibile",
+      "title": "词尾 -ibile",
+      "note": "-ibile 常有“能够……的 / 可……的”感觉，可联想英语 -ible。"
+    },
+    {
+      "italian": "divisione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "educazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "effettivamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "elettricità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "elezione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "emozione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "esattamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "esecuzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "esibizione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "essenzialmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "estremamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "evoluzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "facilmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "famoso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "felicità",
+      "title": "felice → felicità",
+      "note": "把 felice“开心的”联想到名词 felicità“幸福”。"
+    },
+    {
+      "italian": "finalmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "fortemente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "fortunatamente",
+      "title": "fortunato → fortunatamente",
+      "note": "fortunato=幸运的；fortunatamente=幸运地；幸好。"
+    },
+    {
+      "italian": "frequentemente",
+      "title": "frequente → frequentemente",
+      "note": "frequente=频繁的；frequentemente=经常地；频繁地。"
+    },
+    {
+      "italian": "geloso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "generalmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "generazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "generoso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "giocatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "giornalista",
+      "title": "词尾 -ista",
+      "note": "-ista 常指从事某职业、活动或具有某身份的人，可联想英语 -ist。"
+    },
+    {
+      "italian": "governatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "gravemente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "gravità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "immaginazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "immediatamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "impossibile",
+      "title": "im- + possibile",
+      "note": "im- 在这里表示否定；possibile=可能的，所以 impossibile=不可能的。"
+    },
+    {
+      "italian": "incredibile",
+      "title": "词尾 -ibile",
+      "note": "-ibile 常有“能够……的 / 可……的”感觉，可联想英语 -ible。"
+    },
+    {
+      "italian": "informazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "intenzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "interpretazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "inutile",
+      "title": "in- + utile",
+      "note": "in- 在这里表示否定；utile=有用的，所以 inutile=没用的。"
+    },
+    {
+      "italian": "invenzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "istituzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "istruzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "lentamente",
+      "title": "lento → lentamente",
+      "note": "lento=慢的；加 -mente 变成副词，lentamente=慢慢地。"
+    },
+    {
+      "italian": "liberazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "meditazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "meraviglioso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "musicista",
+      "title": "词尾 -ista",
+      "note": "-ista 常指从事某职业、活动或具有某身份的人，可联想英语 -ist。"
+    },
+    {
+      "italian": "naturalmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "necessariamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "necessità",
+      "title": "necessario → necessità",
+      "note": "把 necessario“必要的”联想到名词 necessità“必要；需要”。"
+    },
+    {
+      "italian": "negoziazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "nervoso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "noioso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "normalmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "occasione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "opportunità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "organizzazione",
+      "title": "organizzare → organizzazione",
+      "note": "organizzare=组织；organizzazione=组织；安排。"
+    },
+    {
+      "italian": "ovviamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "particolarmente",
+      "title": "particolare → particolarmente",
+      "note": "particolare=特别的；particolarmente=尤其；特别地。"
+    },
+    {
+      "italian": "passione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "perfettamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "pericoloso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "personalità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "pescatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "petizione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "popolazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "posizione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "possibile",
+      "title": "词尾 -ibile",
+      "note": "-ibile 常有“能够……的 / 可……的”感觉，可联想英语 -ible。"
+    },
+    {
+      "italian": "possibilità",
+      "title": "possibile → possibilità",
+      "note": "把形容词 possibile“可能的”联想到名词 possibilità“可能性”。"
+    },
+    {
+      "italian": "possibilmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "praticamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "prenotazione",
+      "title": "prenotare → prenotazione",
+      "note": "prenotare=预订；prenotazione=预约；预订。把动词和名词一起记。"
+    },
+    {
+      "italian": "presentazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "pressione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "probabile",
+      "title": "词尾 -abile",
+      "note": "-abile 常有“能够……的 / 可……的”感觉，可联想英语 -able。"
+    },
+    {
+      "italian": "probabilmente",
+      "title": "probabile → probabilmente",
+      "note": "probabile=可能的；加 -mente 后是 probabilmente“大概；可能”。"
+    },
+    {
+      "italian": "produzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "protezione",
+      "title": "proteggere → protezione",
+      "note": "proteggere=保护；protezione=保护；防护。"
+    },
+    {
+      "italian": "pubblicità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "qualità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "quantità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "raramente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "recentemente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "responsabile",
+      "title": "词尾 -abile",
+      "note": "-abile 常有“能够……的 / 可……的”感觉，可联想英语 -able。"
+    },
+    {
+      "italian": "responsabilità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "ricercatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "riflessione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "ritornare",
+      "title": "ri- + tornare",
+      "note": "ri- 常带“再次 / 返回”的感觉；ritornare=返回。"
+    },
+    {
+      "italian": "rivoluzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "rumoroso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "semplicemente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "senatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "sensazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "settimanalmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "sicuramente",
+      "title": "sicuro → sicuramente",
+      "note": "sicuro=确定的；加 -mente 后常表示“肯定地；当然”。"
+    },
+    {
+      "italian": "silenzioso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "sinceramente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "situazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "soddisfazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "solamente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "spaventoso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "specialità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "specialmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "spettatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "spiegazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "stazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "talmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "televisione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    },
+    {
+      "italian": "terribile",
+      "title": "词尾 -ibile",
+      "note": "-ibile 常有“能够……的 / 可……的”感觉，可联想英语 -ible。"
+    },
+    {
+      "italian": "totalmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "tradizione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "traduzione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "trasformazione",
+      "title": "词尾 -zione",
+      "note": "-zione 常见于名词，很多词和英语 -tion 有对应关系。把它当作“认形线索”，不要机械逐字拆译。"
+    },
+    {
+      "italian": "turista",
+      "title": "词尾 -ista",
+      "note": "-ista 常指从事某职业、活动或具有某身份的人，可联想英语 -ist。"
+    },
+    {
+      "italian": "ugualmente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "università",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "velocemente",
+      "title": "veloce → velocemente",
+      "note": "veloce=快的；加 -mente 变成副词，velocemente=快速地。"
+    },
+    {
+      "italian": "velocità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "ventilatore",
+      "title": "词尾 -atore",
+      "note": "-atore 常出现在“做某事的人 / 某种工具”类名词里，看到词尾先判断词类。"
+    },
+    {
+      "italian": "ventoso",
+      "title": "词尾 -oso",
+      "note": "-oso 常见于形容词，常表达“有……性质 / 充满……感觉”。先把它识别成形容词线索。"
+    },
+    {
+      "italian": "veramente",
+      "title": "词尾 -mente",
+      "note": "-mente 常把形容词变成副词，功能很像英语 -ly。"
+    },
+    {
+      "italian": "verità",
+      "title": "词尾 -ità",
+      "note": "-ità 常构成抽象名词，很多时候和英语 -ity 对应。"
+    },
+    {
+      "italian": "versione",
+      "title": "词尾 -sione",
+      "note": "-sione 常见于名词，很多词和英语 -sion 有对应关系。把它当作“认形线索”。"
+    }
+  ]
+}

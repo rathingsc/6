@@ -1,0 +1,1274 @@
+{
+  "version": "3.1.7",
+  "description": "Curated Italian-English cognates and false friends for beginner memory support. Conservative by design.",
+  "cognateCount": 195,
+  "falseFriendCount": 16,
+  "entries": [
+    {
+      "italian": "accordo",
+      "english": "accord",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "acido",
+      "english": "acid",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "adolescente",
+      "english": "adolescent",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "adulto",
+      "english": "adult",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "americano",
+      "english": "American",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "angelo",
+      "english": "angel",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "animale",
+      "english": "animal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "artista",
+      "english": "artist",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ista ↔ 英语 -ist"
+    },
+    {
+      "italian": "attività",
+      "english": "activity",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "banana",
+      "english": "banana",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "bar",
+      "english": "bar",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "brillante",
+      "english": "brilliant",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "calendario",
+      "english": "calendar",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "calmo",
+      "english": "calm",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "candidato",
+      "english": "candidate",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "cappuccino",
+      "english": "cappuccino",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "centro",
+      "english": "center",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "cinema",
+      "english": "cinema",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "classe",
+      "english": "class",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "classico",
+      "english": "classic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ico ↔ 英语 -ic"
+    },
+    {
+      "italian": "cliente",
+      "english": "client",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "colore",
+      "english": "color",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "commento",
+      "english": "comment",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -mento ↔ 英语 -ment"
+    },
+    {
+      "italian": "completo",
+      "english": "complete",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "computer",
+      "english": "computer",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "comunicazione",
+      "english": "communication",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "concerto",
+      "english": "concert",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "congresso",
+      "english": "congress",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "continente",
+      "english": "continent",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "conversazione",
+      "english": "conversation",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "costante",
+      "english": "constant",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "credito",
+      "english": "credit",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "crisi",
+      "english": "crisis",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "cultura",
+      "english": "culture",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "culturale",
+      "english": "cultural",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "decisione",
+      "english": "decision",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -sione ↔ 英语 -sion"
+    },
+    {
+      "italian": "democratico",
+      "english": "democratic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ico ↔ 英语 -ic"
+    },
+    {
+      "italian": "dentista",
+      "english": "dentist",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ista ↔ 英语 -ist"
+    },
+    {
+      "italian": "depressione",
+      "english": "depression",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -sione ↔ 英语 -sion"
+    },
+    {
+      "italian": "diagnosi",
+      "english": "diagnosis",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "dialogo",
+      "english": "dialogue",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "dieta",
+      "english": "diet",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "diploma",
+      "english": "diploma",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "direzione",
+      "english": "direction",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "discussione",
+      "english": "discussion",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -sione ↔ 英语 -sion"
+    },
+    {
+      "italian": "divisione",
+      "english": "division",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -sione ↔ 英语 -sion"
+    },
+    {
+      "italian": "documento",
+      "english": "document",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -mento ↔ 英语 -ment"
+    },
+    {
+      "italian": "dollaro",
+      "english": "dollar",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "economico",
+      "english": "economic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ico ↔ 英语 -ic"
+    },
+    {
+      "italian": "educazione",
+      "english": "education",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "elegante",
+      "english": "elegant",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "elemento",
+      "english": "element",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -mento ↔ 英语 -ment"
+    },
+    {
+      "italian": "elettrico",
+      "english": "electric",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ico ↔ 英语 -ic"
+    },
+    {
+      "italian": "email",
+      "english": "email",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "energia",
+      "english": "energy",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "errore",
+      "english": "error",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "euro",
+      "english": "euro",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "evento",
+      "english": "event",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "fantastico",
+      "english": "fantastic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ico ↔ 英语 -ic"
+    },
+    {
+      "italian": "favore",
+      "english": "favor",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "film",
+      "english": "film",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "finale",
+      "english": "final",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "foresta",
+      "english": "forest",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "formale",
+      "english": "formal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "foto",
+      "english": "photo",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "fotografia",
+      "english": "photography",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "frequente",
+      "english": "frequent",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "frontiera",
+      "english": "frontier",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "generale",
+      "english": "general",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "generoso",
+      "english": "generous",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -oso ↔ 英语 -ous"
+    },
+    {
+      "italian": "globale",
+      "english": "global",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "hobby",
+      "english": "hobby",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "hotel",
+      "english": "hotel",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "idea",
+      "english": "idea",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "ideale",
+      "english": "ideal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "importante",
+      "english": "important",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "impossibile",
+      "english": "impossible",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "incidente",
+      "english": "incident",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "incredibile",
+      "english": "incredible",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "informale",
+      "english": "informal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "informazione",
+      "english": "information",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "intellettuale",
+      "english": "intellectual",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "intelligente",
+      "english": "intelligent",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "internazionale",
+      "english": "international",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "internet",
+      "english": "internet",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "interpretazione",
+      "english": "interpretation",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "intervento",
+      "english": "intervention",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "latino",
+      "english": "latin",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "legale",
+      "english": "legal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "lettera",
+      "english": "letter",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "locale",
+      "english": "local",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "mango",
+      "english": "mango",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "medicina",
+      "english": "medicine",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "menu",
+      "english": "menu",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "minuto",
+      "english": "minute",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "moderno",
+      "english": "modern",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "momento",
+      "english": "moment",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -mento ↔ 英语 -ment"
+    },
+    {
+      "italian": "monumento",
+      "english": "monument",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -mento ↔ 英语 -ment"
+    },
+    {
+      "italian": "motore",
+      "english": "motor",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "musica",
+      "english": "music",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ica ↔ 英语 -ic"
+    },
+    {
+      "italian": "naturale",
+      "english": "natural",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "nazionale",
+      "english": "national",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "necessità",
+      "english": "necessity",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "negativo",
+      "english": "negative",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ivo ↔ 英语 -ive"
+    },
+    {
+      "italian": "normale",
+      "english": "normal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "oceano",
+      "english": "ocean",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "odore",
+      "english": "odor",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "opinione",
+      "english": "opinion",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "opportunità",
+      "english": "opportunity",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "organizzare",
+      "english": "organize",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "organizzazione",
+      "english": "organization",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "originale",
+      "english": "original",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "origine",
+      "english": "origin",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "pace",
+      "english": "peace",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "passaporto",
+      "english": "passport",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "passione",
+      "english": "passion",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -sione ↔ 英语 -sion"
+    },
+    {
+      "italian": "pasta",
+      "english": "pasta",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "periodo",
+      "english": "period",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "persona",
+      "english": "person",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "personale",
+      "english": "personal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "personalità",
+      "english": "personality",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "pilota",
+      "english": "pilot",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "pizza",
+      "english": "pizza",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "pizzeria",
+      "english": "pizzeria",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "plastica",
+      "english": "plastic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ica ↔ 英语 -ic"
+    },
+    {
+      "italian": "poeta",
+      "english": "poet",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "politico",
+      "english": "political",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "positivo",
+      "english": "positive",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ivo ↔ 英语 -ive"
+    },
+    {
+      "italian": "posizione",
+      "english": "position",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "possibile",
+      "english": "possible",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "possibilità",
+      "english": "possibility",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "preparare",
+      "english": "prepare",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "presentazione",
+      "english": "presentation",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "presidente",
+      "english": "president",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "principale",
+      "english": "principal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "probabile",
+      "english": "probable",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "problema",
+      "english": "problem",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "processo",
+      "english": "process",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "produzione",
+      "english": "production",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "professionale",
+      "english": "professional",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "professore",
+      "english": "professor",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "profondo",
+      "english": "profound",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "programma",
+      "english": "program",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "proposta",
+      "english": "proposal",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "protezione",
+      "english": "protection",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "provinciale",
+      "english": "provincial",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "qualità",
+      "english": "quality",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "quantità",
+      "english": "quantity",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "radicale",
+      "english": "radical",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "radio",
+      "english": "radio",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "regionale",
+      "english": "regional",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "regione",
+      "english": "region",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "religione",
+      "english": "religion",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "repubblica",
+      "english": "republic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ica ↔ 英语 -ic"
+    },
+    {
+      "italian": "responsabilità",
+      "english": "responsibility",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "ristorante",
+      "english": "restaurant",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "romantico",
+      "english": "romantic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ico ↔ 英语 -ic"
+    },
+    {
+      "italian": "sandalo",
+      "english": "sandal",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "semestre",
+      "english": "semester",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "senatore",
+      "english": "senator",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "serpente",
+      "english": "serpent",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "sistema",
+      "english": "system",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "situazione",
+      "english": "situation",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "souvenir",
+      "english": "souvenir",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "speciale",
+      "english": "special",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "specialità",
+      "english": "specialty",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "spirito",
+      "english": "spirit",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "sport",
+      "english": "sport",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "stazione",
+      "english": "station",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "studente",
+      "english": "student",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "successo",
+      "english": "success",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "sufficiente",
+      "english": "sufficient",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "superiore",
+      "english": "superior",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ore ↔ 英语 -or"
+    },
+    {
+      "italian": "sushi",
+      "english": "sushi",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "taxi",
+      "english": "taxi",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "telefono",
+      "english": "telephone",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "televisione",
+      "english": "television",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -sione ↔ 英语 -sion"
+    },
+    {
+      "italian": "temperatura",
+      "english": "temperature",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "tennis",
+      "english": "tennis",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "totale",
+      "english": "total",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "tradizione",
+      "english": "tradition",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -zione ↔ 英语 -tion"
+    },
+    {
+      "italian": "traffico",
+      "english": "traffic",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ico ↔ 英语 -ic"
+    },
+    {
+      "italian": "tribunale",
+      "english": "tribunal",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ale ↔ 英语 -al"
+    },
+    {
+      "italian": "università",
+      "english": "university",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ità ↔ 英语 -ity"
+    },
+    {
+      "italian": "universo",
+      "english": "universe",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "urgente",
+      "english": "urgent",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -ente ↔ 英语 -ent"
+    },
+    {
+      "italian": "valle",
+      "english": "valley",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "vegetariano",
+      "english": "vegetarian",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "versione",
+      "english": "version",
+      "kind": "cognate",
+      "note": "常见规律：意大利语 -sione ↔ 英语 -sion"
+    },
+    {
+      "italian": "video",
+      "english": "video",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "villa",
+      "english": "villa",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "virtù",
+      "english": "virtue",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "virus",
+      "english": "virus",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "visitare",
+      "english": "visit",
+      "kind": "cognate",
+      "note": "词形相近，含义也接近，可以把英语当作记忆桥梁。"
+    },
+    {
+      "italian": "yoga",
+      "english": "yoga",
+      "kind": "cognate",
+      "note": "拼写几乎相同，含义也接近，优先利用英语记忆。"
+    },
+    {
+      "italian": "argomento",
+      "english": "argument",
+      "kind": "false_friend",
+      "note": "意大利语 argomento 常用作话题、主题；英语 argument 常指争论或论点。"
+    },
+    {
+      "italian": "bravo",
+      "english": "brave",
+      "kind": "false_friend",
+      "note": "意大利语 bravo = 好的、能干的；英语 brave = 勇敢的。"
+    },
+    {
+      "italian": "camera",
+      "english": "camera",
+      "kind": "false_friend",
+      "note": "意大利语 camera = 房间、卧室；英语 camera = 相机。"
+    },
+    {
+      "italian": "fabbrica",
+      "english": "fabric",
+      "kind": "false_friend",
+      "note": "意大利语 fabbrica = 工厂；英语 fabric = 布料、织物。"
+    },
+    {
+      "italian": "fattoria",
+      "english": "factory",
+      "kind": "false_friend",
+      "note": "意大利语 fattoria = 农场；英语 factory = 工厂。"
+    },
+    {
+      "italian": "gentile",
+      "english": "gentle",
+      "kind": "false_friend",
+      "note": "意大利语 gentile = 友善的、礼貌的；英语 gentle = 温和的、轻柔的。"
+    },
+    {
+      "italian": "latte",
+      "english": "latte",
+      "kind": "false_friend",
+      "note": "意大利语 latte = 牛奶；英语 latte 通常特指拿铁咖啡。"
+    },
+    {
+      "italian": "libreria",
+      "english": "library",
+      "kind": "false_friend",
+      "note": "意大利语 libreria = 书店、书柜；英语 library = 图书馆。"
+    },
+    {
+      "italian": "parente",
+      "english": "parent",
+      "kind": "false_friend",
+      "note": "意大利语 parente = 亲戚；英语 parent = 父亲或母亲。"
+    },
+    {
+      "italian": "patente",
+      "english": "patent",
+      "kind": "false_friend",
+      "note": "意大利语 patente = 驾照、许可证；英语 patent = 专利。"
+    },
+    {
+      "italian": "rumore",
+      "english": "rumor",
+      "kind": "false_friend",
+      "note": "意大利语 rumore = 噪音、声音；英语 rumor = 传闻。"
+    },
+    {
+      "italian": "sale",
+      "english": "sale",
+      "kind": "false_friend",
+      "note": "意大利语 sale = 盐；英语 sale = 销售、促销。"
+    },
+    {
+      "italian": "simpatico",
+      "english": "sympathetic",
+      "kind": "false_friend",
+      "note": "意大利语 simpatico = 讨人喜欢的；英语 sympathetic = 有同情心的。"
+    },
+    {
+      "italian": "stampa",
+      "english": "stamp",
+      "kind": "false_friend",
+      "note": "意大利语 stampa 常指印刷、新闻界；英语 stamp 常指邮票或盖章。"
+    },
+    {
+      "italian": "tempo",
+      "english": "tempo",
+      "kind": "false_friend",
+      "note": "意大利语 tempo 常指时间或天气；英语 tempo 主要指音乐速度、节奏。"
+    },
+    {
+      "italian": "temporale",
+      "english": "temporal",
+      "kind": "false_friend",
+      "note": "意大利语 temporale = 雷暴、雷雨；英语 temporal = 时间的、世俗的。"
+    }
+  ]
+}

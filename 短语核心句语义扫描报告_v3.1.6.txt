@@ -1,0 +1,70 @@
+终学意语 v3.1.6 短语与核心句中意语义一致性扫描报告
+
+扫描范围
+- frequent_phrases.json：430 条
+- core_sentences.json：430 条
+- 两份数据为镜像内容，因此共 430 个唯一中意句对，逐条检查后同步修正。
+- 同步检查受影响的 scenarios.json、emergency_phrases.json、dialogues.json、listening_courses.json、words.json 示例，避免不同入口继续显示旧文本。
+
+本轮高置信度修正：9 项
+
+1. p0007
+旧：Sono allergico alle noci. = 我对坚果过敏。
+新：Sono allergico alla frutta a guscio. = 我对坚果过敏。
+原因：noci 更准确是“核桃”；广义“坚果类”应使用 frutta a guscio。
+备注：words.json 中用于学习介词 alle 的原例句仍保留 Sono allergico alle noci.，但中文已改成“我对核桃过敏”。
+
+2. p0129
+旧：Può scrivermi il numero della pratica? = 您能把案件编号写给我吗？
+新：Può scrivermi il numero della pratica? = 您能把手续编号写给我吗？
+原因：在 Questura/行政窗口语境中 pratica 是办理中的行政手续/申请档案，不一定是法律案件。
+
+3. p0130
+旧：Vorrei chiedere informazioni sulla residenza. = 我想咨询居民登记。
+新：Vorrei chiedere informazioni sulla residenza. = 我想咨询居住登记。
+原因：与 App 内“办理居住登记”的中文术语统一，更适合初学者。
+
+4. p0140
+旧：Qual è l'ultima corsa di oggi? = 今天最后一班车是几点？
+新：A che ora è l'ultima corsa di oggi? = 今天最后一班车是几点？
+原因：中文明确问“几点”，意大利语同步改成 A che ora，语义一一对应。
+
+5. p0155
+旧：Posso avere dell'acqua naturale? = 可以给我一瓶常温无气水吗？
+新：Posso avere una bottiglia d'acqua naturale? = 可以给我一瓶无气水吗？
+原因：acqua naturale 表示无气水，不表示常温；加入 bottiglia 与中文“一瓶”对应。
+
+6. v26_0363
+旧：La linea è disturbata. = 线路不清楚。
+新：La linea è disturbata. = 电话线路有干扰。
+原因：disturbata 在电话语境中是线路有干扰/杂音。
+
+7. v26_dlg_0390
+旧：Sono quattro euro e cinquanta. = 一共4.5欧元。
+新：Sono quattro euro e cinquanta. = 一共4欧元50分。
+原因：按意大利语口语金额结构直接对应，初学者更容易建立听力映射。
+
+8. v26_dlg_0394
+旧：Costa due euro e venti. = 2.2欧元。
+新：Costa due euro e venti. = 2欧元20分。
+原因：同上，避免小数写法干扰听力映射。
+
+9. v26_dlg_0429
+旧：Quando sarebbe disponibile? = 您什么时候可以开始？
+新：Quando sarebbe disponibile per iniziare? = 您什么时候可以开始？
+原因：中文包含“开始”，意大利语补全 per iniziare，消除语义省略。
+
+新增质量守卫
+- tools/phrase_semantic_quality_check.py
+- app/src/main/assets/phrase_semantic_quality_v316.json
+- 检查 430 条短语与 430 条核心句是否始终同步。
+- 锁定以上 9 项修正，防止后续版本回退。
+- 阻止 noci 被泛化成“坚果”、acqua naturale 被误解成“常温水”等高置信度错误。
+- 检查 oggi/domani/ieri、allergico、arachidi、frutta a guscio 等关键语义是否在中文中丢失。
+- Codemagic 已新增 Phrase and core-sentence semantic checks，发布前自动执行。
+
+版本
+- versionCode：47
+- versionName：3.1.6-native
+- 包名：com.italiano2774.nativeapp（保持不变）
+- 固定签名引用：zhongxue_release（保持不变，可继续覆盖升级）

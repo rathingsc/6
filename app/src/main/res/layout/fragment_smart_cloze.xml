@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_cloze_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="42dp" android:text="← 练习" android:textAllCaps="false"/>
+   <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="自适应完形填空" android:textColor="@color/text_primary" android:textSize="23sp" android:textStyle="bold"/>
+   <Space android:layout_width="68dp" android:layout_height="1dp"/>
+  </LinearLayout>
+  <TextView android:id="@+id/text_cloze_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+  <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="17dp">
+    <TextView android:id="@+id/text_cloze_source" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/blue" android:textSize="12sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/text_cloze_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold" android:lineSpacingExtra="3dp"/>
+    <TextView android:id="@+id/text_cloze_zh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/text_secondary" android:textSize="13sp"/>
+    <EditText android:id="@+id/edit_cloze_answer" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="12dp" android:background="@drawable/bg_search" android:hint="填入缺失的意大利语" android:imeOptions="actionDone" android:paddingHorizontal="12dp" android:singleLine="true" android:textColor="@color/text_primary" android:textColorHint="@color/text_secondary"/>
+    <TextView android:id="@+id/text_cloze_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textSize="13sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+     <com.google.android.material.button.MaterialButton android:id="@+id/button_cloze_check" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:text="检查答案" android:textAllCaps="false"/>
+     <com.google.android.material.button.MaterialButton android:id="@+id/button_cloze_next" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="48dp" android:layout_marginStart="8dp" android:layout_weight="1" android:text="下一题 →" android:textAllCaps="false"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/cloze_answer_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_soft_panel" android:orientation="vertical" android:padding="12dp" android:visibility="gone">
+     <TextView android:id="@+id/text_cloze_explanation" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="13sp" android:lineSpacingExtra="2dp"/>
+     <com.google.android.material.button.MaterialButton android:id="@+id/button_cloze_audio" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="42dp" android:layout_marginTop="4dp" android:text="🔊 听完整句" android:textAllCaps="false"/>
+    </LinearLayout>
+   </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+ </LinearLayout>
+</ScrollView>

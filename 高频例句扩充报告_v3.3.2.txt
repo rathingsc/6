@@ -1,0 +1,60 @@
+终学意语 v3.3.2 高频例句扩充报告
+
+一、本轮目标
+在 v3.3.1“先学后测 + 四模式智能复习”基础上，优先解决高频词缺少自然例句的问题。
+本轮不使用“Oggi ripasso la parola…”等无教学价值模板，也不为了凑满2774条而批量制造生硬病句。
+
+二、例句覆盖结果
+- 词库总量：2774
+- v3.2.2 已审校例句：742组
+- v3.3.2 新增例句：563组
+- 当前总例句：1305组
+- 当前无例句词：1469个
+- ID 1-1000 高频词例句覆盖：1000 / 1000
+
+也就是说，最前面的1000个高频词现在全部具有意大利语例句和准确中文对应。
+
+三、新增例句原则
+1. 目标意大利语词形必须真实出现在例句中，而不是只出现它的原形或另一个变位。
+2. 句子优先短、自然、生活化，适合初学者直接理解和跟读。
+3. 中文按整句含义翻译，不使用“这个项目/这个概念/这个东西”一类占位文本。
+4. 多义词优先示范当前词条中最适合初学者掌握的常用义。
+5. 动词变位尽量通过真实人称句展示，例如 compra、mangia、lavora、prendiamo。
+6. 冠词、所有格、介词合并形式也使用真实句子展示，例如 allo、nella、dalla、dagli。
+7. 对容易发生歧义的词特别避免错误语境，例如 marco 使用动词“标记”义，不再用人名 Marco 充当例句。
+
+四、部分新增例句示例
+- cassa: Dov'è la cassa? = 收银台在哪里？
+- ragno: C'è un ragno sul muro. = 墙上有一只蜘蛛。
+- mangiare: Vorrei mangiare qualcosa. = 我想吃点东西。
+- aeroporto: L'aeroporto è lontano dal centro. = 机场离市中心很远。
+- compra: Lei compra il pane ogni mattina. = 她每天早上买面包。
+- fotografia: Ho scattato una fotografia del Duomo. = 我拍了一张大教堂的照片。
+- marco: Sul quaderno marco le parole nuove con una stella. = 我在笔记本上用星号标记新单词。
+- visto: Devo rinnovare il visto. = 我需要续签签证。
+- università: Mia figlia studia all'università. = 我女儿在大学学习。
+- dentifricio: Ho bisogno di comprare il dentifricio. = 我需要买牙膏。
+
+五、自动质量门禁
+新增：
+- app/src/main/assets/word_example_expansion_v332.json
+- tools/word_examples_v332.tsv
+- tools/apply_word_examples_v332.py
+- tools/word_example_expansion_check.py
+
+Codemagic 会自动检查：
+- 本轮563组例句不能丢失或被旧数据覆盖；
+- 总例句不得低于1305组；
+- ID 1-1000 必须保持1000/1000例句覆盖；
+- 意大利语例句必须含目标词形；
+- 意大利语例句不能混入中文；
+- 中文译文必须存在中文字符；
+- 旧版84组重点例句修正继续锁定；
+- 例句可以安全参与智能背词和句子填空训练。
+
+六、版本
+- versionCode: 56
+- versionName: 3.3.2-native
+- applicationId: com.italiano2774.nativeapp
+- Codemagic永久签名引用: zhongxue_release
+- 继续支持固定签名直接覆盖升级。

@@ -1,0 +1,44 @@
+终学意语 v3.3.6 十篇通关构建修复版 开发与自检报告
+
+版本
+----
+versionCode: 60
+versionName: 3.3.6-native
+applicationId: com.italiano2774.nativeapp
+固定签名引用: zhongxue_release
+
+本次真实构建错误
+--------------
+Codemagic 在 :app:compileReleaseJavaWithJavac 阶段失败：
+CourseHomeFragment.java 的 renderMemoryArticles() 把中文摘要跨源码行直接写进普通 Java 双引号字符串，导致 unclosed string literal，后续中文标点被 Java 编译器连锁识别为 illegal character / not a statement。
+
+修复
+----
+1. 将该摘要的源码换行改为 Java 转义 \n：
+   "...四维掌握 "+mastered+"\n每篇200个目标词..."
+2. 保留十篇通关首页摘要原本的两行显示效果。
+3. 新增 tools/java_source_syntax_check.py。
+4. Codemagic 在 Preflight 后、其他静态检查前执行 Java source literal checks。
+5. 检查全部 Java 文件的普通字符串、字符字面量、块注释是否存在非法原始换行或未闭合情况。
+6. Preflight、Regression、Strict Release Gate 均要求新的 Java 源码检查步骤存在，避免以后上传混合旧文件时漏掉。
+
+自检结果
+--------
+- Java source literal check: 158 Java files OK
+- Preflight: OK
+- Regression: OK
+- Translation quality: OK
+- Full lexical semantic checks: OK
+- 2774-word alignment/retranslation: OK
+- Word example quality/expansion: OK
+- 98 guided units: OK
+- Mixed-skill path: OK
+- 10 articles / 50 sections / 2000 target words: OK
+- Course/phrase/English bridge/memory aid/smart mastery checks: OK
+- Teach-before-test/person semantics/exercise quality: OK
+- Permanent signing config: OK
+- Strict Release Gate: OK
+
+说明
+----
+当前环境没有完整 Android SDK，无法在本地执行真正的 :app:assembleRelease；最终 APK 仍由 Codemagic 构建。但这次导致 Codemagic 失败的 Java 源码字符串语法错误已经直接修复，并新增了专门的构建前门禁。

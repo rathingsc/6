@@ -1,0 +1,39 @@
+终学意语 v3.1.7 英语助记与假朋友报告
+
+一、功能范围
+- 高置信度意英近似词：195 个
+- 英意假朋友：16 个
+- 数据源：app/src/main/assets/english_bridges.json
+- 显示位置：智能背词/学习卡显示答案后；词库卡片展开详细信息时
+- 首页智能背词卡会提示“英语近似词自动助记 · 假朋友自动提醒”
+
+二、示例
+🇬🇧 英语助记
+importante ↔ important
+informazione ↔ information
+organizzazione ↔ organization
+università ↔ university
+fotografia ↔ photography
+problema ↔ problem
+
+⚠️ 英意假朋友
+camera ≠ camera：意大利语是房间、卧室；英语是相机
+libreria ≠ library：意大利语是书店、书柜；英语是图书馆
+fattoria ≠ factory：意大利语是农场；英语是工厂
+sale ≠ sale：意大利语是盐；英语是销售、促销
+simpatico ≠ sympathetic：意大利语是讨人喜欢的；英语是有同情心的
+tempo ≠ tempo：意大利语常指时间/天气；英语主要指音乐速度/节奏
+
+三、本轮同时修正
+camera：房间；卧室（删除错误“相机”）
+familiare：熟悉的；家庭的；家属（替换错误“著名的；汽车”）
+word_families.json 已同步。
+
+四、质量保护
+新增 tools/english_bridge_quality_check.py：
+- 检查近似词/假朋友数量和唯一性
+- 检查每个意大利语词确实存在于 2774 词或其 lemma
+- 锁定典型近似词与典型假朋友
+- 锁定 camera、familiare 本轮词义修正
+- 检查智能背词与词库详情 UI 均已接入
+- Codemagic 构建前自动执行

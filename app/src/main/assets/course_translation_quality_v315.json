@@ -1,0 +1,30 @@
+{
+  "version": "3.1.5",
+  "purpose": "Prevent course vocabulary from collapsing a conjugated verb meaning into a bare Chinese person pronoun.",
+  "scannedWords": 2774,
+  "fixed": [
+    {
+      "id": 887,
+      "word": "marco",
+      "oldChinese": "我",
+      "newChinese": "我标记；我做记号",
+      "oldPartOfSpeech": "other",
+      "newPartOfSpeech": "verb",
+      "lemma": "marcare",
+      "formInfo": "marcare · 直陈式现在时 · io 第一人称单数",
+      "ipa": "/ˈmarko/"
+    }
+  ],
+  "remainingFalsePronounOnlyMappings": [],
+  "legitimatePronounOnlyEntries": [
+    26,
+    37,
+    51,
+    56,
+    275,
+    288,
+    353,
+    1216,
+    1448
+  ]
+}

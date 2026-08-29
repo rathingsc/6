@@ -1,0 +1,47 @@
+终学意语 v4.6.0 Shadowing 三遍跟读训练室版 开发与自检报告
+
+一、本版目标
+把旧 Shadowing 从“播放 + 一次语音匹配”升级为真正的三遍递进口语训练，不新增重复入口。
+
+二、训练流程
+1. 第1遍 看双语跟读：标准音 + 意大利语 + 中文，评分线60%。
+2. 第2遍 只看中文主动说：隐藏意大利语，评分线72%。
+3. 第3遍 裸说迁移：双语全部隐藏，评分线82%，这一遍计入正式 Shadowing 结果。
+
+三、新增能力
+- 每日稳定抽取5句场景表达，可完成后再练下一组5句。
+- 标准句 0.70x / 0.85x / 1.00x 三档速度。
+- MediaRecorder 录下自己，MediaPlayer 回放自己。
+- SpeechRecognizer it-IT 本地系统识别，从多个候选中取最佳匹配。
+- ErrorCauseAnalyzer 逐词比较：漏词、词序、词形、冠词、拼写等反馈。
+- 第3遍写入 Sentence FSRS speaking 维度。
+- 最多3个句中词同步更新单词 speaking 维度。
+- 裸说失败进入个人错句本 / 错误证据队列。
+- 无语音识别服务或无麦克风权限时提供自评兜底，不阻塞学习。
+
+四、调度升级
+- 口语三日突破：第1天每日5句 -> 第2天 Shadowing三遍 -> 第3天自由会话。
+- 周测口语弱项：每日5句与 Shadowing 轮换补弱。
+- 每日智能计划的 Shadowing 更新为7分钟三遍训练室，并继续受总学习时长限制。
+
+五、版本与数据
+- versionCode 76
+- versionName 4.6.0-native
+- applicationId com.italiano2774.nativeapp
+- 固定签名 zhongxue_release
+- JSON backup version 27（本版无新增持久字段，无需升级）
+- Room database version 6（无新表/字段，无需迁移）
+
+六、自检结果
+- Java source literal check：OK，177 Java files
+- Shadowing v4.6 专项门禁：OK
+- Preflight：OK，2774 words / 2774 audio / 90 XML / 98 units
+- Regression：OK
+- Strict Release Gate：OK，177 Java / 90 XML / 1255 resource refs / 42 Codemagic shell blocks
+- 2774词翻译/语义/全量重译：OK
+- 1718例句：OK
+- 98混合课程单元：OK
+- 430短语/430核心句：OK
+- 10篇 / 2000目标词 / 269逐句文章：OK
+- 听说、三档会话、27微语法、每日计划、七日预测、每日5句、能力护照、三日突破、个人错句本、每周实战考试：OK
+- 固定签名配置：OK

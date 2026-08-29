@@ -1,0 +1,1936 @@
+{
+  "version": "3.1.8",
+  "description": "Fixed collocations plus exact-token common chunks sourced from frequent_phrases.json.",
+  "count": 241,
+  "fixedCount": 11,
+  "entries": [
+    {
+      "italian": "accordo",
+      "kind": "fixed",
+      "phrase": "Essere d’accordo con...",
+      "chinese": "同意……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0370"
+    },
+    {
+      "italian": "acqua",
+      "kind": "chunk",
+      "phrase": "Non c’è acqua calda.",
+      "chinese": "没有热水。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0340"
+    },
+    {
+      "italian": "adesso",
+      "kind": "chunk",
+      "phrase": "Che cosa devo fare adesso?",
+      "chinese": "我现在应该做什么？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0105"
+    },
+    {
+      "italian": "affitto",
+      "kind": "chunk",
+      "phrase": "Cerco un appartamento in affitto.",
+      "chinese": "我在找出租房。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0238"
+    },
+    {
+      "italian": "aiutare",
+      "kind": "chunk",
+      "phrase": "Mi può aiutare, per favore?",
+      "chinese": "您可以帮我一下吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0101"
+    },
+    {
+      "italian": "altro",
+      "kind": "chunk",
+      "phrase": "Altro?",
+      "chinese": "还要别的吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0389"
+    },
+    {
+      "italian": "anche",
+      "kind": "chunk",
+      "phrase": "Serve anche l'originale.",
+      "chinese": "还需要原件。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0414"
+    },
+    {
+      "italian": "andare",
+      "kind": "chunk",
+      "phrase": "Dove devo andare?",
+      "chinese": "我应该去哪里？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0106"
+    },
+    {
+      "italian": "appartamento",
+      "kind": "chunk",
+      "phrase": "Sto cercando un appartamento.",
+      "chinese": "我在找公寓。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0333"
+    },
+    {
+      "italian": "appuntamento",
+      "kind": "chunk",
+      "phrase": "Ho un appuntamento.",
+      "chinese": "我有预约。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0199"
+    },
+    {
+      "italian": "aprire",
+      "kind": "chunk",
+      "phrase": "Vorrei aprire un conto corrente.",
+      "chinese": "我想开一个银行账户。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0071"
+    },
+    {
+      "italian": "arrivare",
+      "kind": "chunk",
+      "phrase": "Come posso arrivare in centro?",
+      "chinese": "我怎么去市中心？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0032"
+    },
+    {
+      "italian": "arrivo",
+      "kind": "chunk",
+      "phrase": "Arrivo tra dieci minuti.",
+      "chinese": "我十分钟后到。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0198"
+    },
+    {
+      "italian": "articolo",
+      "kind": "chunk",
+      "phrase": "Vorrei cambiare questo articolo.",
+      "chinese": "我想换这个商品。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0314"
+    },
+    {
+      "italian": "autobus",
+      "kind": "chunk",
+      "phrase": "Quale autobus devo prendere?",
+      "chinese": "我应该坐哪一辆公交车？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0027"
+    },
+    {
+      "italian": "avere",
+      "kind": "fixed",
+      "phrase": "Avere paura di...",
+      "chinese": "害怕……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0369"
+    },
+    {
+      "italian": "banca",
+      "kind": "chunk",
+      "phrase": "È vicino alla banca.",
+      "chinese": "在银行附近。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0037"
+    },
+    {
+      "italian": "basta",
+      "kind": "chunk",
+      "phrase": "Basta così, grazie.",
+      "chinese": "这些就够了，谢谢。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0223"
+    },
+    {
+      "italian": "benissimo",
+      "kind": "chunk",
+      "phrase": "Va benissimo.",
+      "chinese": "非常好；完全可以。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0282"
+    },
+    {
+      "italian": "biglietto",
+      "kind": "chunk",
+      "phrase": "Dove posso comprare il biglietto?",
+      "chinese": "我在哪里可以买票？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0139"
+    },
+    {
+      "italian": "bisogno",
+      "kind": "fixed",
+      "phrase": "Avere bisogno di...",
+      "chinese": "需要……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0367"
+    },
+    {
+      "italian": "bottiglia",
+      "kind": "chunk",
+      "phrase": "Posso avere una bottiglia d'acqua naturale?",
+      "chinese": "可以给我一瓶无气水吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0155"
+    },
+    {
+      "italian": "buongiorno",
+      "kind": "chunk",
+      "phrase": "Pronto, buongiorno.",
+      "chinese": "喂，您好。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0081"
+    },
+    {
+      "italian": "busta",
+      "kind": "chunk",
+      "phrase": "Mi serve una busta.",
+      "chinese": "我需要一个袋子。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0310"
+    },
+    {
+      "italian": "caffè",
+      "kind": "chunk",
+      "phrase": "Un caffè, per favore.",
+      "chinese": "请来一杯咖啡。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0001"
+    },
+    {
+      "italian": "cambiare",
+      "kind": "chunk",
+      "phrase": "Devo cambiare treno?",
+      "chinese": "我需要换乘火车吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0025"
+    },
+    {
+      "italian": "capito",
+      "kind": "chunk",
+      "phrase": "Ho capito.",
+      "chinese": "我明白了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0294"
+    },
+    {
+      "italian": "cappuccino",
+      "kind": "chunk",
+      "phrase": "Vorrei un cappuccino e un cornetto.",
+      "chinese": "我想要一杯卡布奇诺和一个羊角面包。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0002"
+    },
+    {
+      "italian": "carne",
+      "kind": "chunk",
+      "phrase": "Non mangio carne.",
+      "chinese": "我不吃肉。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0220"
+    },
+    {
+      "italian": "caro",
+      "kind": "chunk",
+      "phrase": "È troppo caro.",
+      "chinese": "太贵了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0226"
+    },
+    {
+      "italian": "carta",
+      "kind": "chunk",
+      "phrase": "Ho la carta fedeltà.",
+      "chinese": "我有会员卡。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0017"
+    },
+    {
+      "italian": "casa",
+      "kind": "chunk",
+      "phrase": "Quando posso vedere la casa?",
+      "chinese": "我什么时候可以看房？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0337"
+    },
+    {
+      "italian": "caso",
+      "kind": "chunk",
+      "phrase": "In questo caso...",
+      "chinese": "这种情况下……",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0186"
+    },
+    {
+      "italian": "casse",
+      "kind": "chunk",
+      "phrase": "Dove sono le casse?",
+      "chinese": "收银台在哪里？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0312"
+    },
+    {
+      "italian": "centro",
+      "kind": "chunk",
+      "phrase": "Questo autobus va in centro?",
+      "chinese": "这辆公交车去市中心吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0028"
+    },
+    {
+      "italian": "cercando",
+      "kind": "chunk",
+      "phrase": "Sto cercando lavoro.",
+      "chinese": "我正在找工作。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0091"
+    },
+    {
+      "italian": "cercare",
+      "kind": "fixed",
+      "phrase": "Cercare di...",
+      "chinese": "努力尝试……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0380"
+    },
+    {
+      "italian": "cerco",
+      "kind": "chunk",
+      "phrase": "Cerco questo prodotto.",
+      "chinese": "我在找这个商品。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0233"
+    },
+    {
+      "italian": "certo",
+      "kind": "chunk",
+      "phrase": "Certo. Altro?",
+      "chinese": "好的。还要别的吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0388"
+    },
+    {
+      "italian": "chiamare",
+      "kind": "chunk",
+      "phrase": "Può chiamare qualcuno che parla cinese?",
+      "chinese": "可以找一位会中文的人吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0123"
+    },
+    {
+      "italian": "chiedere",
+      "kind": "chunk",
+      "phrase": "Vorrei chiedere un'informazione.",
+      "chinese": "我想咨询一个信息。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0051"
+    },
+    {
+      "italian": "chiesa",
+      "kind": "chunk",
+      "phrase": "È dietro la chiesa.",
+      "chinese": "在教堂后面。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0039"
+    },
+    {
+      "italian": "chilo",
+      "kind": "chunk",
+      "phrase": "Vorrei mezzo chilo di pomodori.",
+      "chinese": "我想要半公斤西红柿。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0015"
+    },
+    {
+      "italian": "cinese",
+      "kind": "chunk",
+      "phrase": "Può chiamare qualcuno che parla cinese?",
+      "chinese": "可以找一位会中文的人吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0123"
+    },
+    {
+      "italian": "cinquanta",
+      "kind": "chunk",
+      "phrase": "Sono quattro euro e cinquanta.",
+      "chinese": "一共4欧元50分。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0390"
+    },
+    {
+      "italian": "circa",
+      "kind": "chunk",
+      "phrase": "Sono circa dieci minuti a piedi.",
+      "chinese": "步行大约10分钟。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0403"
+    },
+    {
+      "italian": "cominciare",
+      "kind": "fixed",
+      "phrase": "Cominciare a...",
+      "chinese": "开始……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0376"
+    },
+    {
+      "italian": "comprare",
+      "kind": "chunk",
+      "phrase": "Dove posso comprare il biglietto?",
+      "chinese": "我在哪里可以买票？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0139"
+    },
+    {
+      "italian": "consiglio",
+      "kind": "chunk",
+      "phrase": "Le consiglio di parlare con un medico.",
+      "chinese": "建议您咨询医生。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0418"
+    },
+    {
+      "italian": "contanti",
+      "kind": "chunk",
+      "phrase": "Vorrei pagare in contanti.",
+      "chinese": "我想用现金付款。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0079"
+    },
+    {
+      "italian": "conto",
+      "kind": "chunk",
+      "phrase": "Il conto, per favore.",
+      "chinese": "请买单。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0009"
+    },
+    {
+      "italian": "contratto",
+      "kind": "chunk",
+      "phrase": "Il contratto è registrato?",
+      "chinese": "合同登记过了吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0046"
+    },
+    {
+      "italian": "controllare",
+      "kind": "chunk",
+      "phrase": "Può venire a controllare?",
+      "chinese": "您能来检查一下吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0246"
+    },
+    {
+      "italian": "cornetto",
+      "kind": "chunk",
+      "phrase": "Vorrei un cappuccino e un cornetto.",
+      "chinese": "我想要一杯卡布奇诺和一个羊角面包。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0002"
+    },
+    {
+      "italian": "corridoio",
+      "kind": "chunk",
+      "phrase": "È nel corridoio tre.",
+      "chinese": "在3号通道。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0393"
+    },
+    {
+      "italian": "corsa",
+      "kind": "chunk",
+      "phrase": "A che ora è l'ultima corsa di oggi?",
+      "chinese": "今天最后一班车是几点？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0140"
+    },
+    {
+      "italian": "costa",
+      "kind": "chunk",
+      "phrase": "Quanto costa?",
+      "chinese": "多少钱？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0225"
+    },
+    {
+      "italian": "così",
+      "kind": "chunk",
+      "phrase": "Basta così, grazie.",
+      "chinese": "这些就够了，谢谢。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0223"
+    },
+    {
+      "italian": "curriculum",
+      "kind": "chunk",
+      "phrase": "Le mando il mio curriculum.",
+      "chinese": "我把我的简历发给您。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0093"
+    },
+    {
+      "italian": "dare",
+      "kind": "chunk",
+      "phrase": "Mi può dare una ricevuta?",
+      "chinese": "您可以给我一张收据吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0080"
+    },
+    {
+      "italian": "data",
+      "kind": "chunk",
+      "phrase": "Può confermarmi la data e l'ora?",
+      "chinese": "您可以确认一下日期和时间吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0160"
+    },
+    {
+      "italian": "davanti",
+      "kind": "chunk",
+      "phrase": "È davanti alla farmacia.",
+      "chinese": "在药店前面。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0038"
+    },
+    {
+      "italian": "decidere",
+      "kind": "fixed",
+      "phrase": "Decidere di...",
+      "chinese": "决定……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0379"
+    },
+    {
+      "italian": "destra",
+      "kind": "chunk",
+      "phrase": "Devo girare a destra o a sinistra?",
+      "chinese": "我应该右转还是左转？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0035"
+    },
+    {
+      "italian": "dice",
+      "kind": "chunk",
+      "phrase": "Come si dice in italiano?",
+      "chinese": "用意大利语怎么说？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0178"
+    },
+    {
+      "italian": "dieci",
+      "kind": "chunk",
+      "phrase": "Arrivo tra dieci minuti.",
+      "chinese": "我十分钟后到。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0198"
+    },
+    {
+      "italian": "dietro",
+      "kind": "chunk",
+      "phrase": "È dietro la chiesa.",
+      "chinese": "在教堂后面。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0039"
+    },
+    {
+      "italian": "difficoltà",
+      "kind": "chunk",
+      "phrase": "Ho difficoltà a respirare.",
+      "chinese": "我呼吸困难。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0111"
+    },
+    {
+      "italian": "disponibile",
+      "kind": "chunk",
+      "phrase": "Quando è disponibile?",
+      "chinese": "什么时候可以入住？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0241"
+    },
+    {
+      "italian": "documento",
+      "kind": "chunk",
+      "phrase": "Manca un documento?",
+      "chinese": "缺少文件吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0348"
+    },
+    {
+      "italian": "dolore",
+      "kind": "chunk",
+      "phrase": "Ho un forte dolore qui.",
+      "chinese": "我这里很痛。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0110"
+    },
+    {
+      "italian": "domanda",
+      "kind": "chunk",
+      "phrase": "Ho già presentato la domanda.",
+      "chinese": "我已经提交申请了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0124"
+    },
+    {
+      "italian": "dov'è",
+      "kind": "chunk",
+      "phrase": "Dov’è la fermata?",
+      "chinese": "车站在哪里？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0206"
+    },
+    {
+      "italian": "dritto",
+      "kind": "chunk",
+      "phrase": "Vada sempre dritto.",
+      "chinese": "请一直直走。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0036"
+    },
+    {
+      "italian": "email",
+      "kind": "chunk",
+      "phrase": "Posso inviarlo per email?",
+      "chinese": "可以通过电子邮件发送吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0260"
+    },
+    {
+      "italian": "esempio",
+      "kind": "chunk",
+      "phrase": "Per esempio...",
+      "chinese": "比如……",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0184"
+    },
+    {
+      "italian": "esperienza",
+      "kind": "chunk",
+      "phrase": "Ho esperienza in questo settore.",
+      "chinese": "我在这个领域有经验。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0094"
+    },
+    {
+      "italian": "euro",
+      "kind": "chunk",
+      "phrase": "Sono quattro euro e cinquanta.",
+      "chinese": "一共4欧元50分。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0390"
+    },
+    {
+      "italian": "faccia",
+      "kind": "chunk",
+      "phrase": "Mi faccia sapere.",
+      "chinese": "请告诉我一声。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0288"
+    },
+    {
+      "italian": "fare",
+      "kind": "chunk",
+      "phrase": "Vorrei fare la residenza.",
+      "chinese": "我想办理居住登记。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0057"
+    },
+    {
+      "italian": "farmacia",
+      "kind": "chunk",
+      "phrase": "È davanti alla farmacia.",
+      "chinese": "在药店前面。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0038"
+    },
+    {
+      "italian": "favore",
+      "kind": "chunk",
+      "phrase": "Un caffè, per favore.",
+      "chinese": "请来一杯咖啡。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0001"
+    },
+    {
+      "italian": "febbre",
+      "kind": "chunk",
+      "phrase": "Ho la febbre.",
+      "chinese": "我发烧。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0247"
+    },
+    {
+      "italian": "fermata",
+      "kind": "chunk",
+      "phrase": "Dov’è la fermata?",
+      "chinese": "车站在哪里？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0206"
+    },
+    {
+      "italian": "fine",
+      "kind": "chunk",
+      "phrase": "Sono disponibile nei fine settimana.",
+      "chinese": "我周末有空。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0354"
+    },
+    {
+      "italian": "formaggio",
+      "kind": "chunk",
+      "phrase": "Senza formaggio, per favore.",
+      "chinese": "请不要放奶酪。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0006"
+    },
+    {
+      "italian": "forte",
+      "kind": "chunk",
+      "phrase": "Ho un forte dolore qui.",
+      "chinese": "我这里很痛。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0110"
+    },
+    {
+      "italian": "foto",
+      "kind": "chunk",
+      "phrase": "Le mando una foto.",
+      "chinese": "我给您发一张照片。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0275"
+    },
+    {
+      "italian": "frutta",
+      "kind": "chunk",
+      "phrase": "Sono allergico alla frutta a guscio.",
+      "chinese": "我对坚果过敏。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0007"
+    },
+    {
+      "italian": "generale",
+      "kind": "chunk",
+      "phrase": "In generale...",
+      "chinese": "一般来说……",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0185"
+    },
+    {
+      "italian": "giorni",
+      "kind": "chunk",
+      "phrase": "Da due giorni.",
+      "chinese": "两天了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0250"
+    },
+    {
+      "italian": "giorno",
+      "kind": "chunk",
+      "phrase": "Che giorno?",
+      "chinese": "哪一天？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0296"
+    },
+    {
+      "italian": "girare",
+      "kind": "chunk",
+      "phrase": "Devo girare a destra o a sinistra?",
+      "chinese": "我应该右转还是左转？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0035"
+    },
+    {
+      "italian": "glielo",
+      "kind": "chunk",
+      "phrase": "Un attimo, glielo passo.",
+      "chinese": "稍等，我让他/她接电话。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0361"
+    },
+    {
+      "italian": "gola",
+      "kind": "chunk",
+      "phrase": "Ho mal di gola.",
+      "chinese": "我喉咙痛。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0344"
+    },
+    {
+      "italian": "grande",
+      "kind": "chunk",
+      "phrase": "Avete una taglia più grande?",
+      "chinese": "有更大一码吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0227"
+    },
+    {
+      "italian": "grazie",
+      "kind": "chunk",
+      "phrase": "Grazie mille.",
+      "chinese": "非常感谢。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0171"
+    },
+    {
+      "italian": "guardando",
+      "kind": "chunk",
+      "phrase": "Sto solo guardando.",
+      "chinese": "我只是看看。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0305"
+    },
+    {
+      "italian": "indicare",
+      "kind": "chunk",
+      "phrase": "Mi può indicare la strada?",
+      "chinese": "您能给我指路吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0213"
+    },
+    {
+      "italian": "iniziare",
+      "kind": "chunk",
+      "phrase": "Quando posso iniziare?",
+      "chinese": "我什么时候可以开始工作？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0097"
+    },
+    {
+      "italian": "interessato",
+      "kind": "chunk",
+      "phrase": "Buongiorno, è interessato all'appartamento?",
+      "chinese": "您好，您对这套公寓感兴趣吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0405"
+    },
+    {
+      "italian": "internet",
+      "kind": "chunk",
+      "phrase": "C’è internet?",
+      "chinese": "有网络吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0243"
+    },
+    {
+      "italian": "inviare",
+      "kind": "chunk",
+      "phrase": "Posso inviare il documento via e-mail?",
+      "chinese": "我可以通过电子邮件提交文件吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0132"
+    },
+    {
+      "italian": "italiano",
+      "kind": "chunk",
+      "phrase": "Parlo poco italiano.",
+      "chinese": "我意大利语说得不多。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0104"
+    },
+    {
+      "italian": "lasciare",
+      "kind": "chunk",
+      "phrase": "Mi può lasciare un numero da richiamare?",
+      "chinese": "可以留一个回拨号码吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0164"
+    },
+    {
+      "italian": "latte",
+      "kind": "chunk",
+      "phrase": "Senza latte, per favore.",
+      "chinese": "请不要牛奶。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0218"
+    },
+    {
+      "italian": "lavatrice",
+      "kind": "chunk",
+      "phrase": "La lavatrice non funziona.",
+      "chinese": "洗衣机坏了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0244"
+    },
+    {
+      "italian": "lavorare",
+      "kind": "chunk",
+      "phrase": "Perché vuole lavorare con noi?",
+      "chinese": "为什么想来我们这里工作？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0428"
+    },
+    {
+      "italian": "lavoro",
+      "kind": "chunk",
+      "phrase": "Sto cercando lavoro.",
+      "chinese": "我正在找工作。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0091"
+    },
+    {
+      "italian": "lentamente",
+      "kind": "chunk",
+      "phrase": "Può parlare più lentamente?",
+      "chinese": "您能说慢一点吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0084"
+    },
+    {
+      "italian": "libera",
+      "kind": "chunk",
+      "phrase": "Sono libera nel pomeriggio.",
+      "chinese": "我下午有空。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0304"
+    },
+    {
+      "italian": "libero",
+      "kind": "chunk",
+      "phrase": "Sono libero nel pomeriggio.",
+      "chinese": "我下午有空。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0203"
+    },
+    {
+      "italian": "lontano",
+      "kind": "chunk",
+      "phrase": "È lontano da qui?",
+      "chinese": "离这里远吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0033"
+    },
+    {
+      "italian": "luce",
+      "kind": "chunk",
+      "phrase": "La luce non funziona.",
+      "chinese": "灯不亮。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0341"
+    },
+    {
+      "italian": "mandare",
+      "kind": "chunk",
+      "phrase": "Mi può mandare l’indirizzo?",
+      "chinese": "您能把地址发给我吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0366"
+    },
+    {
+      "italian": "mangio",
+      "kind": "chunk",
+      "phrase": "Non mangio carne.",
+      "chinese": "我不吃肉。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0220"
+    },
+    {
+      "italian": "mappa",
+      "kind": "chunk",
+      "phrase": "Può mostrarmelo sulla mappa?",
+      "chinese": "您能在地图上给我指一下吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0040"
+    },
+    {
+      "italian": "martedì",
+      "kind": "chunk",
+      "phrase": "Perfetto, a martedì.",
+      "chinese": "好的，周二见。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0426"
+    },
+    {
+      "italian": "mattina",
+      "kind": "chunk",
+      "phrase": "È possibile venerdì mattina?",
+      "chinese": "周五上午可以吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0087"
+    },
+    {
+      "italian": "medicina",
+      "kind": "chunk",
+      "phrase": "Da quanto tempo devo prendere questa medicina?",
+      "chinese": "这个药要吃多久？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0114"
+    },
+    {
+      "italian": "medico",
+      "kind": "chunk",
+      "phrase": "Ho bisogno di un medico.",
+      "chinese": "我需要医生。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0108"
+    },
+    {
+      "italian": "menù",
+      "kind": "chunk",
+      "phrase": "Posso vedere il menù?",
+      "chinese": "我可以看菜单吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0216"
+    },
+    {
+      "italian": "mese",
+      "kind": "chunk",
+      "phrase": "Quanto costa l'affitto al mese?",
+      "chinese": "每个月房租多少钱？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0042"
+    },
+    {
+      "italian": "messaggio",
+      "kind": "chunk",
+      "phrase": "Mi manda un messaggio?",
+      "chinese": "您可以给我发消息吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0273"
+    },
+    {
+      "italian": "mezzo",
+      "kind": "chunk",
+      "phrase": "Vorrei mezzo chilo di pomodori.",
+      "chinese": "我想要半公斤西红柿。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0015"
+    },
+    {
+      "italian": "Milano",
+      "kind": "chunk",
+      "phrase": "Questo treno va a Milano?",
+      "chinese": "这趟火车去米兰吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0209"
+    },
+    {
+      "italian": "mille",
+      "kind": "chunk",
+      "phrase": "Grazie mille.",
+      "chinese": "非常感谢。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0171"
+    },
+    {
+      "italian": "momento",
+      "kind": "chunk",
+      "phrase": "Un momento, per favore.",
+      "chinese": "请稍等。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0180"
+    },
+    {
+      "italian": "naturale",
+      "kind": "chunk",
+      "phrase": "Posso avere una bottiglia d'acqua naturale?",
+      "chinese": "可以给我一瓶无气水吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0155"
+    },
+    {
+      "italian": "nessun",
+      "kind": "chunk",
+      "phrase": "Nessun problema.",
+      "chinese": "没问题。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0169"
+    },
+    {
+      "italian": "niente",
+      "kind": "chunk",
+      "phrase": "Di niente.",
+      "chinese": "不客气。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0404"
+    },
+    {
+      "italian": "nove",
+      "kind": "chunk",
+      "phrase": "Alle nove va bene?",
+      "chinese": "九点可以吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0425"
+    },
+    {
+      "italian": "numero",
+      "kind": "chunk",
+      "phrase": "Dove devo prendere il numero?",
+      "chinese": "我在哪里取号？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0131"
+    },
+    {
+      "italian": "nuovo",
+      "kind": "chunk",
+      "phrase": "Può spiegarmelo di nuovo?",
+      "chinese": "您能再给我解释一遍吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0267"
+    },
+    {
+      "italian": "offerta",
+      "kind": "chunk",
+      "phrase": "È in offerta?",
+      "chinese": "这个在打折吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0235"
+    },
+    {
+      "italian": "ordinare",
+      "kind": "chunk",
+      "phrase": "Vorrei ordinare.",
+      "chinese": "我想点餐。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0221"
+    },
+    {
+      "italian": "pagamento",
+      "kind": "chunk",
+      "phrase": "Questo pagamento è stato rifiutato.",
+      "chinese": "这笔付款被拒绝了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0148"
+    },
+    {
+      "italian": "pagare",
+      "kind": "chunk",
+      "phrase": "Vorrei pagare.",
+      "chinese": "我想结账。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0324"
+    },
+    {
+      "italian": "parla",
+      "kind": "chunk",
+      "phrase": "Chi parla?",
+      "chinese": "请问您是哪位？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0083"
+    },
+    {
+      "italian": "parlare",
+      "kind": "chunk",
+      "phrase": "Posso parlare con...?",
+      "chinese": "我可以和……通话吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0360"
+    },
+    {
+      "italian": "parli",
+      "kind": "chunk",
+      "phrase": "Mi parli un po' di lei.",
+      "chinese": "请简单介绍一下自己。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0427"
+    },
+    {
+      "italian": "parlo",
+      "kind": "chunk",
+      "phrase": "Parlo poco italiano.",
+      "chinese": "我意大利语说得不多。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0104"
+    },
+    {
+      "italian": "parte",
+      "kind": "chunk",
+      "phrase": "Da quale binario parte?",
+      "chinese": "从哪个站台出发？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0023"
+    },
+    {
+      "italian": "passo",
+      "kind": "chunk",
+      "phrase": "Un attimo, glielo passo.",
+      "chinese": "稍等，我让他/她接电话。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0361"
+    },
+    {
+      "italian": "pasta",
+      "kind": "chunk",
+      "phrase": "Per me la pasta al pomodoro.",
+      "chinese": "我要番茄意面。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0005"
+    },
+    {
+      "italian": "paura",
+      "kind": "fixed",
+      "phrase": "Avere paura di...",
+      "chinese": "害怕……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0369"
+    },
+    {
+      "italian": "pensare",
+      "kind": "fixed",
+      "phrase": "Pensare di...",
+      "chinese": "打算；认为……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0378"
+    },
+    {
+      "italian": "perché",
+      "kind": "chunk",
+      "phrase": "Perché vuole lavorare con noi?",
+      "chinese": "为什么想来我们这里工作？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0428"
+    },
+    {
+      "italian": "perdita",
+      "kind": "chunk",
+      "phrase": "C’è una perdita d’acqua.",
+      "chinese": "有漏水。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0245"
+    },
+    {
+      "italian": "perfetto",
+      "kind": "chunk",
+      "phrase": "Perfetto, a martedì.",
+      "chinese": "好的，周二见。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0426"
+    },
+    {
+      "italian": "persona",
+      "kind": "chunk",
+      "phrase": "Questa persona mi sta seguendo.",
+      "chinese": "这个人在跟着我。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0121"
+    },
+    {
+      "italian": "piano",
+      "kind": "chunk",
+      "phrase": "Può parlare più piano?",
+      "chinese": "您能说慢一点吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0293"
+    },
+    {
+      "italian": "piatto",
+      "kind": "chunk",
+      "phrase": "Questo piatto contiene latte o uova?",
+      "chinese": "这道菜含牛奶或鸡蛋吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0153"
+    },
+    {
+      "italian": "piccola",
+      "kind": "chunk",
+      "phrase": "C'è una confezione più piccola?",
+      "chinese": "有更小包装的吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0013"
+    },
+    {
+      "italian": "pieno",
+      "kind": "chunk",
+      "phrase": "Il contratto è a tempo pieno?",
+      "chinese": "是全职合同吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0357"
+    },
+    {
+      "italian": "polizia",
+      "kind": "chunk",
+      "phrase": "Ho bisogno della polizia.",
+      "chinese": "我需要警察。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0116"
+    },
+    {
+      "italian": "pomeriggio",
+      "kind": "chunk",
+      "phrase": "Sono libero nel pomeriggio.",
+      "chinese": "我下午有空。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0203"
+    },
+    {
+      "italian": "pomodoro",
+      "kind": "chunk",
+      "phrase": "Per me la pasta al pomodoro.",
+      "chinese": "我要番茄意面。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0005"
+    },
+    {
+      "italian": "portafoglio",
+      "kind": "chunk",
+      "phrase": "Mi hanno rubato il portafoglio.",
+      "chinese": "我的钱包被偷了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0117"
+    },
+    {
+      "italian": "portare",
+      "kind": "chunk",
+      "phrase": "Devo portare l’originale?",
+      "chinese": "我需要带原件吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0347"
+    },
+    {
+      "italian": "posizione",
+      "kind": "chunk",
+      "phrase": "Vorrei candidarmi per questa posizione.",
+      "chinese": "我想申请这个职位。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0092"
+    },
+    {
+      "italian": "possibile",
+      "kind": "chunk",
+      "phrase": "È possibile venerdì mattina?",
+      "chinese": "周五上午可以吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0087"
+    },
+    {
+      "italian": "pratica",
+      "kind": "chunk",
+      "phrase": "Può scrivermi il numero della pratica?",
+      "chinese": "您能把手续编号写给我吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0129"
+    },
+    {
+      "italian": "prego",
+      "kind": "chunk",
+      "phrase": "Prego, si figuri.",
+      "chinese": "不客气。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0172"
+    },
+    {
+      "italian": "prendere",
+      "kind": "chunk",
+      "phrase": "Quale autobus devo prendere?",
+      "chinese": "我应该坐哪一辆公交车？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0027"
+    },
+    {
+      "italian": "prendo",
+      "kind": "chunk",
+      "phrase": "Lo prendo.",
+      "chinese": "我买这个。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0231"
+    },
+    {
+      "italian": "prenotare",
+      "kind": "chunk",
+      "phrase": "Vorrei prenotare una visita.",
+      "chinese": "我想预约一次看诊。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0066"
+    },
+    {
+      "italian": "prenotazione",
+      "kind": "chunk",
+      "phrase": "Abbiamo una prenotazione.",
+      "chinese": "我们有预订。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0315"
+    },
+    {
+      "italian": "presto",
+      "kind": "chunk",
+      "phrase": "A presto.",
+      "chinese": "回头见。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0196"
+    },
+    {
+      "italian": "primo",
+      "kind": "chunk",
+      "phrase": "Qual è il primo orario disponibile?",
+      "chinese": "最早什么时候有空？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0158"
+    },
+    {
+      "italian": "problema",
+      "kind": "chunk",
+      "phrase": "Nessun problema.",
+      "chinese": "没问题。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0169"
+    },
+    {
+      "italian": "prodotto",
+      "kind": "chunk",
+      "phrase": "Cerco questo prodotto.",
+      "chinese": "我在找这个商品。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0233"
+    },
+    {
+      "italian": "pronto",
+      "kind": "fixed",
+      "phrase": "Essere pronto a...",
+      "chinese": "准备好……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0372"
+    },
+    {
+      "italian": "prossimo",
+      "kind": "chunk",
+      "phrase": "Qual è il prossimo treno?",
+      "chinese": "下一班火车是哪一班？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0325"
+    },
+    {
+      "italian": "provare",
+      "kind": "fixed",
+      "phrase": "Provare a...",
+      "chinese": "尝试……",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0374"
+    },
+    {
+      "italian": "punto",
+      "kind": "chunk",
+      "phrase": "Vorrei sapere a che punto è la pratica.",
+      "chinese": "我想知道手续办理到哪一步了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0125"
+    },
+    {
+      "italian": "qual",
+      "kind": "chunk",
+      "phrase": "Qual è l'IBAN?",
+      "chinese": "IBAN是多少？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0075"
+    },
+    {
+      "italian": "qualcuno",
+      "kind": "chunk",
+      "phrase": "Posso delegare qualcuno?",
+      "chinese": "我可以委托别人吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0351"
+    },
+    {
+      "italian": "quante",
+      "kind": "chunk",
+      "phrase": "Quante volte al giorno?",
+      "chinese": "一天几次？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0251"
+    },
+    {
+      "italian": "quanti",
+      "kind": "chunk",
+      "phrase": "Da quanti giorni?",
+      "chinese": "有几天了？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0416"
+    },
+    {
+      "italian": "quattro",
+      "kind": "chunk",
+      "phrase": "Parte dal binario quattro.",
+      "chinese": "从4号站台出发。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0398"
+    },
+    {
+      "italian": "ragione",
+      "kind": "chunk",
+      "phrase": "Hai ragione.",
+      "chinese": "你说得对。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0187"
+    },
+    {
+      "italian": "ricetta",
+      "kind": "chunk",
+      "phrase": "Serve la ricetta?",
+      "chinese": "需要处方吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0069"
+    },
+    {
+      "italian": "ricevere",
+      "kind": "chunk",
+      "phrase": "Posso ricevere una ricevuta?",
+      "chinese": "我可以拿一份回执吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0060"
+    },
+    {
+      "italian": "ripetere",
+      "kind": "chunk",
+      "phrase": "Può ripetere?",
+      "chinese": "您能再说一遍吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0175"
+    },
+    {
+      "italian": "riscaldamento",
+      "kind": "chunk",
+      "phrase": "C'è il riscaldamento?",
+      "chinese": "有暖气吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0048"
+    },
+    {
+      "italian": "ritardo",
+      "kind": "fixed",
+      "phrase": "Essere in ritardo.",
+      "chinese": "迟到。",
+      "note": "固定搭配：把整个结构当成一个单位记。",
+      "sourceId": "v26_0371"
+    },
+    {
+      "italian": "ritorno",
+      "kind": "chunk",
+      "phrase": "Andata e ritorno.",
+      "chinese": "往返。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0212"
+    },
+    {
+      "italian": "rossi",
+      "kind": "chunk",
+      "phrase": "Vorrei parlare con il signor Rossi.",
+      "chinese": "我想和罗西先生通话。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0082"
+    },
+    {
+      "italian": "sale",
+      "kind": "chunk",
+      "phrase": "Senza sale, per favore.",
+      "chinese": "请不要放盐。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0318"
+    },
+    {
+      "italian": "sapere",
+      "kind": "chunk",
+      "phrase": "Fammi sapere.",
+      "chinese": "告诉我一声。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0287"
+    },
+    {
+      "italian": "schiena",
+      "kind": "chunk",
+      "phrase": "Mi fa male la schiena.",
+      "chinese": "我的背疼。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0064"
+    },
+    {
+      "italian": "sconto",
+      "kind": "chunk",
+      "phrase": "C’è uno sconto?",
+      "chinese": "有折扣吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0307"
+    },
+    {
+      "italian": "scontrino",
+      "kind": "chunk",
+      "phrase": "Posso avere lo scontrino?",
+      "chinese": "可以给我小票吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0019"
+    },
+    {
+      "italian": "scrive",
+      "kind": "chunk",
+      "phrase": "Come si scrive?",
+      "chinese": "怎么拼写？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0179"
+    },
+    {
+      "italian": "scusi",
+      "kind": "chunk",
+      "phrase": "Scusi il disturbo.",
+      "chinese": "抱歉打扰了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0174"
+    },
+    {
+      "italian": "secondo",
+      "kind": "chunk",
+      "phrase": "Secondo me...",
+      "chinese": "我觉得……",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0182"
+    },
+    {
+      "italian": "seguendo",
+      "kind": "chunk",
+      "phrase": "Questa persona mi sta seguendo.",
+      "chinese": "这个人在跟着我。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0121"
+    },
+    {
+      "italian": "sente",
+      "kind": "chunk",
+      "phrase": "La linea non si sente bene.",
+      "chinese": "电话听不清楚。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0272"
+    },
+    {
+      "italian": "sento",
+      "kind": "chunk",
+      "phrase": "Non mi sento bene.",
+      "chinese": "我感觉不舒服。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0061"
+    },
+    {
+      "italian": "senza",
+      "kind": "chunk",
+      "phrase": "Senza formaggio, per favore.",
+      "chinese": "请不要放奶酪。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0006"
+    },
+    {
+      "italian": "servizio",
+      "kind": "chunk",
+      "phrase": "È incluso il servizio?",
+      "chinese": "服务费包含了吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0323"
+    },
+    {
+      "italian": "settimana",
+      "kind": "chunk",
+      "phrase": "Questa settimana non posso.",
+      "chinese": "这周我不行。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0204"
+    },
+    {
+      "italian": "sicuro",
+      "kind": "chunk",
+      "phrase": "Non sono sicuro.",
+      "chinese": "我不太确定。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0188"
+    },
+    {
+      "italian": "signor",
+      "kind": "chunk",
+      "phrase": "Vorrei parlare con il signor Rossi.",
+      "chinese": "我想和罗西先生通话。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0082"
+    },
+    {
+      "italian": "sinistra",
+      "kind": "chunk",
+      "phrase": "Devo girare a destra o a sinistra?",
+      "chinese": "我应该右转还是左转？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0035"
+    },
+    {
+      "italian": "soggiorno",
+      "kind": "chunk",
+      "phrase": "Vorrei informazioni sul permesso di soggiorno.",
+      "chinese": "我想了解居留许可的信息。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0058"
+    },
+    {
+      "italian": "solo",
+      "kind": "chunk",
+      "phrase": "Solo andata.",
+      "chinese": "单程。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0211"
+    },
+    {
+      "italian": "spostare",
+      "kind": "chunk",
+      "phrase": "Devo spostare l'appuntamento.",
+      "chinese": "我需要改预约时间。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0088"
+    },
+    {
+      "italian": "stampare",
+      "kind": "chunk",
+      "phrase": "Mi può stampare una ricevuta?",
+      "chinese": "可以给我打印收据吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0150"
+    },
+    {
+      "italian": "stanza",
+      "kind": "chunk",
+      "phrase": "La stanza è ancora disponibile?",
+      "chinese": "这个房间还在出租吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0141"
+    },
+    {
+      "italian": "stato",
+      "kind": "chunk",
+      "phrase": "Questo pagamento è stato rifiutato.",
+      "chinese": "这笔付款被拒绝了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0148"
+    },
+    {
+      "italian": "stazione",
+      "kind": "chunk",
+      "phrase": "Mi scusi, dov'è la stazione?",
+      "chinese": "不好意思，火车站在哪里？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0031"
+    },
+    {
+      "italian": "stipendio",
+      "kind": "chunk",
+      "phrase": "Qual è lo stipendio?",
+      "chinese": "工资是多少？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0356"
+    },
+    {
+      "italian": "strada",
+      "kind": "chunk",
+      "phrase": "Mi può indicare la strada?",
+      "chinese": "您能给我指路吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0213"
+    },
+    {
+      "italian": "subito",
+      "kind": "chunk",
+      "phrase": "Posso iniziare subito.",
+      "chinese": "我可以马上开始。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0353"
+    },
+    {
+      "italian": "taglia",
+      "kind": "chunk",
+      "phrase": "Avete una taglia più grande?",
+      "chinese": "有更大一码吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0227"
+    },
+    {
+      "italian": "tardi",
+      "kind": "chunk",
+      "phrase": "Ci vediamo più tardi.",
+      "chinese": "晚点见。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0194"
+    },
+    {
+      "italian": "tavolo",
+      "kind": "chunk",
+      "phrase": "Un tavolo per due, per favore.",
+      "chinese": "请给我们两个人的桌位。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0215"
+    },
+    {
+      "italian": "tempo",
+      "kind": "chunk",
+      "phrase": "Da quanto tempo?",
+      "chinese": "多久了？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0249"
+    },
+    {
+      "italian": "testa",
+      "kind": "chunk",
+      "phrase": "Ho mal di testa.",
+      "chinese": "我头痛。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0063"
+    },
+    {
+      "italian": "treno",
+      "kind": "chunk",
+      "phrase": "Devo cambiare treno?",
+      "chinese": "我需要换乘火车吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0025"
+    },
+    {
+      "italian": "troppo",
+      "kind": "chunk",
+      "phrase": "È troppo caro.",
+      "chinese": "太贵了。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0226"
+    },
+    {
+      "italian": "trovare",
+      "kind": "chunk",
+      "phrase": "Dove posso trovare il latte?",
+      "chinese": "我在哪里可以找到牛奶？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0011"
+    },
+    {
+      "italian": "tutto",
+      "kind": "chunk",
+      "phrase": "Tutto bene?",
+      "chinese": "都好吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0280"
+    },
+    {
+      "italian": "uova",
+      "kind": "chunk",
+      "phrase": "Questo piatto contiene latte o uova?",
+      "chinese": "这道菜含牛奶或鸡蛋吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0153"
+    },
+    {
+      "italian": "urgente",
+      "kind": "chunk",
+      "phrase": "È urgente.",
+      "chinese": "这是紧急情况。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0067"
+    },
+    {
+      "italian": "usare",
+      "kind": "chunk",
+      "phrase": "Posso usare questo biglietto sul prossimo treno?",
+      "chinese": "这张票可以坐下一班车吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0138"
+    },
+    {
+      "italian": "vedere",
+      "kind": "chunk",
+      "phrase": "Posso vedere l'appartamento?",
+      "chinese": "我可以看一下公寓吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0045"
+    },
+    {
+      "italian": "vedo",
+      "kind": "chunk",
+      "phrase": "Non vedo l’ora.",
+      "chinese": "我等不及了；很期待。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0384"
+    },
+    {
+      "italian": "vegetariano",
+      "kind": "chunk",
+      "phrase": "È vegetariano?",
+      "chinese": "这是素食的吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0219"
+    },
+    {
+      "italian": "venerdì",
+      "kind": "chunk",
+      "phrase": "È possibile venerdì mattina?",
+      "chinese": "周五上午可以吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0087"
+    },
+    {
+      "italian": "venire",
+      "kind": "chunk",
+      "phrase": "Può venire a controllare?",
+      "chinese": "您能来检查一下吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0246"
+    },
+    {
+      "italian": "venti",
+      "kind": "chunk",
+      "phrase": "Costa due euro e venti.",
+      "chinese": "2欧元20分。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0394"
+    },
+    {
+      "italian": "viaggio",
+      "kind": "chunk",
+      "phrase": "Quanto dura il viaggio?",
+      "chinese": "路程要多久？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0210"
+    },
+    {
+      "italian": "vicino",
+      "kind": "chunk",
+      "phrase": "È vicino alla banca.",
+      "chinese": "在银行附近。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0037"
+    },
+    {
+      "italian": "viene",
+      "kind": "chunk",
+      "phrase": "Quanto viene?",
+      "chinese": "一共多少钱？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_0306"
+    },
+    {
+      "italian": "visita",
+      "kind": "chunk",
+      "phrase": "Vorrei prenotare una visita.",
+      "chinese": "我想预约一次看诊。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0066"
+    },
+    {
+      "italian": "vorrei",
+      "kind": "chunk",
+      "phrase": "Vorrei ordinare.",
+      "chinese": "我想点餐。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0221"
+    },
+    {
+      "italian": "vuole",
+      "kind": "chunk",
+      "phrase": "Vuole anche il sacchetto?",
+      "chinese": "您还需要袋子吗？",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "v26_dlg_0395"
+    },
+    {
+      "italian": "zucchero",
+      "kind": "chunk",
+      "phrase": "Senza zucchero, per favore.",
+      "chinese": "请不要糖。",
+      "note": "常用句块：把这个词放进整句一起记，避免只记孤立中文。",
+      "sourceId": "p0217"
+    }
+  ]
+}

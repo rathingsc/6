@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:paddingBottom="28dp">
+        <TextView android:id="@+id/text_memory_article_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_soft_panel" android:paddingHorizontal="9dp" android:paddingVertical="4dp" android:text="📖 十篇通关" android:textColor="@color/blue" android:textSize="12sp" android:textStyle="bold" />
+        <TextView android:id="@+id/text_memory_article_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/text_primary" android:textSize="25sp" android:textStyle="bold" />
+        <TextView android:id="@+id/text_memory_article_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/text_secondary" android:textSize="13sp" android:lineSpacingExtra="2dp" />
+        <ProgressBar android:id="@+id/progress_memory_article" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="14dp" android:max="100" android:progress="0" android:progressTint="@color/green" android:progressBackgroundTint="@color/line" />
+        <TextView android:id="@+id/text_memory_article_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_memory_article_review" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="10dp" android:text="复习本篇薄弱词" android:textAllCaps="false" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="5个小节" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="每节40个目标词 · 先逐句4轮背诵 · 再整节5步背诵 · 后续小节复现旧词 · 最后智能复习" android:textColor="@color/text_secondary" android:textSize="12sp" />
+        <LinearLayout android:id="@+id/container_memory_sections" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="6dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

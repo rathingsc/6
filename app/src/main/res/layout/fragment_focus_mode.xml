@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:orientation="vertical" android:padding="16dp">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+  <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🎯 专注学习" android:textColor="@color/text_primary" android:textSize="24sp" android:textStyle="bold"/>
+  <com.google.android.material.button.MaterialButton android:id="@+id/button_focus_exit" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="42dp" android:text="退出" android:textAllCaps="false"/>
+ </LinearLayout>
+ <TextView android:id="@+id/text_focus_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+ <ProgressBar android:id="@+id/progress_focus" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="10dp" android:max="100" android:progressTint="@color/green"/>
+ <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="14dp" android:layout_weight="1" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical" android:padding="22dp">
+   <TextView android:id="@+id/text_focus_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:textColor="@color/blue" android:textSize="13sp" android:textStyle="bold"/>
+   <TextView android:id="@+id/text_focus_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:gravity="center" android:textColor="@color/text_primary" android:textSize="23sp" android:textStyle="bold"/>
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_focus_audio" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="10dp" android:text="🔊 听意大利语" android:textAllCaps="false"/>
+   <EditText android:id="@+id/edit_focus_answer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_search" android:hint="输入意大利语答案" android:minHeight="56dp" android:padding="12dp" android:textColor="@color/text_primary" android:textColorHint="@color/text_secondary"/>
+   <com.google.android.material.button.MaterialButton android:id="@+id/button_focus_check" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="10dp" android:text="确认并继续" android:textAllCaps="false"/>
+   <TextView android:id="@+id/text_focus_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:gravity="center" android:textSize="12sp"/>
+  </LinearLayout>
+ </com.google.android.material.card.MaterialCardView>
+ <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:gravity="center" android:text="专注模式隐藏底部导航，只保留当前任务。随时可以退出，不会丢已经完成的记录。" android:textColor="@color/text_secondary" android:textSize="10sp"/>
+</LinearLayout>

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "w01",
+    "level": "A1",
+    "title": "30秒自我介绍",
+    "prompt": "用意大利语写4到5句话介绍自己：姓名、来自哪里、住在哪里、正在做什么。",
+    "minWords": 18,
+    "keywords": [
+      "mi chiamo|sono",
+      "sono di|vengo da",
+      "abito|vivo",
+      "studio|lavoro"
+    ],
+    "reference": "Mi chiamo Li. Sono cinese e vivo a Milano. Studio italiano ogni giorno. Al momento non lavoro, ma sto cercando un impiego.",
+    "tip": "优先使用 Mi chiamo、sono di、vivo/abito、studio/lavoro。"
+  },
+  {
+    "id": "w02",
+    "level": "A1",
+    "title": "咖啡店点单",
+    "prompt": "写一段你在咖啡店点早餐的话，至少包括饮料、食物和礼貌表达。",
+    "minWords": 12,
+    "keywords": [
+      "vorrei",
+      "caffè|cappuccino|tè",
+      "cornetto|panino|brioche",
+      "per favore|grazie"
+    ],
+    "reference": "Buongiorno. Vorrei un cappuccino e un cornetto, per favore. Grazie.",
+    "tip": "用 Vorrei 比 Voglio 更礼貌。"
+  },
+  {
+    "id": "w03",
+    "level": "A1",
+    "title": "问路",
+    "prompt": "写一句向路人询问火车站在哪里，并请对方说慢一点。",
+    "minWords": 10,
+    "keywords": [
+      "dov",
+      "stazione",
+      "per favore",
+      "piano|lentamente"
+    ],
+    "reference": "Scusi, dov’è la stazione? Può parlare più lentamente, per favore?",
+    "tip": "礼貌开头可用 Scusi。"
+  },
+  {
+    "id": "w04",
+    "level": "A1",
+    "title": "超市购物",
+    "prompt": "写3句话：你要买什么、询问价格、询问是否可以刷卡。",
+    "minWords": 15,
+    "keywords": [
+      "vorrei|prendo",
+      "quanto",
+      "costa|viene",
+      "carta"
+    ],
+    "reference": "Vorrei comprare questo. Quanto costa? Posso pagare con la carta?",
+    "tip": "Quanto costa? 询问单个商品；Quanto vengono? 可问复数。"
+  },
+  {
+    "id": "w05",
+    "level": "A1",
+    "title": "描述今天",
+    "prompt": "写4句话描述今天：天气、你在哪里、你做什么、你感觉如何。",
+    "minWords": 18,
+    "keywords": [
+      "oggi",
+      "sono|sto",
+      "faccio|studio|lavoro|vado",
+      "bene|stanco|stanca|felice"
+    ],
+    "reference": "Oggi fa bel tempo. Sono a Milano. Studio italiano e poi vado al supermercato. Sto bene, ma sono un po’ stanco.",
+    "tip": "状态常用 sto bene；形容身份/状态也常用 sono。"
+  },
+  {
+    "id": "w06",
+    "level": "A1",
+    "title": "约时间",
+    "prompt": "给朋友写一条消息，约明天下午见面，并询问几点方便。",
+    "minWords": 12,
+    "keywords": [
+      "domani",
+      "pomeriggio",
+      "vediamo|vederci",
+      "ora"
+    ],
+    "reference": "Ciao! Ci vediamo domani pomeriggio? A che ora sei libero?",
+    "tip": "Ci vediamo...? 是很自然的邀约。"
+  },
+  {
+    "id": "w07",
+    "level": "A2",
+    "title": "给房东报修",
+    "prompt": "给房东写一条消息，说明家里没有热水，请他安排人检查。",
+    "minWords": 20,
+    "keywords": [
+      "acqua calda",
+      "problema",
+      "può|potrebbe",
+      "controllare|mandare"
+    ],
+    "reference": "Buongiorno, c’è un problema nell’appartamento: non c’è acqua calda. Potrebbe mandare qualcuno a controllare, per favore? Grazie.",
+    "tip": "Potrebbe...? 比 Può...? 更委婉。"
+  },
+  {
+    "id": "w08",
+    "level": "A2",
+    "title": "预约医生",
+    "prompt": "写一条预约医生的信息：说明想预约、简单描述症状、询问最近可用时间。",
+    "minWords": 22,
+    "keywords": [
+      "appuntamento|visita",
+      "ho|mi fa male|non mi sento",
+      "quando|disponibile"
+    ],
+    "reference": "Buongiorno, vorrei prenotare una visita. Da ieri ho mal di gola e febbre. Quando c’è il primo appuntamento disponibile?",
+    "tip": "症状可用 ho + 名词，或 mi fa male + 身体部位。"
+  },
+  {
+    "id": "w09",
+    "level": "A2",
+    "title": "说明昨天做了什么",
+    "prompt": "用过去时写5句话，描述你昨天从早上到晚上的活动。",
+    "minWords": 28,
+    "keywords": [
+      "ieri",
+      "ho|sono",
+      "poi|dopo",
+      "sera"
+    ],
+    "reference": "Ieri mi sono alzato presto. Ho fatto colazione e sono andato al lavoro. Dopo il lavoro ho fatto la spesa. La sera ho cenato a casa e ho guardato un film.",
+    "tip": "移动类动词常见 essere，很多及物动词使用 avere。"
+  },
+  {
+    "id": "w10",
+    "level": "A2",
+    "title": "童年习惯",
+    "prompt": "写4到5句话描述你小时候经常做的事情，练习 imperfetto。",
+    "minWords": 24,
+    "keywords": [
+      "quando ero",
+      "da piccolo|da piccola",
+      "spesso|sempre",
+      "avo|evo|ivo"
+    ],
+    "reference": "Quando ero piccolo vivevo in una città tranquilla. Andavo spesso al parco con i miei amici. La sera guardavo la televisione con la mia famiglia.",
+    "tip": "描述过去习惯、背景和持续状态通常使用 imperfetto。"
+  },
+  {
+    "id": "w11",
+    "level": "A2",
+    "title": "工作请假",
+    "prompt": "给主管写一条消息，说明今天不能来上班、简要原因，并说明明天是否能回来。",
+    "minWords": 20,
+    "keywords": [
+      "oggi",
+      "non posso",
+      "lavoro|venire",
+      "perché|perche",
+      "domani"
+    ],
+    "reference": "Buongiorno, oggi non posso venire al lavoro perché non mi sento bene. Mi dispiace per il disagio. Spero di poter tornare domani.",
+    "tip": "正式一点可加 Mi dispiace per il disagio。"
+  },
+  {
+    "id": "w12",
+    "level": "A2",
+    "title": "窗口办事咨询",
+    "prompt": "写一段到 Comune 或 Questura 咨询材料的话，询问需要哪些文件、是否需要原件、何时能办好。",
+    "minWords": 25,
+    "keywords": [
+      "documenti",
+      "originale",
+      "quando",
+      "pronto|ritirare"
+    ],
+    "reference": "Buongiorno, vorrei chiedere un’informazione. Quali documenti devo portare? Serve l’originale o basta una copia? Quando sarà pronto il documento?",
+    "tip": "窗口交流尽量使用 vorrei、può、serve 等礼貌表达。"
+  },
+  {
+    "id": "w13",
+    "level": "B1",
+    "title": "表达观点",
+    "prompt": "写60词左右，说明你认为在意大利生活最重要的语言能力是什么，并给出两个理由。",
+    "minWords": 45,
+    "keywords": [
+      "secondo me",
+      "perché|perche",
+      "inoltre|anche",
+      "importante"
+    ],
+    "reference": "Secondo me, la capacità più importante è capire le persone quando parlano. Se capisco bene, posso rispondere con più calma e imparare nuove parole dal contesto. Inoltre, è importante saper spiegare un problema in modo semplice, soprattutto dal medico, al lavoro o negli uffici.",
+    "tip": "可以用 Secondo me、prima di tutto、inoltre、per questo。"
+  },
+  {
+    "id": "w14",
+    "level": "B1",
+    "title": "正式预约邮件",
+    "prompt": "写一封简短正式邮件，请求预约，并说明你哪几天有空。",
+    "minWords": 45,
+    "keywords": [
+      "gentile",
+      "vorrei",
+      "appuntamento",
+      "disponibile",
+      "cordiali saluti"
+    ],
+    "reference": "Gentile Signora, vorrei fissare un appuntamento per avere alcune informazioni. Sono disponibile martedì pomeriggio oppure giovedì mattina. Potrebbe indicarmi un orario possibile? La ringrazio in anticipo. Cordiali saluti.",
+    "tip": "正式邮件可用 Gentile...、La ringrazio、Cordiali saluti。"
+  },
+  {
+    "id": "w15",
+    "level": "B1",
+    "title": "比较两个选择",
+    "prompt": "写50词左右，比较开车和坐火车出行的优缺点，并说明你的选择。",
+    "minWords": 40,
+    "keywords": [
+      "più|meno",
+      "invece|ma",
+      "preferisco|secondo me"
+    ],
+    "reference": "Il treno è spesso più comodo perché posso leggere o riposare durante il viaggio. La macchina, invece, è più flessibile ma costa di più e bisogna trovare parcheggio. Per i viaggi tra città preferisco il treno.",
+    "tip": "比较时可使用 più... di、meno... di、invece、mentre。"
+  },
+  {
+    "id": "w16",
+    "level": "B1",
+    "title": "讲一次问题经历",
+    "prompt": "写60词左右，描述一次你遇到问题、如何解决、最后结果怎样。",
+    "minWords": 48,
+    "keywords": [
+      "quando",
+      "problema",
+      "ho|sono",
+      "alla fine",
+      "poi"
+    ],
+    "reference": "Una volta ho perso un treno perché sono arrivato tardi alla stazione. All’inizio ero preoccupato, ma sono andato alla biglietteria e ho chiesto informazioni. L’impiegato mi ha aiutato a cambiare il biglietto. Alla fine sono partito un’ora dopo senza altri problemi.",
+    "tip": "叙事可组合 passato prossimo 和 imperfetto。"
+  },
+  {
+    "id": "w17",
+    "level": "B1",
+    "title": "提出建议",
+    "prompt": "朋友刚到意大利生活。写5条建议，涵盖语言、交通、办事和生活。",
+    "minWords": 45,
+    "keywords": [
+      "ti consiglio",
+      "dovresti|devi",
+      "meglio",
+      "quando"
+    ],
+    "reference": "Ti consiglio di imparare subito le frasi più utili per la vita quotidiana. Dovresti controllare gli orari dei mezzi prima di uscire. Quando vai in un ufficio, porta sempre i documenti principali. È meglio chiedere se non capisci qualcosa.",
+    "tip": "建议可用 Ti consiglio di、dovresti、è meglio。"
+  },
+  {
+    "id": "w18",
+    "level": "B1",
+    "title": "未来计划",
+    "prompt": "写50词左右，描述未来三个月你的学习或生活计划。",
+    "minWords": 40,
+    "keywords": [
+      "prossimi",
+      "farò|andrò|cercherò|studierò|vorrei",
+      "obiettivo"
+    ],
+    "reference": "Nei prossimi tre mesi studierò italiano ogni giorno e cercherò di parlare di più con le persone. Vorrei migliorare soprattutto l’ascolto. Farò più esercizi di dettato e userò le frasi nuove nella vita quotidiana. Il mio obiettivo è comunicare con più sicurezza.",
+    "tip": "未来计划可以用 futuro semplice，也可以用 vorrei + infinito。"
+  }
+]

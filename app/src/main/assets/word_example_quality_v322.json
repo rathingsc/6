@@ -1,0 +1,691 @@
+{
+  "version": "3.2.2",
+  "allWordRowsScanned": 2774,
+  "existingExamplePairsAudited": 742,
+  "wordsWithoutExample": 2032,
+  "policy": "Audit every existing example pair; do not fabricate examples for empty rows. Missing is safer than templated incorrect Italian.",
+  "exampleCorrectionCount": 84,
+  "meaningCorrectionCount": 1,
+  "exampleCorrections": [
+    {
+      "id": 90,
+      "word": "un'",
+      "oldExample": "Vorrei un’acqua naturale.",
+      "oldExampleZh": "我想要一瓶常温矿泉水。",
+      "newExample": "Vorrei un’acqua naturale.",
+      "newExampleZh": "我想要一瓶无气水。"
+    },
+    {
+      "id": 168,
+      "word": "sana",
+      "oldExample": "Cerco di mangiare in modo sano.",
+      "oldExampleZh": "我尽量吃得健康。",
+      "newExample": "Cerco di seguire una dieta sana.",
+      "newExampleZh": "我尽量保持健康饮食。"
+    },
+    {
+      "id": 522,
+      "word": "rossi",
+      "oldExample": "Vorrei parlare con il signor Rossi.",
+      "oldExampleZh": "我想和罗西先生通话。",
+      "newExample": "I pomodori sono rossi.",
+      "newExampleZh": "西红柿是红色的。"
+    },
+    {
+      "id": 561,
+      "word": "sente",
+      "oldExample": "La linea non si sente bene.",
+      "oldExampleZh": "电话听不清楚。",
+      "newExample": "Mi sente bene?",
+      "newExampleZh": "您听得清楚吗？"
+    },
+    {
+      "id": 603,
+      "word": "acqua",
+      "oldExample": "Vorrei una bottiglia d’acqua naturale.",
+      "oldExampleZh": "我想要一瓶常温矿泉水。",
+      "newExample": "Vorrei una bottiglia d’acqua naturale.",
+      "newExampleZh": "我想要一瓶无气水。"
+    },
+    {
+      "id": 855,
+      "word": "europeo",
+      "oldExample": "Questo documento è valido in molti paesi europei.",
+      "oldExampleZh": "这份文件在许多欧洲国家有效。",
+      "newExample": "È un paese europeo.",
+      "newExampleZh": "这是一个欧洲国家。"
+    },
+    {
+      "id": 948,
+      "word": "sono le",
+      "oldExample": "Dove sono le casse?",
+      "oldExampleZh": "收银台在哪里？",
+      "newExample": "Sono le tre.",
+      "newExampleZh": "现在三点。"
+    },
+    {
+      "id": 950,
+      "word": "scuse",
+      "oldExample": "Gli ho chiesto scusa per il ritardo.",
+      "oldExampleZh": "我为迟到向他道歉。",
+      "newExample": "Le porgo le mie scuse per il ritardo.",
+      "newExampleZh": "我为迟到向您道歉。"
+    },
+    {
+      "id": 1391,
+      "word": "corridoio",
+      "oldExample": "È nel corridoio tre.",
+      "oldExampleZh": "在3号通道。",
+      "newExample": "Il bagno è in fondo al corridoio.",
+      "newExampleZh": "洗手间在走廊尽头。"
+    },
+    {
+      "id": 1448,
+      "word": "li",
+      "oldExample": "Sono Li.",
+      "oldExampleZh": "我是李。",
+      "newExample": "Li ho già inviati.",
+      "newExampleZh": "我已经把它们发出去了。"
+    },
+    {
+      "id": 2035,
+      "word": "originale",
+      "oldExample": "Mi serve l'originale per questa pratica.",
+      "oldExampleZh": "办理这个手续我需要这个文件。",
+      "newExample": "Mi serve l'originale per questa pratica.",
+      "newExampleZh": "办理这个手续我需要原件。"
+    },
+    {
+      "id": 2208,
+      "word": "pratica",
+      "oldExample": "Può scrivermi il numero della pratica?",
+      "oldExampleZh": "您能把案件编号写给我吗？",
+      "newExample": "Può scrivermi il numero della pratica?",
+      "newExampleZh": "您能把手续编号写给我吗？"
+    },
+    {
+      "id": 2616,
+      "word": "informazione",
+      "oldExample": "Vorrei chiedere un'informazione.",
+      "oldExampleZh": "我想咨询一个信息。",
+      "newExample": "Vorrei chiedere un'informazione sugli orari.",
+      "newExampleZh": "我想咨询一下营业时间。"
+    },
+    {
+      "id": 508,
+      "word": "agosto",
+      "oldExample": "Il corso inizia a agosto.",
+      "oldExampleZh": "课程在八月开始。",
+      "newExample": "Il corso inizia ad agosto.",
+      "newExampleZh": "课程在八月开始。"
+    },
+    {
+      "id": 876,
+      "word": "aprile",
+      "oldExample": "Il corso inizia a aprile.",
+      "oldExampleZh": "课程在四月开始。",
+      "newExample": "Il corso inizia ad aprile.",
+      "newExampleZh": "课程在四月开始。"
+    },
+    {
+      "id": 145,
+      "word": "zaino",
+      "oldExample": "Vorrei provare lo zaino.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo zaino.",
+      "newExampleZh": "我想试背一下这个背包。"
+    },
+    {
+      "id": 149,
+      "word": "camicia",
+      "oldExample": "Vorrei provare la camicia.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa camicia.",
+      "newExampleZh": "我想试穿这件衬衫。"
+    },
+    {
+      "id": 150,
+      "word": "giacca",
+      "oldExample": "Vorrei provare la giacca.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa giacca.",
+      "newExampleZh": "我想试穿这件夹克。"
+    },
+    {
+      "id": 155,
+      "word": "maglione",
+      "oldExample": "Vorrei provare la maglione.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo maglione.",
+      "newExampleZh": "我想试穿这件毛衣。"
+    },
+    {
+      "id": 156,
+      "word": "cappello",
+      "oldExample": "Vorrei provare il cappello.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo cappello.",
+      "newExampleZh": "我想试戴这顶帽子。"
+    },
+    {
+      "id": 252,
+      "word": "gonna",
+      "oldExample": "Vorrei provare la gonna.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa gonna.",
+      "newExampleZh": "我想试穿这条裙子。"
+    },
+    {
+      "id": 394,
+      "word": "borsa",
+      "oldExample": "Vorrei provare la borsa.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa borsa.",
+      "newExampleZh": "我想试背一下这个包。"
+    },
+    {
+      "id": 400,
+      "word": "portafoglio",
+      "oldExample": "Vorrei provare il portafoglio.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei vedere questo portafoglio.",
+      "newExampleZh": "我想看看这个钱包。"
+    },
+    {
+      "id": 422,
+      "word": "scarpa",
+      "oldExample": "Vorrei provare la scarpa.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Questa scarpa mi sta stretta.",
+      "newExampleZh": "这只鞋我穿着有点紧。"
+    },
+    {
+      "id": 429,
+      "word": "maglietta",
+      "oldExample": "Vorrei provare la maglietta.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa maglietta.",
+      "newExampleZh": "我想试穿这件T恤。"
+    },
+    {
+      "id": 439,
+      "word": "guanto",
+      "oldExample": "Vorrei provare il guanto.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Questo guanto è troppo stretto.",
+      "newExampleZh": "这只手套太紧了。"
+    },
+    {
+      "id": 588,
+      "word": "cappotto",
+      "oldExample": "Vorrei provare il cappotto.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo cappotto.",
+      "newExampleZh": "我想试穿这件大衣。"
+    },
+    {
+      "id": 596,
+      "word": "ombrello",
+      "oldExample": "Vorrei provare l'ombrello.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei comprare questo ombrello.",
+      "newExampleZh": "我想买这把雨伞。"
+    },
+    {
+      "id": 636,
+      "word": "anello",
+      "oldExample": "Vorrei provare l'anello.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo anello.",
+      "newExampleZh": "我想试戴这个戒指。"
+    },
+    {
+      "id": 989,
+      "word": "maglia",
+      "oldExample": "Vorrei provare la maglia.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa maglia.",
+      "newExampleZh": "我想试穿这件针织衫。"
+    },
+    {
+      "id": 1053,
+      "word": "mutande",
+      "oldExample": "Vorrei provare i mutande.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Cerco delle mutande di cotone.",
+      "newExampleZh": "我在找棉质内裤。"
+    },
+    {
+      "id": 1061,
+      "word": "cintura",
+      "oldExample": "Vorrei provare la cintura.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa cintura.",
+      "newExampleZh": "我想试一下这条腰带。"
+    },
+    {
+      "id": 1066,
+      "word": "sciarpa",
+      "oldExample": "Vorrei provare la sciarpa.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa sciarpa.",
+      "newExampleZh": "我想试戴这条围巾。"
+    },
+    {
+      "id": 1071,
+      "word": "calzino",
+      "oldExample": "Vorrei provare il calzino.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Questo calzino è troppo piccolo.",
+      "newExampleZh": "这只袜子太小了。"
+    },
+    {
+      "id": 1223,
+      "word": "collana",
+      "oldExample": "Vorrei provare la collana.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questa collana.",
+      "newExampleZh": "我想试戴这条项链。"
+    },
+    {
+      "id": 1453,
+      "word": "vestito",
+      "oldExample": "Vorrei provare il vestito.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo vestito.",
+      "newExampleZh": "我想试穿这件衣服。"
+    },
+    {
+      "id": 1506,
+      "word": "jeans",
+      "oldExample": "Vorrei provare i jeans.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questi jeans.",
+      "newExampleZh": "我想试穿这条牛仔裤。"
+    },
+    {
+      "id": 1673,
+      "word": "abito",
+      "oldExample": "Vorrei provare l'abito.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo abito.",
+      "newExampleZh": "我想试穿这套衣服。"
+    },
+    {
+      "id": 1677,
+      "word": "sandalo",
+      "oldExample": "Vorrei provare il sandalo.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Questo sandalo mi sta bene.",
+      "newExampleZh": "这只凉鞋我穿着很合脚。"
+    },
+    {
+      "id": 1680,
+      "word": "stivale",
+      "oldExample": "Vorrei provare lo stivale.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Vorrei provare questo stivale.",
+      "newExampleZh": "我想试穿这只靴子。"
+    },
+    {
+      "id": 1681,
+      "word": "pantalone",
+      "oldExample": "Vorrei provare il pantalone.",
+      "oldExampleZh": "我想试一下这件衣物或配饰。",
+      "newExample": "Questo pantalone è troppo lungo.",
+      "newExampleZh": "这条裤子太长了。"
+    },
+    {
+      "id": 362,
+      "word": "settimana",
+      "oldExample": "Vorrei controllare settimana prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下星期。",
+      "newExample": "La prossima settimana ho un appuntamento.",
+      "newExampleZh": "下周我有一个预约。"
+    },
+    {
+      "id": 379,
+      "word": "anno",
+      "oldExample": "Vorrei controllare anno prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下年。",
+      "newExample": "Vivo in Italia da un anno.",
+      "newExampleZh": "我在意大利住了一年。"
+    },
+    {
+      "id": 383,
+      "word": "mese",
+      "oldExample": "Vorrei controllare mese prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下月。",
+      "newExample": "Il contratto dura un mese.",
+      "newExampleZh": "这份合同为期一个月。"
+    },
+    {
+      "id": 404,
+      "word": "orologio",
+      "oldExample": "Vorrei controllare orologio prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下钟表。",
+      "newExample": "Il mio orologio è cinque minuti avanti.",
+      "newExampleZh": "我的手表快五分钟。"
+    },
+    {
+      "id": 409,
+      "word": "festa",
+      "oldExample": "Vorrei controllare festa prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下节日。",
+      "newExample": "Sabato c'è una festa a casa di Marco.",
+      "newExampleZh": "周六马尔科家有一个聚会。"
+    },
+    {
+      "id": 410,
+      "word": "compleanno",
+      "oldExample": "Vorrei controllare compleanno prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下生日。",
+      "newExample": "Domani è il mio compleanno.",
+      "newExampleZh": "明天是我的生日。"
+    },
+    {
+      "id": 484,
+      "word": "giorno",
+      "oldExample": "Vorrei controllare giorno prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下天。",
+      "newExample": "Ho un appuntamento tra due giorni.",
+      "newExampleZh": "我两天后有一个预约。"
+    },
+    {
+      "id": 935,
+      "word": "mezzogiorno",
+      "oldExample": "Vorrei controllare mezzogiorno prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下中午。",
+      "newExample": "Ci vediamo a mezzogiorno.",
+      "newExampleZh": "我们中午见。"
+    },
+    {
+      "id": 982,
+      "word": "volta",
+      "oldExample": "Vorrei controllare volta prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下次。",
+      "newExample": "È la prima volta che vengo qui.",
+      "newExampleZh": "这是我第一次来这里。"
+    },
+    {
+      "id": 1002,
+      "word": "numero",
+      "oldExample": "Vorrei controllare numero prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下数字。",
+      "newExample": "Qual è il suo numero di telefono?",
+      "newExampleZh": "您的电话号码是多少？"
+    },
+    {
+      "id": 1217,
+      "word": "data",
+      "oldExample": "Vorrei controllare data prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下日期。",
+      "newExample": "Qual è la data dell'appuntamento?",
+      "newExampleZh": "预约日期是哪一天？"
+    },
+    {
+      "id": 1733,
+      "word": "tempo",
+      "oldExample": "Vorrei controllare tempo prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下时间。",
+      "newExample": "Non ho molto tempo.",
+      "newExampleZh": "我没有太多时间。"
+    },
+    {
+      "id": 1734,
+      "word": "calendario",
+      "oldExample": "Vorrei controllare calendario prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下日历。",
+      "newExample": "Segno l'appuntamento sul calendario.",
+      "newExampleZh": "我把预约记在日历上。"
+    },
+    {
+      "id": 1735,
+      "word": "ritardo",
+      "oldExample": "Vorrei controllare ritardo prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下迟到。",
+      "newExample": "Mi scusi per il ritardo.",
+      "newExampleZh": "对不起，我迟到了。"
+    },
+    {
+      "id": 1736,
+      "word": "decennio",
+      "oldExample": "Vorrei controllare decennio prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下十年。",
+      "newExample": "Ho vissuto qui per un decennio.",
+      "newExampleZh": "我在这里住了十年。"
+    },
+    {
+      "id": 1737,
+      "word": "secolo",
+      "oldExample": "Vorrei controllare secolo prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下世纪。",
+      "newExample": "Questo edificio risale al diciannovesimo secolo.",
+      "newExampleZh": "这座建筑可以追溯到十九世纪。"
+    },
+    {
+      "id": 1738,
+      "word": "minuto",
+      "oldExample": "Vorrei controllare minuto prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下分钟。",
+      "newExample": "Aspetta un minuto, per favore.",
+      "newExampleZh": "请等一分钟。"
+    },
+    {
+      "id": 1739,
+      "word": "periodo",
+      "oldExample": "Vorrei controllare periodo prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下时期。",
+      "newExample": "È stato un periodo difficile.",
+      "newExampleZh": "那是一段艰难的时期。"
+    },
+    {
+      "id": 1741,
+      "word": "momento",
+      "oldExample": "Vorrei controllare momento prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下时刻。",
+      "newExample": "Aspetti un momento, per favore.",
+      "newExampleZh": "请稍等片刻。"
+    },
+    {
+      "id": 1742,
+      "word": "mezzanotte",
+      "oldExample": "Vorrei controllare mezzanotte prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下午夜。",
+      "newExample": "Il treno arriva a mezzanotte.",
+      "newExampleZh": "火车午夜到达。"
+    },
+    {
+      "id": 1744,
+      "word": "paio",
+      "oldExample": "Vorrei controllare paio prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下一对。",
+      "newExample": "Vorrei un paio di scarpe nere.",
+      "newExampleZh": "我想要一双黑鞋。"
+    },
+    {
+      "id": 1930,
+      "word": "età",
+      "oldExample": "Vorrei controllare età prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下年龄。",
+      "newExample": "L'età non è un problema.",
+      "newExampleZh": "年龄不是问题。"
+    },
+    {
+      "id": 1935,
+      "word": "metà",
+      "oldExample": "Vorrei controllare metà prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下一半。",
+      "newExample": "Ho mangiato solo metà della pizza.",
+      "newExampleZh": "我只吃了一半披萨。"
+    },
+    {
+      "id": 2019,
+      "word": "futuro",
+      "oldExample": "Vorrei controllare futuro prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下未来。",
+      "newExample": "In futuro vorrei lavorare in Italia.",
+      "newExampleZh": "将来我想在意大利工作。"
+    },
+    {
+      "id": 2122,
+      "word": "vacanza",
+      "oldExample": "Vorrei controllare vacanza prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下假期。",
+      "newExample": "Ad agosto vado in vacanza.",
+      "newExampleZh": "我八月去度假。"
+    },
+    {
+      "id": 2167,
+      "word": "inizio",
+      "oldExample": "Vorrei controllare inizio prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下开始。",
+      "newExample": "All'inizio era difficile.",
+      "newExampleZh": "一开始很难。"
+    },
+    {
+      "id": 2204,
+      "word": "epoca",
+      "oldExample": "Vorrei controllare epoca prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下时代。",
+      "newExample": "Era un'altra epoca.",
+      "newExampleZh": "那是另一个时代。"
+    },
+    {
+      "id": 2357,
+      "word": "frequenza",
+      "oldExample": "Vorrei controllare frequenza prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下频率。",
+      "newExample": "Con quale frequenza prende questo farmaco?",
+      "newExampleZh": "您多久服一次这种药？"
+    },
+    {
+      "id": 2397,
+      "word": "durata",
+      "oldExample": "Vorrei controllare durata prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下持续时间。",
+      "newExample": "Qual è la durata del corso?",
+      "newExampleZh": "课程持续多长时间？"
+    },
+    {
+      "id": 2639,
+      "word": "stagione",
+      "oldExample": "Vorrei controllare stagione prima di confermare.",
+      "oldExampleZh": "确认前我想先核对一下季节。",
+      "newExample": "Qual è la tua stagione preferita?",
+      "newExampleZh": "你最喜欢哪个季节？"
+    },
+    {
+      "id": 1654,
+      "word": "fame",
+      "oldExample": "Vorrei parlare della fame con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "Ho molta fame.",
+      "newExampleZh": "我很饿。"
+    },
+    {
+      "id": 2194,
+      "word": "paura",
+      "oldExample": "Vorrei parlare della paura con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "Ho paura degli aghi.",
+      "newExampleZh": "我怕针。"
+    },
+    {
+      "id": 2247,
+      "word": "forza",
+      "oldExample": "Vorrei parlare della forza con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "Non ho abbastanza forza nelle braccia.",
+      "newExampleZh": "我的胳膊没有足够的力气。"
+    },
+    {
+      "id": 2452,
+      "word": "nascita",
+      "oldExample": "Vorrei parlare della nascita con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "Qual è la sua data di nascita?",
+      "newExampleZh": "您的出生日期是什么？"
+    },
+    {
+      "id": 2544,
+      "word": "sonno",
+      "oldExample": "Vorrei parlare del sonno con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "Ho sonno.",
+      "newExampleZh": "我困了。"
+    },
+    {
+      "id": 2595,
+      "word": "energia",
+      "oldExample": "Vorrei parlare dell'energia con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "Oggi non ho energia.",
+      "newExampleZh": "我今天没什么精神。"
+    },
+    {
+      "id": 2686,
+      "word": "assicurazione",
+      "oldExample": "Vorrei parlare dell'assicurazione con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "La mia assicurazione copre questa visita?",
+      "newExampleZh": "我的保险报销这次看诊吗？"
+    },
+    {
+      "id": 2707,
+      "word": "depressione",
+      "oldExample": "Vorrei parlare della depressione con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "La depressione può influire sulla vita quotidiana.",
+      "newExampleZh": "抑郁会影响日常生活。"
+    },
+    {
+      "id": 2719,
+      "word": "morte",
+      "oldExample": "Vorrei parlare della morte con un medico.",
+      "oldExampleZh": "我想和医生谈谈这个健康相关问题。",
+      "newExample": "La morte è un tema difficile da affrontare.",
+      "newExampleZh": "死亡是一个很难面对的话题。"
+    },
+    {
+      "id": 985,
+      "word": "colazione",
+      "oldExample": "Durante la colazione cerco di mangiare con calma.",
+      "oldExampleZh": "吃这一餐时我尽量慢慢吃。",
+      "newExample": "Durante la colazione cerco di mangiare con calma.",
+      "newExampleZh": "早餐时我尽量慢慢吃。"
+    },
+    {
+      "id": 1599,
+      "word": "cena",
+      "oldExample": "Durante la cena cerco di mangiare con calma.",
+      "oldExampleZh": "吃这一餐时我尽量慢慢吃。",
+      "newExample": "Durante la cena cerco di mangiare con calma.",
+      "newExampleZh": "晚餐时我尽量慢慢吃。"
+    },
+    {
+      "id": 1647,
+      "word": "pranzo",
+      "oldExample": "Durante il pranzo cerco di mangiare con calma.",
+      "oldExampleZh": "吃这一餐时我尽量慢慢吃。",
+      "newExample": "Durante il pranzo cerco di mangiare con calma.",
+      "newExampleZh": "午餐时我尽量慢慢吃。"
+    },
+    {
+      "id": 1940,
+      "word": "milione",
+      "oldExample": "Ho scritto il numero milione sul modulo.",
+      "oldExampleZh": "我在表格上写了数字“百万”。",
+      "newExample": "Ho scritto un milione sul modulo.",
+      "newExampleZh": "我在表格上写了一百万。"
+    }
+  ],
+  "meaningCorrections": [
+    {
+      "id": 2696,
+      "word": "consiglio",
+      "oldChinese": "建议；劝告；委员会/理事会",
+      "newChinese": "建议；劝告；委员会/理事会；我建议/劝告"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+终学意语 v3.9.0 七日巩固日历与智能减负版
+
+一、版本
+- versionCode: 69
+- versionName: 3.9.0-native
+- applicationId: com.italiano2774.nativeapp
+- permanent signing reference: zhongxue_release
+
+二、本版核心目标
+把“间隔复习”从只看今天升级为提前看未来7天。用户不需要等复习堆积后再救火，系统会根据明天和未来3天已经排好的复习量，提前控制今天的新词数量。
+
+三、新增/改进功能
+1. 新增未来7天巩固日历：
+   - 当前到期积压
+   - 每天新到期词数
+   - 当天建议复习量
+   - 每天实际可承受上限
+   - 当天无法消化的顺延量
+   - 预计复习分钟数
+2. 预测严格按当前 10/20/30/45/60 分钟学习时长计算，不假设用户每天无限复习。
+3. 新增 ReviewForecastDay / ReviewForecast / ReviewForecastEngine。
+4. 课程页增加“查看未来7天巩固日历”入口。
+5. 今日学习闭环增加“查看未来7天巩固日历”入口。
+6. 今日总结增加：明日新增到期、未来3天新增到期、未来7天负载建议。
+7. DashboardStats 增加 tomorrowScheduled / nextThreeDaysScheduled / forecastPressure。
+8. 动态新词算法加入“明日容量余量”：如果明天已经接近当前时长能承受的复习上限，今天会自动减少或暂停新词。
+9. 修复智能背词的真实新词配额：smartMemoryPlan 不再使用固定 perDay，而统一使用 recommendedNewWords，和首页显示完全一致。
+10. 每日智能计划的词汇卡增加“明日已排复习”提示，让用户直接看到未来压力。
+11. 升级前自动备份标记更新为 3.9.0-preupgrade。
+12. 新增 tools/review_forecast_quality_check.py，并纳入 Codemagic、Preflight、Regression 与 Strict Release Gate。
+
+四、兼容性
+- 包名不变。
+- zhongxue_release 固定签名不变。
+- SharedPreferences / Room 学习数据结构没有破坏性迁移。
+- 旧版词汇掌握、FSRS 到期日、错词、课程、文章、会话和统计全部继续继承。
+- v3.9.0 首次启动仍会先做本地升级前备份，然后继续原迁移流程。
+
+五、完整自检结果
+已通过：
+- Java source literal check
+- Review forecast quality check
+- Daily smart plan quality check
+- Daily learning loop quality check
+- Preflight
+- Static regression
+- Translation quality
+- Lexical semantic quality
+- 2774-word alignment
+- Independent retranslation
+- Word examples + expansion
+- Guided course + mixed-skill course path
+- 2000-word ten-article route
+- Spiral recurrence
+- Sentence-by-sentence article memorisation
+- Course translation
+- Phrase/core sentence semantics
+- English bridge / false friends
+- Memory aids
+- Four-mode smart mastery
+- Teach-before-test
+- Person/conjugation semantics
+- Exercise quality
+- Micro grammar
+- Listening + speaking
+- Three-level real-life scenario conversation
+- Permanent signing config
+- Strict release gate
+
+六、当前环境说明
+当前容器以静态发布门禁和源码质量检查为主；正式 Android Release APK 继续由 Codemagic 使用 zhongxue_release 永久签名构建。项目已保留动态递增 versionCode 注入，避免覆盖安装时版本号倒退。

@@ -1,0 +1,407 @@
+终学意语 v3.1.9 全词库语义深度扫描报告
+========================================
+
+扫描范围：words.json 全部 2774 个词条
+本轮高置信度修正：123 个
+同步修正 word_families.json 内嵌旧释义：14 处
+原则：只修改明显错义、错位或会严重误导初学者的词条；无法可靠判断的疑似问题不猜测修改。
+
+真实设备反馈重点修正
+--------------------
+castro：医生  ->  城堡；要塞；设防聚落（历史用语）
+bracciale：乐队  ->  手镯；臂环
+lagna：牛肉  ->  抱怨；牢骚；烦人的抱怨
+destino：醒来  ->  命运；宿命
+governo：跑；看；寻找  ->  政府；治理；我治理
+finanziamento：经济的；金融的  ->  融资；资金；资助
+misterioso：深的  ->  神秘的
+stile：寻找；看  ->  风格；样式
+
+未强行修改的待复核项
+--------------------
+cosse：当前仍为“烤过的 / baked”。该词形本身可疑，但仅凭现有词库无法确定原作者究竟想写 cosce、cotte 或其他词，因此本轮不猜测替换，避免制造新的错误。
+
+全部 123 项修正
+--------------------
+001. ID 52  luna
+     中文：月亮  ->  月亮
+     英文：month | moon  ->  moon
+002. ID 124  suono
+     中文：声音  ->  声音；我演奏/发出声音
+     英文：I play | noises | sound | play  ->  sound; I play; I make a sound
+003. ID 164  radio
+     中文：广播  ->  收音机；广播
+     英文：radium | radius | radio | radio set | radio station | radios  ->  radio
+004. ID 282  scusate
+     中文：原谅  ->  对不起；请原谅（对多人/各位）
+     英文：you excuse | you justify | excuse me | you apologize | you say sorry | you excuse yourself  ->  excuse me; sorry (plural/formal)
+005. ID 363  la prossima
+     中文：之后  ->  下一个（阴性）；下一次
+     英文：next  ->  the next one; next time
+006. ID 382  lagna
+     中文：牛肉  ->  抱怨；牢骚；烦人的抱怨
+     英文：beef  ->  complaint; whining
+007. ID 400  portafoglio
+     中文：钱包  ->  钱包
+     英文：briefcase | wallets | portfolios | wallet | portfolio | briefcases | billfold  ->  wallet
+008. ID 409  festa
+     中文：节日；聚会  ->  节日；聚会
+     英文：done | festivity | don't | party | holiday | parties  ->  party; celebration; festival
+009. ID 445  vorrebbe
+     中文：喜欢  ->  他/她/您想要；想……
+     英文：like | he'd like | he would like | would like | she would like | you would like | want | would wish | liked | wanted | she'd like  ->  he/she/you(formal) would like; would want
+010. ID 470  al
+     中文：和；用  ->  到……；在……；给……（a+il）
+     英文：to the | the | to | with the | of the | at the | into the | on the | with | a | for | per | into | at | in  ->  to the; at the
+011. ID 473  parla
+     中文：说；说话；是  ->  他/她/您说；说话
+     英文：speaks | speak | talks | is speaking | talk | is talking  ->  he/she/you(formal) speaks
+012. ID 476  usa
+     中文：使用；他/她使用；美国  ->  他/她/您使用；使用
+     英文：she runs | she is used to | USA | she uses | he uses | wears | it is used to | it runs | you use | United States | he runs | he exercises | use | she exercises | you are used to | be in the habit of | you exercise | it exercises | he is used to | you run | it uses | exercise | be used to | uses  ->  he/she/you(formal) uses
+013. ID 609  nel
+     中文：里面；通过  ->  在……里面；在……中（in+il）
+     英文：in | in the | many-sided | inside | elaborate | band | compound | on the whole | sum | by and large | hang-up | entirety | difficult | at | on | subtle | into the | to | whole | on the | complex | by | group | messy | through  ->  in the
+014. ID 651  della
+     中文：比；关于  ->  ……的；从……；关于……（di+la）
+     英文：of the | about the | in the | than | about | some | of | from | in | 's  ->  of the; from the; about the
+015. ID 675  storia
+     中文：故事；限时动态  ->  故事；历史
+     英文：history  ->  story; history
+016. ID 699  passa
+     中文：步骤；步伐  ->  他/她/您经过；通过；递给；度过
+     英文：(he/she/it) poses | (you) move on | (he/she/it) passes between | (he/she/it) blows itself out | (you) run | (he/she/it) forgives | (you) mash (up) | (he/she/it) draws | (he/she/it) spends | (you) pass on | (you) put on | (he/she/it) changes | (you) drop in | (he/she/it) is promoted | (he/she/it) drops round | (you) blow itself out | (you) pay | (you) pose | (he/she/it) shows | (you) pass off | (he/she/it) puts through | (you) rub | (he/she/it) pays | (you) whizz up | (he/she/it) connects | (he/she/it) draws on | (you) go across | (you) forgive | (he/she/it) goes past | (he/she/it) passes on | (he/she/it) impersonates | (you) get over | (he/she/it) lives out | (you) cross | (you) blow over | (he/she/it) goes (by) | (you) spend itself | (you) carry | (you) wear off | (you) change | (he/she/it) goes across | (you) pass between | (he/she/it) dies out | (you) put through | (he/she/it) moves on | (he/she/it) goes for | (he/she/it) rubs | (you) drop round | (he/she/it) dies | (he/she/it) purees | (he/she/it) whizzes up | (he/she/it) wears off | (he/she/it) carries | (you) move | (you) die | (you) go by | (he/she/it) runs through | (you) go past | (he/she/it) mashes (up) | (you) draw on | (he/she/it) puts on | (you) impersonate | (he/she/it) runs | (you) are promoted | (he/she/it) goes on | (you) live out | (he/she/it) checks | (he/she/it) gets over | (he/she/it) hands | (you) draw | (you) hand | (he/she/it) pops in | (he/she/it) spends itself | (he/she/it) drops in | (you) die out | (you) go through | (you) pop in | (he/she/it) blows over | (you) get across | be promoted | (you) go on | (you) are over | (he/she/it) goes through | (he/she/it) is over | (you) puree | (you) go (by) | (you) pass | (he/she/it) crosses | (he/she/it) passes down | (he/she/it) moves | (he/she/it) goes by | (he/she/it) passes | be over | (you) run through | (he/she/it) forgets | (he/she/it) subsides | (he/she/it) gets through | (you) get through | (you) go for | (you) connect | spend | (you) flow | (you) forget | (you) subside | (you) spend | (he/she/it) passes off | (you) check | (he/she/it) gets across | (you) show | (he/she/it) flows | (you) pass down | call  ->  he/she/you(formal) passes; goes by; spends
+017. ID 713  vorremmo
+     中文：喜欢  ->  我们想要；我们想……
+     英文：like | we would like | we would need | we would wish | we would want | want | liked | wanted | we'd like  ->  we would like; we would want
+018. ID 721  vorrebbero
+     中文：喜欢  ->  他们/她们想要；他们/她们想……
+     英文：like | they would like | they would wish | they would need | they would want | they would take | want | liked | they would mean  ->  they would like; they would want
+019. ID 727  ebbi
+     中文：穿；有；有过  ->  我有过；我曾有
+     英文：offered | (I) had | kept | wear | had | have | held  ->  I had
+020. ID 734  le sue
+     中文：他的；你的；她的  ->  他的；她的；您的（阴性复数）
+     英文：her | hers | his | your  ->  his; her; your(formal) (feminine plural)
+021. ID 743  cerca
+     中文：找到；得到；是  ->  他/她/您寻找；搜索；找
+     英文：scenting | tracking | collection of alms | find | is searching for | get | searches | looks for | found | is looking for | seeks | look for  ->  he/she/you(formal) looks for; searches
+022. ID 747  i suoi
+     中文：他的；你的；他们的  ->  他的；她的；您的（阳性复数）
+     英文：her | his | your | hers | their  ->  his; her; your(formal) (masculine plural)
+023. ID 760  piaccio
+     中文：喜欢  ->  我讨人喜欢；别人喜欢我
+     英文：(I) like oneself | like  ->  I am liked; I please
+024. ID 778  biondo
+     中文：清楚的；浅色的  ->  金发的；浅色的
+     英文：blonde | fair-haired man | fair | blond | fair-haired  ->  blond; fair-haired; light-coloured
+025. ID 839  tedeschi
+     中文：德语；德国的  ->  德国人（复数）；德国的（阳性复数）
+     英文：German | German people | Germans  ->  Germans; German (masculine plural)
+026. ID 850  viaggio
+     中文：旅行  ->  旅行；旅程；我旅行
+     英文：I travel | trip | run | travel | runs | journey | voyage | tour | traveled  ->  trip; journey; I travel
+027. ID 874  invitato
+     中文：邀请  ->  被邀请的；受邀的
+     英文：asked | invited | requested | guest  ->  invited
+028. ID 888  pulite
+     中文：干净的  ->  干净的（阴性复数）；你们清洁/打扫
+     英文：you clear out | wash | you clean out | you do the housework | you clean up | you clean | you wash | you clear up | clean  ->  clean (feminine plural); you clean
+029. ID 894  nello
+     中文：里面；我的  ->  在……里面；在……中（in+lo）
+     英文：in the | in | in my | inside | on | to | by | at the  ->  in the
+030. ID 910  marche
+     中文：做；制造  ->  品牌（复数）；马尔凯大区
+     英文：makes  ->  brands; Marche (region)
+031. ID 953  scarico
+     中文：我；出去；外面  ->  卸下的；空载的；我卸载/下载
+     英文：dead | out of power | I unload | drainpipe | I dump  ->  unloaded; empty; I unload/download
+032. ID 961  dalla
+     中文：喜欢；通过  ->  从……；由……（da+la）
+     英文：like | with the | through | to the | with | by the | for | as | at the | from the | at | to | since | of | through the | from | by  ->  from the; by the
+033. ID 1000  agio
+     中文：玩；演奏  ->  舒适；自在
+     英文：play  ->  ease; comfort
+034. ID 1014  del
+     中文：比；关于  ->  ……的；从……；关于……（di+il）
+     英文：with | of the | than | in the | 's | about | some | of | than the | from | in  ->  of the; from the; about the
+035. ID 1027  dell'
+     中文：比；关于  ->  ……的；从……；关于……（di+l’）
+     英文：with | of the | kind | for | than | tell | 's | d | say to oneself | about | some | of | sort | say | from | tell oneself | in | by  ->  of the; from the; about the
+036. ID 1035  alla
+     中文：；关于  ->  到……；在……；给……（a+la）
+     英文：the | to the | in the | at the | on the | about | a | at | to | of the  ->  to the; at the
+037. ID 1038  pesca
+     中文：桃子  ->  桃子；捕鱼/钓鱼
+     英文：lottery | she catches | she fishes | find | it catches | raffle | dives for | she finds | he draws | he fishes | he finds | take | pick up | get | gets | it draws | peach | fish for | fishes | she draws | it finds | fish | fishing | catch | fishes for | it fishes | you dive for | draw | haul | took | taken | he catches | picks up | caught  ->  peach; fishing
+038. ID 1039  dello
+     中文：比；关于  ->  ……的；从……；关于……（di+lo）
+     英文：with | of the | for | than | 's | d | about | some | of | from | in | by  ->  of the; from the; about the
+039. ID 1046  vorreste
+     中文：喜欢；想要  ->  你们想要；你们想……
+     英文：like | you would like | want | wanted | would you like  ->  you(plural) would like; would want
+040. ID 1058  delle
+     中文：比；关于  ->  ……的；从……；关于……（di+le）
+     英文：of the | of | a few | than | about | some | ' | from | 's  ->  of the; from the; about the
+041. ID 1060  migliore
+     中文：漂亮的；美好的  ->  更好的；最好的
+     英文：better | best | superior  ->  better; best
+042. ID 1063  degli
+     中文：；一些  ->  ……的；一些（di+gli）
+     英文：the | of the | about the | from the | some | in | '  ->  of the; some
+043. ID 1069  dei
+     中文：比；一些  ->  ……的；一些（di+i）
+     英文：some | of the | about the | gods | than | about | of | any  ->  of the; some
+044. ID 1072  così
+     中文：这个；那个；那些  ->  如此；这样；这么
+     英文：this | that | like this | like that | this way | all | those | thus | as | so | such  ->  so; thus; like this
+045. ID 1096  brillo
+     中文：开心的；微醺的  ->  微醺的；醉醺醺的；我闪耀
+     英文：happy | happier  ->  tipsy; slightly drunk; I shine
+046. ID 1100  qua
+     中文：这里；这个  ->  这里；这边
+     英文：quack | this way | from here | through here | here | on this side of | Louie  ->  here; this way
+047. ID 1131  là
+     中文：那里；那个；其他的  ->  那里；那边
+     英文：in the other room | from there | there | over there | that way | in there  ->  there; over there
+048. ID 1133  ci
+     中文：它；那里；我们  ->  我们；那里；到那里；对此
+     英文：one another | about it | it'll | ourselves | it | there | to us | us | each other | we  ->  us; there; about it
+049. ID 1136  lagno
+     中文：牛肉  ->  抱怨；牢骚（较少用/古语）
+     英文：beef  ->  complaint; lament (rare/old)
+050. ID 1162  meglio
+     中文：漂亮的；美好的  ->  更好；最好；较好地
+     英文：better | best | good | better off  ->  better; best
+051. ID 1169  questioni
+     中文：你争论；你争吵  ->  问题；议题（复数）
+     英文：(you) argue | (you) quarrel  ->  questions; issues
+052. ID 1177  quegli
+     中文：他；那个；那些  ->  那些（特殊阳性复数）
+     英文：that man | that | those | he | what  ->  those (masculine plural)
+053. ID 1193  nell'
+     中文：；里面  ->  在……里面；在……中（in+l’）
+     英文：in the | into the | on the whole | to | in | many-sided | inside | elaborate | band | compound | sum | by and large | hang-up | entirety | difficult | on | subtle | whole | complex | by | group | messy | at  ->  in the
+054. ID 1197  dalle
+     中文：通过；喜欢  ->  从……；由……（da+le）
+     英文：with the | through | to the | with | by the | for | at the | likes | from the | at | to | since | bies | through the | from  ->  from the; by the
+055. ID 1215  misterioso
+     中文：深的  ->  神秘的
+     英文：deep | mysterious  ->  mysterious
+056. ID 1216  vi
+     中文：你  ->  你们；给你们；在那里/去那里
+     英文：for you | you | yourselves | to you  ->  you(plural); to you(plural); there
+057. ID 1262  prepararsi
+     中文：得到；变得  ->  做准备；准备好
+     英文：get | to get ready | trains | prepare for | got | train | get ready  ->  to get ready; to prepare oneself
+058. ID 1267  spettacolo
+     中文：展示；演出；玩  ->  演出；表演；景象
+     英文：entertainment | show | play | performance | showing | sight | shows  ->  show; performance; spectacle
+059. ID 1284  un po'
+     中文：少；不太  ->  一点；有点
+     英文：little | a bit | something | less | a little  ->  a little; a bit
+060. ID 1370  pranzato
+     中文：有过  ->  吃过午饭；吃了午饭
+061. ID 1381  preso
+     中文：有过；拿了；带了  ->  拿了；取了；乘了；抓住了
+     英文：took | caught | involved | take | picked up | hit | got | had | busy | received | captured | taken | seized | grabbed | gotten  ->  taken; got; caught
+062. ID 1394  trovai
+     中文：得到；找到；变得  ->  我找到了
+     英文：get | hit | got | (I) thought | (I) came across | found | (I) found | find  ->  I found
+063. ID 1421  cola
+     中文：流下；滴下  ->  可乐；滴流/流下
+     英文：course  ->  cola; it drips/flows
+064. ID 1423  castro
+     中文：医生  ->  城堡；要塞；设防聚落（历史用语）
+     英文：doctor  ->  castle; fortress; fortified settlement (historical)
+065. ID 1455  bracciale
+     中文：乐队  ->  手镯；臂环
+     英文：bracelet | bands  ->  bracelet; armband
+066. ID 1513  lancia
+     中文：放  ->  长矛；他/她/您投掷
+     英文：bowl | put | call | throws  ->  spear; he/she/you(formal) throws
+067. ID 1563  scrivendo
+     中文：向下；其他的  ->  正在写；正在书写
+     英文：writing | writing down | spelling | writing to each other  ->  writing
+068. ID 1565  preparando
+     中文：得到；向上；学习中  ->  正在准备；准备中
+     英文：dressing | drafting | getting ready | studying for | making | mounting | being brewing | making out | arranging | get ready | training | planning | coaching | drawing up | preparing for | preparing  ->  preparing; getting ready
+069. ID 1568  tutto il giorno
+     中文：长的  ->  一整天；整天
+     英文：all day long  ->  all day
+070. ID 1573  studiando
+     中文：学习中；向上；出去  ->  正在学习；学习中
+     英文：examining | dealing with | thinking up | working | studying | working out | weighing  ->  studying
+071. ID 1707  col
+     中文：那里；和；用  ->  和……一起；用……；带着……（con+il）
+     英文：with | with the | over there | although | so what? | there | though  ->  with the; by the
+072. ID 1712  d'
+     中文：比；礼物  ->  ……的；从……（省音形式）
+     英文：of | in | to | (he/she/it) bears | (he/she/it) bumps | (he/she/it) devotes oneself | (he/she/it) gives | (he/she/it) gives oneself | (he/she/it) grants | (he/she/it) hits | (he/she/it) issues | (he/she/it) lays down | (he/she/it) pays | (he/she/it) presents | (he/she/it) puts on | (he/she/it) returns | (he/she/it) sets | (he/she/it) shows | (he/she/it) yields | (you) bear | (you) bump | (you) devote oneself | (you) give | (you) give oneself | (you) grant | (you) hit | (you) issue | (you) lay down | (you) pay | (you) present | (you) put on | (you) return | (you) set | (you) show | (you) yield | about | as | at | by | d | for | from | from... to | from...to | kind | like | say | say to oneself | since | sort | tell | tell oneself | than | through | with  ->  of; from
+073. ID 1714  dallo
+     中文：喜欢；通过  ->  从……；由……（da+lo）
+     英文：from | from...to | to | as | at | by | for | like | since | through | with  ->  from the; by the
+074. ID 1715  dall'
+     中文：礼物；展示  ->  从……；由……（da+l’）
+     英文：from | from the | to the | (he/she/it) bears | (he/she/it) bumps | (he/she/it) devotes oneself | (he/she/it) gives | (he/she/it) gives oneself | (he/she/it) grants | (he/she/it) hits | (he/she/it) issues | (he/she/it) lays down | (he/she/it) pays | (he/she/it) presents | (he/she/it) puts on | (he/she/it) returns | (he/she/it) sets | (he/she/it) shows | (he/she/it) yields | (you) bear | (you) bump | (you) devote oneself | (you) give | (you) give oneself | (you) grant | (you) hit | (you) issue | (you) lay down | (you) pay | (you) present | (you) put on | (you) return | (you) set | (you) show | (you) yield | as | at | at the | by | by the | for | from...to | like | since | through | through the | to | with | with the  ->  from the; by the
+075. ID 1719  nei
+     中文：；里面  ->  在……里面；在……中（in+i）
+     英文：on | in the | inside | in | ins | to | bies | on the  ->  in the
+076. ID 1720  ad
+     中文：；关于  ->  到；向；在（介词变体）
+     英文：a | each | for | per | favour | at | to | favor | every | in | about  ->  to; at
+077. ID 1727  verso
+     中文：是；哭  ->  朝；向；大约；诗句
+     英文：to | towards | toward(s) | (I) am | (I) bank | (I) flood | (I) flow | (I) pay | (I) pay in | (I) pour | (I) shed | (I) spill | (I) spill out | (I) tip | around | back | call | cry | direction | line (of verse) | reverse | reversed | way  ->  toward(s); about; verse
+078. ID 1729  finché
+     中文：长的  ->  直到；只要；在……期间
+     英文：until | while | as long as | so long as | till  ->  until; as long as; while
+079. ID 1822  buon
+     中文：有；好的  ->  好的（省音形式）
+     英文：good | merry | happy | right | have  ->  good
+080. ID 1827  durare
+     中文：拿着；拥有  ->  持续；延续
+     英文：hold | last | held  ->  to last; to continue
+081. ID 1859  circa
+     中文：周围；关于；一些  ->  大约；关于；周围
+     英文：regarding | near order | as to | near | around | so | approximately | about | roughly | concerning | some | round | nearest  ->  about; approximately; around
+082. ID 1865  piuttosto
+     中文：漂亮的  ->  相当；宁可；而不是
+     英文：pretty | rather | somewhat | before | instead | quite | rather than  ->  rather; quite; instead
+083. ID 1878  oltre
+     中文：在上方；结束  ->  超过；越过；此外
+     英文：over | beyond | besides | in addition to | on top of  ->  beyond; over; besides
+084. ID 1880  com'
+     中文：喜欢；那个；来  ->  如何；怎样（省略形式）
+     英文：how | how so | how come | as | as if | as per | as soon as | as well as | as...as | both...and | like | such as | that  ->  how
+085. ID 1933  ne
+     中文：他的；它的  ->  其中；对此；一些；从那里
+     英文：of | of it | about it | about him | any | by it | from here | from it | from there | her | his | in | its | of him | out of it | some | that | their | them | this  ->  of it/them; about it; some; from there
+086. ID 1934  si
+     中文：那些；其他的；一个  ->  自己；相互；（反身/无人称用法）
+     英文：one another | himself | each other | becoming | herself | itself | ones | oneself | si | suited | themselves | yourselves  ->  oneself; each other; impersonal/reflexive marker
+087. ID 2018  profondo
+     中文：深的；声音；富有的  ->  深的；深刻的；低沉的
+     英文：strongest | sheer | penetrating | earnest | strong | stronger | deep | marked | (I) lavish | low | heavy | meaningful | rich | deeply | profound | sound | deep down | richer  ->  deep; profound; low-pitched
+088. ID 2025  grave
+     中文：深的；主要的  ->  严重的；沉重的；低沉的
+     英文：grievous | slow | grave | deep | momentous | serious | body | weighty | major | acute | low | solemn | heavy | gross | severe | bass | worse  ->  serious; grave; heavy; low-pitched
+089. ID 2034  numeroso
+     中文：大的；粗的  ->  众多的；人数多的
+     英文：large | larger | numerous  ->  numerous; many
+090. ID 2068  cui
+     中文：哪个  ->  其；其中；谁/哪个（关系代词）
+     英文：which | whose | whom | inasmuch as | insofar as | of which | so | that | therefore | those | thus | to the extent that | where  ->  whom; which; whose
+091. ID 2081  pensiamoci
+     中文：它；其他的  ->  我们想想吧；让我们考虑一下
+     英文：(let us) think about it | (let us) think about each other | (let's) think about it  ->  let us think about it
+092. ID 2084  passiamola
+     中文：去；跑；支付  ->  我们把它传过去；我们把它度过
+     英文：pass | let's pass it | let's pass her | be over | be promoted | blow itself out | blow over | carry | change | check | connect | cross | die | die out | draw | draw on | drop in | drop round | flow | forget | forgive | get across | get over | get through | go (by) | go across | go by | go for | go on | go past | go through | hand | impersonate | live out | mash (up) | move | move on | pass between | pass down | pass off | pass on | pay | pop in | pose | puree | put on | put through | rub | run | run through | show | spend | spend itself | subside | wear off | whizz up  ->  let us pass it; let us spend it
+093. ID 2150  giù
+     中文：向下；关于；周围  ->  下；向下
+     英文：down | up and down | to and fro | about | approximately | around | below | downstairs | downwards | more or less | thereabouts  ->  down
+094. ID 2161  avanti
+     中文：这里；那个  ->  向前；前面；继续
+     英文：ahead | from then on(wards) | from here on(wards) | forward(s) | from now on(wards) | from that day  ->  forward; ahead; go on
+095. ID 2279  grasso
+     中文：富有的  ->  胖的；肥的；脂肪
+     英文：productive | fertile | fatty | coarse | fat | plentiful | grease | phlegmy | rich | coarsely | crude | blubber | greasy | oily | handsome  ->  fat; fatty
+096. ID 2314  chissà
+     中文：知道  ->  谁知道；也许
+     英文：who knows  ->  who knows; perhaps
+097. ID 2409  passarti
+     中文：去；跑；支付  ->  递给你；给你传递
+     英文：pass | pass you | pass off | be over | be promoted | blow itself out | blow over | carry | change | check | connect | cross | die | die out | draw | draw on | drop in | drop round | flow | forget | forgive | get across | get over | get through | go (by) | go across | go by | go for | go on | go past | go through | hand | impersonate | live out | mash (up) | move | move on | pass between | pass down | pass on | pay | pop in | pose | puree | put on | put through | rub | run | run through | show | spend | spend itself | subside | wear off | whizz up  ->  to pass/give to you
+098. ID 2456  cercando
+     中文：寻找；找到  ->  正在寻找；正在搜索
+     英文：looking for | pursuing | seeking | trying to find  ->  looking for; searching
+099. ID 2466  costruendo
+     中文：建筑物  ->  正在建造；建设中
+     英文：building | constructing | laying (down)  ->  building; constructing
+100. ID 2472  mangiando
+     中文：去；向上  ->  正在吃；吃着
+     英文：eating | eating away | having lunch | going through | having dinner | taking | using up | winning  ->  eating
+101. ID 2473  provando
+     中文：去；尝；尝起来  ->  正在尝试；正在试用/体验
+     英文：experiencing | documenting | proving | rehearsing | trying (out) | testing | trying on | distressing | establishing | sampling | demonstrating | having a taste of | running trials on | going through | hitting | knowing | feeling | practicing | practising | enjoying | running through | trying  ->  trying; testing; experiencing
+102. ID 2480  aprendo
+     中文：向上；出去；外面  ->  正在打开
+     英文：opening up | opening (out) | calling | opening (out | opening out | unlocking  ->  opening
+103. ID 2485  diventando
+     中文：去；做了  ->  正在变成；正在成为
+     英文：getting | becoming | being elected | being made | going | growing | turning  ->  becoming; getting
+104. ID 2489  sentendo
+     中文：喜欢；向上  ->  正在听；正在感觉
+     英文：hearing | feeling | feeling like | feeling up to | smelling  ->  hearing; feeling
+105. ID 2492  prendendo
+     中文：它；去；向上  ->  正在拿；正在取；正在乘坐
+     英文：taking | having | taking on | assuming | bringing | capturing | catching | charging | coming over | copping it | getting | getting a beating | getting worked up | going into | grabbing | grasping | handling | hitting | involving | picking up | putting on | running into | seizing | setting | stealing | striking | taking [somebody] on | taking down | taking over | taking root | taking something amiss | taking up  ->  taking; getting
+106. ID 2499  sapendo
+     中文：能；可以  ->  知道；明白（副动词）
+     英文：knowing | being able to | can | hearing | learning | savoring | savouring | smelling | tasting  ->  knowing
+107. ID 2505  conoscendo
+     中文：知道；其他的  ->  正在认识；正在了解
+     英文：getting to know | knowing | knowing each other | experiencing | knowing of | knowing oneself | meeting  ->  getting to know; knowing
+108. ID 2518  stile
+     中文：寻找；看  ->  风格；样式
+     英文：speech form | style | look | in style | looking  ->  style
+109. ID 2532  classico
+     中文：老的  ->  经典的；古典的；经典作品
+     英文：conservative | classical | typical | old favourite | classic | traditional | straight  ->  classic; classical
+110. ID 2537  complesso
+     中文：她的；她  ->  复杂的；综合体；建筑群
+     英文：many-sided | involved | her | elaborate | band | compound | on the whole | sum | by and large | hang-up | entirety | difficult | subtle | whole | hard | complex | group | messy | bands  ->  complex; complicated; complex/building complex
+111. ID 2542  immaginazione
+     中文：花哨的  ->  想象力；想象
+     英文：imagination | fancy  ->  imagination
+112. ID 2551  guaio
+     中文：担心  ->  麻烦；困境；祸事
+     英文：jam | worry  ->  trouble; problem; jam
+113. ID 2563  voler
+     中文：需要；想要；拿  ->  想要；愿意；需要（省略形式）
+     英文：(to) would like | (to) require | (to) be required | (to) wish | (to) mean | (to) need | (to) be needed | (to) want | (to) take | want  ->  to want; to wish; to need
+114. ID 2593  scoperta
+     中文：找到  ->  发现；发现物
+     英文：find | detection | discovery | found  ->  discovery; find
+115. ID 2613  nota
+     中文：向下；做；制造  ->  笔记；注释；音符；分数/成绩
+     英文：(you) note down | (you) note | (you) make a note of | note  ->  note; annotation; musical note; grade
+116. ID 2628  soleggiato
+     中文：晴朗的；放  ->  晴朗的；阳光充足的
+     英文：exposed to the sun | exposed [something] to the sun | sunny | put [something] in the sun | bright  ->  sunny; sunlit
+117. ID 2661  conferenza
+     中文：说话  ->  会议；讲座；报告会
+     英文：prelection | conference | lecture | talk  ->  conference; lecture; talk
+118. ID 2662  finanziamento
+     中文：经济的；金融的  ->  融资；资金；资助
+     英文：financing | financial backing | funding  ->  financing; funding; financial backing
+119. ID 2664  proposta
+     中文：提供  ->  提议；建议；提案
+     英文：proposal | proposition | suggestion | offer  ->  proposal; suggestion; proposition
+120. ID 2703  destino
+     中文：醒来  ->  命运；宿命
+     英文：arouse | wake | destiny  ->  destiny; fate
+121. ID 2713  anima
+     中文：来；向上；声音  ->  灵魂；心灵
+     英文：(he/she/it) brings [something] to life | (he/she/it/you) jazz up | (you) bring life to | (you) come alive | (you) encourage | (he/she/it/you) pep (up) | (you) grow heated | bore | moving force | (he/she/it) grows heated | (he/she/it) encourages | (he/she/it) brightens up | sound post | (he/she/it) animates | (he/she/it/you) liven up | (you) inspire | (he/she/it) lights up | (you) bring [something] to life | core | (he/she/it) inspires | (he/she/it) comes to life | (you) warm up | (you) get heated | (he/she/it) comes alive | (you) light up | (he/she/it) warms up | (you) brighten up | spirit | soul | (he/she/it) enlivens | anima | (you) come to life | (he/she/it) brings life to | (you) enliven | (he/she/it) gets heated | (you) animate  ->  soul; spirit
+122. ID 2727  attacco
+     中文：去；店铺；合适  ->  攻击；袭击；进攻
+     英文：(I) go for | (ski) binding | (I) couple | hook-up | (I) harness | (I) tie | (I) drive forward | cue | (I) grasp hold | joint | (I) turn on | power point | (I) set on | fit | (I) hitch | (I) strike up | (I) go in | (I) sellotape | go | (I) connect | (I) plug in | (I) assail | (I) fasten | opening | (I) tackle | connection | (I) get into | (I) attach | (I) put up | (I) hold on | (I) hang up | (I) stick (up) | going | beginning | turns | (I) bash | (I) attack | (I) switch on | (I) strike | (I) catch on | (I) stick together | (I) hang | (I) take root | gone | (I) start off | (I) assault | (I) tape | bashing | bout | downbeat | (I) sew | (I) launch into | (I) eat away at | (I) stitch | went | strike | (I) give | turn | drive  ->  attack; assault
+123. ID 2761  governo
+     中文：跑；看；寻找  ->  政府；治理；我治理
+     英文：(I) navigate | government | steerage | (I) steer | steering | (I) govern | (I) drive | (I) manage | managing | (I) tend | (I) rule | (I) look after | (I) take care of | housekeeping | (I) run | cabinet  ->  government; governing; I govern
+
+自动防回归
+------------
+- 新增 lexical_semantic_quality_v319.json，锁定本轮 123 项修正。
+- 新增 tools/lexical_semantic_quality_check.py，Codemagic 每次构建前验证全部修正。
+- 检查 castro/医生、bracciale/乐队、lagna/牛肉、destino/醒来等已知错误不能回归。
+- 检查 word_families.json 中同一词条不能继续显示旧中文释义。
+
+版本
+----
+versionCode：50
+versionName：3.1.9-native
+applicationId：com.italiano2774.nativeapp
+固定签名引用：zhongxue_release

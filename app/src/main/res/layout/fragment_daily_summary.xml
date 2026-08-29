@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="今日学习闭环" android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="今天学了什么、哪里最弱、明天先做什么，一次看清" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <TextView android:id="@+id/text_daily_summary_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:lineSpacingExtra="4dp" android:textColor="@color/text_primary" android:textSize="14sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <TextView android:id="@+id/text_daily_summary_advice" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:lineSpacingExtra="4dp" android:text="正在生成四维掌握和明日建议…" android:textColor="@color/text_primary" android:textSize="13sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_words" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:text="今日单词" android:textAllCaps="false" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_review" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="48dp" android:layout_marginStart="8dp" android:layout_weight="1" android:text="到期复习" android:textAllCaps="false" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_speaking" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🗣 每日5句开口" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_weak_story" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="📚 今日弱词微短文" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_life_tasks" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🗺 真实生活任务地图" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_breakthrough" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🎯 开始今日突破" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_repair" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🩹 错题回炉" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_error_evidence" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🧾 个人错句本" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_forecast" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="📅 查看未来7天巩固日历" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_weekly_exam" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🧪 本周实战考试" android:textAllCaps="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_passport" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="🎯 查看能力护照与下一关" android:textAllCaps="false" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="今日课程词" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:id="@+id/text_daily_summary_words" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_soft_panel" android:padding="14dp" android:lineSpacingExtra="3dp" android:textColor="@color/text_secondary" android:textSize="13sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_summary_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="10dp" android:text="返回今天" android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

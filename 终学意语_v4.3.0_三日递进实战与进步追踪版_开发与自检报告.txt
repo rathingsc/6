@@ -1,0 +1,97 @@
+终学意语 v4.3.0 三日递进实战与进步追踪版 开发与自检报告
+====================================================
+
+一、本版目标
+修正 v4.2.0 “三日处方已经显示三天路线，但实际每日仍主要启动同一种任务”的不足。
+v4.3.0 把三日处方升级为真正的持久化训练周期：同一个短板锁定三个完成日，第1天直接补弱项，第2天换提取方式，第3天进入真实迁移；同一天不能把三天连续刷完。
+
+二、核心新增与修正
+1. 真正的三日递进
+   - 第1天：直接训练当前短板。
+   - 第2天：换一种提取方式，避免机械重复同题型。
+   - 第3天：进入自由会话 / 写作 / 真实情景迁移。
+   - 每一项能力都有独立三日动作矩阵。
+
+2. 三日短板锁定
+   - 一轮开始后固定同一能力3个完成日。
+   - 单次分数波动不会让处方每天在六项能力间来回跳。
+   - 完成第3天后，下一学习日重新评估六项能力。
+   - A1/A2/B1目标阶段发生变化时立即开启新阶段处方。
+
+3. 下一日间隔保护
+   - 完成今天的突破任务后，下一阶段必须等到下一学习日。
+   - 同一天重新打开能力护照/今日总结只显示“今日已完成 · 明天继续”。
+   - 防止把所谓“三日训练”变成20分钟内连续刷3关。
+
+4. 进步追踪
+   - 保存本轮 baselineScore。
+   - 显示“本轮起点 → 当前分数（变化值）”。
+   - 同时显示阶段目标分、当前差距和累计完成轮数。
+
+5. 第2/3天真实路由
+   - intensive_listening：听力第2天精听听写。
+   - smart_cloze：识义/语法第2天语境提取。
+   - free_conversation：口语/真实使用/识义第3天自由迁移。
+   - writing：拼写/语法第3天真实写作迁移。
+   - CourseHome、能力护照、今日总结全部可直接打开上述真实训练页。
+
+6. 处方优先去重
+   - 30分钟以上仍保留每日5句习惯。
+   - 如果每日5句本身就是当前处方，先保留带“第1天/第2天”信息的处方任务，再去重通用入口。
+
+7. 三日状态备份恢复
+   - 学习进度 JSON version: 25。
+   - 保存当前短板、目标阶段、当前phase、baseline、开始日、最近完成日、累计轮数。
+   - 覆盖升级或恢复备份后不会无故重置回第1天。
+
+三、版本与覆盖升级
+- versionCode: 73
+- versionName: 4.3.0-native
+- applicationId: com.italiano2774.nativeapp（未改变）
+- Codemagic 固定签名引用: zhongxue_release（未改变）
+- 升级前本地备份标记: 4.3.0-preupgrade
+- 学习进度 JSON backup version: 25
+- 项目 ZIP 不包含 .jks / .keystore / 私密 keystore.properties。
+
+四、关键修改文件
+- app/src/main/java/com/italiano2774/nativeapp/BreakthroughPlanEngine.java
+- app/src/main/java/com/italiano2774/nativeapp/ProgressStore.java
+- app/src/main/java/com/italiano2774/nativeapp/MasteryPassportEngine.java
+- app/src/main/java/com/italiano2774/nativeapp/MasteryPassportFragment.java
+- app/src/main/java/com/italiano2774/nativeapp/DailySmartPlanEngine.java
+- app/src/main/java/com/italiano2774/nativeapp/DailySummaryFragment.java
+- app/src/main/java/com/italiano2774/nativeapp/CourseHomeFragment.java
+- app/src/main/java/com/italiano2774/nativeapp/MainActivity.java
+- tools/breakthrough_plan_quality_check.py
+- tools/preflight.py
+- tools/regression_check.py
+- tools/release_gate.py
+- codemagic.yaml
+- app/build.gradle
+
+五、自检结果
+以下全部通过：
+- Java source literal check
+- Breakthrough plan quality check（v4.3真实三日周期）
+- Daily smart plan quality check
+- Mastery passport quality check
+- Daily learning loop quality check
+- Seven-day review forecast quality check
+- Daily five-sentence speaking quality check
+- Signing configuration check
+- Preflight
+- Regression
+- Strict Release Gate
+- 2774/2774 单词全量中意对齐与独立重译门禁
+- 1718 组当前例句 / 前1500词例句覆盖门禁
+- 98 个课程单元与混合技能路径门禁
+- 430 短语 / 430 核心句门禁
+- 10篇 / 50节 / 2000目标词 / 269组逐句文章门禁
+- 听力与开口、三档真实情景会话、27个微语法点门禁
+- 固定包名、永久签名引用、单调递增 versionCode 配置门禁
+
+翻译检查仍只有两条历史正常 WARNING：“我的”“我们的”对应不同意大利语性数形式复用，不属于错误。
+
+六、构建说明
+当前执行环境未配置完整 Android SDK/Gradle Wrapper，因此未声称本地已经生成 APK。
+项目继续由 Codemagic 创建 Gradle Wrapper、验证 zhongxue_release 永久签名指纹，并生成正式 app-release.apk。

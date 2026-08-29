@@ -1,0 +1,438 @@
+#!/usr/bin/env python3
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+WORDS = ROOT / 'app/src/main/assets/words.json'
+FAMILIES = ROOT / 'app/src/main/assets/word_families.json'
+
+# Independent Chinese re-translation pass.  The goal is beginner-friendly completeness:
+# keep the common/core senses and exact inflection/person information, while avoiding
+# obscure dictionary senses that would make multiple-choice exercises unusable.
+C = {
+# 0001-0200
+'con':'和；与；用；带着','lo':'定冠词（特殊阳性单数）；他/它（直接宾语）','madri':'母亲（复数）',
+'vero':'真的；真实的；正确的','di':'的；从；关于；由……制成','piacere':'喜欢；使人喜欢；愉快；荣幸；很高兴认识你',
+'sono':'我是/我在；他们/她们是/在','cielo':'天空；天堂','italiana':'意大利的（阴性单数）；意大利女性',
+'che':'什么；哪个；……的（关系代词）；那/即（连接词）','cassa':'收银台；收款处；箱子/钱箱',
+'bello':'美丽的；漂亮的；美好的；好看的','questa':'这个/这一个（阴性）','bagno':'浴室/卫生间；洗澡/沐浴',
+'la':'定冠词（阴性单数）；她/它/您（直接宾语）','mazzo':'一束；一捆；一叠；一副（牌）',
+'amico':'朋友（男性）；男朋友（依语境）','simpatico':'讨人喜欢的；友好的；有趣的',
+'ragazza':'女孩；年轻女子；女朋友（依语境）','americana':'美国的（阴性单数）；美国女性',
+'vicina':'近的/附近的（阴性）；女邻居','voci':'声音；嗓音；意见（复数）','pazzo':'疯的；疯狂的；疯子',
+'americano':'美国的；美国人（男性）','conto':'账单；账户；计算；我数/计算','pesce':'鱼；鱼肉',
+'pasta':'意大利面；面食；面团','suono':'声音；我演奏/发出声音','l\'':'定冠词（元音前）；他/她/它（直接宾语）',
+'ecco':'这就是；给你/给您；看','secco':'干的；干燥的；干型的（酒）','messi':'放好的；穿上的（mettere过去分词阳性复数）',
+'molto':'很多；非常/很','studio':'学习；研究；书房/工作室；我学习/研究','sana':'健康的（阴性单数）',
+'bene':'好；很好；安好；好处','in':'在；到/进入；用/乘（交通方式）','piano':'楼层；平面；钢琴；计划；慢慢地/轻声地',
+'lavori':'你工作；工作/工作项目（复数）','lavoro':'工作；职业；工作任务；我工作','a':'到；向；在；给；每/按',
+'vivo':'活着的；生动的/鲜明的；我居住/生活','taglio':'切口；切割；款式/发型；我切/剪',
+'lasci':'你离开/留下；你让/允许','gialli':'黄色的（阳性复数）；侦探/悬疑作品（复数）',
+# 0201-0400
+'cosa':'事情；东西；什么','fare':'做；制作；进行；使/让','casse':'收银台/收款处（复数）；箱子（复数）；音箱/扬声器',
+'suonare':'演奏；播放/敲响；响/发声','cura':'治疗；护理；照顾；疗法','viro':'我转向；我转弯；我改变方向',
+'solo':'只/仅仅；独自；单独的/唯一的','costano':'它们花费；价格为','economica':'便宜的；经济实惠的；经济的（阴性）',
+'specie':'种类；类别；物种','camicie':'衬衫；女式衬衫（复数）','le':'定冠词（阴性复数）；她/它们（直接宾语）；给她（间接宾语）',
+'gli':'定冠词（特殊阳性复数）；给他（间接宾语）；他们/它们（部分语境）','i':'定冠词（阳性复数）',
+'aperto':'打开的；开着的；开放的；坦率的','vestiti':'衣服；服装；穿好衣服的','cucina':'厨房；烹饪/菜系；他/她/您做饭',
+'soggiorno':'客厅；逗留/停留；住宿','voi':'你们；各位','affitto':'房租/租金；租赁；我出租/租用',
+'calza':'袜子；长袜；他/她/您穿（鞋袜）','per':'为；为了；给；通过/经由；因为；每/按',
+'tappi':'塞子/瓶塞（复数）；你堵住/封住','cuoca':'女厨师','matto':'疯的；疯狂的；疯子',
+'professore':'男老师；教授','ora':'现在；小时；时间','cuoco':'男厨师；厨师',
+'sale':'盐；大厅/房间（sala的复数）；他/她/您上升/上去','macchine':'汽车；机器（复数）','zecca':'蜱虫；造币厂',
+'balconi':'阳台（复数）','tagli':'切口/切割（复数）；你切/剪','pieno':'满的；充满的；完整的/全的',
+'vicine':'近的/附近的（阴性复数）；女邻居们','americane':'美国的（阴性复数）；美国女性','italiane':'意大利的（阴性复数）；意大利女性',
+'vicini':'邻居（复数）；近的/附近的（阳性复数）','italiani':'意大利人（男性/混合复数）；意大利的（阳性复数）',
+'studia':'他/她/您学习；研究','spesso':'经常；常常；厚的','rosa':'粉红色/粉色的；玫瑰','svizzera':'瑞士的（阴性）；瑞士女性',
+'lagna':'抱怨；牢骚；烦人的抱怨','rotta':'路线/航线；破损的/坏的（阴性）；溃败','ricchi':'富有的（阳性复数）；富人（复数）；丰富的',
+'borsa':'包/手提包；证券交易所/股市；奖学金（borsa di studio）','la sua':'他的；她的；它的；您的（阴性单数）',
+# 0401-0600
+'vecchio':'老的；旧的；老人（男性）','il suo':'他的；她的；它的；您的（阳性单数）','regalo':'礼物；我赠送/送给',
+'passo':'步子/脚步；步骤；山口；我经过/传递/度过','dopo':'之后/以后；在……之后；后来','gara':'比赛；竞赛；赛事',
+'giri':'你转/转弯/旋转；圈/转数（复数）','borse':'包/手提包（复数）；证券交易所/奖学金（依搭配）',
+'questi':'这些（阳性复数）','su':'在……上；关于；大约；向上','sito':'网站；地点/站点；位于的（较正式）',
+'ha bisogno di':'他/她/您需要','occupato':'忙的；被占用/占据的','cure':'治疗/疗法/护理（复数）；治疗/照顾（动词形式）',
+'sicuro':'安全的；确定的；有把握的/可靠的','corsa':'跑步/奔跑；赛跑/比赛；班次/车次/行程',
+'malato':'生病的；病人（男性）','applicazione':'应用程序；应用/运用','lezione':'课；课程；讲座；教训',
+'cita':'他/她/您引用；提到；列举','piatti':'盘子/餐盘（复数）；菜肴/菜品；平的（阳性复数）',
+'stare':'待/停留；处于/保持（状态）；感觉/身体状况','regali':'礼物（复数）；你赠送','caldo':'热的；温暖的；热情的；热/热度',
+'uova':'鸡蛋（复数）','retto':'直的；笔直的；正直的；直肠（名词）','aperitivo':'开胃酒/餐前酒；餐前小酌',
+'alle':'在/到……（a + le）；在……点（时间）','medici':'医生（复数）；医学的（阳性复数）',
+'posto':'地方/位置；座位；职位/工作岗位；放置的','grido':'叫喊/喊叫；我喊/叫','ha paura':'他/她/您害怕',
+'senno':'理智；判断力；明智','quanto':'多少；多么','voce':'声音/嗓音；意见；词条/条目',
+'strappi':'你撕/撕下；撕裂/裂口（复数）','sentire':'听见/听；感觉；闻到/尝到（依语境）','uso':'使用；用途；我使用/采用',
+# 0601-0800
+'giusto':'正确的；公平/正义的；合适的/恰好的','quanti':'多少（阳性复数）','bagni':'浴室/卫生间（复数）；你弄湿/浸泡',
+'aria':'空气；神情/样子；咏叹调','fiori':'花（复数）；梅花（扑克牌花色）','stanco':'累的；疲倦的',
+'buono':'好的；善良的；好吃的；有效/可用的','ricevimento':'接待；招待会；接待时间','zii':'叔伯舅等男性亲属（复数）',
+'amiche':'女性朋友（复数）；女朋友们（依语境）','sposa':'新娘；他/她/您结婚/娶/嫁','zia':'姑姨婶舅妈等女性亲属',
+'matrimonio':'婚姻；结婚；婚礼','mostri':'怪物（复数）；你展示/出示','quali':'哪些/哪一个（复数）；……的那些（关系代词）',
+'materia':'科目；物质/材料；事项/主题','chiavi':'钥匙（复数）；关键/键（复数）','ragazze':'女孩/年轻女子（复数）；女朋友们（依语境）',
+'benvenuti':'欢迎（对多人）；受欢迎的（阳性/混合复数）','portare':'带；拿/送；携带；穿戴','avere':'有；拥有；（助动词）已经/曾经',
+'le loro':'他们/她们/它们的（阴性复数）','i loro':'他们/她们/它们的（阳性复数）','ingredienti':'配料/成分（复数）',
+'provare':'尝试；试用/试穿；体验/感受','pezzo':'块/片/件；段；零件；作品/曲子','taglia':'尺码；他/她/您切/剪；切！',
+'ordinare':'点餐/订购；命令；整理/排序','persone':'人们；人（复数）','centri':'中心（复数）；你击中/对准',
+'in centro':'在市中心；市中心','il loro':'他们/她们/它们的（阳性单数）','guidare':'驾驶；开车；引导/带领',
+'riunioni':'会议；聚会/团聚（复数）','le sue':'他的；她的；它的；您的（阴性复数）','mesi':'月（复数）；几个月',
+'tratto':'一段；路段；特征/特点；笔画/线条','contratto':'合同；收缩的/感染的（过去分词）','visto':'签证；看见/看过/见过的（vedere过去分词）',
+'piacciono':'（多个事物）令人喜欢；喜欢（复数主语）','zona':'区域；地区；地带','le piacciono':'她喜欢（复数事物）；您喜欢（正式用法Le）',
+'le piace':'她喜欢（单数事物）；您喜欢（正式用法Le）','piaccio':'我讨人喜欢；别人喜欢我','natura':'自然/大自然；本性/性质',
+'piace':'（某事物）令人喜欢；喜欢（单数主语）','com\'è':'怎么样；是什么样的','coppa':'杯/高脚杯；奖杯；碗/杯状容器',
+'appuntamento':'预约；约会；会面','dipinto':'画/绘画作品；画过的/被描绘的','via':'街道/路；路线/途径；走开/离开','cultura':'文化；修养/知识',
+# 0801-1000
+'parte':'部分；一方/一边；角色/份额；他/她/您出发','calcio':'足球；钙；踢/一脚','bacio':'吻；我亲吻',
+'molta':'很多；大量（阴性单数）','siate':'你们是/处于（虚拟式）；请保持……（命令式）','quante':'多少（阴性复数）',
+'guasto':'故障；坏的/损坏的','studiamo':'我们学习；我们研究','pronto':'准备好的；马上/迅速的；喂（接电话）',
+'paese':'国家；乡村/村庄；小镇','aereo':'飞机；航空的/空中的','europeo':'欧洲的；欧洲人','vacche':'母牛；牛（复数）',
+'chiamare':'叫/称呼；打电话；召唤','giro':'圈/一圈；转弯/轮次/行程；我转/绕','organizzare':'组织；安排/筹办',
+'evento':'事件；活动；赛事','mazza':'棍棒；球棒；大锤','dolce':'甜的；温柔/柔和的；甜点/甜食','apri':'你打开/开启；打开！',
+'sporco':'脏的；污秽的；我弄脏','forno':'烤箱；炉子/烤炉；面包房（部分语境）','ricetta':'食谱；处方；配方',
+'meno':'更少/较少；减去/减号','economiche':'便宜/实惠的；经济的（阴性复数）','più':'更多；更；最（最高级结构）；加号',
+'spendere':'花费（钱/时间）；花钱','banco':'桌子/课桌；柜台；长凳','bianco':'白色的；白色；白葡萄酒（名词）',
+'penna':'笔；羽毛','verde':'绿色的；绿色；绿地','carino':'可爱的；漂亮的；友好/亲切的；不错的',
+'e un quarto':'……点一刻；15分钟','prima':'以前/之前；先；在……之前','gira':'他/她/您转/旋转/转弯；拍摄',
+'e mezzo':'……点半；30分钟','come':'怎么/怎样；像/如同；作为','scarico':'卸下/卸载的；空载的；我卸载/下载',
+'fratelli':'兄弟（复数）；兄弟姐妹（混合复数，依语境）','mosca':'苍蝇；莫斯科（Mosca，大写）','da':'从；由；在/到某人处；自……以来',
+'nostro':'我们的（阳性单数）','nostra':'我们的（阴性单数）','nipote':'侄子/侄女；外甥/外甥女；孙子/孙女',
+'strato':'层；层次；地层/涂层','mostra':'展览/展览会；他/她/您展示/表明','volta':'次/回；转弯；拱顶',
+'maglia':'针织衫/毛衣/T恤；网眼/网格','casi':'情况；案例/案件（复数）；格（语法）','presto':'早；很快/不久；我借出（prestare）',
+'agio':'舒适；自在；余裕/宽裕',
+# 1001-1200
+'numero':'数字；号码；数量','porta':'门；他/她/您带/携带/穿戴','giocare':'玩/玩耍；比赛；打/踢球；赌博',
+'odiare':'讨厌；憎恨','quadra':'（事情/账目）对得上；吻合；合理','piglia':'他/她/您拿/取/抓住（口语）',
+'tipo':'类型/种类；家伙/人；典型','calo':'下降；减少；我下降/降低','beve':'他/她/您喝','cucchiai':'勺子（复数）',
+'gusto':'味道/口味；品味/喜好；我品尝/享受','preferisce':'他/她/您更喜欢','viola':'紫色/紫色的；中提琴；他/她/您违反',
+'colore':'颜色；色彩；颜料/染料','delle':'……的/从……/关于……（di+le）；一些（阴性复数）','caso':'情况；案例/案件；偶然/机会',
+'degli':'……的/从……/关于……（di+gli）；一些（特殊阳性复数）','potrebbero':'他们/她们可以；可能会',
+'manchi':'你缺席/缺少；你错过；（mi manchi）我想你','bianchi':'白色的（阳性复数）；白人（复数）；Bianchi（姓氏）',
+'sporchi':'脏的（阳性复数）；你弄脏','certo':'确定的；某个；当然/肯定','pianta':'植物；平面图；他/她/您种植/栽种',
+'casco':'头盔；我掉落/跌倒（cascare）','scale':'楼梯（复数）；梯子；刻度/比例尺','scopa':'扫帚；他/她/您扫地/打扫',
+'grado':'度/度数；等级/级别；军衔；程度','capelli':'头发','nasce':'他/她/它出生；产生/起源','basso':'低的；矮的；低声的；低音/男低音',
+'occhio':'眼睛；注意！/小心！','uomini':'男人；人们/人类（复数）','ancora':'还/仍然；再次/又；锚（àncora，不同重音）',
+'ci':'我们（宾/间宾）；那里/到那里；对此/其中','tassa':'税/税费；费用；他/她/您征税','bagna':'他/她/您弄湿/浸湿',
+'cartina':'小地图/地图；纸片/小包装','isola':'岛；他/她/您隔离/使绝缘','bravo':'棒的；能干的；擅长的',
+'corso':'课程；过程；路线/行程；进行中的','uscita':'出口/出路；外出/出行；发行/发布；支出',
+'sembrare':'似乎；好像；看起来','addio':'再见；永别；告别','toccare':'触摸/碰；轮到；涉及/影响','spegnere':'关掉/熄灭；关闭',
+'venti':'二十；风（复数）','colleghi':'同事（复数）；你连接/联系','dire':'说；告诉；意思是/表示','presentazione':'介绍；演示/展示；提交/呈现',
+# 1201-1400
+'cliente':'顾客；客户；委托人','capo':'头/首；老板/负责人；首领；章节/项目','acceso':'开着/开启的；点燃/亮着的；鲜明/激烈的',
+'carta':'纸；卡片/卡；纸牌','accendere':'打开/开启（电器）；点燃/点亮','chiamata':'电话/通话；呼叫/召唤；点名',
+'azioni':'行动/行为（复数）；股票/股份','emozionante':'令人兴奋/激动的；感人的','data':'日期；给定的/给予的（阴性过去分词）',
+'danno':'损害/损失；他们给','niente':'什么也没有；没什么；一点也不','quelli':'那些；那些人/东西（阳性复数）',
+'messaggio':'消息/信息；短信；留言','single':'单身的/单身者；单个的；单曲','ricevere':'收到/接收；接待/会见；接受',
+'esce':'他/她/它/您出去/离开；出来/出版/上映','baci':'吻（复数）；你亲吻','fasce':'带/绷带（复数）；时段/区间',
+'pregare':'祈祷；请求/恳求','farò':'我将做/制作；我会做','gruppo':'组；群体；团体/乐队','muto':'哑的；无声/静音的；我改变',
+'ricco':'富有的/有钱的；丰富的/富含的','incredibile':'难以置信的；不可思议/惊人的','completo':'完整的；全部的；齐全的',
+'prezzo':'价格/价钱；我定价','sicuramente':'肯定地；一定/当然；安全地','affari':'生意/商业；事务/事情；交易',
+'prossimo':'下一个/接下来的；即将到来的；近的','basta':'够了；足够；只要；停！','trama':'情节/故事线；阴谋；织法/纹理',
+'entrambi':'两者都（阳性/混合）','pezzi':'块/片/件（复数）；零件/片段','fiasco':'失败/惨败；大肚酒瓶',
+'tenda':'帐篷；窗帘/帘子；遮阳篷','dice':'他/她/您说；表示','gemello':'双胞胎之一；双胞胎的/成对的',
+'diverso':'不同的；各种各样的；与众不同的人','ordinato':'整齐/有序的；有条理的；已订购/命令的','stella':'星星/星；明星；亲爱的（昵称）',
+'abbina':'他/她/您搭配/配对；搭配！','mare':'海；海洋；海边','piatto':'盘子/餐盘；一道菜；平的/扁平的',
+'contento':'高兴的；满意的；满足的','secondo':'第二；按照/根据；秒；第二道菜','impresa':'企业/公司；事业/壮举/任务',
+'pagato':'已支付/付过钱的；有薪的','moto':'摩托车；运动/运动状态','scorso':'上一个的/过去的；流逝的',
+'guido':'我驾驶/开车；我引导','seguito':'跟随；后续/结果；继续/遵循','preso':'拿了/取了；乘坐了；抓住/捕获了；服用了',
+'sentito':'听见/听说过；感觉/闻到/尝到过','luce':'光/光线；灯/灯光','elettricità':'电；电力',
+# 1401-1600
+'sorpresa':'惊讶；惊喜；意外','serie':'系列；连续剧/剧集；（阴性）严肃的','recitare':'表演/演戏；朗诵；背诵',
+'peggio':'更糟；更坏；更差地','giapponese':'日语；日本的；日本人','gentile':'友善的；礼貌的；亲切的',
+'problemi':'问题；麻烦（复数）','tutte le':'所有的/每个（阴性复数名词前）','russo':'俄语；俄罗斯的；俄罗斯人',
+'tutti i':'所有的/每个（阳性复数名词前）','arabo':'阿拉伯语；阿拉伯的；阿拉伯人','disponibile':'可用的；有空的；可获得的；乐于帮忙的',
+'distrutto':'被毁坏/摧毁的；筋疲力尽的（口语）','strumento':'工具；仪器；乐器','abbiate':'你们有/拥有（avere虚拟式/命令式）',
+'li':'他们/它们（阳性复数直接宾语）；在那里（lì，注意重音）','primo':'第一的；第一名/第一位；第一道菜',
+'caccia':'狩猎/打猎；他/她/您赶走/追捕','vestito':'衣服/服装；套装；连衣裙（依语境）；穿着的','indossare':'穿；穿戴；戴',
+'profumo':'香味/香气；香水；我使有香味','fidanzato':'男朋友；未婚夫；订婚的（男性）','cotto':'熟的；煮/烤过的；迷恋的（口语 cotto di）',
+'bel':'美丽的；漂亮的；好的（bello在名词前的形式）','povero':'贫穷的；可怜的；穷人（男性）','pari':'相等的；偶数的；平局；同等的人',
+'cacci':'你赶走；你追赶/追捕','cucciolo':'幼犬；幼崽/幼兽','fabbrica':'工厂；他/她/您制造/生产','adulto':'成年人；成年的/成熟的',
+'fascia':'带子/带；绷带；时段/区间','lasciare':'离开/留下；让/允许；放弃','giochi':'游戏/玩具（复数）；你玩；你比赛',
+'gioco':'游戏；比赛；我玩/比赛','cantina':'地下室；酒窖/酒庄酒窖','cugini':'堂/表兄弟姐妹（男性或混合复数）',
+'mucche':'母牛；牛（复数）','parente':'亲戚；亲属','saggio':'明智的；智者；论文/随笔；试验',
+'maggiore':'较大的/更大的；年长的；主要的；成年人/长者（依语境）','stretto':'窄的；紧的；紧密的/密切的','ambiente':'环境；房间/场所；氛围',
+'faccia':'脸/面孔；表情；他/她/您做（fare虚拟式）','braccia':'手臂（复数）','infermiere':'男护士；护士',
+'clinica':'诊所/临床机构；临床医学','fanno male':'疼/造成疼痛；它们有害/伤害','gesto':'手势；动作；举动',
+'male':'坏地/不好；疼痛；不适；邪恶/坏事','testa':'头；头脑/思想','medico':'医生；医学的；我给……用药/治疗',
+'quinta':'第五；五年级；五档（齿轮）','tracce':'痕迹；轨迹；线索（复数）','chiamando':'正在叫/称呼；正在打电话/呼叫',
+'leggendo':'正在读/阅读；正在理解/解读','rilassante':'令人放松的；舒缓的','stai':'你待着/处于；你感觉/身体状况',
+'duro':'硬的；艰难/困难的；严厉/苛刻的','pensare':'想；思考；认为；打算','spiacente':'抱歉的；遗憾的',
+'legge':'他/她/您读；法律（lègge，重音不同）','bolle':'沸腾/冒泡；气泡（复数）','uva':'葡萄（集合名词）',
+'fritto':'油炸的；炸物（名词）','cena':'晚餐；他/她/您吃晚饭','manzo':'牛肉；阉牛/肉牛',
+# 1601-1800
+'crema':'奶油/忌廉；乳霜；药膏；蛋奶糊','fagiolo':'豆；豆子','panini':'三明治；小面包（复数）',
+'torte':'蛋糕/派（复数）','polli':'鸡（复数）；鸡肉','farfalle':'蝴蝶（复数）；蝴蝶结形意面',
+'cuochi':'厨师（男性/混合复数）','gatte':'母猫/雌猫（复数）','pesci':'鱼（复数）；双鱼座（Pesci）',
+'balena':'鲸；他/她/您闪现/闪烁（balenare）','toro':'公牛；金牛座（Toro）','cavallo':'马；马力/骑马相关',
+'farfalla':'蝴蝶；蝴蝶结形意面','mucca':'母牛；奶牛（依语境）','pranzano':'他们/她们吃午饭',
+'olio':'油；食用油；我给……上油','patata':'土豆/马铃薯','maiale':'猪；猪肉','pranzo':'午餐；我吃午饭',
+'acido':'酸的；酸性的；尖酸/刻薄的；酸（名词）','griglia':'烤架/格栅；他/她/您烧烤','fame':'饥饿；饥荒',
+'succo':'果汁；汁液；精华/要点','proprio':'自己的/本人的；真正的/恰当的；正好/确实','divisa':'制服；外币/货币（金融）',
+'abito':'衣服/服装；套装；我居住','cuoio':'皮革；兽皮','costume':'服装/戏服；泳衣；习俗/风俗',
+'pantalone':'裤子（单条/一条裤子，较少单数）；Pantalone喜剧人物','finire':'结束；完成；用完','decidere':'决定；选定；下定决心',
+'morire':'死；死亡','guardare':'看/观看；看守/照看','seguire':'跟随；遵循；参加/上课；关注','ricordare':'记得/记住；提醒；使想起',
+'vivere':'生活/居住；活着；经历','passare':'经过/通过；度过（时间）；传递；转换/转到','credere':'相信；认为；以为',
+'tenere':'拿着/握住；保持；保留；举行','diventare':'变成；成为','rimanere':'留下/停留；剩下；保持','capire':'理解；明白；意识到',
+'chiedere':'问；请求/要求；索要','mettere':'放/放置；穿上；设定；使处于','volere':'想要；希望；意欲；意味着（voler dire）',
+'potere':'能/能够；可以；权力（名词）','dov\'':'哪里（dove的省音形式）','qual':'哪个；哪一个；什么样的（quale的省音）',
+'cos\'':'什么；事情/东西（cosa的省音）','risposta':'回答；答复；回应','domanda':'问题/提问；申请；请求/需求',
+'col':'和/用/带着……（con + il）','dai':'从/由……（da + i）；给！/来吧（依语境）','nei':'在……里/中（in + i）',
+'ad':'到；向；在（a在元音前的变体）','fino':'直到/到……为止；甚至','contro':'反对/对抗；靠着/迎着',
+'sia':'是（虚拟式）；无论……还是……','entro':'在……以内/之前；我进入（entrare）','né':'也不；既不……也不',
+'tempo':'时间；天气；节拍/速度','calendario':'日历；日程/赛程','ritardo':'迟到；延误/延迟；我延误/推迟',
+'minuto':'分钟；细小/细微的（形容词）','momento':'时刻/瞬间；时候','paio':'一对/一双；两个；我看起来/似乎（parere）',
+'doppio':'双倍的/两倍的；双份；我加倍','totale':'总数/总计；总的/全部的','miglio':'英里；小米',
+'coppia':'一对/一双；情侣/夫妻','metro':'米；地铁；计量标准/尺度','quarto':'第四；四分之一；一刻钟；房间（部分用法）',
+'misura':'尺寸；测量/度量；措施；他/她/您测量','enorme':'巨大的；庞大的','specialità':'专长；特色/招牌菜；专业',
+'capitano':'队长；船长；上尉','segretario':'秘书（男）；书记/秘书长','operaio':'工人；蓝领工人','direttore':'主任/经理；导演；负责人',
+'meccanico':'机械师；机械的','conduttore':'主持人；驾驶员；导体；带领者','guardia':'警卫/守卫；警察/卫兵；值班/守望',
+'entrata':'入口；进入；入场；收入','tavola':'桌子（餐桌）；木板；图表/插图','scala':'楼梯；梯子；刻度/比例尺；他/她/您攀爬/缩减',
+'chiave':'钥匙；关键/解法；扳手；谱号','mobile':'家具；可移动的；手机（telefono mobile，依语境）','riscaldamento':'暖气/供暖；加热；热身',
+'cancello':'大门/门；我删除/擦除','coperta':'毯子；盖子/覆盖物；被覆盖的',
+# 1801-2020
+'giovane':'年轻的；年轻人','chiaro':'清楚/明确的；明亮的；浅色的','normale':'正常的；通常的；普通的',
+'intero':'整个的；完整的；整数（名词）','comune':'共同的/常见的；普通的；市镇/市政府','pesante':'重的；沉重/繁重的；令人厌烦的',
+'forte':'强的；坚固的；响亮的；浓烈的；要塞（名词）','capace':'有能力的；能干的；容量大的','grosso':'大的；粗的/厚的；重要的',
+'unico':'唯一的；独特的；单一的','interessato':'感兴趣的；有关/受影响的；有私心的','popolare':'流行/受欢迎的；大众的；民间的',
+'quotidiano':'每日的/日常的；日报（名词）','elettrico':'电的；电动的','straniero':'外国的；外国人','gratuito':'免费的；无偿的；无根据/无端的',
+'nazionale':'国家的/全国的；国家队（名词）','buon':'好的（buono在名词前的形式）','stesso':'相同的/同一个；自己/本人',
+'bastare':'足够；够用','attraversare':'穿过/横过；横穿','durare':'持续；延续；耐用','dimenticare':'忘记；忘掉；遗漏',
+'tirare':'拉；拖；扔/投；射/发射','salvare':'拯救/救；保存；挽救','scusare':'原谅；请原谅/道歉（反身）',
+'controllare':'检查/核对；控制；监控','mandare':'发送；派遣；使/让去','girare':'转/旋转；转弯；拍摄；游览/绕行',
+'ritornare':'返回；回来；恢复/再次成为','fermare':'停下；使停止；阻止/拦住','cadere':'掉落；摔倒；下降/落下',
+'colpire':'击打/击中；袭击；打动/给人深刻印象','spiegare':'解释；展开/铺开','crescere':'成长；长大；增加/增长',
+'incontrare':'遇见；碰到；会见','significare':'意味着；表示','mancare':'缺少；缺席；错过；想念（如 mi manchi）',
+'dimostrare':'证明；展示；表明','scegliere':'选择；挑选','aggiungere':'添加；增加；补充','succedere':'发生；接替/继任',
+'rispondere':'回答；答复；回应','chiudere':'关闭；关上；结束','costruire':'建造；建设；构建','indicare':'指出；指示；表示',
+'offrire':'提供；给予；请客','unire':'连接；联合；合并','cambiare':'改变；更换；兑换','perdere':'失去；丢失；错过；输掉',
+'c\'':'有/在那里（c’è等结构中 ci 的省音形式）','circa':'大约；约；关于','neanche':'也不；甚至不；也没有',
+'soltanto':'只；仅仅','soprattutto':'尤其；最重要的是','piuttosto':'相当；颇；宁可/倒不如；而不是','appena':'刚刚；刚才；一……就；几乎不',
+'pure':'也；也可以；尽管/即使；请……吧（语气）','sotto':'在……下面；下方；低于；在……之下','sopra':'在……上面；上方；超过；关于',
+'intorno':'周围；大约（intorno a）；围绕','com\'':'怎样；像……一样（come的省音形式）','tanto':'很多；非常/如此；这么多',
+'poco':'少；一点；不太/很少','palazzo':'大楼；宫殿；公寓楼','provincia':'省；省份；地方行政区',
+'porto':'港口；港湾；我带/携带/穿戴（portare 的 io 形式）','quartiere':'街区；城区；宿舍/营房','ferroviario':'铁路的；铁路工作人员（名词）',
+'comunità':'社区；团体；共同体/群体','collina':'小山；丘陵','centro':'中心；市中心；中央；我击中/对准',
+'fattoria':'农场；农舍','angolo':'角；角落；拐角；角度','sala':'大厅；房间；厅','campo':'田地；场地；领域；营地',
+'albergo':'旅馆；酒店','libreria':'书店；书柜/书架','alcol':'酒精；含酒精饮料','batteria':'电池；电瓶；电池组；架子鼓/鼓组',
+'oggetto':'物品；物体；对象；主题/标的','ruota':'轮子；车轮；他/她旋转','foglio':'纸张；一张纸；工作表/页',
+'ventilatore':'风扇；通风机/呼吸机','forma':'形状；形式；状态/体形；他/她形成','diario':'日记；日程本/记事本',
+'busta':'信封；袋子/包装袋','spazzola':'刷子；他/她刷','motore':'发动机；电动机；动力','rapporto':'关系；报告；比例/比率',
+'compagno':'同伴；伙伴；同学；伴侣','personalità':'个性；人格；名人/人物','carattere':'性格；字符；特征；字体',
+'popolo':'人民；民族；民众','cittadino':'公民；市民；城市的','individuo':'个人；个体；人；我辨认',
+'umano':'人类的；人的；人（名词）','ospite':'客人；来宾；住客；宿主','adolescente':'青少年；青春期的','età':'年龄；时代；时期',
+'folla':'人群；群众','ce':'我们；那里（ci在组合代词前的形式）','metà':'一半；中间/半','abbastanza':'足够；相当/颇',
+'sufficiente':'足够的；充分的；及格的','ultimo':'最后的；最近的/最新的；末位','alcun':'某个/一些；任何（alcuno截短形式）',
+'qualsiasi':'任何的；无论哪个；普通的','parecchio':'相当多；不少；相当/颇','parecchi':'相当多；不少（阳性复数）',
+'tutte':'全部；所有（阴性复数）；大家（女性）','tutta':'全部；整个（阴性单数）','qualunque':'任何的；无论哪个；随便哪个',
+'parecchie':'很多；不少（阴性复数）','parecchia':'很多；相当多（阴性单数）','troppe':'太多（阴性复数）',
+'diverse':'不同的；多个/各种（阴性复数）','nessuna':'没有任何一个/没有人（阴性）','certa':'某个/某种；确定的（阴性）',
+'nessun':'没有任何；没有一个（阳性名词前）','certe':'某些；一些；确定的（阴性复数）','diversi':'不同的；多个/各种（阳性复数）',
+'altra':'另一个/别的（阴性）','asciugare':'擦干；弄干；晾干','gridare':'喊叫；大声说/叫','svuotare':'清空；倒空；腾空',
+'pianificare':'计划；规划','supporre':'假设；认为；推测','allenare':'训练；锻炼；培训','baciare':'亲吻','riempire':'装满；填满；填写',
+'bruciare':'燃烧；烧伤/烧毁；灼痛','ferire':'使受伤；伤害；刺痛','guadagnare':'挣钱；赚取；赢得/获得',
+'rompere':'打破；弄坏；打断；分手（rompere con）','spostare':'移动；挪动；推迟/转移','sedere':'坐；坐下；就座',
+'prestare':'借给；提供；给予（注意/帮助）','spingere':'推；推动；催促/促使','tentare':'尝试；企图','produrre':'生产；产生；制作',
+'esprimere':'表达；表示；挤出/榨出','riconoscere':'认出；识别；承认；认可','permettere':'允许；准许','vincere':'赢；获胜；战胜/克服',
+'leggero':'轻的；轻微的；清淡的；轻松的','profondo':'深的；深刻的；低沉的','superiore':'较高/上面的；高级/上级的；优越的',
+# 2021-2200
+'fondamentale':'基础/根本的；关键/至关重要的','fisico':'物理的；身体的；物理学家','grave':'严重的；沉重的；低沉的',
+'particolare':'特别的/特殊的；具体的/特定的；细节（名词）','necessario':'必要的；必需的；必需品（名词）',
+'personale':'个人的/私人的；人员/员工（名词）','generale':'一般的/总体的；将军（名词）','definitivo':'最终的；确定/决定性的；永久的',
+'originale':'原始/原创的；原件/原作；独特的','cattivo':'坏的；恶劣的；凶/刻薄的；坏人（名词）',
+'finale':'最后的/最终的；结局/决赛','responsabile':'负责的/负责任的；负责人；责任人/肇事者',
+'legale':'合法的/法律的；律师/法律顾问','commerciale':'商业的；商务的；销售人员/业务员','avanzato':'高级的/先进的；向前推进的',
+'professionale':'专业的/职业的；专业人士','indipendente':'独立的；自主的；自由职业者/个体经营者','puro':'纯的；纯粹的；清澈/干净的',
+'fresco':'新鲜的；凉爽的；清新的','statale':'国家的/国立的；国道（名词）；公务员（依语境）','provinciale':'省/省级的；地方性的/狭隘的',
+'locale':'当地的/本地的；场所/店铺/房间','regionale':'地区/区域的；地区列车（名词）','familiare':'熟悉的；家庭的；家属/家庭成员',
+'storico':'历史的；历史性的；历史学家','ciò':'这/那；此事/此物','cui':'谁/哪个（关系代词的宾/间宾）；其/其中',
+'alcuni':'一些；某些（阳性复数）','ognuno':'每一个；每个人（阳性/通用）','entrambe':'两者都（阴性）','qualcuna':'某人/某个（阴性）；一些（依语境）',
+'chiamiamoci':'让我们互相打电话/称呼彼此','passiamola':'让我们把它传过去；让我们度过它','testo':'文本；课文；正文；歌词/台词',
+'titolo':'标题；头衔；资格/学位；证券','prova':'测试；考试；试验；证据/证明；尝试','parola':'单词/词；话/言语',
+'regola':'规则；常规；他/她/您调节/规范','livello':'水平/等级；高度/水准','istruzione':'教育；教学；指示/说明',
+'istituzione':'机构；制度；建立/创立','pagina':'页；页面','tesi':'论文/学位论文；论点/主张','voto':'分数/成绩；投票/选票；誓言',
+'compito':'任务；作业；职责','esercizio':'练习/锻炼；习题；业务/经营','dipartimento':'部门；系/院系',
+'laurea':'大学学位；毕业/学位授予','diploma':'文凭；毕业证书/学位证','educazione':'教育；教养/礼貌','classe':'班级；课堂/教室；类别/等级',
+'principiante':'初学者；初级的/初学的','insegnante':'老师；教师','pullman':'长途汽车/旅游大巴','estero':'国外/海外；外国的（名词化）',
+'trasporto':'运输/交通；运送','luogo':'地方/地点；场所','destinazione':'目的地；用途/去向；任命/分配',
+'visita':'参观/拜访/访问；检查/就诊；他/她/您参观','traffico':'交通/车流；交易/非法贸易','vista':'视力/视觉；景色/视野；看见的（阴性过去分词）',
+'volo':'航班；飞行；我飞','guida':'指南/导游；驾驶；他/她/您引导/驾驶','pilota':'飞行员/驾驶员；他/她/您驾驶/操纵',
+'barca':'船；小船','continente':'大陆/洲','campeggio':'露营；露营地/营地','cima':'顶端；山顶/峰顶；最高点',
+'attraverso':'穿过/通过/横跨；我穿过（attraversare）','lato':'一边/侧面；方面/角度','fondo':'底部/深处；基金；背景；我创立（fondare）',
+'interiore':'内在的；内部的；内心的','fermata':'车站/站点；停靠/停止','avanti':'向前/前面；继续；请进',
+'posizione':'位置；姿势；职位/立场','direzione':'方向；管理层/领导；导演/编辑工作','mezzo':'一半；中间；方式/手段；交通工具',
+'inizio':'开始/开端；我开始','fine':'结束/末尾；目的/目标；细的/精致的（形容词）','ingresso':'入口；进入/入场；门票/入场费',
+'senso':'感觉/感官；意义；方向；常识（buon senso）','colpa':'过错；责任；罪责','bisogno':'需要；需求/必要',
+'soddisfazione':'满意；满足；满足感','fortuna':'运气；好运；财富/命运（部分语境）','tranquillo':'安静/平静的；放心的；无忧的',
+'rispetto':'尊重；关于/相比（rispetto a）；我尊重','paura':'害怕；恐惧','amore':'爱；爱情；爱人/亲爱的（称呼）',
+'emozione':'情绪/情感；激动/感动','pensiero':'思想/想法；思念；小礼物/心意','sentimento':'感情/情感；感觉；感受',
+# 2201-2400
+'giudizio':'判断；评价；意见；审判/判决','favore':'恩惠；帮忙；支持/赞成','pratica':'练习/实践；做法；手续/业务文件；案件材料',
+'origine':'起源；来源；出身','sezione':'部分；章节；部门/科室；截面','versione':'版本；译文/译本；说法',
+'autorità':'权力/权威；当局/主管机关；权威人士','necessità':'必要性；需要','movimento':'运动；移动；动作；社会/政治运动',
+'qualità':'质量；品质；特性/优点','occasione':'机会；场合；时机','aspetto':'方面；外表/外观；样子；我等待（aspettare 的 io 形式）',
+'obiettivo':'目标；目的；镜头/物镜；客观的','processo':'过程；程序；审判/诉讼','esperienza':'经验；经历；体验；实验（部分语境）',
+'azione':'行动；行为；作用；股票/股份','ragione':'原因；理由；道理；理智；正确（avere ragione）','programma':'计划；节目；程序；课程大纲',
+'effetto':'效果；作用；影响；结果','forza':'力量；力气；强度；武力','punto':'点；地点/位置；分数；要点/观点；句号',
+'mondiale':'世界的；全球的；世界杯/世锦赛（名词）','campione':'冠军；样本；典范/代表','gol':'进球；得分',
+'giocatore':'运动员/选手；玩家；赌徒','rete':'网；网络；球网；进球（足球语境）','attività':'活动；工作/业务；活性',
+'diritto':'权利；法律；直的/笔直地','potenziale':'潜在的；潜力/潜能；电势（物理）','grandioso':'宏伟的；壮观的；极好的',
+'sottile':'薄的；细的；纤细的；微妙/敏锐的','infantile':'儿童的；幼儿的；幼稚的','radicale':'根本的；彻底的；激进的；根/根式（数学）',
+'logico':'合乎逻辑的；逻辑的；逻辑学家','ideale':'理想的；理想/理念','etico':'伦理的；道德的','costante':'恒定的；持续的；始终如一的；常数',
+'morto':'死的；去世的；已死亡（morire过去分词）','intellettuale':'知识分子；智力的；知识/思想方面的','uguale':'相同的；相等的；一样',
+'vuoto':'空的；空白的；空缺的；空虚','crescente':'不断增长的；上升的；新月/弦月（名词）','corretto':'正确的；恰当的；礼貌的；已修正的',
+'debole':'弱的；虚弱的；薄弱的；淡的','magari':'也许；说不定；但愿/要是……就好了','ben':'好好地；很好地；良好（bene的截短形式）',
+'talmente':'如此；这么；到这种程度','segreto':'秘密；秘密的；保密的','frequenza':'频率；出席/上课频率；常见程度',
+'buio':'黑暗；黑暗的；昏暗的','altezza':'高度；身高；海拔/高处','dettaglio':'细节；详情','onore':'荣誉；名誉；尊敬',
+'parete':'墙；墙面；岩壁','segnale':'信号；标志；迹象；警示','perdita':'损失；丢失；泄漏/漏水','divisione':'划分；分割；除法；部门/师（军队）',
+'passione':'热情；激情；爱好；强烈情感','linguaggio':'语言；语言表达；术语/语言体系','esecuzione':'执行；实施；演奏/表演；处决',
+'pressione':'压力；血压；气压','riflessione':'思考；反思；反射','significato':'意思；含义；意义','interpretazione':'解释；理解；演绎/表演',
+'cambio':'变化/更换；兑换/汇率；变速器/换挡；我换','elenco':'列表；清单；目录','arrivo':'到达；抵达；我到达',
+'proprietà':'财产；所有权；性质/特性','ritorno':'返回；回程；回报；我返回','segno':'标志；符号；迹象；记号',
+'visione':'视力/视觉；景象/视野；愿景/看法','vantaggio':'优势；好处；利益；领先',
+# 2401-2600
+'rappresentante':'代表；代理人；销售代表','protezione':'保护；防护；保护装置','lasciarvi':'离开你们；把你们留下；让/允许你们',
+'metterla':'把它放/放置；穿上它（阴性对象）','farlo':'做它/做这件事；做到','andarci':'去那里；去做/参加（ci指代地点/事情）',
+'glielo':'把它给他/她/您；对他/她/您说它','diagnosi':'诊断；诊断结果','febbre':'发烧；发热；体温升高',
+'intervento':'干预；介入；发言；手术','benessere':'健康；福祉；幸福安康','trattamento':'治疗；处理；待遇；疗程',
+'pelle':'皮肤；皮/皮革','dente':'牙齿；齿（机械）','gola':'喉咙；咽喉；贪吃/贪食','dolore':'疼痛；痛苦；悲痛',
+'organo':'器官；机构/机关；管风琴','cuore':'心脏；心；核心','salute':'健康；祝你健康/干杯（Salute!）','capello':'一根头发；毛发',
+'corpo':'身体；物体/主体；团体/兵团','restare':'留下；停留；保持；剩下','includendo':'包括；包含（副动词）',
+'tentando':'正在尝试/企图','camminando':'正在走路/步行','piacendo':'令人喜欢；使人满意（副动词）','credendo':'正在相信；认为/以为',
+'lasciando':'正在离开/留下；让/允许','mettendo':'正在放/放置；正在穿上/设置','trovando':'正在找到/发现；认为/觉得（trovare）',
+'dando':'正在给/给予；正在产生/提供','potendo':'能够/可以（副动词）','essendo':'是/处于（副动词）；由于是……',
+'avendo':'有/拥有（副动词）；由于有……','volendo':'想要/愿意（副动词）；如果愿意','romanzo':'小说；爱情故事/恋情（部分语境）',
+'foto':'照片；摄影（缩略词）','danza':'舞蹈；跳舞','immagine':'图像；图片；形象；想象','fotografare':'拍照；拍摄',
+'dipingere':'画；绘画；描绘','fila':'排；队列；行列','filmare':'拍摄；录像','esibizione':'表演；展示；展出',
+'galleria':'画廊；图库/相册；长廊/隧道','ballo':'舞蹈；舞会；我跳舞','disegno':'图画；绘图/设计；我画/设计',
+'complesso':'复杂的；综合体/建筑群；情结','eguaglianza':'平等；相等','ruolo':'角色；作用；职位/职责','causa':'原因；理由；诉讼/案件；他/她引起',
+'essenza':'本质；精华；香精/精油','successo':'成功；成功之事；发生过的（succedere过去分词）','liberazione':'解放；释放；摆脱',
+'intelligenza':'智力；智慧；理解力','compromesso':'妥协；折中；受损/牵连的','abitudine':'习惯；惯例','odore':'气味；臭味/香味（中性）',
+'ricchezza':'财富；富裕；丰富','fallimento':'失败；破产','timore':'恐惧；畏惧；担忧','sensazione':'感觉；感受；印象',
+'concorrenza':'竞争；竞争者/竞争关系','caduta':'跌倒；下降；坠落','poter':'可以；能（potere的截短形式）',
+'dovere':'必须；应该；责任/义务（名词）','modo':'方式；方法；样子；语气/式（语法）','ricerca':'研究；搜索/寻找',
+'collegamento':'连接；联系；交通接驳/链接','laboratorio':'实验室；工作室；工坊','elemento':'元素；要素；成分/成员',
+'plastica':'塑料；塑料制品；整形/造型艺术','fisica':'物理学；女物理学家/物理的（依语境）','conoscenza':'知识；认识/了解；熟人',
+'invenzione':'发明；发明物；虚构/编造','definizione':'定义；清晰度；确定/解决','formula':'公式；配方；措辞/表达方式',
+'energia':'能量；精力；能源','traduzione':'翻译；译文/译本','lettore':'读者；阅读器/播放器；大学外语助教',
+'stampa':'印刷；报刊/新闻界；打印/印刷品',
+# 2601-2774
+'discorso':'讲话；演讲；谈话；论述','soggetto':'主语；主题/主体；对象；受……影响的','argomento':'话题；主题；论点/理由',
+'posta':'邮件；邮政；邮局（依语境）','rivista':'杂志；期刊','opinione':'意见；看法；观点','notizia':'新闻；消息',
+'intervista':'采访；面试；他/她/您采访','informazione':'信息；资料；询问处（informazioni）','affare':'事情；生意/交易；便宜货',
+'discussione':'讨论；争论；辩论','conversazione':'谈话；会话；对话','articolo':'文章；商品/物品；条款；冠词',
+'indirizzo':'地址；方向；专业方向/方针','canale':'频道；渠道；运河/管道','codice':'代码；编码；法典/法规；密码/编号',
+'fumo':'烟；烟雾；我吸烟','terreno':'土地；地面；土壤；地形/领域','mondo':'世界；人间；领域','cascata':'瀑布；级联/串联',
+'campagna':'乡村/农村；活动/运动；战役/竞选','temporale':'雷雨；雷暴','spazio':'空间；空位/间隔；太空','sole':'太阳；阳光',
+'paesaggio':'风景；景观；风景画','pianeta':'行星；星球','terra':'土地；地面；土壤；地球','atmosfera':'大气；气氛/氛围',
+'economia':'经济；经济学；节约','conferenza':'会议；讲座；报告/演讲','credito':'信用；信贷；学分；信誉','servizio':'服务；业务；服务设施；班次',
+'associazione':'协会；社团；联系/联想','commercio':'贸易；商业；交易','valore':'价值；数值；价值/作用',
+'affittare':'出租；租用/租赁','prodotto':'产品；产物；被生产/产生的','produzione':'生产；产量；制作',
+'risorsa':'资源；手段/办法','venditore':'卖家；销售员；售货员','stipendio':'工资；薪水','vendita':'销售；出售；售卖',
+'offerta':'报价；优惠；提议；出价；供给','organizzazione':'组织；机构；安排/组织工作','soldo':'钱；硬币；薪饷（历史）',
+'interesse':'兴趣；利息；利益','finanza':'金融；财政；财经','incontro':'会面/见面；会议；比赛/对抗；我遇到',
+'industria':'工业；产业；行业','assicurazione':'保险；保证/保障','sconto':'折扣；减价；我折扣/扣除','costo':'成本；费用；价格；我花费',
+'carriera':'职业生涯；事业','contante':'现金；现款','ditta':'公司；企业；商号','compagnia':'陪伴；伙伴/一群人；公司；连队',
+'moneta':'硬币；货币；零钱','pubblicità':'广告；宣传；知名度/公开性','bolletta':'账单（尤其水电燃气电话）；票据',
+'consiglio':'建议；劝告；委员会/理事会','trasformazione':'转变；转换；变形/加工','esistenza':'存在；生存；生活',
+'mente':'头脑；思维；心智；他/她说谎（mentire的变位）','santo':'圣人；圣徒；神圣的','spirito':'精神；灵魂；精神状态；烈酒（复数常见）',
+'realtà':'现实；实际情况；事实','virtù':'美德；优点；功效/效力','memoria':'记忆；记忆力；回忆；内存',
+'depressione':'抑郁；低落；萧条；凹陷/低压','coscienza':'意识；良知；自觉','simbolo':'符号；象征；标志',
+'celebrazione':'庆祝；庆典；仪式','meditazione':'冥想；沉思；思考','speranza':'希望；期望','preghiera':'祈祷；祷告；请求/恳求',
+'vita':'生命；生活；人生；寿命','fede':'信仰；信念；信任','arresto':'逮捕；停止/停机；阻塞','democratico':'民主的；民主主义者/民主派',
+'sciopero':'罢工；我罢工','corruzione':'腐败；贪腐；腐化/损坏','tribunale':'法院；法庭','negoziazione':'谈判；协商；交易',
+'presidenza':'主席/总统职务；主持/主席团','patria':'祖国；故国','giustizia':'正义；公正；司法','resistenza':'抵抗；阻力；耐力；电阻',
+'frontiera':'边境；边界；前沿','battaglia':'战斗；战役；斗争','carcere':'监狱；监禁','corona':'王冠；冠；花冠/齿冠；他/她加冕',
+'esercito':'军队；我练习/行使（esercitare的变位）','candidato':'候选人；求职者；被提名的人','votare':'投票；表决；给……投票',
+'arma':'武器；他/她武装','politico':'政治的；政治家/政客','stato':'国家；状态；曾经是/处于（essere过去分词）',
+'presidente':'总统；主席；会长/负责人','strategia':'策略；战略','pace':'和平；平静；安宁','polizia':'警察；警察部门',
+'partito':'政党；党派；已出发/离开的（partire过去分词）','amministrazione':'行政；管理；政府/行政部门',
+'crisi':'危机；危急期；发作','dimostrazione':'示范；展示；证明；游行/示威','crimine':'犯罪；罪行',
+'accordo':'协议；一致/同意；和弦','congresso':'大会；代表大会；国会/议会（依国家）',
+}
+
+META = {
+'messi': {'lemma':'mettere','partOfSpeech':'verb','formInfo':'mettere · 过去分词 · 阳性复数'},
+'viro': {'lemma':'virare','partOfSpeech':'verb','formInfo':'virare · 直陈式现在时 · io 第一人称单数'},
+'casse': {'lemma':'cassa','partOfSpeech':'noun','gender':'f','number':'plural','article':'le','plural':'casse','formInfo':'cassa · 阴性复数'},
+'lagna': {'lemma':'lagna','partOfSpeech':'noun','gender':'f','number':'singular','article':'la','plural':'lagne','formInfo':''},
+'belli': {'lemma':'bello'}, 'belle': {'lemma':'bello'},
+'uova': {'lemma':'uovo','partOfSpeech':'noun','gender':'f','number':'plural','article':'le','plural':'uova','formInfo':'uovo · 不规则复数（阴性复数）'},
+'quanti': {'lemma':'quanto','formInfo':'quanto · 阳性复数'},
+'quadra': {'lemma':'quadrare','partOfSpeech':'verb','gender':'','number':'','article':'','plural':'','formInfo':'quadrare · 直陈式现在时 · lui/lei/Lei 第三人称单数'},
+'siate': {'lemma':'essere','partOfSpeech':'verb','formInfo':'essere · 虚拟式现在时/命令式 · voi 第二人称复数'},
+'abbiate': {'lemma':'avere','partOfSpeech':'verb','formInfo':'avere · 虚拟式现在时/命令式 · voi 第二人称复数'},
+'entrambi': {'lemma':'entrambi','partOfSpeech':'other','formInfo':'阳性/混合复数'},
+'infermiere': {'lemma':'infermiere','partOfSpeech':'noun','gender':'m','number':'singular','article':"l'",'plural':'infermieri','formInfo':''},
+'capitano': {'lemma':'capitano','partOfSpeech':'noun','gender':'m','number':'singular','article':'il','plural':'capitani','formInfo':''},
+'tutte': {'lemma':'tutto','partOfSpeech':'other','formInfo':'tutto · 阴性复数'},
+'parecchie': {'lemma':'parecchio','partOfSpeech':'other','formInfo':'parecchio · 阴性复数'},
+'troppe': {'lemma':'troppo','partOfSpeech':'other','formInfo':'troppo · 阴性复数'},
+'alcuni': {'lemma':'alcuno','partOfSpeech':'other','formInfo':'alcuno · 阳性复数'},
+'partita': {'lemma':'partita','partOfSpeech':'noun','gender':'f','number':'singular','article':'la','plural':'partite','formInfo':''},
+'porto': {'lemma':'','partOfSpeech':'noun','gender':'m','number':'singular','article':'il','plural':'porti','formInfo':''},
+}
+
+def load(p):
+    return json.loads(p.read_text(encoding='utf-8'))
+def dump(p,obj):
+    p.write_text(json.dumps(obj, ensure_ascii=False, indent=2)+"\n", encoding='utf-8')
+
+words=load(WORDS)
+by_word={x['word']:x for x in words}
+missing=[w for w in C if w not in by_word]
+if missing:
+    raise SystemExit('Missing words in corrections: '+repr(missing))
+changes=[]
+for w,zh in C.items():
+    x=by_word[w]
+    old=x.get('chinese','')
+    if old != zh:
+        x['chinese']=zh
+        changes.append((x['id'],w,old,zh))
+for w,m in META.items():
+    if w not in by_word: raise SystemExit('Missing META word '+w)
+    by_word[w].update(m)
+dump(WORDS, words)
+
+# Sync embedded word copies in word_families recursively where a word key is present.
+if FAMILIES.exists():
+    fam=load(FAMILIES)
+    sync_count=0
+    def walk(o):
+        nonlocal_placeholder = None
+        global sync_count
+        if isinstance(o,dict):
+            if isinstance(o.get('word'),str) and o['word'] in C and 'chinese' in o:
+                if o.get('chinese') != C[o['word']]:
+                    o['chinese']=C[o['word']]; sync_count += 1
+            for v in o.values(): walk(v)
+        elif isinstance(o,list):
+            for v in o: walk(v)
+    walk(fam)
+    dump(FAMILIES,fam)
+else: sync_count=0
+
+# Full canonical audit snapshot: all 2774 words, not just changed items.
+canon = [{
+    'id':x['id'], 'word':x['word'], 'chinese':x.get('chinese',''),
+    'partOfSpeech':x.get('partOfSpeech',''), 'lemma':x.get('lemma',''),
+    'formInfo':x.get('formInfo','')
+} for x in words]
+dump(ROOT/'app/src/main/assets/full_lexicon_retranslation_v321.json', canon)
+
+report=ROOT/'全词库独立重译审计报告_v3.2.1.txt'
+lines=[
+'终学意语 v3.2.1 2774词独立重译审计报告',
+'========================================',
+'',
+f'总词条：{len(words)}',
+f'本轮中文释义实际改动：{len(changes)}',
+f'词族镜像同步：{sync_count}',
+'',
+'标准：不以旧中文为答案；根据意大利语词形、词性、原形/变位、英文提示、例句和课程语境独立判断。',
+'完整性原则：保留初学者最需要的常用核心义和常见同形词义，不堆砌极生僻词典义。',
+'',
+'本轮修改明细：'
+]
+for i,w,old,new in sorted(changes):
+    lines.append(f'{i:04d}  {w}\n  旧：{old}\n  新：{new}')
+report.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+print(f'words={len(words)} corrections={len(C)} actual_changes={len(changes)} family_sync={sync_count}')
+print(report)

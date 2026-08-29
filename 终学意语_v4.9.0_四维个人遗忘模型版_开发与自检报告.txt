@@ -1,0 +1,43 @@
+终学意语 v4.9.0 四维个人遗忘模型版 开发与自检报告
+
+一、本版目标
+把“每个词一套总复习日程”升级成识义、听力、拼写、口语四条独立记忆轨道，并根据用户真实遗忘表现对四种通道做温和的个体校准。
+
+二、核心实现
+1. 每词四维分别记录 due / interval / stability / difficulty / last-reviewed。
+2. 旧总日程作为兼容层，首次进入四维调度时安全冻结复制，不清空历史。
+3. 到期复习、5分钟抢救、智能背词优先训练真正到期的维度。
+4. 同一次只训练并推进实际练到的维度，其他通道不会被顺带延后。
+5. 新增 PersonalForgettingModel，个人系数限制 0.70～1.30，前5次主要收集证据。
+6. 新增个人遗忘画像、今日四维到期统计以及词库单词四维复习日期。
+7. JSON backup version 30 新增 dimensionSchedules / forgettingProfile；旧备份保持兼容。
+8. repairCorruptState 新增四维日程与校准参数异常修复。
+
+三、发布身份
+versionCode 79
+versionName 4.9.0-native
+applicationId com.italiano2774.nativeapp
+Room database version 6
+Keystore reference zhongxue_release
+
+四、构建说明
+本项目继续由 Codemagic 使用固定签名生成 app-release.apk。项目 ZIP 不包含私密签名文件。
+
+五、最终自检结果
+- Java源码静态检查：188个 Java 文件 PASS
+- 资源/发布统计：95个 XML、1326个资源引用、2774个离线音频 PASS
+- 词库：2774/2774 词义与全量重译对齐 PASS
+- 例句：1718组现有例句 PASS
+- 课程：98单元 PASS
+- 核心句：430条 PASS
+- 十篇通关：10篇 / 2000目标词 / 269组逐句文章 PASS
+- 听说、每日5句、12场景/60轮会话、27微语法 PASS
+- 能力护照、三日突破、错句回炉、周测、Shadowing、弱词微短文、36关生活任务地图 PASS
+- v4.9四维个人遗忘模型专项检查 PASS
+- Signing Config PASS
+- Preflight PASS
+- Regression PASS
+- Strict Release Gate PASS
+
+六、本地构建环境
+当前容器没有 Gradle / Gradle Wrapper / Android SDK，因此本次没有声称本地生成 APK。正式 app-release.apk 继续交给 Codemagic 使用 zhongxue_release 固定签名构建。

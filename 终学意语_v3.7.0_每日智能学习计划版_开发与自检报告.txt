@@ -1,0 +1,68 @@
+终学意语 v3.7.0 每日智能学习计划版
+
+一、版本
+- versionCode: 67
+- versionName: 3.7.0-native
+- applicationId: com.italiano2774.nativeapp
+- permanent signing reference: zhongxue_release
+
+二、本版核心目标
+把已有的循序课程、智能背词、听力开口、微语法、真实情景会话、十篇通关、主动回忆和 Shadowing 自动组成“今天该学什么”，减少新手自己挑功能的负担。
+
+三、新增功能
+1. 首页新增“🎯 今天智能学习”卡片。
+2. 首页快速切换 10 / 20 / 30 / 45 / 60 分钟预算。
+3. 自动根据：
+   - 到期复习数量
+   - 推荐新词数量
+   - 四维最弱项（识义/听力/拼写/口语）
+   - 语法到期情况
+   - 当前 A0→B1 课程进度
+   - 生活/工作/A2/B1/综合学习目标
+   生成今日路线。
+4. 不同时间预算逐步增加任务：
+   - 10分钟：课程 + 复习/新词
+   - 20分钟：再加入最需要的听说或语法
+   - 30分钟：听说 + 微语法 + 情景会话
+   - 45分钟：再加入十篇逐句背诵 + 主动回忆
+   - 60分钟：再加入 Shadowing
+5. 每个任务使用真实完成信号，不提供虚假的“手工完成”：
+   - 课程：当天课程XP
+   - 词汇：当天学习卡数量
+   - 听说：listen_speak 当天练习记录
+   - 微语法：pattern 当天练习记录
+   - 会话：dialogue_scenario 当天完成记录
+   - 十篇逐句：memory_article_sentence 当天完成记录
+   - 主动回忆：active_recall 当天记录
+   - Shadowing：shadowing 当天记录
+6. 单一主按钮“开始下一项”。完成一项返回首页后自动计算下一项。
+7. 首页任务行也可以直接点击进入对应训练。
+8. 升级前本地备份标签更新为 3.7.0-preupgrade。
+
+四、新增文件
+- DailySmartTask.java
+- DailySmartPlan.java
+- DailySmartPlanEngine.java
+- tools/daily_smart_plan_quality_check.py
+
+五、发布检查
+已在最终工作目录执行并通过：
+- Preflight
+- Java source literal check
+- Regression
+- Translation / lexical / 2774词对齐 / independent retranslation
+- Word example / example expansion
+- Guided course / mixed-skill course path
+- 2000词十篇通关 / 螺旋复现 / 逐句背诵
+- Phrase/core sentence / English bridge / memory aids
+- Smart four-mode mastery / teach-before-test / conjugation semantics
+- Exercise quality
+- Micro grammar
+- Daily smart plan
+- Listening + speaking
+- Three-level real-life scenario conversation
+- Permanent signing configuration
+- Strict release gate
+
+六、当前环境限制
+当前容器没有完整 Android SDK，因此没有在本地声称 assembleRelease 已成功。最终 Android release APK 仍由 Codemagic 使用同一 zhongxue_release 固定签名构建。

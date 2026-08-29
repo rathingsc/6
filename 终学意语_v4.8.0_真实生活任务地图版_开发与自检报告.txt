@@ -1,0 +1,45 @@
+终学意语 v4.8.0 真实生活任务地图版 开发与自检报告
+
+版本
+- versionCode: 78
+- versionName: 4.8.0-native
+- applicationId: com.italiano2774.nativeapp
+- backup schema: 29
+- Room database: v6
+- fixed signing reference: zhongxue_release
+
+本版核心
+- 12 个互不重复的意大利真实生活场景。
+- 每场景 3 级递进，共 36 关。
+- 通过线：基础应对 80%，独立表达 75%，真实实战 70%。
+- 直接继承旧三档情景会话成绩，不要求重学。
+- 新增服装店试穿/退换与邮局寄件两组本地审校场景。
+- 接入每日计划、三日突破、周测后补弱、能力护照与今日总结。
+- 从任务地图进入会话时锁定指定场景/难度，防止误记成绩。
+- 36 关全部完成后智能计划识别为完成，不会重新从第1关强制开始。
+
+发布检查
+- life_task_map_quality_check.py
+- scenario_conversation_quality_check.py
+- daily_smart_plan_quality_check.py
+- breakthrough_plan_quality_check.py
+- mastery_passport_quality_check.py
+- weekly_exam_quality_check.py
+- 历史内容质量门禁
+- Preflight / Regression / Strict Release Gate
+- signing_config_check.py
+
+项目源码 ZIP 不包含私密签名材料。正式 app-release.apk 由 Codemagic 使用 zhongxue_release 固定签名生成。
+
+最终门禁结果
+- Java: 186 files
+- XML: 94 files
+- Resource refs: 1309
+- MP3: 2774
+- Scenario assets: 12 scenarios / 60 dialogue turns
+- Preflight: PASS
+- Regression: PASS
+- Strict Release Gate: PASS
+- Signing Config: PASS
+
+当前执行环境未检测到 Android SDK / Gradle Wrapper，因此未在本地伪造 APK 构建结果。

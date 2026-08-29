@@ -1,0 +1,76 @@
+{
+  "version": "3.1.6",
+  "scannedUniquePairs": 430,
+  "mirroredCoreSentences": 430,
+  "fixCount": 9,
+  "fixes": [
+    {
+      "id": "p0007",
+      "it": "Sono allergico alla frutta a guscio.",
+      "zh": "我对坚果过敏。",
+      "note": "男性说法；女性可说 allergica；frutta a guscio=坚果类",
+      "reason": "noci specifically means walnuts; use frutta a guscio for the broad Chinese meaning 坚果."
+    },
+    {
+      "id": "p0129",
+      "it": "Può scrivermi il numero della pratica?",
+      "zh": "您能把手续编号写给我吗？",
+      "note": "",
+      "reason": "pratica in public-office context means an administrative file/application, not necessarily a legal 案件."
+    },
+    {
+      "id": "p0130",
+      "it": "Vorrei chiedere informazioni sulla residenza.",
+      "zh": "我想咨询居住登记。",
+      "note": "",
+      "reason": "residenza here is registered residence; 居住登记 is the consistent beginner-facing term."
+    },
+    {
+      "id": "p0140",
+      "it": "A che ora è l'ultima corsa di oggi?",
+      "zh": "今天最后一班车是几点？",
+      "note": "",
+      "reason": "Chinese explicitly asks for the time; A che ora makes the Italian question equally explicit."
+    },
+    {
+      "id": "p0155",
+      "it": "Posso avere una bottiglia d'acqua naturale?",
+      "zh": "可以给我一瓶无气水吗？",
+      "note": "",
+      "reason": "acqua naturale means still/non-carbonated water, not room-temperature water; bottiglia matches 一瓶."
+    },
+    {
+      "id": "v26_0363",
+      "it": "La linea è disturbata.",
+      "zh": "电话线路有干扰。",
+      "note": "电话",
+      "reason": "disturbata means the line has interference/noise; the Chinese now states that directly."
+    },
+    {
+      "id": "v26_dlg_0390",
+      "it": "Sono quattro euro e cinquanta.",
+      "zh": "一共4欧元50分。",
+      "note": "Bar 和餐厅",
+      "reason": "Use the spoken money format instead of decimal 4.5, matching quattro euro e cinquanta."
+    },
+    {
+      "id": "v26_dlg_0394",
+      "it": "Costa due euro e venti.",
+      "zh": "2欧元20分。",
+      "note": "超市购物",
+      "reason": "Use the spoken money format instead of decimal 2.2, matching due euro e venti."
+    },
+    {
+      "id": "v26_dlg_0429",
+      "it": "Quando sarebbe disponibile per iniziare?",
+      "zh": "您什么时候可以开始？",
+      "note": "工作和面试",
+      "reason": "Chinese asks when the person can start; per iniziare makes that explicit in Italian."
+    }
+  ],
+  "notes": [
+    "frequent_phrases.json and core_sentences.json are intentionally mirrored and must remain synchronized.",
+    "The noci example in words.json remains with alle for grammar exposure, but its Chinese is corrected to 核桃.",
+    "Duplicate scenario/emergency/dialogue/listening assets are synchronized for affected phrases."
+  ]
+}

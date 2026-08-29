@@ -1,0 +1,326 @@
+终学意语 v3.2.0 2774词中意释义全量对齐审计报告
+================================================================
+
+审计范围：words.json 全部 2774 / 2774 条词条（非抽样）
+审计目标：确认每条学习卡中的意大利语词形与中文释义在当前课程语境中真实对应。
+
+重要说明：
+“一一对应”不是指一个意大利语词只能有一个中文翻译。意大利语存在多义词、同形词、动词变位、分词和阴阳性/单复数变化。这里的标准是：中文不能出现不属于该意大利语词形/语境的错误义项，并尽量保留对初学者重要的词形信息。
+
+本轮结果：
+- 全部逐条复核：2774 / 2774
+- 中文释义新增修正：184 条
+- 词性/lemma/变位等元数据修正：61 条
+- 中意例句对齐修正：1 条
+- word_families 内嵌副本同步：183 处
+- 已知明显错配残留：0（按本轮人工审计与自动门禁范围）
+
+修正类别统计：
+- 中文表达规范化: 1
+- 介词词义修正: 9
+- 分词词义修正: 12
+- 副动词词义修正: 3
+- 单复数修正: 1
+- 变位与命令式精确化: 1
+- 变位人称精确化: 84
+- 同形词与分词补全: 1
+- 同形词与变位补全: 7
+- 常用多义补全: 13
+- 性别与词义修正: 1
+- 数性与词义修正: 8
+- 明显词义与例句修正: 1
+- 明显词义修正: 15
+- 物主词修正: 15
+- 罕见变位词义修正: 1
+- 词性与变位修正: 1
+- 词性与词义修正: 2
+- 词性表达精确化: 1
+- 语境与同形词修正: 1
+- 限定词词义修正: 6
+
+部分典型修正：
+- #421 molte: 很多；非常  →  许多；很多（阴性复数）
+- #431 queste: 这个  →  这些（阴性复数）
+- #531 raso: 短的  →  剃光的；刮净的；齐平的；缎子（名词）
+- #712 gamma: 扫；打扫  →  范围；系列；伽马（希腊字母γ）
+- #845 francesi: 法语；法国的  →  法国人；法国的（复数）
+- #853 paesi: 国家们；城镇们  →  国家；城镇（复数）
+- #951 scusi: 对不起；借口  →  对不起；劳驾；请问
+- #1332 cantato: 唱歌  →  唱过；唱了；被唱的
+- #1452 cosse: 烤过的  →  他/她烹煮了；烤了（古旧/文学用法）
+- #1639 pranza: 午餐  →  他/她/您吃午饭
+- #1658 vostri: 你的；你的东西  →  你们的；你们的东西（阳性复数）
+- #1709 sulla: 关于；周围  →  在……上；关于……（su + la）
+- #1725 sia: 是；有  →  是（系动词的虚拟式）；无论……还是……
+- #1761 genitore: 父母；家长  →  父亲或母亲；家长
+- #2096 pagella: 卡  →  成绩单
+- #2168 fine: 结束  →  结束；末尾；目的
+- #2272 diritto: 权利；法律；右边  →  权利；法律；直的/笔直地
+- #2430 paziente: 有耐心的  →  病人；患者；有耐心的
+- #2443 dita: 手指  →  手指；脚趾（复数，按语境）
+- #2637 campagna: 乡村  →  乡村；农村；活动/运动（如竞选、宣传）
+
+特殊核实：
+- cosse：不是“烤过的”这种形容词义。该词形可作 cuocere 的古旧/文学远过去时第三人称单数，本版改为“他/她烹煮了；烤了（古旧/文学用法）”，并补上词形元数据。
+
+全部本轮中文修正（按词条ID）：
+0278	abbiamo	有	=>	我们有	[变位人称精确化]
+0293	avete	有	=>	你们有	[变位人称精确化]
+0326	sai	知道；会	=>	你知道；你会	[变位人称精确化]
+0328	fai	做；制作	=>	你做；你制作	[变位人称精确化]
+0341	siamo	是；存在	=>	我们是；我们在	[变位人称精确化]
+0347	siete	是；存在	=>	你们是；你们在	[变位人称精确化]
+0365	va	去	=>	他/她/您去；走；行（按语境）	[变位人称精确化]
+0374	vai	去	=>	你去；你走	[变位人称精确化]
+0380	vado	去	=>	我去；我走	[变位人称精确化]
+0412	posso	能够；可以	=>	我能；我可以	[变位人称精确化]
+0413	passo	步骤；步伐	=>	我递给/转接；我经过；我度过；步骤/脚步	[同形词与变位补全]
+0419	devi	必须；应该	=>	你必须；你应该	[变位人称精确化]
+0421	molte	很多；非常	=>	许多；很多（阴性复数）	[数性与词义修正]
+0423	giri	转动；转向	=>	你转；你转弯；你绕行	[变位人称精确化]
+0431	queste	这个	=>	这些（阴性复数）	[数性与词义修正]
+0440	molti	很多；非常	=>	许多；很多（阳性复数）	[数性与词义修正]
+0442	guarda	看；你看；注意	=>	他/她/您看；看！；注意	[变位与命令式精确化]
+0448	può	能够；可以	=>	他/她/您能；可以	[变位人称精确化]
+0451	vive	住；生活	=>	他/她/您生活；居住	[变位人称精确化]
+0454	lavora	工作	=>	他/她/您工作	[变位人称精确化]
+0478	lava	洗；他/她洗	=>	他/她/您洗；清洗	[变位人称精确化]
+0501	cuciniamo	做饭	=>	我们做饭	[变位人称精确化]
+0507	lavoriamo	工作	=>	我们工作	[变位人称精确化]
+0515	compriamo	买	=>	我们买	[变位人称精确化]
+0519	andiamo	去	=>	我们去；我们走吧	[变位人称精确化]
+0523	passiamo	经过；度过	=>	我们经过；我们度过；我们传递	[变位人称精确化]
+0531	raso	短的	=>	剃光的；刮净的；齐平的；缎子（名词）	[明显词义修正]
+0534	prende	拿；乘坐；取	=>	他/她/您拿；取；乘坐	[变位人称精确化]
+0538	prendi	拿；乘坐；取	=>	你拿；你取；你乘坐	[变位人称精确化]
+0554	aiuto	帮助	=>	帮助；我帮助	[同形词与变位补全]
+0561	sente	听见；感觉到	=>	他/她/您听见；感觉到	[变位人称精确化]
+0584	vanno	去	=>	他们/她们去	[变位人称精确化]
+0592	balla	跳舞	=>	他/她/您跳舞	[变位人称精确化]
+0606	fate	做；制作	=>	你们做；你们制作	[变位人称精确化]
+0659	vogliono	想要	=>	他们/她们想要	[变位人称精确化]
+0664	iniziano	开始	=>	他们/她们开始	[变位人称精确化]
+0668	passi	步骤；步伐	=>	步骤；脚步；你经过/度过	[同形词与变位补全]
+0676	le vostre	你的；你的东西	=>	你们的（阴性复数）	[物主词修正]
+0681	i vostri	你的；你的东西	=>	你们的（阳性复数）	[物主词修正]
+0683	odio	恨	=>	恨；仇恨；我恨	[同形词与变位补全]
+0688	la vostra	你的；你的东西	=>	你们的（阴性单数）	[物主词修正]
+0690	il vostro	你的；你的东西	=>	你们的（阳性单数）	[物主词修正]
+0697	possiamo	能够；可以	=>	我们能；我们可以	[变位人称精确化]
+0712	gamma	扫；打扫	=>	范围；系列；伽马（希腊字母γ）	[明显词义修正]
+0733	hanno bisogno di	需要	=>	他们/她们需要	[变位人称精确化]
+0735	dobbiamo	必须；应该	=>	我们必须；我们应该	[变位人称精确化]
+0742	cercano	寻找	=>	他们/她们寻找	[变位人称精确化]
+0746	parlano	说话；谈	=>	他们/她们说；谈	[变位人称精确化]
+0775	fa	做；制作	=>	他/她/它/您做；制作；……前（表示时间）	[同形词与变位补全]
+0779	possono	能够；可以	=>	他们/她们能；可以	[变位人称精确化]
+0790	potete	能够；可以	=>	你们能；你们可以	[变位人称精确化]
+0796	volete	想要	=>	你们想要	[变位人称精确化]
+0800	vogliamo	想要	=>	我们想要	[变位人称精确化]
+0805	guardate	看；观看	=>	你们看；你们观看	[变位人称精确化]
+0808	guardiamo	看；观看	=>	我们看；我们观看	[变位人称精确化]
+0810	mangiate	吃	=>	你们吃	[变位人称精确化]
+0813	mangiano	吃	=>	他们/她们吃	[变位人称精确化]
+0817	parliamo	说话；谈	=>	我们说；我们谈	[变位人称精确化]
+0819	parlate	说话；谈	=>	你们说；你们谈	[变位人称精确化]
+0821	lavorano	工作	=>	他们/她们工作	[变位人称精确化]
+0824	lavorate	工作	=>	你们工作	[变位人称精确化]
+0826	studiate	学习	=>	你们学习	[变位人称精确化]
+0828	dovete	必须；应该	=>	你们必须；你们应该	[变位人称精确化]
+0830	dormono	睡觉	=>	他们/她们睡觉	[变位人称精确化]
+0833	partono	出发	=>	他们/她们出发	[变位人称精确化]
+0836	preferite	更喜欢	=>	你们更喜欢	[变位人称精确化]
+0837	dormite	睡觉	=>	你们睡觉	[变位人称精确化]
+0842	vedono	看见	=>	他们/她们看见	[变位人称精确化]
+0843	prendono	拿；乘坐；取	=>	他们/她们拿；取；乘坐	[变位人称精确化]
+0845	francesi	法语；法国的	=>	法国人；法国的（复数）	[数性与词义修正]
+0847	prendete	拿；乘坐；取	=>	你们拿；取；乘坐	[变位人称精确化]
+0848	vedete	看见	=>	你们看见	[变位人称精确化]
+0851	prendiamo	拿；乘坐；取	=>	我们拿；取；乘坐	[变位人称精确化]
+0853	paesi	国家们；城镇们	=>	国家；城镇（复数）	[数性与词义修正]
+0858	fanno	做；制作	=>	他们/她们做；制作	[变位人称精确化]
+0860	sua	他的；它的；你的	=>	他的；她的；它的；您的（阴性单数）	[物主词修正]
+0870	sa	知道；会	=>	他/她/您知道；会	[变位人称精确化]
+0877	devono	必须；应该	=>	他们/她们必须；应该	[变位人称精确化]
+0878	so	知道；会	=>	我知道；我会	[变位人称精确化]
+0891	aprite	打开	=>	你们打开	[变位人称精确化]
+0899	mettete	放；穿；设置	=>	你们放；穿上；设置	[变位人称精确化]
+0900	nella	里面	=>	在……里；在……中（in + la）	[介词词义修正]
+0904	comprate	买	=>	你们买	[变位人称精确化]
+0937	girate	转；转弯；拍摄	=>	你们转；转弯；拍摄	[变位人称精确化]
+0951	scusi	对不起；借口	=>	对不起；劳驾；请问	[明显词义修正]
+0955	vengo	来	=>	我来	[变位人称精确化]
+0964	vieni	来	=>	你来	[变位人称精确化]
+0966	viene	来	=>	他/她/您来；到来	[变位人称精确化]
+0975	vostra	你的；你的东西	=>	你们的（阴性单数）	[物主词修正]
+0976	vostro	你的；你的东西	=>	你们的（阳性单数）	[物主词修正]
+1076	sappiamo	知道；会	=>	我们知道；我们会	[变位人称精确化]
+1080	preferiamo	更喜欢	=>	我们更喜欢	[变位人称精确化]
+1088	sapete	知道；会	=>	你们知道；你们会	[变位人称精确化]
+1097	venite	来	=>	你们来	[变位人称精确化]
+1099	conoscono	认识；了解	=>	他们/她们认识；了解	[变位人称精确化]
+1103	conosciamo	认识；了解	=>	我们认识；了解	[变位人称精确化]
+1108	conoscete	认识；了解	=>	你们认识；了解	[变位人称精确化]
+1113	pochi	少；不太	=>	少数的；很少的（阳性复数）	[数性与词义修正]
+1170	quelle	那个	=>	那些（阴性复数）	[数性与词义修正]
+1202	un po' di	一些；小的	=>	一点；一些	[明显词义修正]
+1259	pubblico	公共的	=>	公共的；公众；观众	[常用多义补全]
+1276	vengono	来	=>	他们/她们来	[变位人称精确化]
+1332	cantato	唱歌	=>	唱过；唱了；被唱的	[分词词义修正]
+1336	parlato	说话；谈	=>	说过；谈过；口语的	[分词词义修正]
+1340	provato	尝试；试	=>	尝试过；试过；体验过	[分词词义修正]
+1349	visitato	拜访；参观	=>	参观过；拜访过；被参观的	[分词词义修正]
+1354	dicono	说	=>	他们/她们说	[变位人称精确化]
+1356	chiamato	叫；打电话	=>	被叫作；被称为；打过电话	[分词词义修正]
+1366	comprato	买	=>	买了；买过；已购买的	[分词词义修正]
+1372	fatto	事实	=>	事实；做了；做过的/完成的	[同形词与分词补全]
+1377	cercato	寻找	=>	找过；寻找过；被寻找的	[分词词义修正]
+1383	capito	理解	=>	明白了；理解了	[分词词义修正]
+1388	sentito	听见；感觉	=>	听见了；感觉到了；听过的	[分词词义修正]
+1392	trovato	找到	=>	找到了；找到的	[分词词义修正]
+1395	dormito	睡觉	=>	睡过；睡了	[分词词义修正]
+1408	girato	转；转弯；拍摄	=>	转过；转弯过；拍摄过/拍摄的	[分词词义修正]
+1415	il meno	少；不太	=>	最少；最小；最不	[明显词义修正]
+1452	cosse	烤过的	=>	他/她烹煮了；烤了（古旧/文学用法）	[罕见变位词义修正]
+1493	minore	少；不太	=>	较小的；较少的；年幼的；未成年人	[明显词义修正]
+1500	giochi	玩；演奏	=>	游戏（复数）；你玩；你比赛	[同形词与变位补全]
+1501	gioco	玩；比赛	=>	游戏；我玩；我比赛	[同形词与变位补全]
+1519	getta	扔；投掷	=>	他/她/您扔；投掷	[变位人称精确化]
+1582	scrivete	写	=>	你们写	[变位人称精确化]
+1584	scriviamo	写	=>	我们写	[变位人称精确化]
+1587	scrivono	写	=>	他们/她们写	[变位人称精确化]
+1589	leggono	读	=>	他们/她们读	[变位人称精确化]
+1590	leggiamo	读	=>	我们读	[变位人称精确化]
+1593	leggete	读	=>	你们读	[变位人称精确化]
+1604	crema	乳霜；药膏	=>	奶油；乳霜；药膏	[常用多义补全]
+1609	caramelle	糖果们	=>	糖果（复数）	[中文表达规范化]
+1639	pranza	午餐	=>	他/她/您吃午饭	[词性与变位修正]
+1658	vostri	你的；你的东西	=>	你们的；你们的东西（阳性复数）	[物主词修正]
+1659	propri	他的；它的；他们的	=>	自己的；本人的（阳性复数）	[物主词修正]
+1660	vostre	你的；你的东西	=>	你们的；你们的东西（阴性复数）	[物主词修正]
+1661	propria	他的；它的；他们的	=>	自己的；本人的（阴性单数）	[物主词修正]
+1665	suoi	他的；它的；她的	=>	他的；她的；它的；您的（阳性复数）	[物主词修正]
+1666	sue	他的；它的；你的	=>	他的；她的；它的；您的（阴性复数）	[物主词修正]
+1668	tue	你的东西	=>	你的；你的东西（阴性复数）	[物主词修正]
+1670	tuoi	你的东西；家人；人们	=>	你的；你的东西/亲友（阳性复数）	[物主词修正]
+1706	sull'	关于；周围	=>	在……上；关于……（su + 冠词）	[介词词义修正]
+1708	sul	关于；周围	=>	在……上；关于……（su + il）	[介词词义修正]
+1709	sulla	关于；周围	=>	在……上；关于……（su + la）	[介词词义修正]
+1710	sulle	关于；周围	=>	在……上；关于……（su + le）	[介词词义修正]
+1711	sui	关于；周围	=>	在……上；关于……（su + i）	[介词词义修正]
+1713	sullo	关于；周围	=>	在……上；关于……（su + lo）	[介词词义修正]
+1717	negli	里面	=>	在……里；在……中（in + gli）	[介词词义修正]
+1718	nelle	里面	=>	在……里；在……中（in + le）	[介词词义修正]
+1725	sia	是；有	=>	是（系动词的虚拟式）；无论……还是……	[明显词义修正]
+1743	po'	一些；小的	=>	一点；一些	[明显词义修正]
+1761	genitore	父母；家长	=>	父亲或母亲；家长	[单复数修正]
+1964	certi	确定的	=>	某些；某几位；确定的（阳性复数）	[限定词词义修正]
+1969	certa	确定的	=>	某个；某种；确定的（阴性单数）	[限定词词义修正]
+1971	certe	确定的	=>	某些；某几位；确定的（阴性复数）	[限定词词义修正]
+2069	alcuna	一些；任何人；没有人	=>	一些；任何；没有任何（阴性单数，依语境）	[限定词词义修正]
+2070	alcune	一些；不；没有	=>	一些；某些；没有任何（阴性复数，依语境）	[限定词词义修正]
+2071	alcuno	一些；任何人；没有人	=>	一些；任何；没有任何（阳性单数，依语境）	[限定词词义修正]
+2075	ognuna	大家；每个人	=>	每一个；每个人（阴性）	[性别与词义修正]
+2096	pagella	卡	=>	成绩单	[明显词义修正]
+2144	America	美国	=>	美洲；美国（口语语境）	[常用多义补全]
+2153	fronte	额头	=>	额头；前线；正面	[常用多义补全]
+2166	mezzo	一半的；中间的	=>	一半；中间；方式/交通工具	[常用多义补全]
+2168	fine	结束	=>	结束；末尾；目的	[明显词义与例句修正]
+2175	bisogno	需要	=>	需要；需求	[词性表达精确化]
+2253	passeggiata	走路	=>	散步；步行	[明显词义修正]
+2272	diritto	权利；法律；右边	=>	权利；法律；直的/笔直地	[明显词义修正]
+2276	abituale	常见的；共同的	=>	通常的；惯常的；习惯性的	[明显词义修正]
+2325	nemmeno	不	=>	也不；甚至不	[明显词义修正]
+2346	neppure	不	=>	也不；甚至不	[明显词义修正]
+2355	influenza	流感	=>	流感；影响	[常用多义补全]
+2419	febbre	发烧	=>	发烧；发热；热度	[词性与词义修正]
+2430	paziente	有耐心的	=>	病人；患者；有耐心的	[语境与同形词修正]
+2443	dita	手指	=>	手指；脚趾（复数，按语境）	[数性与词义修正]
+2444	dito	手指	=>	手指；脚趾	[常用多义补全]
+2474	giocando	玩；比赛	=>	正在玩；正在比赛	[副动词词义修正]
+2491	entrando	来；去	=>	正在进入；正在进来	[副动词词义修正]
+2495	arrivando	来	=>	正在到达；正在抵达	[副动词词义修正]
+2564	dover	必须；应该；有	=>	必须；应该；不得不（动词省略形式）	[明显词义修正]
+2575	evoluzione	发展	=>	演变；进化；发展	[常用多义补全]
+2597	esperto	有经验的；专家的	=>	专家；有经验的；熟练的	[词性与词义修正]
+2601	comunicazione	沟通	=>	沟通；通信；通知	[常用多义补全]
+2626	codice	代码	=>	代码；编码；法典/法规（按语境）	[常用多义补全]
+2637	campagna	乡村	=>	乡村；农村；活动/运动（如竞选、宣传）	[常用多义补全]
+2677	offerta	优惠；提议	=>	优惠；报价；提议；出价	[常用多义补全]
+2769	dimostrazione	展示	=>	展示；示范；证明	[常用多义补全]
+
+元数据修正（词性/lemma/变位等）：
+0273	letto	lemma=；formInfo=；partOfSpeech=noun；gender=m；number=singular；article=il；plural=letti
+0421	molte	lemma=molto；formInfo=molto · 阴性复数；partOfSpeech=other；article=；plural=
+0431	queste	lemma=questo；formInfo=questo · 阴性复数；gender=f；number=plural
+0440	molti	lemma=molto；formInfo=molto · 阳性复数；gender=m；number=plural
+0845	francesi	partOfSpeech=other；number=plural
+0853	paesi	lemma=paese；formInfo=paese · 阳性复数
+1113	pochi	lemma=poco；formInfo=poco · 阳性复数；gender=m；number=plural
+1170	quelle	lemma=quello；formInfo=quello · 阴性复数；gender=f；number=plural
+1259	pubblico	partOfSpeech=other
+1332	cantato	lemma=cantare；formInfo=cantare · 过去分词；partOfSpeech=verb
+1336	parlato	formInfo=parlare · 过去分词；也可作形容词/名词
+1340	provato	lemma=provare；formInfo=provare · 过去分词；partOfSpeech=verb
+1349	visitato	lemma=visitare；formInfo=visitare · 过去分词；partOfSpeech=verb
+1356	chiamato	lemma=chiamare；formInfo=chiamare · 过去分词；partOfSpeech=verb
+1366	comprato	lemma=comprare；formInfo=comprare · 过去分词；partOfSpeech=verb
+1372	fatto	formInfo=fare · 过去分词；也可作名词“事实”；partOfSpeech=other
+1377	cercato	lemma=cercare；formInfo=cercare · 过去分词；partOfSpeech=verb
+1383	capito	lemma=capire；formInfo=capire · 过去分词；partOfSpeech=verb
+1388	sentito	lemma=sentire；formInfo=sentire · 过去分词；partOfSpeech=verb
+1392	trovato	lemma=trovare；formInfo=trovare · 过去分词；partOfSpeech=verb
+1395	dormito	formInfo=dormire · 过去分词
+1408	girato	lemma=girare；formInfo=girare · 过去分词；partOfSpeech=verb
+1452	cosse	lemma=cuocere；formInfo=cuocere · 远过去时第三人称单数（古旧/文学用法）；partOfSpeech=verb
+1500	giochi	lemma=giocare；formInfo=名词 gioco 的复数；也可为 giocare · 直陈式现在时 · tu
+1501	gioco	formInfo=名词“游戏”；也可为 giocare · 直陈式现在时 · io；partOfSpeech=other
+1639	pranza	lemma=pranzare；formInfo=pranzare · 直陈式现在时 · lui/lei/Lei；partOfSpeech=verb；gender=；number=；article=；plural=
+1655	arancia	partOfSpeech=noun；gender=f；number=singular；article=l'；plural=arance
+1706	sull'	lemma=su；formInfo=su + 定冠词的组合介词
+1708	sul	lemma=su；formInfo=su + il = sul
+1709	sulla	lemma=su；formInfo=su + la = sulla；partOfSpeech=other；gender=；number=；article=；plural=
+1710	sulle	lemma=su；formInfo=su + le = sulle；partOfSpeech=other；gender=；number=；article=；plural=
+1711	sui	lemma=su；formInfo=su + i = sui
+1713	sullo	lemma=su；formInfo=su + lo = sullo
+1717	negli	lemma=in；formInfo=in + gli = negli
+1718	nelle	lemma=in；formInfo=in + le = nelle；partOfSpeech=other；gender=；number=；article=；plural=
+1815	popolare	lemma=；formInfo=；partOfSpeech=adjective
+1964	certi	lemma=certo；formInfo=certo · 阳性复数；partOfSpeech=other；gender=m；number=plural
+1969	certa	lemma=certo；formInfo=certo · 阴性单数；partOfSpeech=other；gender=f；number=singular
+1971	certe	lemma=certo；formInfo=certo · 阴性复数；partOfSpeech=other；gender=f；number=plural
+2069	alcuna	partOfSpeech=other
+2070	alcune	lemma=alcuno；formInfo=alcuno · 阴性复数；gender=f；number=plural
+2071	alcuno	lemma=alcuno；formInfo=alcuno · 阳性单数；gender=m；number=singular
+2075	ognuna	partOfSpeech=other
+2113	educazione	partOfSpeech=noun；gender=f；number=singular；article=l'；plural=educazioni
+2128	vista	lemma=；formInfo=；partOfSpeech=noun；gender=f；number=singular；article=la；plural=viste
+2168	fine	partOfSpeech=noun；gender=f；number=singular；article=la；plural=fini
+2175	bisogno	partOfSpeech=noun；gender=m；number=singular；article=il；plural=bisogni
+2253	passeggiata	partOfSpeech=noun；gender=f；number=singular；article=la；plural=passeggiate
+2419	febbre	partOfSpeech=noun；gender=f；number=singular；article=la；plural=febbri
+2430	paziente	partOfSpeech=other
+2443	dita	formInfo=dito · 复数；身体部位时常用阴性复数 le dita；number=plural；article=le；plural=dita
+2444	dito	partOfSpeech=noun；gender=m；number=singular；article=il；plural=dita
+2474	giocando	lemma=giocare；formInfo=giocare · gerundio（副动词/进行形式）；partOfSpeech=verb
+2491	entrando	lemma=entrare；formInfo=entrare · gerundio（副动词/进行形式）；partOfSpeech=verb
+2495	arrivando	lemma=arrivare；formInfo=arrivare · gerundio（副动词/进行形式）；partOfSpeech=verb
+2506	potendo	lemma=potere；formInfo=potere · gerundio（副动词）；partOfSpeech=verb
+2507	essendo	lemma=essere；formInfo=essere · gerundio（副动词）；partOfSpeech=verb
+2508	avendo	lemma=avere；formInfo=avere · gerundio（副动词）；partOfSpeech=verb
+2510	volendo	lemma=volere；formInfo=volere · gerundio（副动词）；partOfSpeech=verb
+2564	dover	lemma=dovere；formInfo=dovere 的截短/省略形式（常见于复合结构）；partOfSpeech=verb
+2706	memoria	partOfSpeech=noun；gender=f；number=singular；article=la；plural=memorie
+
+例句修正：
+2168	fine	Alla fine tutto è andato bene.	最后一切都很顺利。
+
+发布门禁：
+- 新增 app/src/main/assets/lexical_alignment_quality_v320.json
+- 新增 tools/full_lexicon_alignment_check.py
+- Codemagic 在 Gradle 编译前执行全词库对齐检查。
+- v3.1.1 / v3.1.2 / v3.1.5 / v3.1.9 旧修正门禁继续保留，防止历史错误回归。
+
+版本：versionCode 51 / versionName 3.2.0-native
+包名：com.italiano2774.nativeapp
+固定签名引用：zhongxue_release
